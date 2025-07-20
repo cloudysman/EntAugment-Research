@@ -1,4 +1,4 @@
-# [ECCV 2024] EntAugment: Entropy-Driven Adaptive Data Augmentation Framework for Image Classification
+# [ECCV 2024]🎉 EntAugment: Entropy-Driven Adaptive Data Augmentation Framework for Image Classification
 
 ## Introduction
 This is the implementation of [EntAugment and EntLoss](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08301.pdf), as used in the paper. In this paper, we propose a tuning-free and adaptive DA framework that dynamically assesses and adjusts the augmentation magnitudes for each sample during training.
@@ -47,11 +47,11 @@ Part of our implementation is adopted from the [TrivialAugment](https://github.c
 ## Citation
 If you find this repository useful in your research, please cite our paper:
 
-`
+```
 @article{yang2024entaugment,
   title={EntAugment: Entropy-Driven Adaptive Data Augmentation Framework for Image Classification},
   author={Yang, Suorong and Shen, Furao and Zhao, Jian},
   journal={arXiv preprint arXiv:2409.06290},
   year={2024}
 }
-`
+```
