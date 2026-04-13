@@ -1,0 +1,22 @@
+nohup: ignoring input
+=== Verify Fair Comparison ===
+Baseline (crop+flip only) vs Pure CutMix vs paper numbers
+PIDs: Baseline=1601090, PureCutMix=1601091
+Monitor: tail -f logs_verify/baseline_c100_r18.txt
+Monitor: tail -f logs_verify/purecutmix_c100_r18.txt
+
+=== DONE ===
+--- Baseline ---
+BEST EPOCH:295,BEST ACC:79.29
+--- Pure CutMix ---
+BEST EPOCH:294,BEST ACC:81.85
+
+--- ablation_results.csv ---
+config,dataset,model,seed,best_epoch,best_acc
+A,CIFAR100,resnet18,42,299,78.95
+H1,CIFAR100,resnet18,42,298,81.94
+H3,CIFAR100,resnet18,42,291,80.87
+H4,CIFAR100,resnet18,42,299,81.16
+H5,CIFAR100,resnet18,42,294,81.61
+Baseline,CIFAR100,resnet18,42,295,79.29
+PureCutMix,CIFAR100,resnet18,42,294,81.85

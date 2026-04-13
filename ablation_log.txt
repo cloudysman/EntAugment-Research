@@ -1,0 +1,20 @@
+nohup: ignoring input
+=== EntCutMix Ablation: 5 configs, CIFAR100/ResNet-18 ===
+[06:47:32] START: Config=A
+[07:27:40] DONE:  Config=A | BEST EPOCH:299,BEST ACC:78.95
+[07:27:40] START: Config=H1
+[08:08:07] DONE:  Config=H1 | BEST EPOCH:298,BEST ACC:81.94
+[08:08:07] START: Config=H3
+[08:50:25] DONE:  Config=H3 | BEST EPOCH:291,BEST ACC:80.87
+[08:50:25] START: Config=H4
+[09:29:31] DONE:  Config=H4 | BEST EPOCH:299,BEST ACC:81.16
+[09:29:31] START: Config=H5
+[10:08:48] DONE:  Config=H5 | BEST EPOCH:294,BEST ACC:81.61
+
+=== ALL DONE ===
+config,dataset,model,seed,best_epoch,best_acc
+A,CIFAR100,resnet18,42,299,78.95
+H1,CIFAR100,resnet18,42,298,81.94
+H3,CIFAR100,resnet18,42,291,80.87
+H4,CIFAR100,resnet18,42,299,81.16
+H5,CIFAR100,resnet18,42,294,81.61

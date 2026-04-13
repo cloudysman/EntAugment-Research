@@ -1,0 +1,14 @@
+[07:28:02] === Starting benchmark (4 batches, 3 jobs/batch) ===
+[07:28:02] Batch 1 START
+  PIDs: 1499739 1499740 1499741
+[16:27:59] Batch 1 DONE
+[16:27:59] Batch 2 START
+  PIDs: 2001267 2001268 2001269
+[20:00:30] Batch 2 DONE
+[20:00:30] Batch 3 START
+  PIDs: 2227312 2227313 2227314
+[04:45:10] Batch 3 DONE
+[04:45:10] Batch 4 START
+  PIDs: 2677501 2677502
+[13:16:16] Batch 4 DONE
+[13:16:16] === All 11 runs complete. Results in results.csv ===

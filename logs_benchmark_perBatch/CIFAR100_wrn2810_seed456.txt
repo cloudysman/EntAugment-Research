@@ -1,0 +1,4 @@
+=== EntAugment + MAB (per-batch) ===
+Seed: 456, UCB alpha: 1.0
+Dataset: CIFAR100, Model: wresnet28_10, Epochs: 300
+  0%|          | 0/300 [00:00<?, ?it/s]

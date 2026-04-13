@@ -130,26 +130,26 @@ class CIFAR100Dataset(Dataset):
 
 def load_CIFAR_100(root, train=True, fine_label=True):
     if train:
-        filename = root + 'my_train'
+        filename = root + 'train'
     else:
         filename = root + 'test'
- 
+
     with open(filename, 'rb')as f:
-        datadict = pickle.load(f,encoding='bytes')
- 
+        datadict = pickle.load(f, encoding='latin1')
+
         if train:
             # [50000, 32, 32, 3]
             X = datadict['data']
             filename_list = datadict['filenames']
             X = X.reshape(50000, 3, 32, 32).transpose(0,2,3,1)
-            Y = datadict['labels']
+            Y = datadict['fine_labels'] if fine_label else datadict['coarse_labels']
             Y = np.array(Y)
             return X, Y, filename_list
         else:
             # [10000, 32, 32, 3]
-            X = datadict[b'data']
-            filename_list = datadict[b'filenames']
+            X = datadict['data']
+            filename_list = datadict['filenames']
             X = X.reshape(10000, 3, 32, 32).transpose(0,2,3,1)
-            Y = datadict[b'fine_labels']
+            Y = datadict['fine_labels'] if fine_label else datadict['coarse_labels']
             Y = np.array(Y)
             return X, Y

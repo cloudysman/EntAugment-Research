@@ -1,0 +1,2704 @@
+=== Baseline (crop + flip only, no CutMix, no EntAugment) ===
+Seed: 42, Dataset: CIFAR100, Model: resnet18, Epochs: 300
+  0%|          | 0/300 [00:00<?, ?it/s]Train Epoch: 0 [Baseline] [6400/50000 (13%)]	Loss: 4.7489 Acc: 1.34
+Train Epoch: 0 [Baseline] [12800/50000 (26%)]	Loss: 4.7448 Acc: 1.05
+Train Epoch: 0 [Baseline] [19200/50000 (38%)]	Loss: 4.7435 Acc: 1.06
+Train Epoch: 0 [Baseline] [25600/50000 (51%)]	Loss: 4.7434 Acc: 1.04
+Train Epoch: 0 [Baseline] [32000/50000 (64%)]	Loss: 4.7416 Acc: 1.03
+Train Epoch: 0 [Baseline] [38400/50000 (77%)]	Loss: 4.7406 Acc: 1.04
+Train Epoch: 0 [Baseline] [44800/50000 (90%)]	Loss: 4.7412 Acc: 1.04
+  0%|          | 1/300 [00:12<1:02:05, 12.46s/it]EPOCH:0, ======================ACC:1.01====================
+BEST EPOCH:0,BEST ACC:1.01
+Train Epoch: 1 [Baseline] [6400/50000 (13%)]	Loss: 4.5242 Acc: 3.36
+Train Epoch: 1 [Baseline] [12800/50000 (26%)]	Loss: 4.3676 Acc: 4.80
+Train Epoch: 1 [Baseline] [19200/50000 (38%)]	Loss: 4.2802 Acc: 5.73
+Train Epoch: 1 [Baseline] [25600/50000 (51%)]	Loss: 4.2071 Acc: 6.54
+Train Epoch: 1 [Baseline] [32000/50000 (64%)]	Loss: 4.1570 Acc: 7.03
+Train Epoch: 1 [Baseline] [38400/50000 (77%)]	Loss: 4.1090 Acc: 7.58
+Train Epoch: 1 [Baseline] [44800/50000 (90%)]	Loss: 4.0621 Acc: 8.31
+  1%|          | 2/300 [00:24<59:58, 12.08s/it]  EPOCH:1, ======================ACC:15.79====================
+BEST EPOCH:1,BEST ACC:15.79
+Train Epoch: 2 [Baseline] [6400/50000 (13%)]	Loss: 3.8108 Acc: 12.19
+Train Epoch: 2 [Baseline] [12800/50000 (26%)]	Loss: 3.7353 Acc: 13.33
+Train Epoch: 2 [Baseline] [19200/50000 (38%)]	Loss: 3.6966 Acc: 13.76
+Train Epoch: 2 [Baseline] [25600/50000 (51%)]	Loss: 3.6551 Acc: 14.50
+Train Epoch: 2 [Baseline] [32000/50000 (64%)]	Loss: 3.6128 Acc: 15.17
+Train Epoch: 2 [Baseline] [38400/50000 (77%)]	Loss: 3.5720 Acc: 15.69
+Train Epoch: 2 [Baseline] [44800/50000 (90%)]	Loss: 3.5326 Acc: 16.34
+  1%|          | 3/300 [00:36<59:36, 12.04s/it]EPOCH:2, ======================ACC:21.73====================
+BEST EPOCH:2,BEST ACC:21.73
+Train Epoch: 3 [Baseline] [6400/50000 (13%)]	Loss: 3.2606 Acc: 20.27
+Train Epoch: 3 [Baseline] [12800/50000 (26%)]	Loss: 3.2545 Acc: 20.64
+Train Epoch: 3 [Baseline] [19200/50000 (38%)]	Loss: 3.2233 Acc: 21.40
+Train Epoch: 3 [Baseline] [25600/50000 (51%)]	Loss: 3.1803 Acc: 22.25
+Train Epoch: 3 [Baseline] [32000/50000 (64%)]	Loss: 3.1530 Acc: 22.71
+Train Epoch: 3 [Baseline] [38400/50000 (77%)]	Loss: 3.1263 Acc: 23.09
+Train Epoch: 3 [Baseline] [44800/50000 (90%)]	Loss: 3.0914 Acc: 23.69
+  1%|▏         | 4/300 [00:48<59:27, 12.05s/it]EPOCH:3, ======================ACC:28.4====================
+BEST EPOCH:3,BEST ACC:28.4
+Train Epoch: 4 [Baseline] [6400/50000 (13%)]	Loss: 2.8726 Acc: 28.06
+Train Epoch: 4 [Baseline] [12800/50000 (26%)]	Loss: 2.8704 Acc: 27.80
+Train Epoch: 4 [Baseline] [19200/50000 (38%)]	Loss: 2.8378 Acc: 28.22
+Train Epoch: 4 [Baseline] [25600/50000 (51%)]	Loss: 2.8152 Acc: 28.65
+Train Epoch: 4 [Baseline] [32000/50000 (64%)]	Loss: 2.8009 Acc: 28.87
+Train Epoch: 4 [Baseline] [38400/50000 (77%)]	Loss: 2.7750 Acc: 29.46
+Train Epoch: 4 [Baseline] [44800/50000 (90%)]	Loss: 2.7504 Acc: 30.06
+  2%|▏         | 5/300 [01:00<58:51, 11.97s/it]EPOCH:4, ======================ACC:37.21====================
+BEST EPOCH:4,BEST ACC:37.21
+Train Epoch: 5 [Baseline] [6400/50000 (13%)]	Loss: 2.5920 Acc: 33.12
+Train Epoch: 5 [Baseline] [12800/50000 (26%)]	Loss: 2.5896 Acc: 33.27
+Train Epoch: 5 [Baseline] [19200/50000 (38%)]	Loss: 2.5833 Acc: 33.44
+Train Epoch: 5 [Baseline] [25600/50000 (51%)]	Loss: 2.5701 Acc: 33.73
+Train Epoch: 5 [Baseline] [32000/50000 (64%)]	Loss: 2.5599 Acc: 33.92
+Train Epoch: 5 [Baseline] [38400/50000 (77%)]	Loss: 2.5447 Acc: 34.17
+Train Epoch: 5 [Baseline] [44800/50000 (90%)]	Loss: 2.5272 Acc: 34.53
+  2%|▏         | 6/300 [01:11<58:15, 11.89s/it]EPOCH:5, ======================ACC:37.47====================
+BEST EPOCH:5,BEST ACC:37.47
+Train Epoch: 6 [Baseline] [6400/50000 (13%)]	Loss: 2.3444 Acc: 38.16
+Train Epoch: 6 [Baseline] [12800/50000 (26%)]	Loss: 2.3417 Acc: 38.21
+Train Epoch: 6 [Baseline] [19200/50000 (38%)]	Loss: 2.3390 Acc: 38.49
+Train Epoch: 6 [Baseline] [25600/50000 (51%)]	Loss: 2.3326 Acc: 38.50
+Train Epoch: 6 [Baseline] [32000/50000 (64%)]	Loss: 2.3263 Acc: 38.84
+Train Epoch: 6 [Baseline] [38400/50000 (77%)]	Loss: 2.3168 Acc: 39.10
+Train Epoch: 6 [Baseline] [44800/50000 (90%)]	Loss: 2.3055 Acc: 39.48
+  2%|▏         | 7/300 [01:23<57:43, 11.82s/it]EPOCH:6, ======================ACC:42.12====================
+BEST EPOCH:6,BEST ACC:42.12
+Train Epoch: 7 [Baseline] [6400/50000 (13%)]	Loss: 2.1734 Acc: 42.78
+Train Epoch: 7 [Baseline] [12800/50000 (26%)]	Loss: 2.1622 Acc: 43.13
+Train Epoch: 7 [Baseline] [19200/50000 (38%)]	Loss: 2.1641 Acc: 43.08
+Train Epoch: 7 [Baseline] [25600/50000 (51%)]	Loss: 2.1689 Acc: 42.91
+Train Epoch: 7 [Baseline] [32000/50000 (64%)]	Loss: 2.1685 Acc: 42.92
+Train Epoch: 7 [Baseline] [38400/50000 (77%)]	Loss: 2.1642 Acc: 43.01
+Train Epoch: 7 [Baseline] [44800/50000 (90%)]	Loss: 2.1640 Acc: 42.99
+  3%|▎         | 8/300 [01:35<57:12, 11.76s/it]EPOCH:7, ======================ACC:48.81====================
+BEST EPOCH:7,BEST ACC:48.81
+Train Epoch: 8 [Baseline] [6400/50000 (13%)]	Loss: 2.0644 Acc: 44.97
+Train Epoch: 8 [Baseline] [12800/50000 (26%)]	Loss: 2.0819 Acc: 44.88
+Train Epoch: 8 [Baseline] [19200/50000 (38%)]	Loss: 2.0792 Acc: 44.95
+Train Epoch: 8 [Baseline] [25600/50000 (51%)]	Loss: 2.0685 Acc: 45.16
+Train Epoch: 8 [Baseline] [32000/50000 (64%)]	Loss: 2.0717 Acc: 44.98
+Train Epoch: 8 [Baseline] [38400/50000 (77%)]	Loss: 2.0661 Acc: 45.03
+Train Epoch: 8 [Baseline] [44800/50000 (90%)]	Loss: 2.0675 Acc: 44.90
+  3%|▎         | 9/300 [01:47<57:13, 11.80s/it]EPOCH:8, ======================ACC:47.78====================
+BEST EPOCH:7,BEST ACC:48.81
+Train Epoch: 9 [Baseline] [6400/50000 (13%)]	Loss: 1.9735 Acc: 47.06
+Train Epoch: 9 [Baseline] [12800/50000 (26%)]	Loss: 1.9743 Acc: 47.25
+Train Epoch: 9 [Baseline] [19200/50000 (38%)]	Loss: 1.9839 Acc: 46.89
+Train Epoch: 9 [Baseline] [25600/50000 (51%)]	Loss: 1.9960 Acc: 46.57
+Train Epoch: 9 [Baseline] [32000/50000 (64%)]	Loss: 2.0052 Acc: 46.41
+Train Epoch: 9 [Baseline] [38400/50000 (77%)]	Loss: 2.0111 Acc: 46.15
+Train Epoch: 9 [Baseline] [44800/50000 (90%)]	Loss: 2.0024 Acc: 46.44
+  3%|▎         | 10/300 [01:58<56:48, 11.75s/it]EPOCH:9, ======================ACC:49.4====================
+BEST EPOCH:9,BEST ACC:49.4
+Train Epoch: 10 [Baseline] [6400/50000 (13%)]	Loss: 1.9466 Acc: 48.31
+Train Epoch: 10 [Baseline] [12800/50000 (26%)]	Loss: 1.9524 Acc: 47.83
+Train Epoch: 10 [Baseline] [19200/50000 (38%)]	Loss: 1.9361 Acc: 48.28
+Train Epoch: 10 [Baseline] [25600/50000 (51%)]	Loss: 1.9406 Acc: 48.11
+Train Epoch: 10 [Baseline] [32000/50000 (64%)]	Loss: 1.9555 Acc: 47.83
+Train Epoch: 10 [Baseline] [38400/50000 (77%)]	Loss: 1.9564 Acc: 47.72
+Train Epoch: 10 [Baseline] [44800/50000 (90%)]	Loss: 1.9550 Acc: 47.68
+  4%|▎         | 11/300 [02:10<56:31, 11.74s/it]EPOCH:10, ======================ACC:52.08====================
+BEST EPOCH:10,BEST ACC:52.08
+Train Epoch: 11 [Baseline] [6400/50000 (13%)]	Loss: 1.8950 Acc: 48.89
+Train Epoch: 11 [Baseline] [12800/50000 (26%)]	Loss: 1.8877 Acc: 48.95
+Train Epoch: 11 [Baseline] [19200/50000 (38%)]	Loss: 1.8965 Acc: 48.81
+Train Epoch: 11 [Baseline] [25600/50000 (51%)]	Loss: 1.9012 Acc: 48.62
+Train Epoch: 11 [Baseline] [32000/50000 (64%)]	Loss: 1.9101 Acc: 48.43
+Train Epoch: 11 [Baseline] [38400/50000 (77%)]	Loss: 1.9088 Acc: 48.47
+Train Epoch: 11 [Baseline] [44800/50000 (90%)]	Loss: 1.9043 Acc: 48.59
+  4%|▍         | 12/300 [02:21<56:04, 11.68s/it]EPOCH:11, ======================ACC:53.03====================
+BEST EPOCH:11,BEST ACC:53.03
+Train Epoch: 12 [Baseline] [6400/50000 (13%)]	Loss: 1.8297 Acc: 50.94
+Train Epoch: 12 [Baseline] [12800/50000 (26%)]	Loss: 1.8470 Acc: 50.41
+Train Epoch: 12 [Baseline] [19200/50000 (38%)]	Loss: 1.8572 Acc: 49.78
+Train Epoch: 12 [Baseline] [25600/50000 (51%)]	Loss: 1.8696 Acc: 49.45
+Train Epoch: 12 [Baseline] [32000/50000 (64%)]	Loss: 1.8797 Acc: 49.35
+Train Epoch: 12 [Baseline] [38400/50000 (77%)]	Loss: 1.8773 Acc: 49.47
+Train Epoch: 12 [Baseline] [44800/50000 (90%)]	Loss: 1.8863 Acc: 49.24
+  4%|▍         | 13/300 [02:33<56:00, 11.71s/it]EPOCH:12, ======================ACC:50.31====================
+BEST EPOCH:11,BEST ACC:53.03
+Train Epoch: 13 [Baseline] [6400/50000 (13%)]	Loss: 1.8117 Acc: 51.08
+Train Epoch: 13 [Baseline] [12800/50000 (26%)]	Loss: 1.8277 Acc: 50.56
+Train Epoch: 13 [Baseline] [19200/50000 (38%)]	Loss: 1.8268 Acc: 50.60
+Train Epoch: 13 [Baseline] [25600/50000 (51%)]	Loss: 1.8389 Acc: 50.33
+Train Epoch: 13 [Baseline] [32000/50000 (64%)]	Loss: 1.8404 Acc: 50.27
+Train Epoch: 13 [Baseline] [38400/50000 (77%)]	Loss: 1.8406 Acc: 50.27
+Train Epoch: 13 [Baseline] [44800/50000 (90%)]	Loss: 1.8476 Acc: 50.13
+  5%|▍         | 14/300 [02:45<55:57, 11.74s/it]EPOCH:13, ======================ACC:49.94====================
+BEST EPOCH:11,BEST ACC:53.03
+Train Epoch: 14 [Baseline] [6400/50000 (13%)]	Loss: 1.7851 Acc: 51.97
+Train Epoch: 14 [Baseline] [12800/50000 (26%)]	Loss: 1.7892 Acc: 51.66
+Train Epoch: 14 [Baseline] [19200/50000 (38%)]	Loss: 1.7846 Acc: 51.59
+Train Epoch: 14 [Baseline] [25600/50000 (51%)]	Loss: 1.7937 Acc: 51.58
+Train Epoch: 14 [Baseline] [32000/50000 (64%)]	Loss: 1.7958 Acc: 51.38
+Train Epoch: 14 [Baseline] [38400/50000 (77%)]	Loss: 1.8010 Acc: 51.26
+Train Epoch: 14 [Baseline] [44800/50000 (90%)]	Loss: 1.8060 Acc: 51.10
+  5%|▌         | 15/300 [02:57<55:31, 11.69s/it]EPOCH:14, ======================ACC:48.24====================
+BEST EPOCH:11,BEST ACC:53.03
+Train Epoch: 15 [Baseline] [6400/50000 (13%)]	Loss: 1.7463 Acc: 52.14
+Train Epoch: 15 [Baseline] [12800/50000 (26%)]	Loss: 1.7623 Acc: 51.65
+Train Epoch: 15 [Baseline] [19200/50000 (38%)]	Loss: 1.7725 Acc: 51.59
+Train Epoch: 15 [Baseline] [25600/50000 (51%)]	Loss: 1.7843 Acc: 51.60
+Train Epoch: 15 [Baseline] [32000/50000 (64%)]	Loss: 1.7836 Acc: 51.65
+Train Epoch: 15 [Baseline] [38400/50000 (77%)]	Loss: 1.7870 Acc: 51.53
+Train Epoch: 15 [Baseline] [44800/50000 (90%)]	Loss: 1.7833 Acc: 51.54
+  5%|▌         | 16/300 [03:08<55:20, 11.69s/it]EPOCH:15, ======================ACC:53.75====================
+BEST EPOCH:15,BEST ACC:53.75
+Train Epoch: 16 [Baseline] [6400/50000 (13%)]	Loss: 1.7577 Acc: 52.25
+Train Epoch: 16 [Baseline] [12800/50000 (26%)]	Loss: 1.7693 Acc: 52.08
+Train Epoch: 16 [Baseline] [19200/50000 (38%)]	Loss: 1.7701 Acc: 52.18
+Train Epoch: 16 [Baseline] [25600/50000 (51%)]	Loss: 1.7671 Acc: 52.12
+Train Epoch: 16 [Baseline] [32000/50000 (64%)]	Loss: 1.7714 Acc: 51.94
+Train Epoch: 16 [Baseline] [38400/50000 (77%)]	Loss: 1.7687 Acc: 51.76
+Train Epoch: 16 [Baseline] [44800/50000 (90%)]	Loss: 1.7728 Acc: 51.75
+  6%|▌         | 17/300 [03:20<54:58, 11.65s/it]EPOCH:16, ======================ACC:55.21====================
+BEST EPOCH:16,BEST ACC:55.21
+Train Epoch: 17 [Baseline] [6400/50000 (13%)]	Loss: 1.6888 Acc: 54.69
+Train Epoch: 17 [Baseline] [12800/50000 (26%)]	Loss: 1.7235 Acc: 53.41
+Train Epoch: 17 [Baseline] [19200/50000 (38%)]	Loss: 1.7244 Acc: 53.26
+Train Epoch: 17 [Baseline] [25600/50000 (51%)]	Loss: 1.7374 Acc: 53.05
+Train Epoch: 17 [Baseline] [32000/50000 (64%)]	Loss: 1.7420 Acc: 52.75
+Train Epoch: 17 [Baseline] [38400/50000 (77%)]	Loss: 1.7478 Acc: 52.61
+Train Epoch: 17 [Baseline] [44800/50000 (90%)]	Loss: 1.7532 Acc: 52.45
+  6%|▌         | 18/300 [03:32<54:50, 11.67s/it]EPOCH:17, ======================ACC:53.27====================
+BEST EPOCH:16,BEST ACC:55.21
+Train Epoch: 18 [Baseline] [6400/50000 (13%)]	Loss: 1.6803 Acc: 54.03
+Train Epoch: 18 [Baseline] [12800/50000 (26%)]	Loss: 1.6807 Acc: 54.09
+Train Epoch: 18 [Baseline] [19200/50000 (38%)]	Loss: 1.6992 Acc: 53.62
+Train Epoch: 18 [Baseline] [25600/50000 (51%)]	Loss: 1.7016 Acc: 53.70
+Train Epoch: 18 [Baseline] [32000/50000 (64%)]	Loss: 1.7096 Acc: 53.61
+Train Epoch: 18 [Baseline] [38400/50000 (77%)]	Loss: 1.7133 Acc: 53.55
+Train Epoch: 18 [Baseline] [44800/50000 (90%)]	Loss: 1.7147 Acc: 53.52
+  6%|▋         | 19/300 [03:43<54:34, 11.65s/it]EPOCH:18, ======================ACC:56.42====================
+BEST EPOCH:18,BEST ACC:56.42
+Train Epoch: 19 [Baseline] [6400/50000 (13%)]	Loss: 1.6625 Acc: 54.52
+Train Epoch: 19 [Baseline] [12800/50000 (26%)]	Loss: 1.6878 Acc: 53.64
+Train Epoch: 19 [Baseline] [19200/50000 (38%)]	Loss: 1.6919 Acc: 53.70
+Train Epoch: 19 [Baseline] [25600/50000 (51%)]	Loss: 1.6985 Acc: 53.53
+Train Epoch: 19 [Baseline] [32000/50000 (64%)]	Loss: 1.7050 Acc: 53.31
+Train Epoch: 19 [Baseline] [38400/50000 (77%)]	Loss: 1.7045 Acc: 53.40
+Train Epoch: 19 [Baseline] [44800/50000 (90%)]	Loss: 1.7081 Acc: 53.38
+  7%|▋         | 20/300 [03:55<54:15, 11.63s/it]EPOCH:19, ======================ACC:55.62====================
+BEST EPOCH:18,BEST ACC:56.42
+Train Epoch: 20 [Baseline] [6400/50000 (13%)]	Loss: 1.6044 Acc: 56.20
+Train Epoch: 20 [Baseline] [12800/50000 (26%)]	Loss: 1.6510 Acc: 55.15
+Train Epoch: 20 [Baseline] [19200/50000 (38%)]	Loss: 1.6676 Acc: 54.67
+Train Epoch: 20 [Baseline] [25600/50000 (51%)]	Loss: 1.6730 Acc: 54.47
+Train Epoch: 20 [Baseline] [32000/50000 (64%)]	Loss: 1.6845 Acc: 54.29
+Train Epoch: 20 [Baseline] [38400/50000 (77%)]	Loss: 1.6933 Acc: 53.93
+Train Epoch: 20 [Baseline] [44800/50000 (90%)]	Loss: 1.6957 Acc: 53.92
+  7%|▋         | 21/300 [04:06<53:58, 11.61s/it]EPOCH:20, ======================ACC:54.61====================
+BEST EPOCH:18,BEST ACC:56.42
+Train Epoch: 21 [Baseline] [6400/50000 (13%)]	Loss: 1.6451 Acc: 54.62
+Train Epoch: 21 [Baseline] [12800/50000 (26%)]	Loss: 1.6544 Acc: 54.87
+Train Epoch: 21 [Baseline] [19200/50000 (38%)]	Loss: 1.6630 Acc: 54.53
+Train Epoch: 21 [Baseline] [25600/50000 (51%)]	Loss: 1.6686 Acc: 54.51
+Train Epoch: 21 [Baseline] [32000/50000 (64%)]	Loss: 1.6649 Acc: 54.67
+Train Epoch: 21 [Baseline] [38400/50000 (77%)]	Loss: 1.6729 Acc: 54.38
+Train Epoch: 21 [Baseline] [44800/50000 (90%)]	Loss: 1.6795 Acc: 54.33
+  7%|▋         | 22/300 [04:18<54:04, 11.67s/it]EPOCH:21, ======================ACC:55.03====================
+BEST EPOCH:18,BEST ACC:56.42
+Train Epoch: 22 [Baseline] [6400/50000 (13%)]	Loss: 1.6509 Acc: 55.06
+Train Epoch: 22 [Baseline] [12800/50000 (26%)]	Loss: 1.6354 Acc: 55.25
+Train Epoch: 22 [Baseline] [19200/50000 (38%)]	Loss: 1.6530 Acc: 55.02
+Train Epoch: 22 [Baseline] [25600/50000 (51%)]	Loss: 1.6651 Acc: 54.54
+Train Epoch: 22 [Baseline] [32000/50000 (64%)]	Loss: 1.6686 Acc: 54.41
+Train Epoch: 22 [Baseline] [38400/50000 (77%)]	Loss: 1.6731 Acc: 54.42
+Train Epoch: 22 [Baseline] [44800/50000 (90%)]	Loss: 1.6732 Acc: 54.32
+  8%|▊         | 23/300 [04:30<53:51, 11.67s/it]EPOCH:22, ======================ACC:55.2====================
+BEST EPOCH:18,BEST ACC:56.42
+Train Epoch: 23 [Baseline] [6400/50000 (13%)]	Loss: 1.6016 Acc: 56.47
+Train Epoch: 23 [Baseline] [12800/50000 (26%)]	Loss: 1.6289 Acc: 55.60
+Train Epoch: 23 [Baseline] [19200/50000 (38%)]	Loss: 1.6308 Acc: 55.40
+Train Epoch: 23 [Baseline] [25600/50000 (51%)]	Loss: 1.6448 Acc: 55.17
+Train Epoch: 23 [Baseline] [32000/50000 (64%)]	Loss: 1.6454 Acc: 55.12
+Train Epoch: 23 [Baseline] [38400/50000 (77%)]	Loss: 1.6530 Acc: 55.05
+Train Epoch: 23 [Baseline] [44800/50000 (90%)]	Loss: 1.6599 Acc: 54.85
+  8%|▊         | 24/300 [04:41<53:30, 11.63s/it]EPOCH:23, ======================ACC:53.87====================
+BEST EPOCH:18,BEST ACC:56.42
+Train Epoch: 24 [Baseline] [6400/50000 (13%)]	Loss: 1.6024 Acc: 56.20
+Train Epoch: 24 [Baseline] [12800/50000 (26%)]	Loss: 1.6252 Acc: 55.66
+Train Epoch: 24 [Baseline] [19200/50000 (38%)]	Loss: 1.6348 Acc: 55.38
+Train Epoch: 24 [Baseline] [25600/50000 (51%)]	Loss: 1.6326 Acc: 55.50
+Train Epoch: 24 [Baseline] [32000/50000 (64%)]	Loss: 1.6384 Acc: 55.44
+Train Epoch: 24 [Baseline] [38400/50000 (77%)]	Loss: 1.6436 Acc: 55.32
+Train Epoch: 24 [Baseline] [44800/50000 (90%)]	Loss: 1.6492 Acc: 55.12
+  8%|▊         | 25/300 [04:53<53:48, 11.74s/it]EPOCH:24, ======================ACC:54.94====================
+BEST EPOCH:18,BEST ACC:56.42
+Train Epoch: 25 [Baseline] [6400/50000 (13%)]	Loss: 1.6201 Acc: 55.69
+Train Epoch: 25 [Baseline] [12800/50000 (26%)]	Loss: 1.6130 Acc: 56.12
+Train Epoch: 25 [Baseline] [19200/50000 (38%)]	Loss: 1.6175 Acc: 55.89
+Train Epoch: 25 [Baseline] [25600/50000 (51%)]	Loss: 1.6193 Acc: 55.84
+Train Epoch: 25 [Baseline] [32000/50000 (64%)]	Loss: 1.6303 Acc: 55.48
+Train Epoch: 25 [Baseline] [38400/50000 (77%)]	Loss: 1.6328 Acc: 55.31
+Train Epoch: 25 [Baseline] [44800/50000 (90%)]	Loss: 1.6397 Acc: 55.21
+  9%|▊         | 26/300 [05:05<54:03, 11.84s/it]EPOCH:25, ======================ACC:54.69====================
+BEST EPOCH:18,BEST ACC:56.42
+Train Epoch: 26 [Baseline] [6400/50000 (13%)]	Loss: 1.5810 Acc: 56.83
+Train Epoch: 26 [Baseline] [12800/50000 (26%)]	Loss: 1.6013 Acc: 56.06
+Train Epoch: 26 [Baseline] [19200/50000 (38%)]	Loss: 1.6140 Acc: 56.01
+Train Epoch: 26 [Baseline] [25600/50000 (51%)]	Loss: 1.6240 Acc: 55.75
+Train Epoch: 26 [Baseline] [32000/50000 (64%)]	Loss: 1.6274 Acc: 55.83
+Train Epoch: 26 [Baseline] [38400/50000 (77%)]	Loss: 1.6347 Acc: 55.69
+Train Epoch: 26 [Baseline] [44800/50000 (90%)]	Loss: 1.6364 Acc: 55.65
+  9%|▉         | 27/300 [05:18<54:11, 11.91s/it]EPOCH:26, ======================ACC:56.27====================
+BEST EPOCH:18,BEST ACC:56.42
+Train Epoch: 27 [Baseline] [6400/50000 (13%)]	Loss: 1.5730 Acc: 56.84
+Train Epoch: 27 [Baseline] [12800/50000 (26%)]	Loss: 1.5859 Acc: 56.51
+Train Epoch: 27 [Baseline] [19200/50000 (38%)]	Loss: 1.6045 Acc: 55.86
+Train Epoch: 27 [Baseline] [25600/50000 (51%)]	Loss: 1.6010 Acc: 55.93
+Train Epoch: 27 [Baseline] [32000/50000 (64%)]	Loss: 1.6079 Acc: 55.79
+Train Epoch: 27 [Baseline] [38400/50000 (77%)]	Loss: 1.6156 Acc: 55.72
+Train Epoch: 27 [Baseline] [44800/50000 (90%)]	Loss: 1.6168 Acc: 55.59
+  9%|▉         | 28/300 [05:29<53:49, 11.87s/it]EPOCH:27, ======================ACC:54.75====================
+BEST EPOCH:18,BEST ACC:56.42
+Train Epoch: 28 [Baseline] [6400/50000 (13%)]	Loss: 1.5454 Acc: 57.08
+Train Epoch: 28 [Baseline] [12800/50000 (26%)]	Loss: 1.5635 Acc: 57.12
+Train Epoch: 28 [Baseline] [19200/50000 (38%)]	Loss: 1.5838 Acc: 56.74
+Train Epoch: 28 [Baseline] [25600/50000 (51%)]	Loss: 1.5813 Acc: 56.76
+Train Epoch: 28 [Baseline] [32000/50000 (64%)]	Loss: 1.5868 Acc: 56.49
+Train Epoch: 28 [Baseline] [38400/50000 (77%)]	Loss: 1.6011 Acc: 56.08
+Train Epoch: 28 [Baseline] [44800/50000 (90%)]	Loss: 1.6109 Acc: 55.94
+ 10%|▉         | 29/300 [05:42<54:07, 11.98s/it]EPOCH:28, ======================ACC:54.89====================
+BEST EPOCH:18,BEST ACC:56.42
+Train Epoch: 29 [Baseline] [6400/50000 (13%)]	Loss: 1.5919 Acc: 56.22
+Train Epoch: 29 [Baseline] [12800/50000 (26%)]	Loss: 1.5836 Acc: 56.86
+Train Epoch: 29 [Baseline] [19200/50000 (38%)]	Loss: 1.5911 Acc: 56.57
+Train Epoch: 29 [Baseline] [25600/50000 (51%)]	Loss: 1.5962 Acc: 56.44
+Train Epoch: 29 [Baseline] [32000/50000 (64%)]	Loss: 1.6029 Acc: 56.28
+Train Epoch: 29 [Baseline] [38400/50000 (77%)]	Loss: 1.6005 Acc: 56.41
+Train Epoch: 29 [Baseline] [44800/50000 (90%)]	Loss: 1.6039 Acc: 56.37
+ 10%|█         | 30/300 [05:54<53:53, 11.98s/it]EPOCH:29, ======================ACC:52.57====================
+BEST EPOCH:18,BEST ACC:56.42
+Train Epoch: 30 [Baseline] [6400/50000 (13%)]	Loss: 1.5979 Acc: 55.70
+Train Epoch: 30 [Baseline] [12800/50000 (26%)]	Loss: 1.5843 Acc: 56.25
+Train Epoch: 30 [Baseline] [19200/50000 (38%)]	Loss: 1.5988 Acc: 55.85
+Train Epoch: 30 [Baseline] [25600/50000 (51%)]	Loss: 1.6066 Acc: 55.63
+Train Epoch: 30 [Baseline] [32000/50000 (64%)]	Loss: 1.6078 Acc: 55.61
+Train Epoch: 30 [Baseline] [38400/50000 (77%)]	Loss: 1.6088 Acc: 55.72
+Train Epoch: 30 [Baseline] [44800/50000 (90%)]	Loss: 1.6092 Acc: 55.71
+ 10%|█         | 31/300 [06:06<53:44, 11.99s/it]EPOCH:30, ======================ACC:53.54====================
+BEST EPOCH:18,BEST ACC:56.42
+Train Epoch: 31 [Baseline] [6400/50000 (13%)]	Loss: 1.5375 Acc: 58.34
+Train Epoch: 31 [Baseline] [12800/50000 (26%)]	Loss: 1.5462 Acc: 57.98
+Train Epoch: 31 [Baseline] [19200/50000 (38%)]	Loss: 1.5679 Acc: 57.11
+Train Epoch: 31 [Baseline] [25600/50000 (51%)]	Loss: 1.5797 Acc: 56.81
+Train Epoch: 31 [Baseline] [32000/50000 (64%)]	Loss: 1.5841 Acc: 56.62
+Train Epoch: 31 [Baseline] [38400/50000 (77%)]	Loss: 1.5875 Acc: 56.59
+Train Epoch: 31 [Baseline] [44800/50000 (90%)]	Loss: 1.5974 Acc: 56.31
+ 11%|█         | 32/300 [06:18<53:34, 12.00s/it]EPOCH:31, ======================ACC:56.07====================
+BEST EPOCH:18,BEST ACC:56.42
+Train Epoch: 32 [Baseline] [6400/50000 (13%)]	Loss: 1.5523 Acc: 57.12
+Train Epoch: 32 [Baseline] [12800/50000 (26%)]	Loss: 1.5637 Acc: 57.08
+Train Epoch: 32 [Baseline] [19200/50000 (38%)]	Loss: 1.5900 Acc: 56.40
+Train Epoch: 32 [Baseline] [25600/50000 (51%)]	Loss: 1.5914 Acc: 56.50
+Train Epoch: 32 [Baseline] [32000/50000 (64%)]	Loss: 1.5950 Acc: 56.36
+Train Epoch: 32 [Baseline] [38400/50000 (77%)]	Loss: 1.5993 Acc: 56.31
+Train Epoch: 32 [Baseline] [44800/50000 (90%)]	Loss: 1.5985 Acc: 56.35
+ 11%|█         | 33/300 [06:29<53:09, 11.95s/it]EPOCH:32, ======================ACC:54.55====================
+BEST EPOCH:18,BEST ACC:56.42
+Train Epoch: 33 [Baseline] [6400/50000 (13%)]	Loss: 1.5027 Acc: 58.77
+Train Epoch: 33 [Baseline] [12800/50000 (26%)]	Loss: 1.5300 Acc: 58.00
+Train Epoch: 33 [Baseline] [19200/50000 (38%)]	Loss: 1.5493 Acc: 57.56
+Train Epoch: 33 [Baseline] [25600/50000 (51%)]	Loss: 1.5535 Acc: 57.34
+Train Epoch: 33 [Baseline] [32000/50000 (64%)]	Loss: 1.5638 Acc: 57.05
+Train Epoch: 33 [Baseline] [38400/50000 (77%)]	Loss: 1.5710 Acc: 56.85
+Train Epoch: 33 [Baseline] [44800/50000 (90%)]	Loss: 1.5721 Acc: 56.86
+ 11%|█▏        | 34/300 [06:41<52:55, 11.94s/it]EPOCH:33, ======================ACC:56.35====================
+BEST EPOCH:18,BEST ACC:56.42
+Train Epoch: 34 [Baseline] [6400/50000 (13%)]	Loss: 1.5470 Acc: 58.25
+Train Epoch: 34 [Baseline] [12800/50000 (26%)]	Loss: 1.5412 Acc: 57.57
+Train Epoch: 34 [Baseline] [19200/50000 (38%)]	Loss: 1.5489 Acc: 57.28
+Train Epoch: 34 [Baseline] [25600/50000 (51%)]	Loss: 1.5634 Acc: 56.87
+Train Epoch: 34 [Baseline] [32000/50000 (64%)]	Loss: 1.5703 Acc: 56.68
+Train Epoch: 34 [Baseline] [38400/50000 (77%)]	Loss: 1.5721 Acc: 56.64
+Train Epoch: 34 [Baseline] [44800/50000 (90%)]	Loss: 1.5815 Acc: 56.37
+ 12%|█▏        | 35/300 [06:53<52:32, 11.89s/it]EPOCH:34, ======================ACC:55.37====================
+BEST EPOCH:18,BEST ACC:56.42
+Train Epoch: 35 [Baseline] [6400/50000 (13%)]	Loss: 1.4842 Acc: 58.34
+Train Epoch: 35 [Baseline] [12800/50000 (26%)]	Loss: 1.5032 Acc: 58.09
+Train Epoch: 35 [Baseline] [19200/50000 (38%)]	Loss: 1.5255 Acc: 57.91
+Train Epoch: 35 [Baseline] [25600/50000 (51%)]	Loss: 1.5313 Acc: 57.73
+Train Epoch: 35 [Baseline] [32000/50000 (64%)]	Loss: 1.5386 Acc: 57.71
+Train Epoch: 35 [Baseline] [38400/50000 (77%)]	Loss: 1.5499 Acc: 57.48
+Train Epoch: 35 [Baseline] [44800/50000 (90%)]	Loss: 1.5558 Acc: 57.29
+ 12%|█▏        | 36/300 [07:05<51:59, 11.82s/it]EPOCH:35, ======================ACC:55.9====================
+BEST EPOCH:18,BEST ACC:56.42
+Train Epoch: 36 [Baseline] [6400/50000 (13%)]	Loss: 1.5820 Acc: 57.09
+Train Epoch: 36 [Baseline] [12800/50000 (26%)]	Loss: 1.5546 Acc: 57.55
+Train Epoch: 36 [Baseline] [19200/50000 (38%)]	Loss: 1.5506 Acc: 57.66
+Train Epoch: 36 [Baseline] [25600/50000 (51%)]	Loss: 1.5605 Acc: 57.56
+Train Epoch: 36 [Baseline] [32000/50000 (64%)]	Loss: 1.5627 Acc: 57.33
+Train Epoch: 36 [Baseline] [38400/50000 (77%)]	Loss: 1.5735 Acc: 57.09
+Train Epoch: 36 [Baseline] [44800/50000 (90%)]	Loss: 1.5734 Acc: 56.94
+ 12%|█▏        | 37/300 [07:16<51:39, 11.78s/it]EPOCH:36, ======================ACC:56.82====================
+BEST EPOCH:36,BEST ACC:56.82
+Train Epoch: 37 [Baseline] [6400/50000 (13%)]	Loss: 1.5103 Acc: 58.70
+Train Epoch: 37 [Baseline] [12800/50000 (26%)]	Loss: 1.5054 Acc: 58.59
+Train Epoch: 37 [Baseline] [19200/50000 (38%)]	Loss: 1.5247 Acc: 57.80
+Train Epoch: 37 [Baseline] [25600/50000 (51%)]	Loss: 1.5444 Acc: 57.30
+Train Epoch: 37 [Baseline] [32000/50000 (64%)]	Loss: 1.5496 Acc: 57.22
+Train Epoch: 37 [Baseline] [38400/50000 (77%)]	Loss: 1.5544 Acc: 57.16
+Train Epoch: 37 [Baseline] [44800/50000 (90%)]	Loss: 1.5610 Acc: 57.13
+ 13%|█▎        | 38/300 [07:28<51:19, 11.76s/it]EPOCH:37, ======================ACC:54.87====================
+BEST EPOCH:36,BEST ACC:56.82
+Train Epoch: 38 [Baseline] [6400/50000 (13%)]	Loss: 1.4783 Acc: 59.19
+Train Epoch: 38 [Baseline] [12800/50000 (26%)]	Loss: 1.5248 Acc: 58.04
+Train Epoch: 38 [Baseline] [19200/50000 (38%)]	Loss: 1.5304 Acc: 58.08
+Train Epoch: 38 [Baseline] [25600/50000 (51%)]	Loss: 1.5419 Acc: 57.79
+Train Epoch: 38 [Baseline] [32000/50000 (64%)]	Loss: 1.5458 Acc: 57.58
+Train Epoch: 38 [Baseline] [38400/50000 (77%)]	Loss: 1.5573 Acc: 57.33
+Train Epoch: 38 [Baseline] [44800/50000 (90%)]	Loss: 1.5611 Acc: 57.17
+ 13%|█▎        | 39/300 [07:40<51:12, 11.77s/it]EPOCH:38, ======================ACC:56.64====================
+BEST EPOCH:36,BEST ACC:56.82
+Train Epoch: 39 [Baseline] [6400/50000 (13%)]	Loss: 1.5098 Acc: 58.20
+Train Epoch: 39 [Baseline] [12800/50000 (26%)]	Loss: 1.5184 Acc: 57.86
+Train Epoch: 39 [Baseline] [19200/50000 (38%)]	Loss: 1.5283 Acc: 57.58
+Train Epoch: 39 [Baseline] [25600/50000 (51%)]	Loss: 1.5362 Acc: 57.52
+Train Epoch: 39 [Baseline] [32000/50000 (64%)]	Loss: 1.5382 Acc: 57.50
+Train Epoch: 39 [Baseline] [38400/50000 (77%)]	Loss: 1.5412 Acc: 57.40
+Train Epoch: 39 [Baseline] [44800/50000 (90%)]	Loss: 1.5444 Acc: 57.36
+ 13%|█▎        | 40/300 [07:52<51:02, 11.78s/it]EPOCH:39, ======================ACC:56.95====================
+BEST EPOCH:39,BEST ACC:56.95
+Train Epoch: 40 [Baseline] [6400/50000 (13%)]	Loss: 1.5161 Acc: 58.58
+Train Epoch: 40 [Baseline] [12800/50000 (26%)]	Loss: 1.5274 Acc: 58.52
+Train Epoch: 40 [Baseline] [19200/50000 (38%)]	Loss: 1.5336 Acc: 58.17
+Train Epoch: 40 [Baseline] [25600/50000 (51%)]	Loss: 1.5363 Acc: 58.09
+Train Epoch: 40 [Baseline] [32000/50000 (64%)]	Loss: 1.5436 Acc: 57.83
+Train Epoch: 40 [Baseline] [38400/50000 (77%)]	Loss: 1.5529 Acc: 57.69
+Train Epoch: 40 [Baseline] [44800/50000 (90%)]	Loss: 1.5573 Acc: 57.52
+ 14%|█▎        | 41/300 [08:04<50:55, 11.80s/it]EPOCH:40, ======================ACC:55.31====================
+BEST EPOCH:39,BEST ACC:56.95
+Train Epoch: 41 [Baseline] [6400/50000 (13%)]	Loss: 1.4898 Acc: 59.17
+Train Epoch: 41 [Baseline] [12800/50000 (26%)]	Loss: 1.5111 Acc: 58.45
+Train Epoch: 41 [Baseline] [19200/50000 (38%)]	Loss: 1.5158 Acc: 58.27
+Train Epoch: 41 [Baseline] [25600/50000 (51%)]	Loss: 1.5366 Acc: 57.80
+Train Epoch: 41 [Baseline] [32000/50000 (64%)]	Loss: 1.5384 Acc: 57.61
+Train Epoch: 41 [Baseline] [38400/50000 (77%)]	Loss: 1.5465 Acc: 57.43
+Train Epoch: 41 [Baseline] [44800/50000 (90%)]	Loss: 1.5453 Acc: 57.56
+ 14%|█▍        | 42/300 [08:15<50:49, 11.82s/it]EPOCH:41, ======================ACC:58.23====================
+BEST EPOCH:41,BEST ACC:58.23
+Train Epoch: 42 [Baseline] [6400/50000 (13%)]	Loss: 1.4711 Acc: 59.88
+Train Epoch: 42 [Baseline] [12800/50000 (26%)]	Loss: 1.4917 Acc: 59.12
+Train Epoch: 42 [Baseline] [19200/50000 (38%)]	Loss: 1.5030 Acc: 58.86
+Train Epoch: 42 [Baseline] [25600/50000 (51%)]	Loss: 1.5155 Acc: 58.35
+Train Epoch: 42 [Baseline] [32000/50000 (64%)]	Loss: 1.5286 Acc: 57.98
+Train Epoch: 42 [Baseline] [38400/50000 (77%)]	Loss: 1.5324 Acc: 57.91
+Train Epoch: 42 [Baseline] [44800/50000 (90%)]	Loss: 1.5383 Acc: 57.69
+ 14%|█▍        | 43/300 [08:27<50:25, 11.77s/it]EPOCH:42, ======================ACC:57.58====================
+BEST EPOCH:41,BEST ACC:58.23
+Train Epoch: 43 [Baseline] [6400/50000 (13%)]	Loss: 1.4778 Acc: 59.17
+Train Epoch: 43 [Baseline] [12800/50000 (26%)]	Loss: 1.4974 Acc: 58.61
+Train Epoch: 43 [Baseline] [19200/50000 (38%)]	Loss: 1.5149 Acc: 58.30
+Train Epoch: 43 [Baseline] [25600/50000 (51%)]	Loss: 1.5215 Acc: 58.17
+Train Epoch: 43 [Baseline] [32000/50000 (64%)]	Loss: 1.5247 Acc: 58.15
+Train Epoch: 43 [Baseline] [38400/50000 (77%)]	Loss: 1.5269 Acc: 58.14
+Train Epoch: 43 [Baseline] [44800/50000 (90%)]	Loss: 1.5323 Acc: 58.00
+ 15%|█▍        | 44/300 [08:39<50:12, 11.77s/it]EPOCH:43, ======================ACC:58.87====================
+BEST EPOCH:43,BEST ACC:58.87
+Train Epoch: 44 [Baseline] [6400/50000 (13%)]	Loss: 1.5033 Acc: 58.66
+Train Epoch: 44 [Baseline] [12800/50000 (26%)]	Loss: 1.5136 Acc: 58.34
+Train Epoch: 44 [Baseline] [19200/50000 (38%)]	Loss: 1.5249 Acc: 58.14
+Train Epoch: 44 [Baseline] [25600/50000 (51%)]	Loss: 1.5238 Acc: 58.19
+Train Epoch: 44 [Baseline] [32000/50000 (64%)]	Loss: 1.5170 Acc: 58.41
+Train Epoch: 44 [Baseline] [38400/50000 (77%)]	Loss: 1.5209 Acc: 58.25
+Train Epoch: 44 [Baseline] [44800/50000 (90%)]	Loss: 1.5281 Acc: 58.06
+ 15%|█▌        | 45/300 [08:51<50:04, 11.78s/it]EPOCH:44, ======================ACC:58.43====================
+BEST EPOCH:43,BEST ACC:58.87
+Train Epoch: 45 [Baseline] [6400/50000 (13%)]	Loss: 1.4759 Acc: 58.86
+Train Epoch: 45 [Baseline] [12800/50000 (26%)]	Loss: 1.4976 Acc: 58.73
+Train Epoch: 45 [Baseline] [19200/50000 (38%)]	Loss: 1.5105 Acc: 58.11
+Train Epoch: 45 [Baseline] [25600/50000 (51%)]	Loss: 1.5104 Acc: 58.17
+Train Epoch: 45 [Baseline] [32000/50000 (64%)]	Loss: 1.5175 Acc: 58.22
+Train Epoch: 45 [Baseline] [38400/50000 (77%)]	Loss: 1.5238 Acc: 58.05
+Train Epoch: 45 [Baseline] [44800/50000 (90%)]	Loss: 1.5278 Acc: 58.04
+ 15%|█▌        | 46/300 [09:02<49:46, 11.76s/it]EPOCH:45, ======================ACC:58.8====================
+BEST EPOCH:43,BEST ACC:58.87
+Train Epoch: 46 [Baseline] [6400/50000 (13%)]	Loss: 1.4294 Acc: 59.86
+Train Epoch: 46 [Baseline] [12800/50000 (26%)]	Loss: 1.4712 Acc: 59.38
+Train Epoch: 46 [Baseline] [19200/50000 (38%)]	Loss: 1.4917 Acc: 58.96
+Train Epoch: 46 [Baseline] [25600/50000 (51%)]	Loss: 1.4952 Acc: 58.86
+Train Epoch: 46 [Baseline] [32000/50000 (64%)]	Loss: 1.4980 Acc: 58.82
+Train Epoch: 46 [Baseline] [38400/50000 (77%)]	Loss: 1.5089 Acc: 58.57
+Train Epoch: 46 [Baseline] [44800/50000 (90%)]	Loss: 1.5144 Acc: 58.34
+ 16%|█▌        | 47/300 [09:14<49:47, 11.81s/it]EPOCH:46, ======================ACC:54.95====================
+BEST EPOCH:43,BEST ACC:58.87
+Train Epoch: 47 [Baseline] [6400/50000 (13%)]	Loss: 1.4277 Acc: 60.14
+Train Epoch: 47 [Baseline] [12800/50000 (26%)]	Loss: 1.4752 Acc: 59.00
+Train Epoch: 47 [Baseline] [19200/50000 (38%)]	Loss: 1.4760 Acc: 59.10
+Train Epoch: 47 [Baseline] [25600/50000 (51%)]	Loss: 1.4920 Acc: 58.80
+Train Epoch: 47 [Baseline] [32000/50000 (64%)]	Loss: 1.5004 Acc: 58.62
+Train Epoch: 47 [Baseline] [38400/50000 (77%)]	Loss: 1.5140 Acc: 58.42
+Train Epoch: 47 [Baseline] [44800/50000 (90%)]	Loss: 1.5175 Acc: 58.39
+ 16%|█▌        | 48/300 [09:26<49:21, 11.75s/it]EPOCH:47, ======================ACC:54.48====================
+BEST EPOCH:43,BEST ACC:58.87
+Train Epoch: 48 [Baseline] [6400/50000 (13%)]	Loss: 1.4291 Acc: 60.03
+Train Epoch: 48 [Baseline] [12800/50000 (26%)]	Loss: 1.4524 Acc: 59.84
+Train Epoch: 48 [Baseline] [19200/50000 (38%)]	Loss: 1.4670 Acc: 59.34
+Train Epoch: 48 [Baseline] [25600/50000 (51%)]	Loss: 1.4757 Acc: 59.24
+Train Epoch: 48 [Baseline] [32000/50000 (64%)]	Loss: 1.4916 Acc: 58.88
+Train Epoch: 48 [Baseline] [38400/50000 (77%)]	Loss: 1.5075 Acc: 58.62
+Train Epoch: 48 [Baseline] [44800/50000 (90%)]	Loss: 1.5128 Acc: 58.41
+ 16%|█▋        | 49/300 [09:38<49:14, 11.77s/it]EPOCH:48, ======================ACC:58.73====================
+BEST EPOCH:43,BEST ACC:58.87
+Train Epoch: 49 [Baseline] [6400/50000 (13%)]	Loss: 1.4667 Acc: 59.42
+Train Epoch: 49 [Baseline] [12800/50000 (26%)]	Loss: 1.4648 Acc: 59.56
+Train Epoch: 49 [Baseline] [19200/50000 (38%)]	Loss: 1.4990 Acc: 58.72
+Train Epoch: 49 [Baseline] [25600/50000 (51%)]	Loss: 1.5023 Acc: 58.72
+Train Epoch: 49 [Baseline] [32000/50000 (64%)]	Loss: 1.5062 Acc: 58.61
+Train Epoch: 49 [Baseline] [38400/50000 (77%)]	Loss: 1.5090 Acc: 58.46
+Train Epoch: 49 [Baseline] [44800/50000 (90%)]	Loss: 1.5146 Acc: 58.33
+ 17%|█▋        | 50/300 [09:49<48:59, 11.76s/it]EPOCH:49, ======================ACC:56.71====================
+BEST EPOCH:43,BEST ACC:58.87
+Train Epoch: 50 [Baseline] [6400/50000 (13%)]	Loss: 1.4415 Acc: 60.22
+Train Epoch: 50 [Baseline] [12800/50000 (26%)]	Loss: 1.4652 Acc: 59.60
+Train Epoch: 50 [Baseline] [19200/50000 (38%)]	Loss: 1.4750 Acc: 59.64
+Train Epoch: 50 [Baseline] [25600/50000 (51%)]	Loss: 1.4855 Acc: 59.29
+Train Epoch: 50 [Baseline] [32000/50000 (64%)]	Loss: 1.4923 Acc: 59.12
+Train Epoch: 50 [Baseline] [38400/50000 (77%)]	Loss: 1.5061 Acc: 58.79
+Train Epoch: 50 [Baseline] [44800/50000 (90%)]	Loss: 1.5127 Acc: 58.66
+ 17%|█▋        | 51/300 [10:01<48:51, 11.77s/it]EPOCH:50, ======================ACC:57.08====================
+BEST EPOCH:43,BEST ACC:58.87
+Train Epoch: 51 [Baseline] [6400/50000 (13%)]	Loss: 1.4053 Acc: 60.88
+Train Epoch: 51 [Baseline] [12800/50000 (26%)]	Loss: 1.4344 Acc: 60.05
+Train Epoch: 51 [Baseline] [19200/50000 (38%)]	Loss: 1.4586 Acc: 59.46
+Train Epoch: 51 [Baseline] [25600/50000 (51%)]	Loss: 1.4843 Acc: 58.88
+Train Epoch: 51 [Baseline] [32000/50000 (64%)]	Loss: 1.4886 Acc: 58.72
+Train Epoch: 51 [Baseline] [38400/50000 (77%)]	Loss: 1.4950 Acc: 58.51
+Train Epoch: 51 [Baseline] [44800/50000 (90%)]	Loss: 1.5047 Acc: 58.23
+ 17%|█▋        | 52/300 [10:13<49:04, 11.87s/it]EPOCH:51, ======================ACC:57.0====================
+BEST EPOCH:43,BEST ACC:58.87
+Train Epoch: 52 [Baseline] [6400/50000 (13%)]	Loss: 1.4189 Acc: 61.22
+Train Epoch: 52 [Baseline] [12800/50000 (26%)]	Loss: 1.4454 Acc: 60.14
+Train Epoch: 52 [Baseline] [19200/50000 (38%)]	Loss: 1.4635 Acc: 59.57
+Train Epoch: 52 [Baseline] [25600/50000 (51%)]	Loss: 1.4656 Acc: 59.41
+Train Epoch: 52 [Baseline] [32000/50000 (64%)]	Loss: 1.4834 Acc: 58.95
+Train Epoch: 52 [Baseline] [38400/50000 (77%)]	Loss: 1.4952 Acc: 58.63
+Train Epoch: 52 [Baseline] [44800/50000 (90%)]	Loss: 1.4975 Acc: 58.61
+ 18%|█▊        | 53/300 [10:25<48:55, 11.88s/it]EPOCH:52, ======================ACC:59.17====================
+BEST EPOCH:52,BEST ACC:59.17
+Train Epoch: 53 [Baseline] [6400/50000 (13%)]	Loss: 1.4600 Acc: 59.97
+Train Epoch: 53 [Baseline] [12800/50000 (26%)]	Loss: 1.4631 Acc: 59.74
+Train Epoch: 53 [Baseline] [19200/50000 (38%)]	Loss: 1.4689 Acc: 59.62
+Train Epoch: 53 [Baseline] [25600/50000 (51%)]	Loss: 1.4803 Acc: 59.38
+Train Epoch: 53 [Baseline] [32000/50000 (64%)]	Loss: 1.4840 Acc: 59.21
+Train Epoch: 53 [Baseline] [38400/50000 (77%)]	Loss: 1.4942 Acc: 58.85
+Train Epoch: 53 [Baseline] [44800/50000 (90%)]	Loss: 1.4998 Acc: 58.71
+ 18%|█▊        | 54/300 [10:37<49:02, 11.96s/it]EPOCH:53, ======================ACC:59.37====================
+BEST EPOCH:53,BEST ACC:59.37
+Train Epoch: 54 [Baseline] [6400/50000 (13%)]	Loss: 1.4424 Acc: 60.33
+Train Epoch: 54 [Baseline] [12800/50000 (26%)]	Loss: 1.4581 Acc: 59.40
+Train Epoch: 54 [Baseline] [19200/50000 (38%)]	Loss: 1.4590 Acc: 59.42
+Train Epoch: 54 [Baseline] [25600/50000 (51%)]	Loss: 1.4614 Acc: 59.22
+Train Epoch: 54 [Baseline] [32000/50000 (64%)]	Loss: 1.4796 Acc: 59.11
+Train Epoch: 54 [Baseline] [38400/50000 (77%)]	Loss: 1.4876 Acc: 58.99
+Train Epoch: 54 [Baseline] [44800/50000 (90%)]	Loss: 1.4836 Acc: 59.10
+ 18%|█▊        | 55/300 [10:49<48:47, 11.95s/it]EPOCH:54, ======================ACC:58.28====================
+BEST EPOCH:53,BEST ACC:59.37
+Train Epoch: 55 [Baseline] [6400/50000 (13%)]	Loss: 1.4336 Acc: 60.72
+Train Epoch: 55 [Baseline] [12800/50000 (26%)]	Loss: 1.4535 Acc: 60.33
+Train Epoch: 55 [Baseline] [19200/50000 (38%)]	Loss: 1.4656 Acc: 59.90
+Train Epoch: 55 [Baseline] [25600/50000 (51%)]	Loss: 1.4770 Acc: 59.57
+Train Epoch: 55 [Baseline] [32000/50000 (64%)]	Loss: 1.4824 Acc: 59.42
+Train Epoch: 55 [Baseline] [38400/50000 (77%)]	Loss: 1.4951 Acc: 59.21
+Train Epoch: 55 [Baseline] [44800/50000 (90%)]	Loss: 1.4992 Acc: 59.08
+ 19%|█▊        | 56/300 [11:01<48:50, 12.01s/it]EPOCH:55, ======================ACC:57.96====================
+BEST EPOCH:53,BEST ACC:59.37
+Train Epoch: 56 [Baseline] [6400/50000 (13%)]	Loss: 1.4441 Acc: 60.44
+Train Epoch: 56 [Baseline] [12800/50000 (26%)]	Loss: 1.4578 Acc: 59.88
+Train Epoch: 56 [Baseline] [19200/50000 (38%)]	Loss: 1.4587 Acc: 60.10
+Train Epoch: 56 [Baseline] [25600/50000 (51%)]	Loss: 1.4645 Acc: 59.91
+Train Epoch: 56 [Baseline] [32000/50000 (64%)]	Loss: 1.4708 Acc: 59.68
+Train Epoch: 56 [Baseline] [38400/50000 (77%)]	Loss: 1.4745 Acc: 59.50
+Train Epoch: 56 [Baseline] [44800/50000 (90%)]	Loss: 1.4824 Acc: 59.31
+ 19%|█▉        | 57/300 [11:13<48:32, 11.98s/it]EPOCH:56, ======================ACC:55.35====================
+BEST EPOCH:53,BEST ACC:59.37
+Train Epoch: 57 [Baseline] [6400/50000 (13%)]	Loss: 1.4590 Acc: 59.64
+Train Epoch: 57 [Baseline] [12800/50000 (26%)]	Loss: 1.4632 Acc: 59.66
+Train Epoch: 57 [Baseline] [19200/50000 (38%)]	Loss: 1.4831 Acc: 58.92
+Train Epoch: 57 [Baseline] [25600/50000 (51%)]	Loss: 1.4820 Acc: 59.06
+Train Epoch: 57 [Baseline] [32000/50000 (64%)]	Loss: 1.4837 Acc: 59.03
+Train Epoch: 57 [Baseline] [38400/50000 (77%)]	Loss: 1.4878 Acc: 58.98
+Train Epoch: 57 [Baseline] [44800/50000 (90%)]	Loss: 1.4866 Acc: 59.12
+ 19%|█▉        | 58/300 [11:25<48:26, 12.01s/it]EPOCH:57, ======================ACC:59.53====================
+BEST EPOCH:57,BEST ACC:59.53
+Train Epoch: 58 [Baseline] [6400/50000 (13%)]	Loss: 1.4562 Acc: 59.78
+Train Epoch: 58 [Baseline] [12800/50000 (26%)]	Loss: 1.4562 Acc: 59.80
+Train Epoch: 58 [Baseline] [19200/50000 (38%)]	Loss: 1.4593 Acc: 59.76
+Train Epoch: 58 [Baseline] [25600/50000 (51%)]	Loss: 1.4618 Acc: 59.77
+Train Epoch: 58 [Baseline] [32000/50000 (64%)]	Loss: 1.4697 Acc: 59.53
+Train Epoch: 58 [Baseline] [38400/50000 (77%)]	Loss: 1.4764 Acc: 59.37
+Train Epoch: 58 [Baseline] [44800/50000 (90%)]	Loss: 1.4863 Acc: 59.07
+ 20%|█▉        | 59/300 [11:37<47:52, 11.92s/it]EPOCH:58, ======================ACC:54.07====================
+BEST EPOCH:57,BEST ACC:59.53
+Train Epoch: 59 [Baseline] [6400/50000 (13%)]	Loss: 1.4678 Acc: 59.86
+Train Epoch: 59 [Baseline] [12800/50000 (26%)]	Loss: 1.4504 Acc: 59.90
+Train Epoch: 59 [Baseline] [19200/50000 (38%)]	Loss: 1.4420 Acc: 59.94
+Train Epoch: 59 [Baseline] [25600/50000 (51%)]	Loss: 1.4527 Acc: 59.73
+Train Epoch: 59 [Baseline] [32000/50000 (64%)]	Loss: 1.4596 Acc: 59.57
+Train Epoch: 59 [Baseline] [38400/50000 (77%)]	Loss: 1.4705 Acc: 59.35
+Train Epoch: 59 [Baseline] [44800/50000 (90%)]	Loss: 1.4723 Acc: 59.41
+ 20%|██        | 60/300 [11:49<47:15, 11.81s/it]EPOCH:59, ======================ACC:57.11====================
+BEST EPOCH:57,BEST ACC:59.53
+Train Epoch: 60 [Baseline] [6400/50000 (13%)]	Loss: 1.4465 Acc: 59.73
+Train Epoch: 60 [Baseline] [12800/50000 (26%)]	Loss: 1.4384 Acc: 60.08
+Train Epoch: 60 [Baseline] [19200/50000 (38%)]	Loss: 1.4589 Acc: 59.66
+Train Epoch: 60 [Baseline] [25600/50000 (51%)]	Loss: 1.4664 Acc: 59.43
+Train Epoch: 60 [Baseline] [32000/50000 (64%)]	Loss: 1.4745 Acc: 59.27
+Train Epoch: 60 [Baseline] [38400/50000 (77%)]	Loss: 1.4768 Acc: 59.20
+Train Epoch: 60 [Baseline] [44800/50000 (90%)]	Loss: 1.4775 Acc: 59.26
+ 20%|██        | 61/300 [12:00<46:51, 11.76s/it]EPOCH:60, ======================ACC:56.02====================
+BEST EPOCH:57,BEST ACC:59.53
+Train Epoch: 61 [Baseline] [6400/50000 (13%)]	Loss: 1.4413 Acc: 60.34
+Train Epoch: 61 [Baseline] [12800/50000 (26%)]	Loss: 1.4551 Acc: 59.76
+Train Epoch: 61 [Baseline] [19200/50000 (38%)]	Loss: 1.4517 Acc: 59.83
+Train Epoch: 61 [Baseline] [25600/50000 (51%)]	Loss: 1.4608 Acc: 59.64
+Train Epoch: 61 [Baseline] [32000/50000 (64%)]	Loss: 1.4681 Acc: 59.45
+Train Epoch: 61 [Baseline] [38400/50000 (77%)]	Loss: 1.4724 Acc: 59.40
+Train Epoch: 61 [Baseline] [44800/50000 (90%)]	Loss: 1.4767 Acc: 59.25
+ 21%|██        | 62/300 [12:12<46:37, 11.76s/it]EPOCH:61, ======================ACC:59.17====================
+BEST EPOCH:57,BEST ACC:59.53
+Train Epoch: 62 [Baseline] [6400/50000 (13%)]	Loss: 1.4488 Acc: 60.30
+Train Epoch: 62 [Baseline] [12800/50000 (26%)]	Loss: 1.4321 Acc: 60.70
+Train Epoch: 62 [Baseline] [19200/50000 (38%)]	Loss: 1.4418 Acc: 60.54
+Train Epoch: 62 [Baseline] [25600/50000 (51%)]	Loss: 1.4503 Acc: 60.23
+Train Epoch: 62 [Baseline] [32000/50000 (64%)]	Loss: 1.4560 Acc: 59.95
+Train Epoch: 62 [Baseline] [38400/50000 (77%)]	Loss: 1.4611 Acc: 59.73
+Train Epoch: 62 [Baseline] [44800/50000 (90%)]	Loss: 1.4678 Acc: 59.47
+ 21%|██        | 63/300 [12:24<46:15, 11.71s/it]EPOCH:62, ======================ACC:58.88====================
+BEST EPOCH:57,BEST ACC:59.53
+Train Epoch: 63 [Baseline] [6400/50000 (13%)]	Loss: 1.4409 Acc: 60.19
+Train Epoch: 63 [Baseline] [12800/50000 (26%)]	Loss: 1.4264 Acc: 60.56
+Train Epoch: 63 [Baseline] [19200/50000 (38%)]	Loss: 1.4325 Acc: 60.41
+Train Epoch: 63 [Baseline] [25600/50000 (51%)]	Loss: 1.4399 Acc: 60.25
+Train Epoch: 63 [Baseline] [32000/50000 (64%)]	Loss: 1.4476 Acc: 60.04
+Train Epoch: 63 [Baseline] [38400/50000 (77%)]	Loss: 1.4560 Acc: 59.74
+Train Epoch: 63 [Baseline] [44800/50000 (90%)]	Loss: 1.4605 Acc: 59.58
+ 21%|██▏       | 64/300 [12:35<45:59, 11.69s/it]EPOCH:63, ======================ACC:54.31====================
+BEST EPOCH:57,BEST ACC:59.53
+Train Epoch: 64 [Baseline] [6400/50000 (13%)]	Loss: 1.4222 Acc: 60.48
+Train Epoch: 64 [Baseline] [12800/50000 (26%)]	Loss: 1.4279 Acc: 60.47
+Train Epoch: 64 [Baseline] [19200/50000 (38%)]	Loss: 1.4367 Acc: 59.89
+Train Epoch: 64 [Baseline] [25600/50000 (51%)]	Loss: 1.4425 Acc: 59.81
+Train Epoch: 64 [Baseline] [32000/50000 (64%)]	Loss: 1.4541 Acc: 59.72
+Train Epoch: 64 [Baseline] [38400/50000 (77%)]	Loss: 1.4566 Acc: 59.62
+Train Epoch: 64 [Baseline] [44800/50000 (90%)]	Loss: 1.4653 Acc: 59.49
+ 22%|██▏       | 65/300 [12:47<46:07, 11.78s/it]EPOCH:64, ======================ACC:58.16====================
+BEST EPOCH:57,BEST ACC:59.53
+Train Epoch: 65 [Baseline] [6400/50000 (13%)]	Loss: 1.3808 Acc: 61.73
+Train Epoch: 65 [Baseline] [12800/50000 (26%)]	Loss: 1.3914 Acc: 61.46
+Train Epoch: 65 [Baseline] [19200/50000 (38%)]	Loss: 1.4125 Acc: 60.71
+Train Epoch: 65 [Baseline] [25600/50000 (51%)]	Loss: 1.4313 Acc: 60.33
+Train Epoch: 65 [Baseline] [32000/50000 (64%)]	Loss: 1.4414 Acc: 60.13
+Train Epoch: 65 [Baseline] [38400/50000 (77%)]	Loss: 1.4552 Acc: 59.82
+Train Epoch: 65 [Baseline] [44800/50000 (90%)]	Loss: 1.4626 Acc: 59.65
+ 22%|██▏       | 66/300 [12:59<46:10, 11.84s/it]EPOCH:65, ======================ACC:61.35====================
+BEST EPOCH:65,BEST ACC:61.35
+Train Epoch: 66 [Baseline] [6400/50000 (13%)]	Loss: 1.4101 Acc: 61.69
+Train Epoch: 66 [Baseline] [12800/50000 (26%)]	Loss: 1.4183 Acc: 61.32
+Train Epoch: 66 [Baseline] [19200/50000 (38%)]	Loss: 1.4373 Acc: 60.59
+Train Epoch: 66 [Baseline] [25600/50000 (51%)]	Loss: 1.4472 Acc: 60.20
+Train Epoch: 66 [Baseline] [32000/50000 (64%)]	Loss: 1.4496 Acc: 60.11
+Train Epoch: 66 [Baseline] [38400/50000 (77%)]	Loss: 1.4548 Acc: 59.99
+Train Epoch: 66 [Baseline] [44800/50000 (90%)]	Loss: 1.4618 Acc: 59.76
+ 22%|██▏       | 67/300 [13:11<46:11, 11.90s/it]EPOCH:66, ======================ACC:59.66====================
+BEST EPOCH:65,BEST ACC:61.35
+Train Epoch: 67 [Baseline] [6400/50000 (13%)]	Loss: 1.3966 Acc: 60.88
+Train Epoch: 67 [Baseline] [12800/50000 (26%)]	Loss: 1.4362 Acc: 59.94
+Train Epoch: 67 [Baseline] [19200/50000 (38%)]	Loss: 1.4448 Acc: 59.95
+Train Epoch: 67 [Baseline] [25600/50000 (51%)]	Loss: 1.4511 Acc: 59.82
+Train Epoch: 67 [Baseline] [32000/50000 (64%)]	Loss: 1.4520 Acc: 59.80
+Train Epoch: 67 [Baseline] [38400/50000 (77%)]	Loss: 1.4560 Acc: 59.78
+Train Epoch: 67 [Baseline] [44800/50000 (90%)]	Loss: 1.4585 Acc: 59.72
+ 23%|██▎       | 68/300 [13:23<45:54, 11.87s/it]EPOCH:67, ======================ACC:59.77====================
+BEST EPOCH:65,BEST ACC:61.35
+Train Epoch: 68 [Baseline] [6400/50000 (13%)]	Loss: 1.3783 Acc: 62.25
+Train Epoch: 68 [Baseline] [12800/50000 (26%)]	Loss: 1.4017 Acc: 61.29
+Train Epoch: 68 [Baseline] [19200/50000 (38%)]	Loss: 1.4202 Acc: 60.76
+Train Epoch: 68 [Baseline] [25600/50000 (51%)]	Loss: 1.4369 Acc: 60.37
+Train Epoch: 68 [Baseline] [32000/50000 (64%)]	Loss: 1.4384 Acc: 60.35
+Train Epoch: 68 [Baseline] [38400/50000 (77%)]	Loss: 1.4439 Acc: 60.17
+Train Epoch: 68 [Baseline] [44800/50000 (90%)]	Loss: 1.4543 Acc: 59.94
+ 23%|██▎       | 69/300 [13:35<45:19, 11.77s/it]EPOCH:68, ======================ACC:57.09====================
+BEST EPOCH:65,BEST ACC:61.35
+Train Epoch: 69 [Baseline] [6400/50000 (13%)]	Loss: 1.3603 Acc: 62.53
+Train Epoch: 69 [Baseline] [12800/50000 (26%)]	Loss: 1.3868 Acc: 61.54
+Train Epoch: 69 [Baseline] [19200/50000 (38%)]	Loss: 1.4037 Acc: 61.06
+Train Epoch: 69 [Baseline] [25600/50000 (51%)]	Loss: 1.4150 Acc: 60.87
+Train Epoch: 69 [Baseline] [32000/50000 (64%)]	Loss: 1.4272 Acc: 60.53
+Train Epoch: 69 [Baseline] [38400/50000 (77%)]	Loss: 1.4299 Acc: 60.49
+Train Epoch: 69 [Baseline] [44800/50000 (90%)]	Loss: 1.4422 Acc: 60.16
+ 23%|██▎       | 70/300 [13:46<45:05, 11.76s/it]EPOCH:69, ======================ACC:60.31====================
+BEST EPOCH:65,BEST ACC:61.35
+Train Epoch: 70 [Baseline] [6400/50000 (13%)]	Loss: 1.3639 Acc: 62.58
+Train Epoch: 70 [Baseline] [12800/50000 (26%)]	Loss: 1.3879 Acc: 61.84
+Train Epoch: 70 [Baseline] [19200/50000 (38%)]	Loss: 1.4003 Acc: 61.45
+Train Epoch: 70 [Baseline] [25600/50000 (51%)]	Loss: 1.4146 Acc: 61.03
+Train Epoch: 70 [Baseline] [32000/50000 (64%)]	Loss: 1.4251 Acc: 60.65
+Train Epoch: 70 [Baseline] [38400/50000 (77%)]	Loss: 1.4349 Acc: 60.45
+Train Epoch: 70 [Baseline] [44800/50000 (90%)]	Loss: 1.4385 Acc: 60.35
+ 24%|██▎       | 71/300 [13:58<44:54, 11.77s/it]EPOCH:70, ======================ACC:58.82====================
+BEST EPOCH:65,BEST ACC:61.35
+Train Epoch: 71 [Baseline] [6400/50000 (13%)]	Loss: 1.3951 Acc: 61.39
+Train Epoch: 71 [Baseline] [12800/50000 (26%)]	Loss: 1.4025 Acc: 61.30
+Train Epoch: 71 [Baseline] [19200/50000 (38%)]	Loss: 1.4190 Acc: 60.98
+Train Epoch: 71 [Baseline] [25600/50000 (51%)]	Loss: 1.4192 Acc: 61.08
+Train Epoch: 71 [Baseline] [32000/50000 (64%)]	Loss: 1.4248 Acc: 60.94
+Train Epoch: 71 [Baseline] [38400/50000 (77%)]	Loss: 1.4284 Acc: 60.78
+Train Epoch: 71 [Baseline] [44800/50000 (90%)]	Loss: 1.4315 Acc: 60.60
+ 24%|██▍       | 72/300 [14:10<45:01, 11.85s/it]EPOCH:71, ======================ACC:61.59====================
+BEST EPOCH:71,BEST ACC:61.59
+Train Epoch: 72 [Baseline] [6400/50000 (13%)]	Loss: 1.3533 Acc: 62.72
+Train Epoch: 72 [Baseline] [12800/50000 (26%)]	Loss: 1.3835 Acc: 62.02
+Train Epoch: 72 [Baseline] [19200/50000 (38%)]	Loss: 1.4093 Acc: 61.34
+Train Epoch: 72 [Baseline] [25600/50000 (51%)]	Loss: 1.4230 Acc: 60.92
+Train Epoch: 72 [Baseline] [32000/50000 (64%)]	Loss: 1.4172 Acc: 60.95
+Train Epoch: 72 [Baseline] [38400/50000 (77%)]	Loss: 1.4261 Acc: 60.79
+Train Epoch: 72 [Baseline] [44800/50000 (90%)]	Loss: 1.4319 Acc: 60.62
+ 24%|██▍       | 73/300 [14:22<44:48, 11.84s/it]EPOCH:72, ======================ACC:62.31====================
+BEST EPOCH:72,BEST ACC:62.31
+Train Epoch: 73 [Baseline] [6400/50000 (13%)]	Loss: 1.3543 Acc: 62.28
+Train Epoch: 73 [Baseline] [12800/50000 (26%)]	Loss: 1.3654 Acc: 61.91
+Train Epoch: 73 [Baseline] [19200/50000 (38%)]	Loss: 1.3943 Acc: 61.25
+Train Epoch: 73 [Baseline] [25600/50000 (51%)]	Loss: 1.3996 Acc: 60.91
+Train Epoch: 73 [Baseline] [32000/50000 (64%)]	Loss: 1.4155 Acc: 60.50
+Train Epoch: 73 [Baseline] [38400/50000 (77%)]	Loss: 1.4292 Acc: 60.36
+Train Epoch: 73 [Baseline] [44800/50000 (90%)]	Loss: 1.4329 Acc: 60.32
+ 25%|██▍       | 74/300 [14:34<44:38, 11.85s/it]EPOCH:73, ======================ACC:58.22====================
+BEST EPOCH:72,BEST ACC:62.31
+Train Epoch: 74 [Baseline] [6400/50000 (13%)]	Loss: 1.3451 Acc: 62.38
+Train Epoch: 74 [Baseline] [12800/50000 (26%)]	Loss: 1.3704 Acc: 61.63
+Train Epoch: 74 [Baseline] [19200/50000 (38%)]	Loss: 1.3780 Acc: 61.56
+Train Epoch: 74 [Baseline] [25600/50000 (51%)]	Loss: 1.3960 Acc: 61.08
+Train Epoch: 74 [Baseline] [32000/50000 (64%)]	Loss: 1.4047 Acc: 60.91
+Train Epoch: 74 [Baseline] [38400/50000 (77%)]	Loss: 1.4186 Acc: 60.58
+Train Epoch: 74 [Baseline] [44800/50000 (90%)]	Loss: 1.4217 Acc: 60.56
+ 25%|██▌       | 75/300 [14:46<44:15, 11.80s/it]EPOCH:74, ======================ACC:58.9====================
+BEST EPOCH:72,BEST ACC:62.31
+Train Epoch: 75 [Baseline] [6400/50000 (13%)]	Loss: 1.3622 Acc: 61.59
+Train Epoch: 75 [Baseline] [12800/50000 (26%)]	Loss: 1.3937 Acc: 60.84
+Train Epoch: 75 [Baseline] [19200/50000 (38%)]	Loss: 1.4058 Acc: 60.65
+Train Epoch: 75 [Baseline] [25600/50000 (51%)]	Loss: 1.4062 Acc: 60.73
+Train Epoch: 75 [Baseline] [32000/50000 (64%)]	Loss: 1.4161 Acc: 60.50
+Train Epoch: 75 [Baseline] [38400/50000 (77%)]	Loss: 1.4188 Acc: 60.45
+Train Epoch: 75 [Baseline] [44800/50000 (90%)]	Loss: 1.4217 Acc: 60.38
+ 25%|██▌       | 76/300 [14:58<44:15, 11.85s/it]EPOCH:75, ======================ACC:61.37====================
+BEST EPOCH:72,BEST ACC:62.31
+Train Epoch: 76 [Baseline] [6400/50000 (13%)]	Loss: 1.3739 Acc: 62.45
+Train Epoch: 76 [Baseline] [12800/50000 (26%)]	Loss: 1.3795 Acc: 61.90
+Train Epoch: 76 [Baseline] [19200/50000 (38%)]	Loss: 1.3952 Acc: 61.41
+Train Epoch: 76 [Baseline] [25600/50000 (51%)]	Loss: 1.4056 Acc: 61.23
+Train Epoch: 76 [Baseline] [32000/50000 (64%)]	Loss: 1.4047 Acc: 61.34
+Train Epoch: 76 [Baseline] [38400/50000 (77%)]	Loss: 1.4145 Acc: 61.13
+Train Epoch: 76 [Baseline] [44800/50000 (90%)]	Loss: 1.4184 Acc: 61.01
+ 26%|██▌       | 77/300 [15:09<43:54, 11.82s/it]EPOCH:76, ======================ACC:61.71====================
+BEST EPOCH:72,BEST ACC:62.31
+Train Epoch: 77 [Baseline] [6400/50000 (13%)]	Loss: 1.3626 Acc: 62.59
+Train Epoch: 77 [Baseline] [12800/50000 (26%)]	Loss: 1.3746 Acc: 61.91
+Train Epoch: 77 [Baseline] [19200/50000 (38%)]	Loss: 1.3881 Acc: 61.58
+Train Epoch: 77 [Baseline] [25600/50000 (51%)]	Loss: 1.3931 Acc: 61.50
+Train Epoch: 77 [Baseline] [32000/50000 (64%)]	Loss: 1.3980 Acc: 61.42
+Train Epoch: 77 [Baseline] [38400/50000 (77%)]	Loss: 1.4129 Acc: 61.04
+Train Epoch: 77 [Baseline] [44800/50000 (90%)]	Loss: 1.4218 Acc: 60.73
+ 26%|██▌       | 78/300 [15:22<44:17, 11.97s/it]EPOCH:77, ======================ACC:60.71====================
+BEST EPOCH:72,BEST ACC:62.31
+Train Epoch: 78 [Baseline] [6400/50000 (13%)]	Loss: 1.3377 Acc: 62.53
+Train Epoch: 78 [Baseline] [12800/50000 (26%)]	Loss: 1.3610 Acc: 61.84
+Train Epoch: 78 [Baseline] [19200/50000 (38%)]	Loss: 1.3859 Acc: 61.36
+Train Epoch: 78 [Baseline] [25600/50000 (51%)]	Loss: 1.3963 Acc: 61.31
+Train Epoch: 78 [Baseline] [32000/50000 (64%)]	Loss: 1.4064 Acc: 61.12
+Train Epoch: 78 [Baseline] [38400/50000 (77%)]	Loss: 1.4105 Acc: 61.07
+Train Epoch: 78 [Baseline] [44800/50000 (90%)]	Loss: 1.4086 Acc: 61.05
+ 26%|██▋       | 79/300 [15:34<44:08, 11.98s/it]EPOCH:78, ======================ACC:61.1====================
+BEST EPOCH:72,BEST ACC:62.31
+Train Epoch: 79 [Baseline] [6400/50000 (13%)]	Loss: 1.3786 Acc: 61.55
+Train Epoch: 79 [Baseline] [12800/50000 (26%)]	Loss: 1.3781 Acc: 61.44
+Train Epoch: 79 [Baseline] [19200/50000 (38%)]	Loss: 1.3674 Acc: 61.72
+Train Epoch: 79 [Baseline] [25600/50000 (51%)]	Loss: 1.3803 Acc: 61.44
+Train Epoch: 79 [Baseline] [32000/50000 (64%)]	Loss: 1.3945 Acc: 61.31
+Train Epoch: 79 [Baseline] [38400/50000 (77%)]	Loss: 1.4017 Acc: 61.18
+Train Epoch: 79 [Baseline] [44800/50000 (90%)]	Loss: 1.4077 Acc: 61.05
+ 27%|██▋       | 80/300 [15:46<44:03, 12.02s/it]EPOCH:79, ======================ACC:60.17====================
+BEST EPOCH:72,BEST ACC:62.31
+Train Epoch: 80 [Baseline] [6400/50000 (13%)]	Loss: 1.3872 Acc: 61.64
+Train Epoch: 80 [Baseline] [12800/50000 (26%)]	Loss: 1.3681 Acc: 62.16
+Train Epoch: 80 [Baseline] [19200/50000 (38%)]	Loss: 1.3689 Acc: 61.94
+Train Epoch: 80 [Baseline] [25600/50000 (51%)]	Loss: 1.3807 Acc: 61.62
+Train Epoch: 80 [Baseline] [32000/50000 (64%)]	Loss: 1.3908 Acc: 61.29
+Train Epoch: 80 [Baseline] [38400/50000 (77%)]	Loss: 1.3951 Acc: 61.25
+Train Epoch: 80 [Baseline] [44800/50000 (90%)]	Loss: 1.4002 Acc: 61.10
+ 27%|██▋       | 81/300 [15:58<43:50, 12.01s/it]EPOCH:80, ======================ACC:59.61====================
+BEST EPOCH:72,BEST ACC:62.31
+Train Epoch: 81 [Baseline] [6400/50000 (13%)]	Loss: 1.3552 Acc: 62.19
+Train Epoch: 81 [Baseline] [12800/50000 (26%)]	Loss: 1.3744 Acc: 62.25
+Train Epoch: 81 [Baseline] [19200/50000 (38%)]	Loss: 1.3661 Acc: 62.14
+Train Epoch: 81 [Baseline] [25600/50000 (51%)]	Loss: 1.3724 Acc: 61.88
+Train Epoch: 81 [Baseline] [32000/50000 (64%)]	Loss: 1.3840 Acc: 61.61
+Train Epoch: 81 [Baseline] [38400/50000 (77%)]	Loss: 1.3910 Acc: 61.47
+Train Epoch: 81 [Baseline] [44800/50000 (90%)]	Loss: 1.3954 Acc: 61.41
+ 27%|██▋       | 82/300 [16:10<43:25, 11.95s/it]EPOCH:81, ======================ACC:59.45====================
+BEST EPOCH:72,BEST ACC:62.31
+Train Epoch: 82 [Baseline] [6400/50000 (13%)]	Loss: 1.3595 Acc: 62.17
+Train Epoch: 82 [Baseline] [12800/50000 (26%)]	Loss: 1.3590 Acc: 61.88
+Train Epoch: 82 [Baseline] [19200/50000 (38%)]	Loss: 1.3784 Acc: 61.76
+Train Epoch: 82 [Baseline] [25600/50000 (51%)]	Loss: 1.3820 Acc: 61.71
+Train Epoch: 82 [Baseline] [32000/50000 (64%)]	Loss: 1.3879 Acc: 61.53
+Train Epoch: 82 [Baseline] [38400/50000 (77%)]	Loss: 1.3926 Acc: 61.39
+Train Epoch: 82 [Baseline] [44800/50000 (90%)]	Loss: 1.3953 Acc: 61.28
+ 28%|██▊       | 83/300 [16:21<42:59, 11.89s/it]EPOCH:82, ======================ACC:57.67====================
+BEST EPOCH:72,BEST ACC:62.31
+Train Epoch: 83 [Baseline] [6400/50000 (13%)]	Loss: 1.3380 Acc: 62.55
+Train Epoch: 83 [Baseline] [12800/50000 (26%)]	Loss: 1.3553 Acc: 62.50
+Train Epoch: 83 [Baseline] [19200/50000 (38%)]	Loss: 1.3661 Acc: 62.19
+Train Epoch: 83 [Baseline] [25600/50000 (51%)]	Loss: 1.3799 Acc: 61.71
+Train Epoch: 83 [Baseline] [32000/50000 (64%)]	Loss: 1.3816 Acc: 61.64
+Train Epoch: 83 [Baseline] [38400/50000 (77%)]	Loss: 1.3931 Acc: 61.36
+Train Epoch: 83 [Baseline] [44800/50000 (90%)]	Loss: 1.3952 Acc: 61.29
+ 28%|██▊       | 84/300 [16:33<42:34, 11.83s/it]EPOCH:83, ======================ACC:58.39====================
+BEST EPOCH:72,BEST ACC:62.31
+Train Epoch: 84 [Baseline] [6400/50000 (13%)]	Loss: 1.3599 Acc: 62.77
+Train Epoch: 84 [Baseline] [12800/50000 (26%)]	Loss: 1.3452 Acc: 62.90
+Train Epoch: 84 [Baseline] [19200/50000 (38%)]	Loss: 1.3613 Acc: 62.60
+Train Epoch: 84 [Baseline] [25600/50000 (51%)]	Loss: 1.3842 Acc: 61.95
+Train Epoch: 84 [Baseline] [32000/50000 (64%)]	Loss: 1.3889 Acc: 61.73
+Train Epoch: 84 [Baseline] [38400/50000 (77%)]	Loss: 1.3881 Acc: 61.76
+Train Epoch: 84 [Baseline] [44800/50000 (90%)]	Loss: 1.3905 Acc: 61.73
+ 28%|██▊       | 85/300 [16:45<42:22, 11.82s/it]EPOCH:84, ======================ACC:61.09====================
+BEST EPOCH:72,BEST ACC:62.31
+Train Epoch: 85 [Baseline] [6400/50000 (13%)]	Loss: 1.3248 Acc: 63.39
+Train Epoch: 85 [Baseline] [12800/50000 (26%)]	Loss: 1.3466 Acc: 62.76
+Train Epoch: 85 [Baseline] [19200/50000 (38%)]	Loss: 1.3543 Acc: 62.58
+Train Epoch: 85 [Baseline] [25600/50000 (51%)]	Loss: 1.3686 Acc: 62.22
+Train Epoch: 85 [Baseline] [32000/50000 (64%)]	Loss: 1.3776 Acc: 61.91
+Train Epoch: 85 [Baseline] [38400/50000 (77%)]	Loss: 1.3828 Acc: 61.71
+Train Epoch: 85 [Baseline] [44800/50000 (90%)]	Loss: 1.3903 Acc: 61.66
+ 29%|██▊       | 86/300 [16:57<42:10, 11.82s/it]EPOCH:85, ======================ACC:60.69====================
+BEST EPOCH:72,BEST ACC:62.31
+Train Epoch: 86 [Baseline] [6400/50000 (13%)]	Loss: 1.3107 Acc: 63.75
+Train Epoch: 86 [Baseline] [12800/50000 (26%)]	Loss: 1.3188 Acc: 63.12
+Train Epoch: 86 [Baseline] [19200/50000 (38%)]	Loss: 1.3418 Acc: 62.53
+Train Epoch: 86 [Baseline] [25600/50000 (51%)]	Loss: 1.3558 Acc: 62.26
+Train Epoch: 86 [Baseline] [32000/50000 (64%)]	Loss: 1.3630 Acc: 62.02
+Train Epoch: 86 [Baseline] [38400/50000 (77%)]	Loss: 1.3784 Acc: 61.60
+Train Epoch: 86 [Baseline] [44800/50000 (90%)]	Loss: 1.3858 Acc: 61.46
+ 29%|██▉       | 87/300 [17:09<42:01, 11.84s/it]EPOCH:86, ======================ACC:61.44====================
+BEST EPOCH:72,BEST ACC:62.31
+Train Epoch: 87 [Baseline] [6400/50000 (13%)]	Loss: 1.3095 Acc: 63.80
+Train Epoch: 87 [Baseline] [12800/50000 (26%)]	Loss: 1.3344 Acc: 63.10
+Train Epoch: 87 [Baseline] [19200/50000 (38%)]	Loss: 1.3352 Acc: 62.81
+Train Epoch: 87 [Baseline] [25600/50000 (51%)]	Loss: 1.3538 Acc: 62.28
+Train Epoch: 87 [Baseline] [32000/50000 (64%)]	Loss: 1.3598 Acc: 62.08
+Train Epoch: 87 [Baseline] [38400/50000 (77%)]	Loss: 1.3714 Acc: 61.91
+Train Epoch: 87 [Baseline] [44800/50000 (90%)]	Loss: 1.3791 Acc: 61.82
+ 29%|██▉       | 88/300 [17:20<41:41, 11.80s/it]EPOCH:87, ======================ACC:60.84====================
+BEST EPOCH:72,BEST ACC:62.31
+Train Epoch: 88 [Baseline] [6400/50000 (13%)]	Loss: 1.3726 Acc: 61.70
+Train Epoch: 88 [Baseline] [12800/50000 (26%)]	Loss: 1.3572 Acc: 62.19
+Train Epoch: 88 [Baseline] [19200/50000 (38%)]	Loss: 1.3652 Acc: 62.07
+Train Epoch: 88 [Baseline] [25600/50000 (51%)]	Loss: 1.3784 Acc: 61.71
+Train Epoch: 88 [Baseline] [32000/50000 (64%)]	Loss: 1.3783 Acc: 61.65
+Train Epoch: 88 [Baseline] [38400/50000 (77%)]	Loss: 1.3805 Acc: 61.64
+Train Epoch: 88 [Baseline] [44800/50000 (90%)]	Loss: 1.3828 Acc: 61.61
+ 30%|██▉       | 89/300 [17:32<41:22, 11.77s/it]EPOCH:88, ======================ACC:60.9====================
+BEST EPOCH:72,BEST ACC:62.31
+Train Epoch: 89 [Baseline] [6400/50000 (13%)]	Loss: 1.3014 Acc: 63.86
+Train Epoch: 89 [Baseline] [12800/50000 (26%)]	Loss: 1.3255 Acc: 63.45
+Train Epoch: 89 [Baseline] [19200/50000 (38%)]	Loss: 1.3341 Acc: 62.93
+Train Epoch: 89 [Baseline] [25600/50000 (51%)]	Loss: 1.3351 Acc: 63.03
+Train Epoch: 89 [Baseline] [32000/50000 (64%)]	Loss: 1.3554 Acc: 62.47
+Train Epoch: 89 [Baseline] [38400/50000 (77%)]	Loss: 1.3561 Acc: 62.43
+Train Epoch: 89 [Baseline] [44800/50000 (90%)]	Loss: 1.3637 Acc: 62.33
+ 30%|███       | 90/300 [17:44<41:05, 11.74s/it]EPOCH:89, ======================ACC:59.21====================
+BEST EPOCH:72,BEST ACC:62.31
+Train Epoch: 90 [Baseline] [6400/50000 (13%)]	Loss: 1.3220 Acc: 63.20
+Train Epoch: 90 [Baseline] [12800/50000 (26%)]	Loss: 1.3501 Acc: 62.57
+Train Epoch: 90 [Baseline] [19200/50000 (38%)]	Loss: 1.3614 Acc: 62.27
+Train Epoch: 90 [Baseline] [25600/50000 (51%)]	Loss: 1.3698 Acc: 62.04
+Train Epoch: 90 [Baseline] [32000/50000 (64%)]	Loss: 1.3750 Acc: 61.84
+Train Epoch: 90 [Baseline] [38400/50000 (77%)]	Loss: 1.3738 Acc: 61.83
+Train Epoch: 90 [Baseline] [44800/50000 (90%)]	Loss: 1.3765 Acc: 61.79
+ 30%|███       | 91/300 [17:55<40:48, 11.72s/it]EPOCH:90, ======================ACC:58.35====================
+BEST EPOCH:72,BEST ACC:62.31
+Train Epoch: 91 [Baseline] [6400/50000 (13%)]	Loss: 1.3216 Acc: 63.47
+Train Epoch: 91 [Baseline] [12800/50000 (26%)]	Loss: 1.3444 Acc: 62.84
+Train Epoch: 91 [Baseline] [19200/50000 (38%)]	Loss: 1.3432 Acc: 62.66
+Train Epoch: 91 [Baseline] [25600/50000 (51%)]	Loss: 1.3535 Acc: 62.28
+Train Epoch: 91 [Baseline] [32000/50000 (64%)]	Loss: 1.3581 Acc: 62.03
+Train Epoch: 91 [Baseline] [38400/50000 (77%)]	Loss: 1.3681 Acc: 61.88
+Train Epoch: 91 [Baseline] [44800/50000 (90%)]	Loss: 1.3754 Acc: 61.68
+ 31%|███       | 92/300 [18:07<40:33, 11.70s/it]EPOCH:91, ======================ACC:59.35====================
+BEST EPOCH:72,BEST ACC:62.31
+Train Epoch: 92 [Baseline] [6400/50000 (13%)]	Loss: 1.3033 Acc: 63.64
+Train Epoch: 92 [Baseline] [12800/50000 (26%)]	Loss: 1.3061 Acc: 63.71
+Train Epoch: 92 [Baseline] [19200/50000 (38%)]	Loss: 1.3183 Acc: 63.44
+Train Epoch: 92 [Baseline] [25600/50000 (51%)]	Loss: 1.3408 Acc: 62.93
+Train Epoch: 92 [Baseline] [32000/50000 (64%)]	Loss: 1.3523 Acc: 62.63
+Train Epoch: 92 [Baseline] [38400/50000 (77%)]	Loss: 1.3583 Acc: 62.45
+Train Epoch: 92 [Baseline] [44800/50000 (90%)]	Loss: 1.3597 Acc: 62.40
+ 31%|███       | 93/300 [18:19<40:30, 11.74s/it]EPOCH:92, ======================ACC:61.8====================
+BEST EPOCH:72,BEST ACC:62.31
+Train Epoch: 93 [Baseline] [6400/50000 (13%)]	Loss: 1.2726 Acc: 64.50
+Train Epoch: 93 [Baseline] [12800/50000 (26%)]	Loss: 1.2889 Acc: 63.76
+Train Epoch: 93 [Baseline] [19200/50000 (38%)]	Loss: 1.3237 Acc: 63.01
+Train Epoch: 93 [Baseline] [25600/50000 (51%)]	Loss: 1.3229 Acc: 62.84
+Train Epoch: 93 [Baseline] [32000/50000 (64%)]	Loss: 1.3293 Acc: 62.73
+Train Epoch: 93 [Baseline] [38400/50000 (77%)]	Loss: 1.3359 Acc: 62.58
+Train Epoch: 93 [Baseline] [44800/50000 (90%)]	Loss: 1.3525 Acc: 62.23
+ 31%|███▏      | 94/300 [18:31<40:18, 11.74s/it]EPOCH:93, ======================ACC:61.71====================
+BEST EPOCH:72,BEST ACC:62.31
+Train Epoch: 94 [Baseline] [6400/50000 (13%)]	Loss: 1.2587 Acc: 65.05
+Train Epoch: 94 [Baseline] [12800/50000 (26%)]	Loss: 1.3016 Acc: 64.00
+Train Epoch: 94 [Baseline] [19200/50000 (38%)]	Loss: 1.3162 Acc: 63.53
+Train Epoch: 94 [Baseline] [25600/50000 (51%)]	Loss: 1.3234 Acc: 63.35
+Train Epoch: 94 [Baseline] [32000/50000 (64%)]	Loss: 1.3430 Acc: 62.89
+Train Epoch: 94 [Baseline] [38400/50000 (77%)]	Loss: 1.3489 Acc: 62.65
+Train Epoch: 94 [Baseline] [44800/50000 (90%)]	Loss: 1.3562 Acc: 62.52
+ 32%|███▏      | 95/300 [18:42<40:17, 11.79s/it]EPOCH:94, ======================ACC:61.8====================
+BEST EPOCH:72,BEST ACC:62.31
+Train Epoch: 95 [Baseline] [6400/50000 (13%)]	Loss: 1.3170 Acc: 63.33
+Train Epoch: 95 [Baseline] [12800/50000 (26%)]	Loss: 1.3211 Acc: 63.21
+Train Epoch: 95 [Baseline] [19200/50000 (38%)]	Loss: 1.3230 Acc: 63.06
+Train Epoch: 95 [Baseline] [25600/50000 (51%)]	Loss: 1.3267 Acc: 63.03
+Train Epoch: 95 [Baseline] [32000/50000 (64%)]	Loss: 1.3305 Acc: 62.85
+Train Epoch: 95 [Baseline] [38400/50000 (77%)]	Loss: 1.3365 Acc: 62.74
+Train Epoch: 95 [Baseline] [44800/50000 (90%)]	Loss: 1.3447 Acc: 62.55
+ 32%|███▏      | 96/300 [18:54<40:03, 11.78s/it]EPOCH:95, ======================ACC:61.67====================
+BEST EPOCH:72,BEST ACC:62.31
+Train Epoch: 96 [Baseline] [6400/50000 (13%)]	Loss: 1.2757 Acc: 64.16
+Train Epoch: 96 [Baseline] [12800/50000 (26%)]	Loss: 1.2932 Acc: 63.66
+Train Epoch: 96 [Baseline] [19200/50000 (38%)]	Loss: 1.3168 Acc: 62.98
+Train Epoch: 96 [Baseline] [25600/50000 (51%)]	Loss: 1.3281 Acc: 62.76
+Train Epoch: 96 [Baseline] [32000/50000 (64%)]	Loss: 1.3354 Acc: 62.48
+Train Epoch: 96 [Baseline] [38400/50000 (77%)]	Loss: 1.3396 Acc: 62.49
+Train Epoch: 96 [Baseline] [44800/50000 (90%)]	Loss: 1.3436 Acc: 62.46
+ 32%|███▏      | 97/300 [19:06<40:00, 11.83s/it]EPOCH:96, ======================ACC:62.63====================
+BEST EPOCH:96,BEST ACC:62.63
+Train Epoch: 97 [Baseline] [6400/50000 (13%)]	Loss: 1.2684 Acc: 64.06
+Train Epoch: 97 [Baseline] [12800/50000 (26%)]	Loss: 1.2873 Acc: 63.58
+Train Epoch: 97 [Baseline] [19200/50000 (38%)]	Loss: 1.3170 Acc: 62.96
+Train Epoch: 97 [Baseline] [25600/50000 (51%)]	Loss: 1.3226 Acc: 63.09
+Train Epoch: 97 [Baseline] [32000/50000 (64%)]	Loss: 1.3359 Acc: 62.95
+Train Epoch: 97 [Baseline] [38400/50000 (77%)]	Loss: 1.3402 Acc: 62.89
+Train Epoch: 97 [Baseline] [44800/50000 (90%)]	Loss: 1.3443 Acc: 62.72
+ 33%|███▎      | 98/300 [19:18<39:43, 11.80s/it]EPOCH:97, ======================ACC:57.63====================
+BEST EPOCH:96,BEST ACC:62.63
+Train Epoch: 98 [Baseline] [6400/50000 (13%)]	Loss: 1.2993 Acc: 64.11
+Train Epoch: 98 [Baseline] [12800/50000 (26%)]	Loss: 1.3179 Acc: 63.48
+Train Epoch: 98 [Baseline] [19200/50000 (38%)]	Loss: 1.3285 Acc: 63.07
+Train Epoch: 98 [Baseline] [25600/50000 (51%)]	Loss: 1.3290 Acc: 63.18
+Train Epoch: 98 [Baseline] [32000/50000 (64%)]	Loss: 1.3352 Acc: 62.93
+Train Epoch: 98 [Baseline] [38400/50000 (77%)]	Loss: 1.3467 Acc: 62.68
+Train Epoch: 98 [Baseline] [44800/50000 (90%)]	Loss: 1.3462 Acc: 62.66
+ 33%|███▎      | 99/300 [19:30<39:55, 11.92s/it]EPOCH:98, ======================ACC:60.58====================
+BEST EPOCH:96,BEST ACC:62.63
+Train Epoch: 99 [Baseline] [6400/50000 (13%)]	Loss: 1.2992 Acc: 64.69
+Train Epoch: 99 [Baseline] [12800/50000 (26%)]	Loss: 1.2950 Acc: 64.30
+Train Epoch: 99 [Baseline] [19200/50000 (38%)]	Loss: 1.3053 Acc: 63.80
+Train Epoch: 99 [Baseline] [25600/50000 (51%)]	Loss: 1.3182 Acc: 63.44
+Train Epoch: 99 [Baseline] [32000/50000 (64%)]	Loss: 1.3276 Acc: 63.18
+Train Epoch: 99 [Baseline] [38400/50000 (77%)]	Loss: 1.3350 Acc: 63.04
+Train Epoch: 99 [Baseline] [44800/50000 (90%)]	Loss: 1.3408 Acc: 62.88
+ 33%|███▎      | 100/300 [19:42<39:58, 11.99s/it]EPOCH:99, ======================ACC:62.34====================
+BEST EPOCH:96,BEST ACC:62.63
+Train Epoch: 100 [Baseline] [6400/50000 (13%)]	Loss: 1.2976 Acc: 63.97
+Train Epoch: 100 [Baseline] [12800/50000 (26%)]	Loss: 1.2981 Acc: 64.06
+Train Epoch: 100 [Baseline] [19200/50000 (38%)]	Loss: 1.3150 Acc: 63.85
+Train Epoch: 100 [Baseline] [25600/50000 (51%)]	Loss: 1.3269 Acc: 63.32
+Train Epoch: 100 [Baseline] [32000/50000 (64%)]	Loss: 1.3335 Acc: 63.11
+Train Epoch: 100 [Baseline] [38400/50000 (77%)]	Loss: 1.3402 Acc: 62.94
+Train Epoch: 100 [Baseline] [44800/50000 (90%)]	Loss: 1.3447 Acc: 62.76
+ 34%|███▎      | 101/300 [19:54<39:54, 12.03s/it]EPOCH:100, ======================ACC:58.58====================
+BEST EPOCH:96,BEST ACC:62.63
+Train Epoch: 101 [Baseline] [6400/50000 (13%)]	Loss: 1.2896 Acc: 64.23
+Train Epoch: 101 [Baseline] [12800/50000 (26%)]	Loss: 1.2952 Acc: 64.03
+Train Epoch: 101 [Baseline] [19200/50000 (38%)]	Loss: 1.2982 Acc: 63.74
+Train Epoch: 101 [Baseline] [25600/50000 (51%)]	Loss: 1.3035 Acc: 63.56
+Train Epoch: 101 [Baseline] [32000/50000 (64%)]	Loss: 1.3157 Acc: 63.27
+Train Epoch: 101 [Baseline] [38400/50000 (77%)]	Loss: 1.3184 Acc: 63.14
+Train Epoch: 101 [Baseline] [44800/50000 (90%)]	Loss: 1.3263 Acc: 62.96
+ 34%|███▍      | 102/300 [20:06<39:45, 12.05s/it]EPOCH:101, ======================ACC:61.05====================
+BEST EPOCH:96,BEST ACC:62.63
+Train Epoch: 102 [Baseline] [6400/50000 (13%)]	Loss: 1.2697 Acc: 64.84
+Train Epoch: 102 [Baseline] [12800/50000 (26%)]	Loss: 1.3024 Acc: 63.89
+Train Epoch: 102 [Baseline] [19200/50000 (38%)]	Loss: 1.3068 Acc: 63.83
+Train Epoch: 102 [Baseline] [25600/50000 (51%)]	Loss: 1.3136 Acc: 63.68
+Train Epoch: 102 [Baseline] [32000/50000 (64%)]	Loss: 1.3245 Acc: 63.27
+Train Epoch: 102 [Baseline] [38400/50000 (77%)]	Loss: 1.3290 Acc: 63.10
+Train Epoch: 102 [Baseline] [44800/50000 (90%)]	Loss: 1.3381 Acc: 62.92
+ 34%|███▍      | 103/300 [20:18<39:26, 12.01s/it]EPOCH:102, ======================ACC:61.51====================
+BEST EPOCH:96,BEST ACC:62.63
+Train Epoch: 103 [Baseline] [6400/50000 (13%)]	Loss: 1.2889 Acc: 64.03
+Train Epoch: 103 [Baseline] [12800/50000 (26%)]	Loss: 1.2917 Acc: 63.94
+Train Epoch: 103 [Baseline] [19200/50000 (38%)]	Loss: 1.2921 Acc: 63.91
+Train Epoch: 103 [Baseline] [25600/50000 (51%)]	Loss: 1.3048 Acc: 63.54
+Train Epoch: 103 [Baseline] [32000/50000 (64%)]	Loss: 1.3060 Acc: 63.45
+Train Epoch: 103 [Baseline] [38400/50000 (77%)]	Loss: 1.3148 Acc: 63.22
+Train Epoch: 103 [Baseline] [44800/50000 (90%)]	Loss: 1.3256 Acc: 62.96
+ 35%|███▍      | 104/300 [20:30<38:49, 11.88s/it]EPOCH:103, ======================ACC:63.0====================
+BEST EPOCH:103,BEST ACC:63.0
+Train Epoch: 104 [Baseline] [6400/50000 (13%)]	Loss: 1.2476 Acc: 65.34
+Train Epoch: 104 [Baseline] [12800/50000 (26%)]	Loss: 1.2674 Acc: 64.56
+Train Epoch: 104 [Baseline] [19200/50000 (38%)]	Loss: 1.2816 Acc: 64.22
+Train Epoch: 104 [Baseline] [25600/50000 (51%)]	Loss: 1.2933 Acc: 64.16
+Train Epoch: 104 [Baseline] [32000/50000 (64%)]	Loss: 1.2977 Acc: 63.98
+Train Epoch: 104 [Baseline] [38400/50000 (77%)]	Loss: 1.3045 Acc: 63.72
+Train Epoch: 104 [Baseline] [44800/50000 (90%)]	Loss: 1.3078 Acc: 63.64
+ 35%|███▌      | 105/300 [20:42<38:38, 11.89s/it]EPOCH:104, ======================ACC:58.28====================
+BEST EPOCH:103,BEST ACC:63.0
+Train Epoch: 105 [Baseline] [6400/50000 (13%)]	Loss: 1.2169 Acc: 66.28
+Train Epoch: 105 [Baseline] [12800/50000 (26%)]	Loss: 1.2457 Acc: 65.47
+Train Epoch: 105 [Baseline] [19200/50000 (38%)]	Loss: 1.2708 Acc: 64.88
+Train Epoch: 105 [Baseline] [25600/50000 (51%)]	Loss: 1.2888 Acc: 64.20
+Train Epoch: 105 [Baseline] [32000/50000 (64%)]	Loss: 1.3004 Acc: 63.98
+Train Epoch: 105 [Baseline] [38400/50000 (77%)]	Loss: 1.3016 Acc: 63.86
+Train Epoch: 105 [Baseline] [44800/50000 (90%)]	Loss: 1.3065 Acc: 63.82
+ 35%|███▌      | 106/300 [20:54<38:31, 11.91s/it]EPOCH:105, ======================ACC:62.48====================
+BEST EPOCH:103,BEST ACC:63.0
+Train Epoch: 106 [Baseline] [6400/50000 (13%)]	Loss: 1.2379 Acc: 65.02
+Train Epoch: 106 [Baseline] [12800/50000 (26%)]	Loss: 1.2624 Acc: 64.27
+Train Epoch: 106 [Baseline] [19200/50000 (38%)]	Loss: 1.2713 Acc: 64.40
+Train Epoch: 106 [Baseline] [25600/50000 (51%)]	Loss: 1.2807 Acc: 64.14
+Train Epoch: 106 [Baseline] [32000/50000 (64%)]	Loss: 1.2955 Acc: 63.74
+Train Epoch: 106 [Baseline] [38400/50000 (77%)]	Loss: 1.3016 Acc: 63.64
+Train Epoch: 106 [Baseline] [44800/50000 (90%)]	Loss: 1.3097 Acc: 63.53
+ 36%|███▌      | 107/300 [21:06<38:21, 11.92s/it]EPOCH:106, ======================ACC:63.06====================
+BEST EPOCH:106,BEST ACC:63.06
+Train Epoch: 107 [Baseline] [6400/50000 (13%)]	Loss: 1.2464 Acc: 65.81
+Train Epoch: 107 [Baseline] [12800/50000 (26%)]	Loss: 1.2550 Acc: 65.02
+Train Epoch: 107 [Baseline] [19200/50000 (38%)]	Loss: 1.2611 Acc: 64.84
+Train Epoch: 107 [Baseline] [25600/50000 (51%)]	Loss: 1.2774 Acc: 64.29
+Train Epoch: 107 [Baseline] [32000/50000 (64%)]	Loss: 1.2947 Acc: 63.86
+Train Epoch: 107 [Baseline] [38400/50000 (77%)]	Loss: 1.3022 Acc: 63.77
+Train Epoch: 107 [Baseline] [44800/50000 (90%)]	Loss: 1.3053 Acc: 63.73
+ 36%|███▌      | 108/300 [21:18<38:16, 11.96s/it]EPOCH:107, ======================ACC:62.19====================
+BEST EPOCH:106,BEST ACC:63.06
+Train Epoch: 108 [Baseline] [6400/50000 (13%)]	Loss: 1.2548 Acc: 65.11
+Train Epoch: 108 [Baseline] [12800/50000 (26%)]	Loss: 1.2769 Acc: 64.38
+Train Epoch: 108 [Baseline] [19200/50000 (38%)]	Loss: 1.2900 Acc: 64.12
+Train Epoch: 108 [Baseline] [25600/50000 (51%)]	Loss: 1.3006 Acc: 63.72
+Train Epoch: 108 [Baseline] [32000/50000 (64%)]	Loss: 1.3050 Acc: 63.50
+Train Epoch: 108 [Baseline] [38400/50000 (77%)]	Loss: 1.3088 Acc: 63.38
+Train Epoch: 108 [Baseline] [44800/50000 (90%)]	Loss: 1.3125 Acc: 63.40
+ 36%|███▋      | 109/300 [21:30<38:02, 11.95s/it]EPOCH:108, ======================ACC:63.82====================
+BEST EPOCH:108,BEST ACC:63.82
+Train Epoch: 109 [Baseline] [6400/50000 (13%)]	Loss: 1.2594 Acc: 64.61
+Train Epoch: 109 [Baseline] [12800/50000 (26%)]	Loss: 1.2483 Acc: 65.02
+Train Epoch: 109 [Baseline] [19200/50000 (38%)]	Loss: 1.2619 Acc: 64.60
+Train Epoch: 109 [Baseline] [25600/50000 (51%)]	Loss: 1.2615 Acc: 64.53
+Train Epoch: 109 [Baseline] [32000/50000 (64%)]	Loss: 1.2719 Acc: 64.30
+Train Epoch: 109 [Baseline] [38400/50000 (77%)]	Loss: 1.2844 Acc: 64.04
+Train Epoch: 109 [Baseline] [44800/50000 (90%)]	Loss: 1.2875 Acc: 64.00
+ 37%|███▋      | 110/300 [21:41<37:36, 11.88s/it]EPOCH:109, ======================ACC:61.18====================
+BEST EPOCH:108,BEST ACC:63.82
+Train Epoch: 110 [Baseline] [6400/50000 (13%)]	Loss: 1.2383 Acc: 66.16
+Train Epoch: 110 [Baseline] [12800/50000 (26%)]	Loss: 1.2373 Acc: 65.52
+Train Epoch: 110 [Baseline] [19200/50000 (38%)]	Loss: 1.2438 Acc: 65.42
+Train Epoch: 110 [Baseline] [25600/50000 (51%)]	Loss: 1.2678 Acc: 64.71
+Train Epoch: 110 [Baseline] [32000/50000 (64%)]	Loss: 1.2901 Acc: 64.26
+Train Epoch: 110 [Baseline] [38400/50000 (77%)]	Loss: 1.3019 Acc: 63.87
+Train Epoch: 110 [Baseline] [44800/50000 (90%)]	Loss: 1.3077 Acc: 63.77
+ 37%|███▋      | 111/300 [21:53<37:25, 11.88s/it]EPOCH:110, ======================ACC:62.14====================
+BEST EPOCH:108,BEST ACC:63.82
+Train Epoch: 111 [Baseline] [6400/50000 (13%)]	Loss: 1.2455 Acc: 65.11
+Train Epoch: 111 [Baseline] [12800/50000 (26%)]	Loss: 1.2544 Acc: 64.66
+Train Epoch: 111 [Baseline] [19200/50000 (38%)]	Loss: 1.2760 Acc: 64.18
+Train Epoch: 111 [Baseline] [25600/50000 (51%)]	Loss: 1.2779 Acc: 64.11
+Train Epoch: 111 [Baseline] [32000/50000 (64%)]	Loss: 1.2781 Acc: 64.12
+Train Epoch: 111 [Baseline] [38400/50000 (77%)]	Loss: 1.2798 Acc: 64.03
+Train Epoch: 111 [Baseline] [44800/50000 (90%)]	Loss: 1.2879 Acc: 63.87
+ 37%|███▋      | 112/300 [22:05<37:10, 11.86s/it]EPOCH:111, ======================ACC:62.37====================
+BEST EPOCH:108,BEST ACC:63.82
+Train Epoch: 112 [Baseline] [6400/50000 (13%)]	Loss: 1.2190 Acc: 65.36
+Train Epoch: 112 [Baseline] [12800/50000 (26%)]	Loss: 1.2278 Acc: 65.32
+Train Epoch: 112 [Baseline] [19200/50000 (38%)]	Loss: 1.2287 Acc: 65.39
+Train Epoch: 112 [Baseline] [25600/50000 (51%)]	Loss: 1.2550 Acc: 64.82
+Train Epoch: 112 [Baseline] [32000/50000 (64%)]	Loss: 1.2693 Acc: 64.46
+Train Epoch: 112 [Baseline] [38400/50000 (77%)]	Loss: 1.2748 Acc: 64.29
+Train Epoch: 112 [Baseline] [44800/50000 (90%)]	Loss: 1.2832 Acc: 64.07
+ 38%|███▊      | 113/300 [22:17<36:52, 11.83s/it]EPOCH:112, ======================ACC:63.14====================
+BEST EPOCH:108,BEST ACC:63.82
+Train Epoch: 113 [Baseline] [6400/50000 (13%)]	Loss: 1.2402 Acc: 65.31
+Train Epoch: 113 [Baseline] [12800/50000 (26%)]	Loss: 1.2493 Acc: 65.15
+Train Epoch: 113 [Baseline] [19200/50000 (38%)]	Loss: 1.2566 Acc: 64.62
+Train Epoch: 113 [Baseline] [25600/50000 (51%)]	Loss: 1.2673 Acc: 64.44
+Train Epoch: 113 [Baseline] [32000/50000 (64%)]	Loss: 1.2723 Acc: 64.21
+Train Epoch: 113 [Baseline] [38400/50000 (77%)]	Loss: 1.2795 Acc: 64.08
+Train Epoch: 113 [Baseline] [44800/50000 (90%)]	Loss: 1.2845 Acc: 63.96
+ 38%|███▊      | 114/300 [22:29<36:28, 11.76s/it]EPOCH:113, ======================ACC:62.45====================
+BEST EPOCH:108,BEST ACC:63.82
+Train Epoch: 114 [Baseline] [6400/50000 (13%)]	Loss: 1.2535 Acc: 64.75
+Train Epoch: 114 [Baseline] [12800/50000 (26%)]	Loss: 1.2463 Acc: 64.88
+Train Epoch: 114 [Baseline] [19200/50000 (38%)]	Loss: 1.2622 Acc: 64.44
+Train Epoch: 114 [Baseline] [25600/50000 (51%)]	Loss: 1.2732 Acc: 64.21
+Train Epoch: 114 [Baseline] [32000/50000 (64%)]	Loss: 1.2794 Acc: 64.22
+Train Epoch: 114 [Baseline] [38400/50000 (77%)]	Loss: 1.2800 Acc: 64.17
+Train Epoch: 114 [Baseline] [44800/50000 (90%)]	Loss: 1.2833 Acc: 64.10
+ 38%|███▊      | 115/300 [22:40<36:22, 11.80s/it]EPOCH:114, ======================ACC:61.41====================
+BEST EPOCH:108,BEST ACC:63.82
+Train Epoch: 115 [Baseline] [6400/50000 (13%)]	Loss: 1.2076 Acc: 66.50
+Train Epoch: 115 [Baseline] [12800/50000 (26%)]	Loss: 1.2140 Acc: 65.84
+Train Epoch: 115 [Baseline] [19200/50000 (38%)]	Loss: 1.2382 Acc: 65.29
+Train Epoch: 115 [Baseline] [25600/50000 (51%)]	Loss: 1.2509 Acc: 64.90
+Train Epoch: 115 [Baseline] [32000/50000 (64%)]	Loss: 1.2631 Acc: 64.59
+Train Epoch: 115 [Baseline] [38400/50000 (77%)]	Loss: 1.2717 Acc: 64.33
+Train Epoch: 115 [Baseline] [44800/50000 (90%)]	Loss: 1.2770 Acc: 64.26
+ 39%|███▊      | 116/300 [22:53<36:28, 11.89s/it]EPOCH:115, ======================ACC:62.26====================
+BEST EPOCH:108,BEST ACC:63.82
+Train Epoch: 116 [Baseline] [6400/50000 (13%)]	Loss: 1.1882 Acc: 66.88
+Train Epoch: 116 [Baseline] [12800/50000 (26%)]	Loss: 1.1969 Acc: 66.66
+Train Epoch: 116 [Baseline] [19200/50000 (38%)]	Loss: 1.2181 Acc: 65.83
+Train Epoch: 116 [Baseline] [25600/50000 (51%)]	Loss: 1.2301 Acc: 65.60
+Train Epoch: 116 [Baseline] [32000/50000 (64%)]	Loss: 1.2461 Acc: 65.31
+Train Epoch: 116 [Baseline] [38400/50000 (77%)]	Loss: 1.2553 Acc: 64.99
+Train Epoch: 116 [Baseline] [44800/50000 (90%)]	Loss: 1.2614 Acc: 64.86
+ 39%|███▉      | 117/300 [23:05<36:32, 11.98s/it]EPOCH:116, ======================ACC:60.88====================
+BEST EPOCH:108,BEST ACC:63.82
+Train Epoch: 117 [Baseline] [6400/50000 (13%)]	Loss: 1.1959 Acc: 66.41
+Train Epoch: 117 [Baseline] [12800/50000 (26%)]	Loss: 1.2073 Acc: 66.41
+Train Epoch: 117 [Baseline] [19200/50000 (38%)]	Loss: 1.2247 Acc: 65.87
+Train Epoch: 117 [Baseline] [25600/50000 (51%)]	Loss: 1.2388 Acc: 65.38
+Train Epoch: 117 [Baseline] [32000/50000 (64%)]	Loss: 1.2487 Acc: 65.17
+Train Epoch: 117 [Baseline] [38400/50000 (77%)]	Loss: 1.2623 Acc: 64.77
+Train Epoch: 117 [Baseline] [44800/50000 (90%)]	Loss: 1.2673 Acc: 64.59
+ 39%|███▉      | 118/300 [23:17<36:27, 12.02s/it]EPOCH:117, ======================ACC:61.4====================
+BEST EPOCH:108,BEST ACC:63.82
+Train Epoch: 118 [Baseline] [6400/50000 (13%)]	Loss: 1.2174 Acc: 66.11
+Train Epoch: 118 [Baseline] [12800/50000 (26%)]	Loss: 1.2269 Acc: 65.77
+Train Epoch: 118 [Baseline] [19200/50000 (38%)]	Loss: 1.2421 Acc: 65.29
+Train Epoch: 118 [Baseline] [25600/50000 (51%)]	Loss: 1.2387 Acc: 65.28
+Train Epoch: 118 [Baseline] [32000/50000 (64%)]	Loss: 1.2459 Acc: 65.03
+Train Epoch: 118 [Baseline] [38400/50000 (77%)]	Loss: 1.2499 Acc: 64.94
+Train Epoch: 118 [Baseline] [44800/50000 (90%)]	Loss: 1.2634 Acc: 64.61
+ 40%|███▉      | 119/300 [23:29<36:18, 12.03s/it]EPOCH:118, ======================ACC:63.9====================
+BEST EPOCH:118,BEST ACC:63.9
+Train Epoch: 119 [Baseline] [6400/50000 (13%)]	Loss: 1.2217 Acc: 65.47
+Train Epoch: 119 [Baseline] [12800/50000 (26%)]	Loss: 1.2078 Acc: 66.03
+Train Epoch: 119 [Baseline] [19200/50000 (38%)]	Loss: 1.2152 Acc: 65.83
+Train Epoch: 119 [Baseline] [25600/50000 (51%)]	Loss: 1.2143 Acc: 65.84
+Train Epoch: 119 [Baseline] [32000/50000 (64%)]	Loss: 1.2281 Acc: 65.56
+Train Epoch: 119 [Baseline] [38400/50000 (77%)]	Loss: 1.2363 Acc: 65.39
+Train Epoch: 119 [Baseline] [44800/50000 (90%)]	Loss: 1.2434 Acc: 65.08
+ 40%|████      | 120/300 [23:41<36:08, 12.05s/it]EPOCH:119, ======================ACC:63.9====================
+BEST EPOCH:119,BEST ACC:63.9
+Train Epoch: 120 [Baseline] [6400/50000 (13%)]	Loss: 1.2221 Acc: 66.17
+Train Epoch: 120 [Baseline] [12800/50000 (26%)]	Loss: 1.2267 Acc: 65.96
+Train Epoch: 120 [Baseline] [19200/50000 (38%)]	Loss: 1.2360 Acc: 65.49
+Train Epoch: 120 [Baseline] [25600/50000 (51%)]	Loss: 1.2419 Acc: 65.24
+Train Epoch: 120 [Baseline] [32000/50000 (64%)]	Loss: 1.2537 Acc: 64.97
+Train Epoch: 120 [Baseline] [38400/50000 (77%)]	Loss: 1.2582 Acc: 64.93
+Train Epoch: 120 [Baseline] [44800/50000 (90%)]	Loss: 1.2645 Acc: 64.75
+ 40%|████      | 121/300 [23:53<35:50, 12.01s/it]EPOCH:120, ======================ACC:63.82====================
+BEST EPOCH:119,BEST ACC:63.9
+Train Epoch: 121 [Baseline] [6400/50000 (13%)]	Loss: 1.1798 Acc: 67.53
+Train Epoch: 121 [Baseline] [12800/50000 (26%)]	Loss: 1.1900 Acc: 66.87
+Train Epoch: 121 [Baseline] [19200/50000 (38%)]	Loss: 1.2064 Acc: 66.38
+Train Epoch: 121 [Baseline] [25600/50000 (51%)]	Loss: 1.2198 Acc: 65.98
+Train Epoch: 121 [Baseline] [32000/50000 (64%)]	Loss: 1.2307 Acc: 65.68
+Train Epoch: 121 [Baseline] [38400/50000 (77%)]	Loss: 1.2416 Acc: 65.46
+Train Epoch: 121 [Baseline] [44800/50000 (90%)]	Loss: 1.2419 Acc: 65.43
+ 41%|████      | 122/300 [24:05<35:23, 11.93s/it]EPOCH:121, ======================ACC:63.12====================
+BEST EPOCH:119,BEST ACC:63.9
+Train Epoch: 122 [Baseline] [6400/50000 (13%)]	Loss: 1.1805 Acc: 66.77
+Train Epoch: 122 [Baseline] [12800/50000 (26%)]	Loss: 1.2009 Acc: 66.15
+Train Epoch: 122 [Baseline] [19200/50000 (38%)]	Loss: 1.2073 Acc: 66.03
+Train Epoch: 122 [Baseline] [25600/50000 (51%)]	Loss: 1.2119 Acc: 65.96
+Train Epoch: 122 [Baseline] [32000/50000 (64%)]	Loss: 1.2233 Acc: 65.57
+Train Epoch: 122 [Baseline] [38400/50000 (77%)]	Loss: 1.2300 Acc: 65.46
+Train Epoch: 122 [Baseline] [44800/50000 (90%)]	Loss: 1.2344 Acc: 65.37
+ 41%|████      | 123/300 [24:17<35:11, 11.93s/it]EPOCH:122, ======================ACC:60.22====================
+BEST EPOCH:119,BEST ACC:63.9
+Train Epoch: 123 [Baseline] [6400/50000 (13%)]	Loss: 1.2227 Acc: 66.03
+Train Epoch: 123 [Baseline] [12800/50000 (26%)]	Loss: 1.2226 Acc: 65.93
+Train Epoch: 123 [Baseline] [19200/50000 (38%)]	Loss: 1.2281 Acc: 65.58
+Train Epoch: 123 [Baseline] [25600/50000 (51%)]	Loss: 1.2344 Acc: 65.50
+Train Epoch: 123 [Baseline] [32000/50000 (64%)]	Loss: 1.2412 Acc: 65.36
+Train Epoch: 123 [Baseline] [38400/50000 (77%)]	Loss: 1.2453 Acc: 65.26
+Train Epoch: 123 [Baseline] [44800/50000 (90%)]	Loss: 1.2491 Acc: 65.19
+ 41%|████▏     | 124/300 [24:28<34:57, 11.92s/it]EPOCH:123, ======================ACC:63.72====================
+BEST EPOCH:119,BEST ACC:63.9
+Train Epoch: 124 [Baseline] [6400/50000 (13%)]	Loss: 1.1491 Acc: 67.17
+Train Epoch: 124 [Baseline] [12800/50000 (26%)]	Loss: 1.1650 Acc: 67.12
+Train Epoch: 124 [Baseline] [19200/50000 (38%)]	Loss: 1.1810 Acc: 66.61
+Train Epoch: 124 [Baseline] [25600/50000 (51%)]	Loss: 1.1928 Acc: 66.46
+Train Epoch: 124 [Baseline] [32000/50000 (64%)]	Loss: 1.2091 Acc: 65.94
+Train Epoch: 124 [Baseline] [38400/50000 (77%)]	Loss: 1.2143 Acc: 65.87
+Train Epoch: 124 [Baseline] [44800/50000 (90%)]	Loss: 1.2232 Acc: 65.68
+ 42%|████▏     | 125/300 [24:40<34:36, 11.87s/it]EPOCH:124, ======================ACC:64.13====================
+BEST EPOCH:124,BEST ACC:64.13
+Train Epoch: 125 [Baseline] [6400/50000 (13%)]	Loss: 1.1841 Acc: 67.11
+Train Epoch: 125 [Baseline] [12800/50000 (26%)]	Loss: 1.1796 Acc: 66.90
+Train Epoch: 125 [Baseline] [19200/50000 (38%)]	Loss: 1.1854 Acc: 66.71
+Train Epoch: 125 [Baseline] [25600/50000 (51%)]	Loss: 1.1942 Acc: 66.27
+Train Epoch: 125 [Baseline] [32000/50000 (64%)]	Loss: 1.2039 Acc: 66.10
+Train Epoch: 125 [Baseline] [38400/50000 (77%)]	Loss: 1.2115 Acc: 65.90
+Train Epoch: 125 [Baseline] [44800/50000 (90%)]	Loss: 1.2183 Acc: 65.73
+ 42%|████▏     | 126/300 [24:52<34:23, 11.86s/it]EPOCH:125, ======================ACC:62.52====================
+BEST EPOCH:124,BEST ACC:64.13
+Train Epoch: 126 [Baseline] [6400/50000 (13%)]	Loss: 1.1941 Acc: 66.36
+Train Epoch: 126 [Baseline] [12800/50000 (26%)]	Loss: 1.1839 Acc: 66.60
+Train Epoch: 126 [Baseline] [19200/50000 (38%)]	Loss: 1.2040 Acc: 66.17
+Train Epoch: 126 [Baseline] [25600/50000 (51%)]	Loss: 1.2085 Acc: 66.07
+Train Epoch: 126 [Baseline] [32000/50000 (64%)]	Loss: 1.2125 Acc: 65.83
+Train Epoch: 126 [Baseline] [38400/50000 (77%)]	Loss: 1.2194 Acc: 65.75
+Train Epoch: 126 [Baseline] [44800/50000 (90%)]	Loss: 1.2306 Acc: 65.46
+ 42%|████▏     | 127/300 [25:04<34:16, 11.88s/it]EPOCH:126, ======================ACC:64.59====================
+BEST EPOCH:126,BEST ACC:64.59
+Train Epoch: 127 [Baseline] [6400/50000 (13%)]	Loss: 1.1977 Acc: 66.75
+Train Epoch: 127 [Baseline] [12800/50000 (26%)]	Loss: 1.1873 Acc: 66.48
+Train Epoch: 127 [Baseline] [19200/50000 (38%)]	Loss: 1.1866 Acc: 66.50
+Train Epoch: 127 [Baseline] [25600/50000 (51%)]	Loss: 1.1876 Acc: 66.43
+Train Epoch: 127 [Baseline] [32000/50000 (64%)]	Loss: 1.1955 Acc: 66.28
+Train Epoch: 127 [Baseline] [38400/50000 (77%)]	Loss: 1.2053 Acc: 65.98
+Train Epoch: 127 [Baseline] [44800/50000 (90%)]	Loss: 1.2149 Acc: 65.73
+ 43%|████▎     | 128/300 [25:16<34:02, 11.88s/it]EPOCH:127, ======================ACC:64.9====================
+BEST EPOCH:127,BEST ACC:64.9
+Train Epoch: 128 [Baseline] [6400/50000 (13%)]	Loss: 1.1334 Acc: 68.31
+Train Epoch: 128 [Baseline] [12800/50000 (26%)]	Loss: 1.1619 Acc: 67.20
+Train Epoch: 128 [Baseline] [19200/50000 (38%)]	Loss: 1.1690 Acc: 66.86
+Train Epoch: 128 [Baseline] [25600/50000 (51%)]	Loss: 1.1784 Acc: 66.78
+Train Epoch: 128 [Baseline] [32000/50000 (64%)]	Loss: 1.1920 Acc: 66.59
+Train Epoch: 128 [Baseline] [38400/50000 (77%)]	Loss: 1.1992 Acc: 66.53
+Train Epoch: 128 [Baseline] [44800/50000 (90%)]	Loss: 1.2090 Acc: 66.23
+ 43%|████▎     | 129/300 [25:28<33:47, 11.86s/it]EPOCH:128, ======================ACC:64.27====================
+BEST EPOCH:127,BEST ACC:64.9
+Train Epoch: 129 [Baseline] [6400/50000 (13%)]	Loss: 1.1619 Acc: 66.66
+Train Epoch: 129 [Baseline] [12800/50000 (26%)]	Loss: 1.1603 Acc: 66.98
+Train Epoch: 129 [Baseline] [19200/50000 (38%)]	Loss: 1.1638 Acc: 66.85
+Train Epoch: 129 [Baseline] [25600/50000 (51%)]	Loss: 1.1764 Acc: 66.64
+Train Epoch: 129 [Baseline] [32000/50000 (64%)]	Loss: 1.1889 Acc: 66.41
+Train Epoch: 129 [Baseline] [38400/50000 (77%)]	Loss: 1.1968 Acc: 66.24
+Train Epoch: 129 [Baseline] [44800/50000 (90%)]	Loss: 1.2071 Acc: 65.97
+ 43%|████▎     | 130/300 [25:40<33:56, 11.98s/it]EPOCH:129, ======================ACC:63.49====================
+BEST EPOCH:127,BEST ACC:64.9
+Train Epoch: 130 [Baseline] [6400/50000 (13%)]	Loss: 1.1245 Acc: 68.38
+Train Epoch: 130 [Baseline] [12800/50000 (26%)]	Loss: 1.1461 Acc: 67.66
+Train Epoch: 130 [Baseline] [19200/50000 (38%)]	Loss: 1.1698 Acc: 67.05
+Train Epoch: 130 [Baseline] [25600/50000 (51%)]	Loss: 1.1727 Acc: 66.94
+Train Epoch: 130 [Baseline] [32000/50000 (64%)]	Loss: 1.1798 Acc: 66.67
+Train Epoch: 130 [Baseline] [38400/50000 (77%)]	Loss: 1.1889 Acc: 66.25
+Train Epoch: 130 [Baseline] [44800/50000 (90%)]	Loss: 1.1979 Acc: 66.06
+ 44%|████▎     | 131/300 [25:52<33:40, 11.96s/it]EPOCH:130, ======================ACC:65.34====================
+BEST EPOCH:130,BEST ACC:65.34
+Train Epoch: 131 [Baseline] [6400/50000 (13%)]	Loss: 1.1162 Acc: 67.55
+Train Epoch: 131 [Baseline] [12800/50000 (26%)]	Loss: 1.1303 Acc: 67.65
+Train Epoch: 131 [Baseline] [19200/50000 (38%)]	Loss: 1.1504 Acc: 67.32
+Train Epoch: 131 [Baseline] [25600/50000 (51%)]	Loss: 1.1555 Acc: 67.26
+Train Epoch: 131 [Baseline] [32000/50000 (64%)]	Loss: 1.1726 Acc: 66.88
+Train Epoch: 131 [Baseline] [38400/50000 (77%)]	Loss: 1.1847 Acc: 66.53
+Train Epoch: 131 [Baseline] [44800/50000 (90%)]	Loss: 1.1897 Acc: 66.44
+ 44%|████▍     | 132/300 [26:04<33:34, 11.99s/it]EPOCH:131, ======================ACC:63.14====================
+BEST EPOCH:130,BEST ACC:65.34
+Train Epoch: 132 [Baseline] [6400/50000 (13%)]	Loss: 1.1882 Acc: 66.70
+Train Epoch: 132 [Baseline] [12800/50000 (26%)]	Loss: 1.1588 Acc: 67.29
+Train Epoch: 132 [Baseline] [19200/50000 (38%)]	Loss: 1.1636 Acc: 67.06
+Train Epoch: 132 [Baseline] [25600/50000 (51%)]	Loss: 1.1711 Acc: 66.82
+Train Epoch: 132 [Baseline] [32000/50000 (64%)]	Loss: 1.1803 Acc: 66.62
+Train Epoch: 132 [Baseline] [38400/50000 (77%)]	Loss: 1.1798 Acc: 66.60
+Train Epoch: 132 [Baseline] [44800/50000 (90%)]	Loss: 1.1891 Acc: 66.34
+ 44%|████▍     | 133/300 [26:16<33:23, 12.00s/it]EPOCH:132, ======================ACC:65.33====================
+BEST EPOCH:130,BEST ACC:65.34
+Train Epoch: 133 [Baseline] [6400/50000 (13%)]	Loss: 1.1372 Acc: 68.27
+Train Epoch: 133 [Baseline] [12800/50000 (26%)]	Loss: 1.1450 Acc: 67.73
+Train Epoch: 133 [Baseline] [19200/50000 (38%)]	Loss: 1.1554 Acc: 67.44
+Train Epoch: 133 [Baseline] [25600/50000 (51%)]	Loss: 1.1590 Acc: 67.43
+Train Epoch: 133 [Baseline] [32000/50000 (64%)]	Loss: 1.1668 Acc: 67.17
+Train Epoch: 133 [Baseline] [38400/50000 (77%)]	Loss: 1.1691 Acc: 67.24
+Train Epoch: 133 [Baseline] [44800/50000 (90%)]	Loss: 1.1810 Acc: 67.03
+ 45%|████▍     | 134/300 [26:28<32:58, 11.92s/it]EPOCH:133, ======================ACC:65.49====================
+BEST EPOCH:133,BEST ACC:65.49
+Train Epoch: 134 [Baseline] [6400/50000 (13%)]	Loss: 1.1115 Acc: 68.41
+Train Epoch: 134 [Baseline] [12800/50000 (26%)]	Loss: 1.1430 Acc: 67.84
+Train Epoch: 134 [Baseline] [19200/50000 (38%)]	Loss: 1.1572 Acc: 67.33
+Train Epoch: 134 [Baseline] [25600/50000 (51%)]	Loss: 1.1640 Acc: 67.32
+Train Epoch: 134 [Baseline] [32000/50000 (64%)]	Loss: 1.1727 Acc: 67.17
+Train Epoch: 134 [Baseline] [38400/50000 (77%)]	Loss: 1.1791 Acc: 66.88
+Train Epoch: 134 [Baseline] [44800/50000 (90%)]	Loss: 1.1828 Acc: 66.70
+ 45%|████▌     | 135/300 [26:39<32:38, 11.87s/it]EPOCH:134, ======================ACC:63.74====================
+BEST EPOCH:133,BEST ACC:65.49
+Train Epoch: 135 [Baseline] [6400/50000 (13%)]	Loss: 1.0947 Acc: 68.97
+Train Epoch: 135 [Baseline] [12800/50000 (26%)]	Loss: 1.1421 Acc: 67.76
+Train Epoch: 135 [Baseline] [19200/50000 (38%)]	Loss: 1.1613 Acc: 67.29
+Train Epoch: 135 [Baseline] [25600/50000 (51%)]	Loss: 1.1673 Acc: 67.10
+Train Epoch: 135 [Baseline] [32000/50000 (64%)]	Loss: 1.1724 Acc: 67.01
+Train Epoch: 135 [Baseline] [38400/50000 (77%)]	Loss: 1.1743 Acc: 66.85
+Train Epoch: 135 [Baseline] [44800/50000 (90%)]	Loss: 1.1820 Acc: 66.73
+ 45%|████▌     | 136/300 [26:51<32:15, 11.80s/it]EPOCH:135, ======================ACC:63.75====================
+BEST EPOCH:133,BEST ACC:65.49
+Train Epoch: 136 [Baseline] [6400/50000 (13%)]	Loss: 1.1034 Acc: 69.00
+Train Epoch: 136 [Baseline] [12800/50000 (26%)]	Loss: 1.1238 Acc: 68.28
+Train Epoch: 136 [Baseline] [19200/50000 (38%)]	Loss: 1.1286 Acc: 68.06
+Train Epoch: 136 [Baseline] [25600/50000 (51%)]	Loss: 1.1432 Acc: 67.75
+Train Epoch: 136 [Baseline] [32000/50000 (64%)]	Loss: 1.1504 Acc: 67.56
+Train Epoch: 136 [Baseline] [38400/50000 (77%)]	Loss: 1.1616 Acc: 67.25
+Train Epoch: 136 [Baseline] [44800/50000 (90%)]	Loss: 1.1661 Acc: 67.11
+ 46%|████▌     | 137/300 [27:03<31:56, 11.76s/it]EPOCH:136, ======================ACC:65.81====================
+BEST EPOCH:136,BEST ACC:65.81
+Train Epoch: 137 [Baseline] [6400/50000 (13%)]	Loss: 1.1229 Acc: 68.86
+Train Epoch: 137 [Baseline] [12800/50000 (26%)]	Loss: 1.1141 Acc: 68.73
+Train Epoch: 137 [Baseline] [19200/50000 (38%)]	Loss: 1.1319 Acc: 68.28
+Train Epoch: 137 [Baseline] [25600/50000 (51%)]	Loss: 1.1428 Acc: 68.05
+Train Epoch: 137 [Baseline] [32000/50000 (64%)]	Loss: 1.1476 Acc: 67.86
+Train Epoch: 137 [Baseline] [38400/50000 (77%)]	Loss: 1.1579 Acc: 67.52
+Train Epoch: 137 [Baseline] [44800/50000 (90%)]	Loss: 1.1672 Acc: 67.29
+ 46%|████▌     | 138/300 [27:15<31:48, 11.78s/it]EPOCH:137, ======================ACC:65.15====================
+BEST EPOCH:136,BEST ACC:65.81
+Train Epoch: 138 [Baseline] [6400/50000 (13%)]	Loss: 1.0989 Acc: 68.61
+Train Epoch: 138 [Baseline] [12800/50000 (26%)]	Loss: 1.1109 Acc: 68.55
+Train Epoch: 138 [Baseline] [19200/50000 (38%)]	Loss: 1.1240 Acc: 68.27
+Train Epoch: 138 [Baseline] [25600/50000 (51%)]	Loss: 1.1382 Acc: 67.89
+Train Epoch: 138 [Baseline] [32000/50000 (64%)]	Loss: 1.1523 Acc: 67.58
+Train Epoch: 138 [Baseline] [38400/50000 (77%)]	Loss: 1.1601 Acc: 67.34
+Train Epoch: 138 [Baseline] [44800/50000 (90%)]	Loss: 1.1671 Acc: 67.14
+ 46%|████▋     | 139/300 [27:26<31:38, 11.79s/it]EPOCH:138, ======================ACC:63.57====================
+BEST EPOCH:136,BEST ACC:65.81
+Train Epoch: 139 [Baseline] [6400/50000 (13%)]	Loss: 1.1354 Acc: 68.44
+Train Epoch: 139 [Baseline] [12800/50000 (26%)]	Loss: 1.1373 Acc: 68.10
+Train Epoch: 139 [Baseline] [19200/50000 (38%)]	Loss: 1.1297 Acc: 68.24
+Train Epoch: 139 [Baseline] [25600/50000 (51%)]	Loss: 1.1327 Acc: 68.08
+Train Epoch: 139 [Baseline] [32000/50000 (64%)]	Loss: 1.1404 Acc: 67.83
+Train Epoch: 139 [Baseline] [38400/50000 (77%)]	Loss: 1.1409 Acc: 67.83
+Train Epoch: 139 [Baseline] [44800/50000 (90%)]	Loss: 1.1521 Acc: 67.51
+ 47%|████▋     | 140/300 [27:38<31:15, 11.72s/it]EPOCH:139, ======================ACC:63.1====================
+BEST EPOCH:136,BEST ACC:65.81
+Train Epoch: 140 [Baseline] [6400/50000 (13%)]	Loss: 1.1128 Acc: 68.81
+Train Epoch: 140 [Baseline] [12800/50000 (26%)]	Loss: 1.1125 Acc: 68.57
+Train Epoch: 140 [Baseline] [19200/50000 (38%)]	Loss: 1.1225 Acc: 68.26
+Train Epoch: 140 [Baseline] [25600/50000 (51%)]	Loss: 1.1256 Acc: 68.25
+Train Epoch: 140 [Baseline] [32000/50000 (64%)]	Loss: 1.1392 Acc: 67.75
+Train Epoch: 140 [Baseline] [38400/50000 (77%)]	Loss: 1.1428 Acc: 67.66
+Train Epoch: 140 [Baseline] [44800/50000 (90%)]	Loss: 1.1541 Acc: 67.33
+ 47%|████▋     | 141/300 [27:50<31:09, 11.76s/it]EPOCH:140, ======================ACC:65.17====================
+BEST EPOCH:136,BEST ACC:65.81
+Train Epoch: 141 [Baseline] [6400/50000 (13%)]	Loss: 1.1186 Acc: 68.33
+Train Epoch: 141 [Baseline] [12800/50000 (26%)]	Loss: 1.0976 Acc: 68.80
+Train Epoch: 141 [Baseline] [19200/50000 (38%)]	Loss: 1.1000 Acc: 68.77
+Train Epoch: 141 [Baseline] [25600/50000 (51%)]	Loss: 1.1160 Acc: 68.35
+Train Epoch: 141 [Baseline] [32000/50000 (64%)]	Loss: 1.1230 Acc: 68.25
+Train Epoch: 141 [Baseline] [38400/50000 (77%)]	Loss: 1.1256 Acc: 68.23
+Train Epoch: 141 [Baseline] [44800/50000 (90%)]	Loss: 1.1342 Acc: 68.03
+ 47%|████▋     | 142/300 [28:02<30:59, 11.77s/it]EPOCH:141, ======================ACC:65.36====================
+BEST EPOCH:136,BEST ACC:65.81
+Train Epoch: 142 [Baseline] [6400/50000 (13%)]	Loss: 1.0773 Acc: 70.09
+Train Epoch: 142 [Baseline] [12800/50000 (26%)]	Loss: 1.0965 Acc: 68.97
+Train Epoch: 142 [Baseline] [19200/50000 (38%)]	Loss: 1.1139 Acc: 68.33
+Train Epoch: 142 [Baseline] [25600/50000 (51%)]	Loss: 1.1218 Acc: 68.20
+Train Epoch: 142 [Baseline] [32000/50000 (64%)]	Loss: 1.1229 Acc: 68.22
+Train Epoch: 142 [Baseline] [38400/50000 (77%)]	Loss: 1.1269 Acc: 68.07
+Train Epoch: 142 [Baseline] [44800/50000 (90%)]	Loss: 1.1356 Acc: 67.97
+ 48%|████▊     | 143/300 [28:13<30:47, 11.77s/it]EPOCH:142, ======================ACC:63.13====================
+BEST EPOCH:136,BEST ACC:65.81
+Train Epoch: 143 [Baseline] [6400/50000 (13%)]	Loss: 1.0723 Acc: 70.02
+Train Epoch: 143 [Baseline] [12800/50000 (26%)]	Loss: 1.0855 Acc: 69.34
+Train Epoch: 143 [Baseline] [19200/50000 (38%)]	Loss: 1.0883 Acc: 69.17
+Train Epoch: 143 [Baseline] [25600/50000 (51%)]	Loss: 1.1009 Acc: 68.87
+Train Epoch: 143 [Baseline] [32000/50000 (64%)]	Loss: 1.1151 Acc: 68.57
+Train Epoch: 143 [Baseline] [38400/50000 (77%)]	Loss: 1.1143 Acc: 68.53
+Train Epoch: 143 [Baseline] [44800/50000 (90%)]	Loss: 1.1210 Acc: 68.40
+ 48%|████▊     | 144/300 [28:25<30:39, 11.79s/it]EPOCH:143, ======================ACC:64.42====================
+BEST EPOCH:136,BEST ACC:65.81
+Train Epoch: 144 [Baseline] [6400/50000 (13%)]	Loss: 1.0940 Acc: 69.17
+Train Epoch: 144 [Baseline] [12800/50000 (26%)]	Loss: 1.0878 Acc: 69.20
+Train Epoch: 144 [Baseline] [19200/50000 (38%)]	Loss: 1.0975 Acc: 68.97
+Train Epoch: 144 [Baseline] [25600/50000 (51%)]	Loss: 1.1034 Acc: 68.90
+Train Epoch: 144 [Baseline] [32000/50000 (64%)]	Loss: 1.1156 Acc: 68.47
+Train Epoch: 144 [Baseline] [38400/50000 (77%)]	Loss: 1.1212 Acc: 68.32
+Train Epoch: 144 [Baseline] [44800/50000 (90%)]	Loss: 1.1244 Acc: 68.21
+ 48%|████▊     | 145/300 [28:37<30:24, 11.77s/it]EPOCH:144, ======================ACC:67.6====================
+BEST EPOCH:144,BEST ACC:67.6
+Train Epoch: 145 [Baseline] [6400/50000 (13%)]	Loss: 1.0657 Acc: 69.69
+Train Epoch: 145 [Baseline] [12800/50000 (26%)]	Loss: 1.0787 Acc: 69.39
+Train Epoch: 145 [Baseline] [19200/50000 (38%)]	Loss: 1.0866 Acc: 69.11
+Train Epoch: 145 [Baseline] [25600/50000 (51%)]	Loss: 1.0962 Acc: 68.80
+Train Epoch: 145 [Baseline] [32000/50000 (64%)]	Loss: 1.1035 Acc: 68.73
+Train Epoch: 145 [Baseline] [38400/50000 (77%)]	Loss: 1.1150 Acc: 68.49
+Train Epoch: 145 [Baseline] [44800/50000 (90%)]	Loss: 1.1247 Acc: 68.23
+ 49%|████▊     | 146/300 [28:49<30:09, 11.75s/it]EPOCH:145, ======================ACC:65.0====================
+BEST EPOCH:144,BEST ACC:67.6
+Train Epoch: 146 [Baseline] [6400/50000 (13%)]	Loss: 1.0695 Acc: 69.55
+Train Epoch: 146 [Baseline] [12800/50000 (26%)]	Loss: 1.0639 Acc: 69.63
+Train Epoch: 146 [Baseline] [19200/50000 (38%)]	Loss: 1.0760 Acc: 69.33
+Train Epoch: 146 [Baseline] [25600/50000 (51%)]	Loss: 1.0833 Acc: 69.05
+Train Epoch: 146 [Baseline] [32000/50000 (64%)]	Loss: 1.0953 Acc: 68.85
+Train Epoch: 146 [Baseline] [38400/50000 (77%)]	Loss: 1.1052 Acc: 68.58
+Train Epoch: 146 [Baseline] [44800/50000 (90%)]	Loss: 1.1114 Acc: 68.34
+ 49%|████▉     | 147/300 [29:00<29:59, 11.76s/it]EPOCH:146, ======================ACC:66.31====================
+BEST EPOCH:144,BEST ACC:67.6
+Train Epoch: 147 [Baseline] [6400/50000 (13%)]	Loss: 1.0660 Acc: 69.75
+Train Epoch: 147 [Baseline] [12800/50000 (26%)]	Loss: 1.0843 Acc: 69.62
+Train Epoch: 147 [Baseline] [19200/50000 (38%)]	Loss: 1.0976 Acc: 69.08
+Train Epoch: 147 [Baseline] [25600/50000 (51%)]	Loss: 1.0991 Acc: 69.03
+Train Epoch: 147 [Baseline] [32000/50000 (64%)]	Loss: 1.0990 Acc: 68.91
+Train Epoch: 147 [Baseline] [38400/50000 (77%)]	Loss: 1.1082 Acc: 68.74
+Train Epoch: 147 [Baseline] [44800/50000 (90%)]	Loss: 1.1073 Acc: 68.73
+ 49%|████▉     | 148/300 [29:12<29:47, 11.76s/it]EPOCH:147, ======================ACC:64.88====================
+BEST EPOCH:144,BEST ACC:67.6
+Train Epoch: 148 [Baseline] [6400/50000 (13%)]	Loss: 1.0703 Acc: 70.17
+Train Epoch: 148 [Baseline] [12800/50000 (26%)]	Loss: 1.0694 Acc: 70.02
+Train Epoch: 148 [Baseline] [19200/50000 (38%)]	Loss: 1.0835 Acc: 69.48
+Train Epoch: 148 [Baseline] [25600/50000 (51%)]	Loss: 1.0953 Acc: 69.34
+Train Epoch: 148 [Baseline] [32000/50000 (64%)]	Loss: 1.0950 Acc: 69.27
+Train Epoch: 148 [Baseline] [38400/50000 (77%)]	Loss: 1.1008 Acc: 69.04
+Train Epoch: 148 [Baseline] [44800/50000 (90%)]	Loss: 1.1078 Acc: 68.81
+ 50%|████▉     | 149/300 [29:24<29:49, 11.85s/it]EPOCH:148, ======================ACC:65.73====================
+BEST EPOCH:144,BEST ACC:67.6
+Train Epoch: 149 [Baseline] [6400/50000 (13%)]	Loss: 1.0426 Acc: 70.31
+Train Epoch: 149 [Baseline] [12800/50000 (26%)]	Loss: 1.0512 Acc: 69.92
+Train Epoch: 149 [Baseline] [19200/50000 (38%)]	Loss: 1.0527 Acc: 69.85
+Train Epoch: 149 [Baseline] [25600/50000 (51%)]	Loss: 1.0683 Acc: 69.64
+Train Epoch: 149 [Baseline] [32000/50000 (64%)]	Loss: 1.0808 Acc: 69.35
+Train Epoch: 149 [Baseline] [38400/50000 (77%)]	Loss: 1.0894 Acc: 69.07
+Train Epoch: 149 [Baseline] [44800/50000 (90%)]	Loss: 1.0976 Acc: 68.90
+ 50%|█████     | 150/300 [29:36<29:39, 11.86s/it]EPOCH:149, ======================ACC:65.54====================
+BEST EPOCH:144,BEST ACC:67.6
+Train Epoch: 150 [Baseline] [6400/50000 (13%)]	Loss: 1.0134 Acc: 71.45
+Train Epoch: 150 [Baseline] [12800/50000 (26%)]	Loss: 1.0312 Acc: 70.59
+Train Epoch: 150 [Baseline] [19200/50000 (38%)]	Loss: 1.0519 Acc: 70.01
+Train Epoch: 150 [Baseline] [25600/50000 (51%)]	Loss: 1.0552 Acc: 70.03
+Train Epoch: 150 [Baseline] [32000/50000 (64%)]	Loss: 1.0606 Acc: 69.96
+Train Epoch: 150 [Baseline] [38400/50000 (77%)]	Loss: 1.0763 Acc: 69.47
+Train Epoch: 150 [Baseline] [44800/50000 (90%)]	Loss: 1.0848 Acc: 69.22
+ 50%|█████     | 151/300 [29:48<29:35, 11.92s/it]EPOCH:150, ======================ACC:64.84====================
+BEST EPOCH:144,BEST ACC:67.6
+Train Epoch: 151 [Baseline] [6400/50000 (13%)]	Loss: 1.0204 Acc: 71.14
+Train Epoch: 151 [Baseline] [12800/50000 (26%)]	Loss: 1.0396 Acc: 70.50
+Train Epoch: 151 [Baseline] [19200/50000 (38%)]	Loss: 1.0566 Acc: 69.86
+Train Epoch: 151 [Baseline] [25600/50000 (51%)]	Loss: 1.0655 Acc: 69.60
+Train Epoch: 151 [Baseline] [32000/50000 (64%)]	Loss: 1.0745 Acc: 69.41
+Train Epoch: 151 [Baseline] [38400/50000 (77%)]	Loss: 1.0792 Acc: 69.35
+Train Epoch: 151 [Baseline] [44800/50000 (90%)]	Loss: 1.0840 Acc: 69.29
+ 51%|█████     | 152/300 [30:00<29:40, 12.03s/it]EPOCH:151, ======================ACC:66.09====================
+BEST EPOCH:144,BEST ACC:67.6
+Train Epoch: 152 [Baseline] [6400/50000 (13%)]	Loss: 1.0824 Acc: 68.58
+Train Epoch: 152 [Baseline] [12800/50000 (26%)]	Loss: 1.0757 Acc: 69.12
+Train Epoch: 152 [Baseline] [19200/50000 (38%)]	Loss: 1.0683 Acc: 69.34
+Train Epoch: 152 [Baseline] [25600/50000 (51%)]	Loss: 1.0674 Acc: 69.51
+Train Epoch: 152 [Baseline] [32000/50000 (64%)]	Loss: 1.0735 Acc: 69.42
+Train Epoch: 152 [Baseline] [38400/50000 (77%)]	Loss: 1.0804 Acc: 69.21
+Train Epoch: 152 [Baseline] [44800/50000 (90%)]	Loss: 1.0855 Acc: 68.96
+ 51%|█████     | 153/300 [30:12<29:27, 12.02s/it]EPOCH:152, ======================ACC:65.49====================
+BEST EPOCH:144,BEST ACC:67.6
+Train Epoch: 153 [Baseline] [6400/50000 (13%)]	Loss: 1.0341 Acc: 70.73
+Train Epoch: 153 [Baseline] [12800/50000 (26%)]	Loss: 1.0264 Acc: 70.98
+Train Epoch: 153 [Baseline] [19200/50000 (38%)]	Loss: 1.0394 Acc: 70.80
+Train Epoch: 153 [Baseline] [25600/50000 (51%)]	Loss: 1.0493 Acc: 70.48
+Train Epoch: 153 [Baseline] [32000/50000 (64%)]	Loss: 1.0605 Acc: 70.06
+Train Epoch: 153 [Baseline] [38400/50000 (77%)]	Loss: 1.0709 Acc: 69.75
+Train Epoch: 153 [Baseline] [44800/50000 (90%)]	Loss: 1.0763 Acc: 69.59
+ 51%|█████▏    | 154/300 [30:25<29:17, 12.04s/it]EPOCH:153, ======================ACC:63.88====================
+BEST EPOCH:144,BEST ACC:67.6
+Train Epoch: 154 [Baseline] [6400/50000 (13%)]	Loss: 1.0163 Acc: 71.64
+Train Epoch: 154 [Baseline] [12800/50000 (26%)]	Loss: 1.0352 Acc: 70.75
+Train Epoch: 154 [Baseline] [19200/50000 (38%)]	Loss: 1.0532 Acc: 70.45
+Train Epoch: 154 [Baseline] [25600/50000 (51%)]	Loss: 1.0570 Acc: 70.34
+Train Epoch: 154 [Baseline] [32000/50000 (64%)]	Loss: 1.0579 Acc: 70.15
+Train Epoch: 154 [Baseline] [38400/50000 (77%)]	Loss: 1.0672 Acc: 69.85
+Train Epoch: 154 [Baseline] [44800/50000 (90%)]	Loss: 1.0697 Acc: 69.84
+ 52%|█████▏    | 155/300 [30:37<29:04, 12.03s/it]EPOCH:154, ======================ACC:64.98====================
+BEST EPOCH:144,BEST ACC:67.6
+Train Epoch: 155 [Baseline] [6400/50000 (13%)]	Loss: 1.0255 Acc: 70.98
+Train Epoch: 155 [Baseline] [12800/50000 (26%)]	Loss: 1.0303 Acc: 70.61
+Train Epoch: 155 [Baseline] [19200/50000 (38%)]	Loss: 1.0337 Acc: 70.55
+Train Epoch: 155 [Baseline] [25600/50000 (51%)]	Loss: 1.0492 Acc: 70.12
+Train Epoch: 155 [Baseline] [32000/50000 (64%)]	Loss: 1.0473 Acc: 70.23
+Train Epoch: 155 [Baseline] [38400/50000 (77%)]	Loss: 1.0568 Acc: 70.06
+Train Epoch: 155 [Baseline] [44800/50000 (90%)]	Loss: 1.0613 Acc: 69.97
+ 52%|█████▏    | 156/300 [30:48<28:36, 11.92s/it]EPOCH:155, ======================ACC:66.51====================
+BEST EPOCH:144,BEST ACC:67.6
+Train Epoch: 156 [Baseline] [6400/50000 (13%)]	Loss: 1.0171 Acc: 71.33
+Train Epoch: 156 [Baseline] [12800/50000 (26%)]	Loss: 1.0102 Acc: 71.30
+Train Epoch: 156 [Baseline] [19200/50000 (38%)]	Loss: 1.0193 Acc: 70.82
+Train Epoch: 156 [Baseline] [25600/50000 (51%)]	Loss: 1.0296 Acc: 70.62
+Train Epoch: 156 [Baseline] [32000/50000 (64%)]	Loss: 1.0343 Acc: 70.58
+Train Epoch: 156 [Baseline] [38400/50000 (77%)]	Loss: 1.0475 Acc: 70.26
+Train Epoch: 156 [Baseline] [44800/50000 (90%)]	Loss: 1.0550 Acc: 70.07
+ 52%|█████▏    | 157/300 [31:00<28:09, 11.81s/it]EPOCH:156, ======================ACC:65.79====================
+BEST EPOCH:144,BEST ACC:67.6
+Train Epoch: 157 [Baseline] [6400/50000 (13%)]	Loss: 0.9797 Acc: 72.16
+Train Epoch: 157 [Baseline] [12800/50000 (26%)]	Loss: 1.0004 Acc: 71.11
+Train Epoch: 157 [Baseline] [19200/50000 (38%)]	Loss: 1.0154 Acc: 70.99
+Train Epoch: 157 [Baseline] [25600/50000 (51%)]	Loss: 1.0321 Acc: 70.59
+Train Epoch: 157 [Baseline] [32000/50000 (64%)]	Loss: 1.0394 Acc: 70.40
+Train Epoch: 157 [Baseline] [38400/50000 (77%)]	Loss: 1.0502 Acc: 70.14
+Train Epoch: 157 [Baseline] [44800/50000 (90%)]	Loss: 1.0550 Acc: 70.00
+ 53%|█████▎    | 158/300 [31:11<27:40, 11.69s/it]EPOCH:157, ======================ACC:67.9====================
+BEST EPOCH:157,BEST ACC:67.9
+Train Epoch: 158 [Baseline] [6400/50000 (13%)]	Loss: 0.9799 Acc: 72.08
+Train Epoch: 158 [Baseline] [12800/50000 (26%)]	Loss: 1.0073 Acc: 71.24
+Train Epoch: 158 [Baseline] [19200/50000 (38%)]	Loss: 1.0191 Acc: 70.92
+Train Epoch: 158 [Baseline] [25600/50000 (51%)]	Loss: 1.0200 Acc: 70.89
+Train Epoch: 158 [Baseline] [32000/50000 (64%)]	Loss: 1.0324 Acc: 70.65
+Train Epoch: 158 [Baseline] [38400/50000 (77%)]	Loss: 1.0366 Acc: 70.55
+Train Epoch: 158 [Baseline] [44800/50000 (90%)]	Loss: 1.0465 Acc: 70.36
+ 53%|█████▎    | 159/300 [31:23<27:17, 11.62s/it]EPOCH:158, ======================ACC:68.58====================
+BEST EPOCH:158,BEST ACC:68.58
+Train Epoch: 159 [Baseline] [6400/50000 (13%)]	Loss: 0.9635 Acc: 72.33
+Train Epoch: 159 [Baseline] [12800/50000 (26%)]	Loss: 0.9704 Acc: 72.19
+Train Epoch: 159 [Baseline] [19200/50000 (38%)]	Loss: 0.9870 Acc: 71.99
+Train Epoch: 159 [Baseline] [25600/50000 (51%)]	Loss: 0.9917 Acc: 71.88
+Train Epoch: 159 [Baseline] [32000/50000 (64%)]	Loss: 1.0001 Acc: 71.42
+Train Epoch: 159 [Baseline] [38400/50000 (77%)]	Loss: 1.0169 Acc: 70.99
+Train Epoch: 159 [Baseline] [44800/50000 (90%)]	Loss: 1.0272 Acc: 70.82
+ 53%|█████▎    | 160/300 [31:34<26:54, 11.53s/it]EPOCH:159, ======================ACC:65.79====================
+BEST EPOCH:158,BEST ACC:68.58
+Train Epoch: 160 [Baseline] [6400/50000 (13%)]	Loss: 0.9875 Acc: 71.75
+Train Epoch: 160 [Baseline] [12800/50000 (26%)]	Loss: 0.9891 Acc: 71.57
+Train Epoch: 160 [Baseline] [19200/50000 (38%)]	Loss: 0.9966 Acc: 71.24
+Train Epoch: 160 [Baseline] [25600/50000 (51%)]	Loss: 1.0083 Acc: 70.98
+Train Epoch: 160 [Baseline] [32000/50000 (64%)]	Loss: 1.0175 Acc: 70.92
+Train Epoch: 160 [Baseline] [38400/50000 (77%)]	Loss: 1.0263 Acc: 70.61
+Train Epoch: 160 [Baseline] [44800/50000 (90%)]	Loss: 1.0339 Acc: 70.48
+ 54%|█████▎    | 161/300 [31:46<26:46, 11.56s/it]EPOCH:160, ======================ACC:66.38====================
+BEST EPOCH:158,BEST ACC:68.58
+Train Epoch: 161 [Baseline] [6400/50000 (13%)]	Loss: 0.9688 Acc: 73.25
+Train Epoch: 161 [Baseline] [12800/50000 (26%)]	Loss: 0.9675 Acc: 72.85
+Train Epoch: 161 [Baseline] [19200/50000 (38%)]	Loss: 0.9794 Acc: 72.27
+Train Epoch: 161 [Baseline] [25600/50000 (51%)]	Loss: 0.9839 Acc: 72.14
+Train Epoch: 161 [Baseline] [32000/50000 (64%)]	Loss: 0.9916 Acc: 71.94
+Train Epoch: 161 [Baseline] [38400/50000 (77%)]	Loss: 0.9995 Acc: 71.74
+Train Epoch: 161 [Baseline] [44800/50000 (90%)]	Loss: 1.0124 Acc: 71.37
+ 54%|█████▍    | 162/300 [31:57<26:47, 11.65s/it]EPOCH:161, ======================ACC:65.83====================
+BEST EPOCH:158,BEST ACC:68.58
+Train Epoch: 162 [Baseline] [6400/50000 (13%)]	Loss: 0.9571 Acc: 72.55
+Train Epoch: 162 [Baseline] [12800/50000 (26%)]	Loss: 0.9858 Acc: 71.98
+Train Epoch: 162 [Baseline] [19200/50000 (38%)]	Loss: 0.9892 Acc: 72.08
+Train Epoch: 162 [Baseline] [25600/50000 (51%)]	Loss: 1.0006 Acc: 71.52
+Train Epoch: 162 [Baseline] [32000/50000 (64%)]	Loss: 0.9975 Acc: 71.44
+Train Epoch: 162 [Baseline] [38400/50000 (77%)]	Loss: 1.0080 Acc: 71.16
+Train Epoch: 162 [Baseline] [44800/50000 (90%)]	Loss: 1.0159 Acc: 70.99
+ 54%|█████▍    | 163/300 [32:09<26:36, 11.65s/it]EPOCH:162, ======================ACC:67.27====================
+BEST EPOCH:158,BEST ACC:68.58
+Train Epoch: 163 [Baseline] [6400/50000 (13%)]	Loss: 0.9668 Acc: 72.69
+Train Epoch: 163 [Baseline] [12800/50000 (26%)]	Loss: 0.9721 Acc: 72.20
+Train Epoch: 163 [Baseline] [19200/50000 (38%)]	Loss: 0.9808 Acc: 71.92
+Train Epoch: 163 [Baseline] [25600/50000 (51%)]	Loss: 0.9939 Acc: 71.44
+Train Epoch: 163 [Baseline] [32000/50000 (64%)]	Loss: 1.0040 Acc: 71.20
+Train Epoch: 163 [Baseline] [38400/50000 (77%)]	Loss: 1.0105 Acc: 71.22
+Train Epoch: 163 [Baseline] [44800/50000 (90%)]	Loss: 1.0177 Acc: 71.08
+ 55%|█████▍    | 164/300 [32:21<26:33, 11.72s/it]EPOCH:163, ======================ACC:67.25====================
+BEST EPOCH:158,BEST ACC:68.58
+Train Epoch: 164 [Baseline] [6400/50000 (13%)]	Loss: 0.9519 Acc: 72.92
+Train Epoch: 164 [Baseline] [12800/50000 (26%)]	Loss: 0.9785 Acc: 72.09
+Train Epoch: 164 [Baseline] [19200/50000 (38%)]	Loss: 0.9804 Acc: 72.05
+Train Epoch: 164 [Baseline] [25600/50000 (51%)]	Loss: 0.9860 Acc: 71.92
+Train Epoch: 164 [Baseline] [32000/50000 (64%)]	Loss: 0.9845 Acc: 71.86
+Train Epoch: 164 [Baseline] [38400/50000 (77%)]	Loss: 0.9906 Acc: 71.71
+Train Epoch: 164 [Baseline] [44800/50000 (90%)]	Loss: 1.0002 Acc: 71.41
+ 55%|█████▌    | 165/300 [32:33<26:30, 11.78s/it]EPOCH:164, ======================ACC:67.76====================
+BEST EPOCH:158,BEST ACC:68.58
+Train Epoch: 165 [Baseline] [6400/50000 (13%)]	Loss: 0.9228 Acc: 73.66
+Train Epoch: 165 [Baseline] [12800/50000 (26%)]	Loss: 0.9587 Acc: 73.02
+Train Epoch: 165 [Baseline] [19200/50000 (38%)]	Loss: 0.9627 Acc: 72.66
+Train Epoch: 165 [Baseline] [25600/50000 (51%)]	Loss: 0.9625 Acc: 72.54
+Train Epoch: 165 [Baseline] [32000/50000 (64%)]	Loss: 0.9767 Acc: 72.15
+Train Epoch: 165 [Baseline] [38400/50000 (77%)]	Loss: 0.9780 Acc: 72.14
+Train Epoch: 165 [Baseline] [44800/50000 (90%)]	Loss: 0.9820 Acc: 72.05
+ 55%|█████▌    | 166/300 [32:44<26:11, 11.73s/it]EPOCH:165, ======================ACC:66.01====================
+BEST EPOCH:158,BEST ACC:68.58
+Train Epoch: 166 [Baseline] [6400/50000 (13%)]	Loss: 0.9341 Acc: 72.91
+Train Epoch: 166 [Baseline] [12800/50000 (26%)]	Loss: 0.9146 Acc: 73.78
+Train Epoch: 166 [Baseline] [19200/50000 (38%)]	Loss: 0.9412 Acc: 73.23
+Train Epoch: 166 [Baseline] [25600/50000 (51%)]	Loss: 0.9663 Acc: 72.59
+Train Epoch: 166 [Baseline] [32000/50000 (64%)]	Loss: 0.9766 Acc: 72.23
+Train Epoch: 166 [Baseline] [38400/50000 (77%)]	Loss: 0.9851 Acc: 72.13
+Train Epoch: 166 [Baseline] [44800/50000 (90%)]	Loss: 0.9902 Acc: 71.92
+ 56%|█████▌    | 167/300 [32:56<26:00, 11.73s/it]EPOCH:166, ======================ACC:66.14====================
+BEST EPOCH:158,BEST ACC:68.58
+Train Epoch: 167 [Baseline] [6400/50000 (13%)]	Loss: 0.9491 Acc: 72.58
+Train Epoch: 167 [Baseline] [12800/50000 (26%)]	Loss: 0.9542 Acc: 72.75
+Train Epoch: 167 [Baseline] [19200/50000 (38%)]	Loss: 0.9578 Acc: 72.63
+Train Epoch: 167 [Baseline] [25600/50000 (51%)]	Loss: 0.9585 Acc: 72.73
+Train Epoch: 167 [Baseline] [32000/50000 (64%)]	Loss: 0.9691 Acc: 72.39
+Train Epoch: 167 [Baseline] [38400/50000 (77%)]	Loss: 0.9705 Acc: 72.35
+Train Epoch: 167 [Baseline] [44800/50000 (90%)]	Loss: 0.9773 Acc: 72.17
+ 56%|█████▌    | 168/300 [33:08<25:51, 11.75s/it]EPOCH:167, ======================ACC:66.55====================
+BEST EPOCH:158,BEST ACC:68.58
+Train Epoch: 168 [Baseline] [6400/50000 (13%)]	Loss: 0.9177 Acc: 73.89
+Train Epoch: 168 [Baseline] [12800/50000 (26%)]	Loss: 0.9292 Acc: 73.60
+Train Epoch: 168 [Baseline] [19200/50000 (38%)]	Loss: 0.9381 Acc: 73.19
+Train Epoch: 168 [Baseline] [25600/50000 (51%)]	Loss: 0.9514 Acc: 72.76
+Train Epoch: 168 [Baseline] [32000/50000 (64%)]	Loss: 0.9591 Acc: 72.47
+Train Epoch: 168 [Baseline] [38400/50000 (77%)]	Loss: 0.9621 Acc: 72.45
+Train Epoch: 168 [Baseline] [44800/50000 (90%)]	Loss: 0.9671 Acc: 72.29
+ 56%|█████▋    | 169/300 [33:20<25:29, 11.68s/it]EPOCH:168, ======================ACC:66.53====================
+BEST EPOCH:158,BEST ACC:68.58
+Train Epoch: 169 [Baseline] [6400/50000 (13%)]	Loss: 0.9364 Acc: 73.66
+Train Epoch: 169 [Baseline] [12800/50000 (26%)]	Loss: 0.9463 Acc: 73.09
+Train Epoch: 169 [Baseline] [19200/50000 (38%)]	Loss: 0.9454 Acc: 72.97
+Train Epoch: 169 [Baseline] [25600/50000 (51%)]	Loss: 0.9507 Acc: 72.89
+Train Epoch: 169 [Baseline] [32000/50000 (64%)]	Loss: 0.9599 Acc: 72.67
+Train Epoch: 169 [Baseline] [38400/50000 (77%)]	Loss: 0.9670 Acc: 72.41
+Train Epoch: 169 [Baseline] [44800/50000 (90%)]	Loss: 0.9776 Acc: 72.13
+ 57%|█████▋    | 170/300 [33:31<25:23, 11.72s/it]EPOCH:169, ======================ACC:68.97====================
+BEST EPOCH:169,BEST ACC:68.97
+Train Epoch: 170 [Baseline] [6400/50000 (13%)]	Loss: 0.8985 Acc: 74.30
+Train Epoch: 170 [Baseline] [12800/50000 (26%)]	Loss: 0.9032 Acc: 74.31
+Train Epoch: 170 [Baseline] [19200/50000 (38%)]	Loss: 0.9216 Acc: 73.77
+Train Epoch: 170 [Baseline] [25600/50000 (51%)]	Loss: 0.9374 Acc: 73.27
+Train Epoch: 170 [Baseline] [32000/50000 (64%)]	Loss: 0.9450 Acc: 73.10
+Train Epoch: 170 [Baseline] [38400/50000 (77%)]	Loss: 0.9525 Acc: 72.72
+Train Epoch: 170 [Baseline] [44800/50000 (90%)]	Loss: 0.9625 Acc: 72.48
+ 57%|█████▋    | 171/300 [33:43<25:11, 11.72s/it]EPOCH:170, ======================ACC:67.13====================
+BEST EPOCH:169,BEST ACC:68.97
+Train Epoch: 171 [Baseline] [6400/50000 (13%)]	Loss: 0.9086 Acc: 74.38
+Train Epoch: 171 [Baseline] [12800/50000 (26%)]	Loss: 0.9194 Acc: 73.91
+Train Epoch: 171 [Baseline] [19200/50000 (38%)]	Loss: 0.9309 Acc: 73.51
+Train Epoch: 171 [Baseline] [25600/50000 (51%)]	Loss: 0.9362 Acc: 73.25
+Train Epoch: 171 [Baseline] [32000/50000 (64%)]	Loss: 0.9432 Acc: 73.01
+Train Epoch: 171 [Baseline] [38400/50000 (77%)]	Loss: 0.9547 Acc: 72.69
+Train Epoch: 171 [Baseline] [44800/50000 (90%)]	Loss: 0.9600 Acc: 72.50
+ 57%|█████▋    | 172/300 [33:55<25:02, 11.74s/it]EPOCH:171, ======================ACC:66.45====================
+BEST EPOCH:169,BEST ACC:68.97
+Train Epoch: 172 [Baseline] [6400/50000 (13%)]	Loss: 0.9164 Acc: 74.08
+Train Epoch: 172 [Baseline] [12800/50000 (26%)]	Loss: 0.8927 Acc: 74.48
+Train Epoch: 172 [Baseline] [19200/50000 (38%)]	Loss: 0.9013 Acc: 74.47
+Train Epoch: 172 [Baseline] [25600/50000 (51%)]	Loss: 0.9169 Acc: 73.88
+Train Epoch: 172 [Baseline] [32000/50000 (64%)]	Loss: 0.9226 Acc: 73.81
+Train Epoch: 172 [Baseline] [38400/50000 (77%)]	Loss: 0.9347 Acc: 73.41
+Train Epoch: 172 [Baseline] [44800/50000 (90%)]	Loss: 0.9439 Acc: 73.10
+ 58%|█████▊    | 173/300 [34:07<24:57, 11.79s/it]EPOCH:172, ======================ACC:68.55====================
+BEST EPOCH:169,BEST ACC:68.97
+Train Epoch: 173 [Baseline] [6400/50000 (13%)]	Loss: 0.8804 Acc: 74.84
+Train Epoch: 173 [Baseline] [12800/50000 (26%)]	Loss: 0.8990 Acc: 74.33
+Train Epoch: 173 [Baseline] [19200/50000 (38%)]	Loss: 0.9124 Acc: 74.03
+Train Epoch: 173 [Baseline] [25600/50000 (51%)]	Loss: 0.9265 Acc: 73.71
+Train Epoch: 173 [Baseline] [32000/50000 (64%)]	Loss: 0.9423 Acc: 73.19
+Train Epoch: 173 [Baseline] [38400/50000 (77%)]	Loss: 0.9420 Acc: 73.11
+Train Epoch: 173 [Baseline] [44800/50000 (90%)]	Loss: 0.9443 Acc: 72.99
+ 58%|█████▊    | 174/300 [34:19<24:49, 11.82s/it]EPOCH:173, ======================ACC:68.07====================
+BEST EPOCH:169,BEST ACC:68.97
+Train Epoch: 174 [Baseline] [6400/50000 (13%)]	Loss: 0.8584 Acc: 75.94
+Train Epoch: 174 [Baseline] [12800/50000 (26%)]	Loss: 0.8825 Acc: 75.01
+Train Epoch: 174 [Baseline] [19200/50000 (38%)]	Loss: 0.8971 Acc: 74.56
+Train Epoch: 174 [Baseline] [25600/50000 (51%)]	Loss: 0.9025 Acc: 74.34
+Train Epoch: 174 [Baseline] [32000/50000 (64%)]	Loss: 0.9087 Acc: 74.18
+Train Epoch: 174 [Baseline] [38400/50000 (77%)]	Loss: 0.9191 Acc: 73.89
+Train Epoch: 174 [Baseline] [44800/50000 (90%)]	Loss: 0.9329 Acc: 73.52
+ 58%|█████▊    | 175/300 [34:31<24:41, 11.85s/it]EPOCH:174, ======================ACC:69.06====================
+BEST EPOCH:174,BEST ACC:69.06
+Train Epoch: 175 [Baseline] [6400/50000 (13%)]	Loss: 0.8869 Acc: 74.47
+Train Epoch: 175 [Baseline] [12800/50000 (26%)]	Loss: 0.8939 Acc: 74.46
+Train Epoch: 175 [Baseline] [19200/50000 (38%)]	Loss: 0.9009 Acc: 74.44
+Train Epoch: 175 [Baseline] [25600/50000 (51%)]	Loss: 0.9073 Acc: 74.25
+Train Epoch: 175 [Baseline] [32000/50000 (64%)]	Loss: 0.9182 Acc: 73.92
+Train Epoch: 175 [Baseline] [38400/50000 (77%)]	Loss: 0.9242 Acc: 73.73
+Train Epoch: 175 [Baseline] [44800/50000 (90%)]	Loss: 0.9283 Acc: 73.54
+ 59%|█████▊    | 176/300 [34:43<24:33, 11.89s/it]EPOCH:175, ======================ACC:68.01====================
+BEST EPOCH:174,BEST ACC:69.06
+Train Epoch: 176 [Baseline] [6400/50000 (13%)]	Loss: 0.8503 Acc: 75.53
+Train Epoch: 176 [Baseline] [12800/50000 (26%)]	Loss: 0.8683 Acc: 74.90
+Train Epoch: 176 [Baseline] [19200/50000 (38%)]	Loss: 0.8717 Acc: 74.82
+Train Epoch: 176 [Baseline] [25600/50000 (51%)]	Loss: 0.8834 Acc: 74.52
+Train Epoch: 176 [Baseline] [32000/50000 (64%)]	Loss: 0.8942 Acc: 74.25
+Train Epoch: 176 [Baseline] [38400/50000 (77%)]	Loss: 0.9029 Acc: 73.96
+Train Epoch: 176 [Baseline] [44800/50000 (90%)]	Loss: 0.9097 Acc: 73.74
+ 59%|█████▉    | 177/300 [34:55<24:25, 11.92s/it]EPOCH:176, ======================ACC:67.52====================
+BEST EPOCH:174,BEST ACC:69.06
+Train Epoch: 177 [Baseline] [6400/50000 (13%)]	Loss: 0.8500 Acc: 75.06
+Train Epoch: 177 [Baseline] [12800/50000 (26%)]	Loss: 0.8567 Acc: 74.88
+Train Epoch: 177 [Baseline] [19200/50000 (38%)]	Loss: 0.8745 Acc: 74.76
+Train Epoch: 177 [Baseline] [25600/50000 (51%)]	Loss: 0.8778 Acc: 74.73
+Train Epoch: 177 [Baseline] [32000/50000 (64%)]	Loss: 0.8890 Acc: 74.41
+Train Epoch: 177 [Baseline] [38400/50000 (77%)]	Loss: 0.9021 Acc: 74.01
+Train Epoch: 177 [Baseline] [44800/50000 (90%)]	Loss: 0.9114 Acc: 73.79
+ 59%|█████▉    | 178/300 [35:06<24:13, 11.91s/it]EPOCH:177, ======================ACC:68.65====================
+BEST EPOCH:174,BEST ACC:69.06
+Train Epoch: 178 [Baseline] [6400/50000 (13%)]	Loss: 0.8638 Acc: 75.23
+Train Epoch: 178 [Baseline] [12800/50000 (26%)]	Loss: 0.8551 Acc: 75.48
+Train Epoch: 178 [Baseline] [19200/50000 (38%)]	Loss: 0.8681 Acc: 75.14
+Train Epoch: 178 [Baseline] [25600/50000 (51%)]	Loss: 0.8738 Acc: 74.88
+Train Epoch: 178 [Baseline] [32000/50000 (64%)]	Loss: 0.8828 Acc: 74.57
+Train Epoch: 178 [Baseline] [38400/50000 (77%)]	Loss: 0.8921 Acc: 74.27
+Train Epoch: 178 [Baseline] [44800/50000 (90%)]	Loss: 0.8956 Acc: 74.23
+ 60%|█████▉    | 179/300 [35:18<23:54, 11.86s/it]EPOCH:178, ======================ACC:68.4====================
+BEST EPOCH:174,BEST ACC:69.06
+Train Epoch: 179 [Baseline] [6400/50000 (13%)]	Loss: 0.8579 Acc: 75.50
+Train Epoch: 179 [Baseline] [12800/50000 (26%)]	Loss: 0.8498 Acc: 75.69
+Train Epoch: 179 [Baseline] [19200/50000 (38%)]	Loss: 0.8599 Acc: 75.34
+Train Epoch: 179 [Baseline] [25600/50000 (51%)]	Loss: 0.8671 Acc: 74.99
+Train Epoch: 179 [Baseline] [32000/50000 (64%)]	Loss: 0.8741 Acc: 74.91
+Train Epoch: 179 [Baseline] [38400/50000 (77%)]	Loss: 0.8845 Acc: 74.55
+Train Epoch: 179 [Baseline] [44800/50000 (90%)]	Loss: 0.8933 Acc: 74.33
+ 60%|██████    | 180/300 [35:30<23:37, 11.81s/it]EPOCH:179, ======================ACC:68.33====================
+BEST EPOCH:174,BEST ACC:69.06
+Train Epoch: 180 [Baseline] [6400/50000 (13%)]	Loss: 0.8328 Acc: 76.09
+Train Epoch: 180 [Baseline] [12800/50000 (26%)]	Loss: 0.8497 Acc: 75.71
+Train Epoch: 180 [Baseline] [19200/50000 (38%)]	Loss: 0.8562 Acc: 75.54
+Train Epoch: 180 [Baseline] [25600/50000 (51%)]	Loss: 0.8640 Acc: 75.25
+Train Epoch: 180 [Baseline] [32000/50000 (64%)]	Loss: 0.8800 Acc: 74.82
+Train Epoch: 180 [Baseline] [38400/50000 (77%)]	Loss: 0.8859 Acc: 74.59
+Train Epoch: 180 [Baseline] [44800/50000 (90%)]	Loss: 0.8912 Acc: 74.44
+ 60%|██████    | 181/300 [35:42<23:19, 11.76s/it]EPOCH:180, ======================ACC:67.21====================
+BEST EPOCH:174,BEST ACC:69.06
+Train Epoch: 181 [Baseline] [6400/50000 (13%)]	Loss: 0.8539 Acc: 75.80
+Train Epoch: 181 [Baseline] [12800/50000 (26%)]	Loss: 0.8492 Acc: 76.13
+Train Epoch: 181 [Baseline] [19200/50000 (38%)]	Loss: 0.8460 Acc: 76.15
+Train Epoch: 181 [Baseline] [25600/50000 (51%)]	Loss: 0.8561 Acc: 75.61
+Train Epoch: 181 [Baseline] [32000/50000 (64%)]	Loss: 0.8642 Acc: 75.23
+Train Epoch: 181 [Baseline] [38400/50000 (77%)]	Loss: 0.8749 Acc: 74.94
+Train Epoch: 181 [Baseline] [44800/50000 (90%)]	Loss: 0.8835 Acc: 74.60
+ 61%|██████    | 182/300 [35:53<23:10, 11.78s/it]EPOCH:181, ======================ACC:67.76====================
+BEST EPOCH:174,BEST ACC:69.06
+Train Epoch: 182 [Baseline] [6400/50000 (13%)]	Loss: 0.8362 Acc: 75.59
+Train Epoch: 182 [Baseline] [12800/50000 (26%)]	Loss: 0.8397 Acc: 75.66
+Train Epoch: 182 [Baseline] [19200/50000 (38%)]	Loss: 0.8350 Acc: 75.89
+Train Epoch: 182 [Baseline] [25600/50000 (51%)]	Loss: 0.8514 Acc: 75.58
+Train Epoch: 182 [Baseline] [32000/50000 (64%)]	Loss: 0.8632 Acc: 75.23
+Train Epoch: 182 [Baseline] [38400/50000 (77%)]	Loss: 0.8720 Acc: 75.03
+Train Epoch: 182 [Baseline] [44800/50000 (90%)]	Loss: 0.8765 Acc: 74.92
+ 61%|██████    | 183/300 [36:05<22:56, 11.77s/it]EPOCH:182, ======================ACC:68.93====================
+BEST EPOCH:174,BEST ACC:69.06
+Train Epoch: 183 [Baseline] [6400/50000 (13%)]	Loss: 0.8133 Acc: 76.42
+Train Epoch: 183 [Baseline] [12800/50000 (26%)]	Loss: 0.8101 Acc: 76.50
+Train Epoch: 183 [Baseline] [19200/50000 (38%)]	Loss: 0.8174 Acc: 76.21
+Train Epoch: 183 [Baseline] [25600/50000 (51%)]	Loss: 0.8350 Acc: 75.67
+Train Epoch: 183 [Baseline] [32000/50000 (64%)]	Loss: 0.8429 Acc: 75.41
+Train Epoch: 183 [Baseline] [38400/50000 (77%)]	Loss: 0.8522 Acc: 75.15
+Train Epoch: 183 [Baseline] [44800/50000 (90%)]	Loss: 0.8581 Acc: 75.04
+ 61%|██████▏   | 184/300 [36:17<22:48, 11.79s/it]EPOCH:183, ======================ACC:64.86====================
+BEST EPOCH:174,BEST ACC:69.06
+Train Epoch: 184 [Baseline] [6400/50000 (13%)]	Loss: 0.8169 Acc: 76.09
+Train Epoch: 184 [Baseline] [12800/50000 (26%)]	Loss: 0.8307 Acc: 75.95
+Train Epoch: 184 [Baseline] [19200/50000 (38%)]	Loss: 0.8408 Acc: 75.98
+Train Epoch: 184 [Baseline] [25600/50000 (51%)]	Loss: 0.8530 Acc: 75.39
+Train Epoch: 184 [Baseline] [32000/50000 (64%)]	Loss: 0.8614 Acc: 75.14
+Train Epoch: 184 [Baseline] [38400/50000 (77%)]	Loss: 0.8682 Acc: 74.93
+Train Epoch: 184 [Baseline] [44800/50000 (90%)]	Loss: 0.8708 Acc: 74.92
+ 62%|██████▏   | 185/300 [36:29<22:37, 11.80s/it]EPOCH:184, ======================ACC:68.57====================
+BEST EPOCH:174,BEST ACC:69.06
+Train Epoch: 185 [Baseline] [6400/50000 (13%)]	Loss: 0.8028 Acc: 76.89
+Train Epoch: 185 [Baseline] [12800/50000 (26%)]	Loss: 0.8136 Acc: 76.62
+Train Epoch: 185 [Baseline] [19200/50000 (38%)]	Loss: 0.8180 Acc: 76.44
+Train Epoch: 185 [Baseline] [25600/50000 (51%)]	Loss: 0.8273 Acc: 76.12
+Train Epoch: 185 [Baseline] [32000/50000 (64%)]	Loss: 0.8382 Acc: 75.78
+Train Epoch: 185 [Baseline] [38400/50000 (77%)]	Loss: 0.8414 Acc: 75.65
+Train Epoch: 185 [Baseline] [44800/50000 (90%)]	Loss: 0.8514 Acc: 75.39
+ 62%|██████▏   | 186/300 [36:41<22:24, 11.79s/it]EPOCH:185, ======================ACC:69.62====================
+BEST EPOCH:185,BEST ACC:69.62
+Train Epoch: 186 [Baseline] [6400/50000 (13%)]	Loss: 0.8133 Acc: 76.97
+Train Epoch: 186 [Baseline] [12800/50000 (26%)]	Loss: 0.8032 Acc: 76.85
+Train Epoch: 186 [Baseline] [19200/50000 (38%)]	Loss: 0.8123 Acc: 76.33
+Train Epoch: 186 [Baseline] [25600/50000 (51%)]	Loss: 0.8157 Acc: 76.31
+Train Epoch: 186 [Baseline] [32000/50000 (64%)]	Loss: 0.8230 Acc: 76.14
+Train Epoch: 186 [Baseline] [38400/50000 (77%)]	Loss: 0.8354 Acc: 75.83
+Train Epoch: 186 [Baseline] [44800/50000 (90%)]	Loss: 0.8409 Acc: 75.63
+ 62%|██████▏   | 187/300 [36:52<22:06, 11.74s/it]EPOCH:186, ======================ACC:69.16====================
+BEST EPOCH:185,BEST ACC:69.62
+Train Epoch: 187 [Baseline] [6400/50000 (13%)]	Loss: 0.8307 Acc: 76.20
+Train Epoch: 187 [Baseline] [12800/50000 (26%)]	Loss: 0.8043 Acc: 77.07
+Train Epoch: 187 [Baseline] [19200/50000 (38%)]	Loss: 0.8051 Acc: 77.03
+Train Epoch: 187 [Baseline] [25600/50000 (51%)]	Loss: 0.8182 Acc: 76.62
+Train Epoch: 187 [Baseline] [32000/50000 (64%)]	Loss: 0.8267 Acc: 76.39
+Train Epoch: 187 [Baseline] [38400/50000 (77%)]	Loss: 0.8326 Acc: 76.17
+Train Epoch: 187 [Baseline] [44800/50000 (90%)]	Loss: 0.8417 Acc: 75.90
+ 63%|██████▎   | 188/300 [37:04<22:00, 11.79s/it]EPOCH:187, ======================ACC:69.24====================
+BEST EPOCH:185,BEST ACC:69.62
+Train Epoch: 188 [Baseline] [6400/50000 (13%)]	Loss: 0.8060 Acc: 76.78
+Train Epoch: 188 [Baseline] [12800/50000 (26%)]	Loss: 0.7967 Acc: 77.12
+Train Epoch: 188 [Baseline] [19200/50000 (38%)]	Loss: 0.7930 Acc: 77.05
+Train Epoch: 188 [Baseline] [25600/50000 (51%)]	Loss: 0.7998 Acc: 77.13
+Train Epoch: 188 [Baseline] [32000/50000 (64%)]	Loss: 0.8084 Acc: 76.84
+Train Epoch: 188 [Baseline] [38400/50000 (77%)]	Loss: 0.8152 Acc: 76.58
+Train Epoch: 188 [Baseline] [44800/50000 (90%)]	Loss: 0.8226 Acc: 76.31
+ 63%|██████▎   | 189/300 [37:16<21:51, 11.81s/it]EPOCH:188, ======================ACC:69.48====================
+BEST EPOCH:185,BEST ACC:69.62
+Train Epoch: 189 [Baseline] [6400/50000 (13%)]	Loss: 0.7928 Acc: 77.20
+Train Epoch: 189 [Baseline] [12800/50000 (26%)]	Loss: 0.7796 Acc: 77.48
+Train Epoch: 189 [Baseline] [19200/50000 (38%)]	Loss: 0.7892 Acc: 77.22
+Train Epoch: 189 [Baseline] [25600/50000 (51%)]	Loss: 0.8005 Acc: 76.95
+Train Epoch: 189 [Baseline] [32000/50000 (64%)]	Loss: 0.8129 Acc: 76.65
+Train Epoch: 189 [Baseline] [38400/50000 (77%)]	Loss: 0.8174 Acc: 76.58
+Train Epoch: 189 [Baseline] [44800/50000 (90%)]	Loss: 0.8176 Acc: 76.55
+ 63%|██████▎   | 190/300 [37:28<21:42, 11.84s/it]EPOCH:189, ======================ACC:68.87====================
+BEST EPOCH:185,BEST ACC:69.62
+Train Epoch: 190 [Baseline] [6400/50000 (13%)]	Loss: 0.7650 Acc: 77.91
+Train Epoch: 190 [Baseline] [12800/50000 (26%)]	Loss: 0.7676 Acc: 77.75
+Train Epoch: 190 [Baseline] [19200/50000 (38%)]	Loss: 0.7738 Acc: 77.80
+Train Epoch: 190 [Baseline] [25600/50000 (51%)]	Loss: 0.7872 Acc: 77.17
+Train Epoch: 190 [Baseline] [32000/50000 (64%)]	Loss: 0.7953 Acc: 77.00
+Train Epoch: 190 [Baseline] [38400/50000 (77%)]	Loss: 0.8024 Acc: 76.82
+Train Epoch: 190 [Baseline] [44800/50000 (90%)]	Loss: 0.8091 Acc: 76.68
+ 64%|██████▎   | 191/300 [37:40<21:50, 12.02s/it]EPOCH:190, ======================ACC:69.26====================
+BEST EPOCH:185,BEST ACC:69.62
+Train Epoch: 191 [Baseline] [6400/50000 (13%)]	Loss: 0.7785 Acc: 77.06
+Train Epoch: 191 [Baseline] [12800/50000 (26%)]	Loss: 0.7669 Acc: 77.67
+Train Epoch: 191 [Baseline] [19200/50000 (38%)]	Loss: 0.7850 Acc: 77.33
+Train Epoch: 191 [Baseline] [25600/50000 (51%)]	Loss: 0.7922 Acc: 77.30
+Train Epoch: 191 [Baseline] [32000/50000 (64%)]	Loss: 0.7974 Acc: 77.12
+Train Epoch: 191 [Baseline] [38400/50000 (77%)]	Loss: 0.7972 Acc: 77.13
+Train Epoch: 191 [Baseline] [44800/50000 (90%)]	Loss: 0.8036 Acc: 76.82
+ 64%|██████▍   | 192/300 [37:52<21:27, 11.92s/it]EPOCH:191, ======================ACC:70.46====================
+BEST EPOCH:191,BEST ACC:70.46
+Train Epoch: 192 [Baseline] [6400/50000 (13%)]	Loss: 0.7412 Acc: 78.39
+Train Epoch: 192 [Baseline] [12800/50000 (26%)]	Loss: 0.7577 Acc: 78.10
+Train Epoch: 192 [Baseline] [19200/50000 (38%)]	Loss: 0.7793 Acc: 77.61
+Train Epoch: 192 [Baseline] [25600/50000 (51%)]	Loss: 0.7873 Acc: 77.30
+Train Epoch: 192 [Baseline] [32000/50000 (64%)]	Loss: 0.7938 Acc: 77.18
+Train Epoch: 192 [Baseline] [38400/50000 (77%)]	Loss: 0.7940 Acc: 77.16
+Train Epoch: 192 [Baseline] [44800/50000 (90%)]	Loss: 0.7987 Acc: 77.04
+ 64%|██████▍   | 193/300 [38:04<21:07, 11.85s/it]EPOCH:192, ======================ACC:69.14====================
+BEST EPOCH:191,BEST ACC:70.46
+Train Epoch: 193 [Baseline] [6400/50000 (13%)]	Loss: 0.7647 Acc: 77.91
+Train Epoch: 193 [Baseline] [12800/50000 (26%)]	Loss: 0.7768 Acc: 77.55
+Train Epoch: 193 [Baseline] [19200/50000 (38%)]	Loss: 0.7762 Acc: 77.40
+Train Epoch: 193 [Baseline] [25600/50000 (51%)]	Loss: 0.7799 Acc: 77.28
+Train Epoch: 193 [Baseline] [32000/50000 (64%)]	Loss: 0.7822 Acc: 77.25
+Train Epoch: 193 [Baseline] [38400/50000 (77%)]	Loss: 0.7901 Acc: 76.97
+Train Epoch: 193 [Baseline] [44800/50000 (90%)]	Loss: 0.8025 Acc: 76.68
+ 65%|██████▍   | 194/300 [38:15<20:51, 11.81s/it]EPOCH:193, ======================ACC:68.65====================
+BEST EPOCH:191,BEST ACC:70.46
+Train Epoch: 194 [Baseline] [6400/50000 (13%)]	Loss: 0.7381 Acc: 78.69
+Train Epoch: 194 [Baseline] [12800/50000 (26%)]	Loss: 0.7395 Acc: 78.63
+Train Epoch: 194 [Baseline] [19200/50000 (38%)]	Loss: 0.7444 Acc: 78.64
+Train Epoch: 194 [Baseline] [25600/50000 (51%)]	Loss: 0.7566 Acc: 78.21
+Train Epoch: 194 [Baseline] [32000/50000 (64%)]	Loss: 0.7646 Acc: 77.98
+Train Epoch: 194 [Baseline] [38400/50000 (77%)]	Loss: 0.7711 Acc: 77.68
+Train Epoch: 194 [Baseline] [44800/50000 (90%)]	Loss: 0.7776 Acc: 77.47
+ 65%|██████▌   | 195/300 [38:27<20:40, 11.81s/it]EPOCH:194, ======================ACC:70.21====================
+BEST EPOCH:191,BEST ACC:70.46
+Train Epoch: 195 [Baseline] [6400/50000 (13%)]	Loss: 0.7434 Acc: 78.89
+Train Epoch: 195 [Baseline] [12800/50000 (26%)]	Loss: 0.7518 Acc: 78.40
+Train Epoch: 195 [Baseline] [19200/50000 (38%)]	Loss: 0.7487 Acc: 78.33
+Train Epoch: 195 [Baseline] [25600/50000 (51%)]	Loss: 0.7515 Acc: 78.25
+Train Epoch: 195 [Baseline] [32000/50000 (64%)]	Loss: 0.7567 Acc: 78.05
+Train Epoch: 195 [Baseline] [38400/50000 (77%)]	Loss: 0.7593 Acc: 77.97
+Train Epoch: 195 [Baseline] [44800/50000 (90%)]	Loss: 0.7700 Acc: 77.68
+ 65%|██████▌   | 196/300 [38:39<20:29, 11.82s/it]EPOCH:195, ======================ACC:69.96====================
+BEST EPOCH:191,BEST ACC:70.46
+Train Epoch: 196 [Baseline] [6400/50000 (13%)]	Loss: 0.7206 Acc: 79.22
+Train Epoch: 196 [Baseline] [12800/50000 (26%)]	Loss: 0.7107 Acc: 79.27
+Train Epoch: 196 [Baseline] [19200/50000 (38%)]	Loss: 0.7281 Acc: 78.71
+Train Epoch: 196 [Baseline] [25600/50000 (51%)]	Loss: 0.7358 Acc: 78.53
+Train Epoch: 196 [Baseline] [32000/50000 (64%)]	Loss: 0.7469 Acc: 78.29
+Train Epoch: 196 [Baseline] [38400/50000 (77%)]	Loss: 0.7565 Acc: 78.04
+Train Epoch: 196 [Baseline] [44800/50000 (90%)]	Loss: 0.7624 Acc: 77.90
+ 66%|██████▌   | 197/300 [38:51<20:13, 11.78s/it]EPOCH:196, ======================ACC:70.96====================
+BEST EPOCH:196,BEST ACC:70.96
+Train Epoch: 197 [Baseline] [6400/50000 (13%)]	Loss: 0.7144 Acc: 79.03
+Train Epoch: 197 [Baseline] [12800/50000 (26%)]	Loss: 0.7264 Acc: 78.76
+Train Epoch: 197 [Baseline] [19200/50000 (38%)]	Loss: 0.7245 Acc: 78.86
+Train Epoch: 197 [Baseline] [25600/50000 (51%)]	Loss: 0.7293 Acc: 78.66
+Train Epoch: 197 [Baseline] [32000/50000 (64%)]	Loss: 0.7374 Acc: 78.51
+Train Epoch: 197 [Baseline] [38400/50000 (77%)]	Loss: 0.7478 Acc: 78.14
+Train Epoch: 197 [Baseline] [44800/50000 (90%)]	Loss: 0.7530 Acc: 78.02
+ 66%|██████▌   | 198/300 [39:02<19:59, 11.76s/it]EPOCH:197, ======================ACC:69.14====================
+BEST EPOCH:196,BEST ACC:70.96
+Train Epoch: 198 [Baseline] [6400/50000 (13%)]	Loss: 0.6821 Acc: 80.66
+Train Epoch: 198 [Baseline] [12800/50000 (26%)]	Loss: 0.6854 Acc: 80.56
+Train Epoch: 198 [Baseline] [19200/50000 (38%)]	Loss: 0.6974 Acc: 80.09
+Train Epoch: 198 [Baseline] [25600/50000 (51%)]	Loss: 0.7123 Acc: 79.64
+Train Epoch: 198 [Baseline] [32000/50000 (64%)]	Loss: 0.7294 Acc: 79.08
+Train Epoch: 198 [Baseline] [38400/50000 (77%)]	Loss: 0.7378 Acc: 78.83
+Train Epoch: 198 [Baseline] [44800/50000 (90%)]	Loss: 0.7449 Acc: 78.69
+ 66%|██████▋   | 199/300 [39:15<19:57, 11.86s/it]EPOCH:198, ======================ACC:70.09====================
+BEST EPOCH:196,BEST ACC:70.96
+Train Epoch: 199 [Baseline] [6400/50000 (13%)]	Loss: 0.7040 Acc: 79.66
+Train Epoch: 199 [Baseline] [12800/50000 (26%)]	Loss: 0.7066 Acc: 79.49
+Train Epoch: 199 [Baseline] [19200/50000 (38%)]	Loss: 0.7184 Acc: 79.37
+Train Epoch: 199 [Baseline] [25600/50000 (51%)]	Loss: 0.7261 Acc: 79.11
+Train Epoch: 199 [Baseline] [32000/50000 (64%)]	Loss: 0.7255 Acc: 78.93
+Train Epoch: 199 [Baseline] [38400/50000 (77%)]	Loss: 0.7367 Acc: 78.65
+Train Epoch: 199 [Baseline] [44800/50000 (90%)]	Loss: 0.7406 Acc: 78.53
+ 67%|██████▋   | 200/300 [39:26<19:47, 11.88s/it]EPOCH:199, ======================ACC:68.37====================
+BEST EPOCH:196,BEST ACC:70.96
+Train Epoch: 200 [Baseline] [6400/50000 (13%)]	Loss: 0.7366 Acc: 78.88
+Train Epoch: 200 [Baseline] [12800/50000 (26%)]	Loss: 0.7313 Acc: 79.02
+Train Epoch: 200 [Baseline] [19200/50000 (38%)]	Loss: 0.7285 Acc: 78.84
+Train Epoch: 200 [Baseline] [25600/50000 (51%)]	Loss: 0.7231 Acc: 79.02
+Train Epoch: 200 [Baseline] [32000/50000 (64%)]	Loss: 0.7282 Acc: 78.87
+Train Epoch: 200 [Baseline] [38400/50000 (77%)]	Loss: 0.7349 Acc: 78.61
+Train Epoch: 200 [Baseline] [44800/50000 (90%)]	Loss: 0.7417 Acc: 78.42
+ 67%|██████▋   | 201/300 [39:38<19:34, 11.87s/it]EPOCH:200, ======================ACC:70.9====================
+BEST EPOCH:196,BEST ACC:70.96
+Train Epoch: 201 [Baseline] [6400/50000 (13%)]	Loss: 0.6710 Acc: 80.27
+Train Epoch: 201 [Baseline] [12800/50000 (26%)]	Loss: 0.6770 Acc: 80.18
+Train Epoch: 201 [Baseline] [19200/50000 (38%)]	Loss: 0.6930 Acc: 79.71
+Train Epoch: 201 [Baseline] [25600/50000 (51%)]	Loss: 0.6929 Acc: 79.73
+Train Epoch: 201 [Baseline] [32000/50000 (64%)]	Loss: 0.7048 Acc: 79.38
+Train Epoch: 201 [Baseline] [38400/50000 (77%)]	Loss: 0.7125 Acc: 79.18
+Train Epoch: 201 [Baseline] [44800/50000 (90%)]	Loss: 0.7191 Acc: 78.95
+ 67%|██████▋   | 202/300 [39:50<19:18, 11.82s/it]EPOCH:201, ======================ACC:71.26====================
+BEST EPOCH:201,BEST ACC:71.26
+Train Epoch: 202 [Baseline] [6400/50000 (13%)]	Loss: 0.7072 Acc: 80.25
+Train Epoch: 202 [Baseline] [12800/50000 (26%)]	Loss: 0.6926 Acc: 80.47
+Train Epoch: 202 [Baseline] [19200/50000 (38%)]	Loss: 0.6944 Acc: 80.48
+Train Epoch: 202 [Baseline] [25600/50000 (51%)]	Loss: 0.6958 Acc: 80.14
+Train Epoch: 202 [Baseline] [32000/50000 (64%)]	Loss: 0.7042 Acc: 79.73
+Train Epoch: 202 [Baseline] [38400/50000 (77%)]	Loss: 0.7137 Acc: 79.40
+Train Epoch: 202 [Baseline] [44800/50000 (90%)]	Loss: 0.7222 Acc: 79.16
+ 68%|██████▊   | 203/300 [40:02<19:00, 11.76s/it]EPOCH:202, ======================ACC:71.23====================
+BEST EPOCH:201,BEST ACC:71.26
+Train Epoch: 203 [Baseline] [6400/50000 (13%)]	Loss: 0.6611 Acc: 81.34
+Train Epoch: 203 [Baseline] [12800/50000 (26%)]	Loss: 0.6721 Acc: 80.81
+Train Epoch: 203 [Baseline] [19200/50000 (38%)]	Loss: 0.6796 Acc: 80.55
+Train Epoch: 203 [Baseline] [25600/50000 (51%)]	Loss: 0.6873 Acc: 80.31
+Train Epoch: 203 [Baseline] [32000/50000 (64%)]	Loss: 0.6962 Acc: 80.01
+Train Epoch: 203 [Baseline] [38400/50000 (77%)]	Loss: 0.7032 Acc: 79.76
+Train Epoch: 203 [Baseline] [44800/50000 (90%)]	Loss: 0.7098 Acc: 79.56
+ 68%|██████▊   | 204/300 [40:13<18:49, 11.76s/it]EPOCH:203, ======================ACC:70.01====================
+BEST EPOCH:201,BEST ACC:71.26
+Train Epoch: 204 [Baseline] [6400/50000 (13%)]	Loss: 0.6709 Acc: 80.47
+Train Epoch: 204 [Baseline] [12800/50000 (26%)]	Loss: 0.6830 Acc: 80.09
+Train Epoch: 204 [Baseline] [19200/50000 (38%)]	Loss: 0.6814 Acc: 79.96
+Train Epoch: 204 [Baseline] [25600/50000 (51%)]	Loss: 0.6857 Acc: 79.67
+Train Epoch: 204 [Baseline] [32000/50000 (64%)]	Loss: 0.6902 Acc: 79.67
+Train Epoch: 204 [Baseline] [38400/50000 (77%)]	Loss: 0.6987 Acc: 79.48
+Train Epoch: 204 [Baseline] [44800/50000 (90%)]	Loss: 0.7037 Acc: 79.35
+ 68%|██████▊   | 205/300 [40:25<18:35, 11.74s/it]EPOCH:204, ======================ACC:70.39====================
+BEST EPOCH:201,BEST ACC:71.26
+Train Epoch: 205 [Baseline] [6400/50000 (13%)]	Loss: 0.6332 Acc: 81.78
+Train Epoch: 205 [Baseline] [12800/50000 (26%)]	Loss: 0.6570 Acc: 81.07
+Train Epoch: 205 [Baseline] [19200/50000 (38%)]	Loss: 0.6638 Acc: 80.96
+Train Epoch: 205 [Baseline] [25600/50000 (51%)]	Loss: 0.6689 Acc: 80.73
+Train Epoch: 205 [Baseline] [32000/50000 (64%)]	Loss: 0.6705 Acc: 80.66
+Train Epoch: 205 [Baseline] [38400/50000 (77%)]	Loss: 0.6770 Acc: 80.43
+Train Epoch: 205 [Baseline] [44800/50000 (90%)]	Loss: 0.6797 Acc: 80.32
+ 69%|██████▊   | 206/300 [40:37<18:23, 11.74s/it]EPOCH:205, ======================ACC:68.88====================
+BEST EPOCH:201,BEST ACC:71.26
+Train Epoch: 206 [Baseline] [6400/50000 (13%)]	Loss: 0.6077 Acc: 82.45
+Train Epoch: 206 [Baseline] [12800/50000 (26%)]	Loss: 0.6259 Acc: 81.89
+Train Epoch: 206 [Baseline] [19200/50000 (38%)]	Loss: 0.6470 Acc: 81.34
+Train Epoch: 206 [Baseline] [25600/50000 (51%)]	Loss: 0.6542 Acc: 81.08
+Train Epoch: 206 [Baseline] [32000/50000 (64%)]	Loss: 0.6585 Acc: 80.94
+Train Epoch: 206 [Baseline] [38400/50000 (77%)]	Loss: 0.6666 Acc: 80.58
+Train Epoch: 206 [Baseline] [44800/50000 (90%)]	Loss: 0.6709 Acc: 80.49
+ 69%|██████▉   | 207/300 [40:49<18:17, 11.80s/it]EPOCH:206, ======================ACC:70.38====================
+BEST EPOCH:201,BEST ACC:71.26
+Train Epoch: 207 [Baseline] [6400/50000 (13%)]	Loss: 0.6130 Acc: 81.89
+Train Epoch: 207 [Baseline] [12800/50000 (26%)]	Loss: 0.6264 Acc: 81.79
+Train Epoch: 207 [Baseline] [19200/50000 (38%)]	Loss: 0.6406 Acc: 81.44
+Train Epoch: 207 [Baseline] [25600/50000 (51%)]	Loss: 0.6508 Acc: 81.11
+Train Epoch: 207 [Baseline] [32000/50000 (64%)]	Loss: 0.6582 Acc: 80.93
+Train Epoch: 207 [Baseline] [38400/50000 (77%)]	Loss: 0.6643 Acc: 80.76
+Train Epoch: 207 [Baseline] [44800/50000 (90%)]	Loss: 0.6716 Acc: 80.51
+ 69%|██████▉   | 208/300 [41:00<18:03, 11.78s/it]EPOCH:207, ======================ACC:72.25====================
+BEST EPOCH:207,BEST ACC:72.25
+Train Epoch: 208 [Baseline] [6400/50000 (13%)]	Loss: 0.6037 Acc: 82.33
+Train Epoch: 208 [Baseline] [12800/50000 (26%)]	Loss: 0.6036 Acc: 82.33
+Train Epoch: 208 [Baseline] [19200/50000 (38%)]	Loss: 0.6223 Acc: 81.77
+Train Epoch: 208 [Baseline] [25600/50000 (51%)]	Loss: 0.6338 Acc: 81.40
+Train Epoch: 208 [Baseline] [32000/50000 (64%)]	Loss: 0.6421 Acc: 81.20
+Train Epoch: 208 [Baseline] [38400/50000 (77%)]	Loss: 0.6513 Acc: 80.89
+Train Epoch: 208 [Baseline] [44800/50000 (90%)]	Loss: 0.6533 Acc: 80.88
+ 70%|██████▉   | 209/300 [41:12<17:45, 11.71s/it]EPOCH:208, ======================ACC:70.1====================
+BEST EPOCH:207,BEST ACC:72.25
+Train Epoch: 209 [Baseline] [6400/50000 (13%)]	Loss: 0.6377 Acc: 81.34
+Train Epoch: 209 [Baseline] [12800/50000 (26%)]	Loss: 0.6341 Acc: 81.49
+Train Epoch: 209 [Baseline] [19200/50000 (38%)]	Loss: 0.6329 Acc: 81.42
+Train Epoch: 209 [Baseline] [25600/50000 (51%)]	Loss: 0.6406 Acc: 81.16
+Train Epoch: 209 [Baseline] [32000/50000 (64%)]	Loss: 0.6479 Acc: 81.09
+Train Epoch: 209 [Baseline] [38400/50000 (77%)]	Loss: 0.6539 Acc: 81.07
+Train Epoch: 209 [Baseline] [44800/50000 (90%)]	Loss: 0.6581 Acc: 80.95
+ 70%|███████   | 210/300 [41:24<17:33, 11.70s/it]EPOCH:209, ======================ACC:69.79====================
+BEST EPOCH:207,BEST ACC:72.25
+Train Epoch: 210 [Baseline] [6400/50000 (13%)]	Loss: 0.6179 Acc: 82.52
+Train Epoch: 210 [Baseline] [12800/50000 (26%)]	Loss: 0.6166 Acc: 82.30
+Train Epoch: 210 [Baseline] [19200/50000 (38%)]	Loss: 0.6274 Acc: 82.07
+Train Epoch: 210 [Baseline] [25600/50000 (51%)]	Loss: 0.6307 Acc: 81.96
+Train Epoch: 210 [Baseline] [32000/50000 (64%)]	Loss: 0.6390 Acc: 81.71
+Train Epoch: 210 [Baseline] [38400/50000 (77%)]	Loss: 0.6460 Acc: 81.43
+Train Epoch: 210 [Baseline] [44800/50000 (90%)]	Loss: 0.6499 Acc: 81.37
+ 70%|███████   | 211/300 [41:36<17:25, 11.75s/it]EPOCH:210, ======================ACC:70.57====================
+BEST EPOCH:207,BEST ACC:72.25
+Train Epoch: 211 [Baseline] [6400/50000 (13%)]	Loss: 0.6269 Acc: 82.44
+Train Epoch: 211 [Baseline] [12800/50000 (26%)]	Loss: 0.6361 Acc: 81.78
+Train Epoch: 211 [Baseline] [19200/50000 (38%)]	Loss: 0.6410 Acc: 81.54
+Train Epoch: 211 [Baseline] [25600/50000 (51%)]	Loss: 0.6412 Acc: 81.42
+Train Epoch: 211 [Baseline] [32000/50000 (64%)]	Loss: 0.6496 Acc: 81.19
+Train Epoch: 211 [Baseline] [38400/50000 (77%)]	Loss: 0.6463 Acc: 81.25
+Train Epoch: 211 [Baseline] [44800/50000 (90%)]	Loss: 0.6461 Acc: 81.27
+ 71%|███████   | 212/300 [41:47<17:15, 11.76s/it]EPOCH:211, ======================ACC:73.09====================
+BEST EPOCH:211,BEST ACC:73.09
+Train Epoch: 212 [Baseline] [6400/50000 (13%)]	Loss: 0.6061 Acc: 82.78
+Train Epoch: 212 [Baseline] [12800/50000 (26%)]	Loss: 0.6054 Acc: 82.51
+Train Epoch: 212 [Baseline] [19200/50000 (38%)]	Loss: 0.6021 Acc: 82.57
+Train Epoch: 212 [Baseline] [25600/50000 (51%)]	Loss: 0.6120 Acc: 82.39
+Train Epoch: 212 [Baseline] [32000/50000 (64%)]	Loss: 0.6124 Acc: 82.35
+Train Epoch: 212 [Baseline] [38400/50000 (77%)]	Loss: 0.6195 Acc: 82.13
+Train Epoch: 212 [Baseline] [44800/50000 (90%)]	Loss: 0.6271 Acc: 81.90
+ 71%|███████   | 213/300 [41:59<17:01, 11.74s/it]EPOCH:212, ======================ACC:72.09====================
+BEST EPOCH:211,BEST ACC:73.09
+Train Epoch: 213 [Baseline] [6400/50000 (13%)]	Loss: 0.5875 Acc: 83.47
+Train Epoch: 213 [Baseline] [12800/50000 (26%)]	Loss: 0.6023 Acc: 82.95
+Train Epoch: 213 [Baseline] [19200/50000 (38%)]	Loss: 0.6052 Acc: 82.85
+Train Epoch: 213 [Baseline] [25600/50000 (51%)]	Loss: 0.5974 Acc: 82.99
+Train Epoch: 213 [Baseline] [32000/50000 (64%)]	Loss: 0.6049 Acc: 82.67
+Train Epoch: 213 [Baseline] [38400/50000 (77%)]	Loss: 0.6136 Acc: 82.40
+Train Epoch: 213 [Baseline] [44800/50000 (90%)]	Loss: 0.6180 Acc: 82.27
+ 71%|███████▏  | 214/300 [42:11<16:50, 11.75s/it]EPOCH:213, ======================ACC:71.7====================
+BEST EPOCH:211,BEST ACC:73.09
+Train Epoch: 214 [Baseline] [6400/50000 (13%)]	Loss: 0.5580 Acc: 84.11
+Train Epoch: 214 [Baseline] [12800/50000 (26%)]	Loss: 0.5758 Acc: 83.47
+Train Epoch: 214 [Baseline] [19200/50000 (38%)]	Loss: 0.5853 Acc: 83.16
+Train Epoch: 214 [Baseline] [25600/50000 (51%)]	Loss: 0.5964 Acc: 82.86
+Train Epoch: 214 [Baseline] [32000/50000 (64%)]	Loss: 0.6015 Acc: 82.60
+Train Epoch: 214 [Baseline] [38400/50000 (77%)]	Loss: 0.6100 Acc: 82.30
+Train Epoch: 214 [Baseline] [44800/50000 (90%)]	Loss: 0.6163 Acc: 82.06
+ 72%|███████▏  | 215/300 [42:23<16:39, 11.76s/it]EPOCH:214, ======================ACC:72.89====================
+BEST EPOCH:211,BEST ACC:73.09
+Train Epoch: 215 [Baseline] [6400/50000 (13%)]	Loss: 0.5798 Acc: 83.64
+Train Epoch: 215 [Baseline] [12800/50000 (26%)]	Loss: 0.5841 Acc: 83.30
+Train Epoch: 215 [Baseline] [19200/50000 (38%)]	Loss: 0.5866 Acc: 83.10
+Train Epoch: 215 [Baseline] [25600/50000 (51%)]	Loss: 0.5922 Acc: 82.85
+Train Epoch: 215 [Baseline] [32000/50000 (64%)]	Loss: 0.5968 Acc: 82.69
+Train Epoch: 215 [Baseline] [38400/50000 (77%)]	Loss: 0.6038 Acc: 82.46
+Train Epoch: 215 [Baseline] [44800/50000 (90%)]	Loss: 0.6097 Acc: 82.33
+ 72%|███████▏  | 216/300 [42:34<16:23, 11.70s/it]EPOCH:215, ======================ACC:72.35====================
+BEST EPOCH:211,BEST ACC:73.09
+Train Epoch: 216 [Baseline] [6400/50000 (13%)]	Loss: 0.5481 Acc: 84.47
+Train Epoch: 216 [Baseline] [12800/50000 (26%)]	Loss: 0.5344 Acc: 84.73
+Train Epoch: 216 [Baseline] [19200/50000 (38%)]	Loss: 0.5490 Acc: 84.14
+Train Epoch: 216 [Baseline] [25600/50000 (51%)]	Loss: 0.5659 Acc: 83.61
+Train Epoch: 216 [Baseline] [32000/50000 (64%)]	Loss: 0.5709 Acc: 83.49
+Train Epoch: 216 [Baseline] [38400/50000 (77%)]	Loss: 0.5838 Acc: 83.16
+Train Epoch: 216 [Baseline] [44800/50000 (90%)]	Loss: 0.5915 Acc: 82.94
+ 72%|███████▏  | 217/300 [42:46<16:10, 11.70s/it]EPOCH:216, ======================ACC:71.86====================
+BEST EPOCH:211,BEST ACC:73.09
+Train Epoch: 217 [Baseline] [6400/50000 (13%)]	Loss: 0.5610 Acc: 83.78
+Train Epoch: 217 [Baseline] [12800/50000 (26%)]	Loss: 0.5648 Acc: 83.64
+Train Epoch: 217 [Baseline] [19200/50000 (38%)]	Loss: 0.5690 Acc: 83.61
+Train Epoch: 217 [Baseline] [25600/50000 (51%)]	Loss: 0.5735 Acc: 83.54
+Train Epoch: 217 [Baseline] [32000/50000 (64%)]	Loss: 0.5767 Acc: 83.50
+Train Epoch: 217 [Baseline] [38400/50000 (77%)]	Loss: 0.5779 Acc: 83.46
+Train Epoch: 217 [Baseline] [44800/50000 (90%)]	Loss: 0.5837 Acc: 83.29
+ 73%|███████▎  | 218/300 [42:58<15:58, 11.69s/it]EPOCH:217, ======================ACC:71.49====================
+BEST EPOCH:211,BEST ACC:73.09
+Train Epoch: 218 [Baseline] [6400/50000 (13%)]	Loss: 0.5581 Acc: 83.80
+Train Epoch: 218 [Baseline] [12800/50000 (26%)]	Loss: 0.5675 Acc: 83.53
+Train Epoch: 218 [Baseline] [19200/50000 (38%)]	Loss: 0.5661 Acc: 83.77
+Train Epoch: 218 [Baseline] [25600/50000 (51%)]	Loss: 0.5669 Acc: 83.81
+Train Epoch: 218 [Baseline] [32000/50000 (64%)]	Loss: 0.5711 Acc: 83.56
+Train Epoch: 218 [Baseline] [38400/50000 (77%)]	Loss: 0.5742 Acc: 83.56
+Train Epoch: 218 [Baseline] [44800/50000 (90%)]	Loss: 0.5790 Acc: 83.43
+ 73%|███████▎  | 219/300 [43:09<15:43, 11.65s/it]EPOCH:218, ======================ACC:71.42====================
+BEST EPOCH:211,BEST ACC:73.09
+Train Epoch: 219 [Baseline] [6400/50000 (13%)]	Loss: 0.5126 Acc: 85.22
+Train Epoch: 219 [Baseline] [12800/50000 (26%)]	Loss: 0.5272 Acc: 84.55
+Train Epoch: 219 [Baseline] [19200/50000 (38%)]	Loss: 0.5379 Acc: 84.40
+Train Epoch: 219 [Baseline] [25600/50000 (51%)]	Loss: 0.5502 Acc: 84.00
+Train Epoch: 219 [Baseline] [32000/50000 (64%)]	Loss: 0.5574 Acc: 83.80
+Train Epoch: 219 [Baseline] [38400/50000 (77%)]	Loss: 0.5579 Acc: 83.83
+Train Epoch: 219 [Baseline] [44800/50000 (90%)]	Loss: 0.5592 Acc: 83.77
+ 73%|███████▎  | 220/300 [43:21<15:36, 11.71s/it]EPOCH:219, ======================ACC:72.4====================
+BEST EPOCH:211,BEST ACC:73.09
+Train Epoch: 220 [Baseline] [6400/50000 (13%)]	Loss: 0.5384 Acc: 84.34
+Train Epoch: 220 [Baseline] [12800/50000 (26%)]	Loss: 0.5457 Acc: 84.02
+Train Epoch: 220 [Baseline] [19200/50000 (38%)]	Loss: 0.5388 Acc: 84.40
+Train Epoch: 220 [Baseline] [25600/50000 (51%)]	Loss: 0.5402 Acc: 84.46
+Train Epoch: 220 [Baseline] [32000/50000 (64%)]	Loss: 0.5417 Acc: 84.40
+Train Epoch: 220 [Baseline] [38400/50000 (77%)]	Loss: 0.5468 Acc: 84.32
+Train Epoch: 220 [Baseline] [44800/50000 (90%)]	Loss: 0.5508 Acc: 84.22
+ 74%|███████▎  | 221/300 [43:33<15:36, 11.85s/it]EPOCH:220, ======================ACC:72.14====================
+BEST EPOCH:211,BEST ACC:73.09
+Train Epoch: 221 [Baseline] [6400/50000 (13%)]	Loss: 0.5212 Acc: 85.03
+Train Epoch: 221 [Baseline] [12800/50000 (26%)]	Loss: 0.5258 Acc: 84.88
+Train Epoch: 221 [Baseline] [19200/50000 (38%)]	Loss: 0.5182 Acc: 85.02
+Train Epoch: 221 [Baseline] [25600/50000 (51%)]	Loss: 0.5286 Acc: 84.75
+Train Epoch: 221 [Baseline] [32000/50000 (64%)]	Loss: 0.5405 Acc: 84.46
+Train Epoch: 221 [Baseline] [38400/50000 (77%)]	Loss: 0.5478 Acc: 84.24
+Train Epoch: 221 [Baseline] [44800/50000 (90%)]	Loss: 0.5540 Acc: 84.03
+ 74%|███████▍  | 222/300 [43:45<15:26, 11.87s/it]EPOCH:221, ======================ACC:71.56====================
+BEST EPOCH:211,BEST ACC:73.09
+Train Epoch: 222 [Baseline] [6400/50000 (13%)]	Loss: 0.5186 Acc: 85.41
+Train Epoch: 222 [Baseline] [12800/50000 (26%)]	Loss: 0.5230 Acc: 85.16
+Train Epoch: 222 [Baseline] [19200/50000 (38%)]	Loss: 0.5165 Acc: 85.31
+Train Epoch: 222 [Baseline] [25600/50000 (51%)]	Loss: 0.5247 Acc: 85.03
+Train Epoch: 222 [Baseline] [32000/50000 (64%)]	Loss: 0.5307 Acc: 84.94
+Train Epoch: 222 [Baseline] [38400/50000 (77%)]	Loss: 0.5409 Acc: 84.60
+Train Epoch: 222 [Baseline] [44800/50000 (90%)]	Loss: 0.5446 Acc: 84.52
+ 74%|███████▍  | 223/300 [43:57<15:23, 12.00s/it]EPOCH:222, ======================ACC:73.04====================
+BEST EPOCH:211,BEST ACC:73.09
+Train Epoch: 223 [Baseline] [6400/50000 (13%)]	Loss: 0.4834 Acc: 86.34
+Train Epoch: 223 [Baseline] [12800/50000 (26%)]	Loss: 0.5115 Acc: 85.19
+Train Epoch: 223 [Baseline] [19200/50000 (38%)]	Loss: 0.5196 Acc: 85.02
+Train Epoch: 223 [Baseline] [25600/50000 (51%)]	Loss: 0.5211 Acc: 84.95
+Train Epoch: 223 [Baseline] [32000/50000 (64%)]	Loss: 0.5255 Acc: 84.79
+Train Epoch: 223 [Baseline] [38400/50000 (77%)]	Loss: 0.5289 Acc: 84.64
+Train Epoch: 223 [Baseline] [44800/50000 (90%)]	Loss: 0.5392 Acc: 84.39
+ 75%|███████▍  | 224/300 [44:10<15:17, 12.08s/it]EPOCH:223, ======================ACC:72.77====================
+BEST EPOCH:211,BEST ACC:73.09
+Train Epoch: 224 [Baseline] [6400/50000 (13%)]	Loss: 0.5144 Acc: 85.20
+Train Epoch: 224 [Baseline] [12800/50000 (26%)]	Loss: 0.5067 Acc: 85.32
+Train Epoch: 224 [Baseline] [19200/50000 (38%)]	Loss: 0.5134 Acc: 85.22
+Train Epoch: 224 [Baseline] [25600/50000 (51%)]	Loss: 0.5116 Acc: 85.38
+Train Epoch: 224 [Baseline] [32000/50000 (64%)]	Loss: 0.5181 Acc: 85.17
+Train Epoch: 224 [Baseline] [38400/50000 (77%)]	Loss: 0.5254 Acc: 85.01
+Train Epoch: 224 [Baseline] [44800/50000 (90%)]	Loss: 0.5300 Acc: 84.86
+ 75%|███████▌  | 225/300 [44:22<15:04, 12.06s/it]EPOCH:224, ======================ACC:73.27====================
+BEST EPOCH:224,BEST ACC:73.27
+Train Epoch: 225 [Baseline] [6400/50000 (13%)]	Loss: 0.5009 Acc: 85.50
+Train Epoch: 225 [Baseline] [12800/50000 (26%)]	Loss: 0.4916 Acc: 85.90
+Train Epoch: 225 [Baseline] [19200/50000 (38%)]	Loss: 0.4895 Acc: 85.86
+Train Epoch: 225 [Baseline] [25600/50000 (51%)]	Loss: 0.4956 Acc: 85.69
+Train Epoch: 225 [Baseline] [32000/50000 (64%)]	Loss: 0.5009 Acc: 85.49
+Train Epoch: 225 [Baseline] [38400/50000 (77%)]	Loss: 0.5110 Acc: 85.18
+Train Epoch: 225 [Baseline] [44800/50000 (90%)]	Loss: 0.5197 Acc: 84.96
+ 75%|███████▌  | 226/300 [44:34<14:50, 12.03s/it]EPOCH:225, ======================ACC:72.73====================
+BEST EPOCH:224,BEST ACC:73.27
+Train Epoch: 226 [Baseline] [6400/50000 (13%)]	Loss: 0.4805 Acc: 86.09
+Train Epoch: 226 [Baseline] [12800/50000 (26%)]	Loss: 0.4767 Acc: 86.23
+Train Epoch: 226 [Baseline] [19200/50000 (38%)]	Loss: 0.4933 Acc: 85.72
+Train Epoch: 226 [Baseline] [25600/50000 (51%)]	Loss: 0.4992 Acc: 85.54
+Train Epoch: 226 [Baseline] [32000/50000 (64%)]	Loss: 0.5071 Acc: 85.27
+Train Epoch: 226 [Baseline] [38400/50000 (77%)]	Loss: 0.5146 Acc: 85.06
+Train Epoch: 226 [Baseline] [44800/50000 (90%)]	Loss: 0.5192 Acc: 84.96
+ 76%|███████▌  | 227/300 [44:45<14:34, 11.97s/it]EPOCH:226, ======================ACC:73.15====================
+BEST EPOCH:224,BEST ACC:73.27
+Train Epoch: 227 [Baseline] [6400/50000 (13%)]	Loss: 0.4709 Acc: 86.97
+Train Epoch: 227 [Baseline] [12800/50000 (26%)]	Loss: 0.4678 Acc: 87.05
+Train Epoch: 227 [Baseline] [19200/50000 (38%)]	Loss: 0.4727 Acc: 86.74
+Train Epoch: 227 [Baseline] [25600/50000 (51%)]	Loss: 0.4790 Acc: 86.45
+Train Epoch: 227 [Baseline] [32000/50000 (64%)]	Loss: 0.4793 Acc: 86.36
+Train Epoch: 227 [Baseline] [38400/50000 (77%)]	Loss: 0.4819 Acc: 86.23
+Train Epoch: 227 [Baseline] [44800/50000 (90%)]	Loss: 0.4870 Acc: 86.04
+ 76%|███████▌  | 228/300 [44:57<14:12, 11.84s/it]EPOCH:227, ======================ACC:73.31====================
+BEST EPOCH:227,BEST ACC:73.31
+Train Epoch: 228 [Baseline] [6400/50000 (13%)]	Loss: 0.4611 Acc: 87.22
+Train Epoch: 228 [Baseline] [12800/50000 (26%)]	Loss: 0.4615 Acc: 86.99
+Train Epoch: 228 [Baseline] [19200/50000 (38%)]	Loss: 0.4722 Acc: 86.49
+Train Epoch: 228 [Baseline] [25600/50000 (51%)]	Loss: 0.4708 Acc: 86.51
+Train Epoch: 228 [Baseline] [32000/50000 (64%)]	Loss: 0.4760 Acc: 86.46
+Train Epoch: 228 [Baseline] [38400/50000 (77%)]	Loss: 0.4783 Acc: 86.38
+Train Epoch: 228 [Baseline] [44800/50000 (90%)]	Loss: 0.4796 Acc: 86.35
+ 76%|███████▋  | 229/300 [45:09<14:01, 11.86s/it]EPOCH:228, ======================ACC:72.58====================
+BEST EPOCH:227,BEST ACC:73.31
+Train Epoch: 229 [Baseline] [6400/50000 (13%)]	Loss: 0.4619 Acc: 86.73
+Train Epoch: 229 [Baseline] [12800/50000 (26%)]	Loss: 0.4738 Acc: 86.58
+Train Epoch: 229 [Baseline] [19200/50000 (38%)]	Loss: 0.4732 Acc: 86.47
+Train Epoch: 229 [Baseline] [25600/50000 (51%)]	Loss: 0.4725 Acc: 86.44
+Train Epoch: 229 [Baseline] [32000/50000 (64%)]	Loss: 0.4750 Acc: 86.39
+Train Epoch: 229 [Baseline] [38400/50000 (77%)]	Loss: 0.4776 Acc: 86.30
+Train Epoch: 229 [Baseline] [44800/50000 (90%)]	Loss: 0.4805 Acc: 86.21
+ 77%|███████▋  | 230/300 [45:20<13:45, 11.79s/it]EPOCH:229, ======================ACC:72.85====================
+BEST EPOCH:227,BEST ACC:73.31
+Train Epoch: 230 [Baseline] [6400/50000 (13%)]	Loss: 0.4552 Acc: 87.16
+Train Epoch: 230 [Baseline] [12800/50000 (26%)]	Loss: 0.4693 Acc: 86.75
+Train Epoch: 230 [Baseline] [19200/50000 (38%)]	Loss: 0.4697 Acc: 86.81
+Train Epoch: 230 [Baseline] [25600/50000 (51%)]	Loss: 0.4695 Acc: 86.81
+Train Epoch: 230 [Baseline] [32000/50000 (64%)]	Loss: 0.4736 Acc: 86.72
+Train Epoch: 230 [Baseline] [38400/50000 (77%)]	Loss: 0.4764 Acc: 86.60
+Train Epoch: 230 [Baseline] [44800/50000 (90%)]	Loss: 0.4776 Acc: 86.49
+ 77%|███████▋  | 231/300 [45:32<13:36, 11.83s/it]EPOCH:230, ======================ACC:72.86====================
+BEST EPOCH:227,BEST ACC:73.31
+Train Epoch: 231 [Baseline] [6400/50000 (13%)]	Loss: 0.4261 Acc: 87.75
+Train Epoch: 231 [Baseline] [12800/50000 (26%)]	Loss: 0.4275 Acc: 87.78
+Train Epoch: 231 [Baseline] [19200/50000 (38%)]	Loss: 0.4426 Acc: 87.30
+Train Epoch: 231 [Baseline] [25600/50000 (51%)]	Loss: 0.4510 Acc: 86.93
+Train Epoch: 231 [Baseline] [32000/50000 (64%)]	Loss: 0.4523 Acc: 86.93
+Train Epoch: 231 [Baseline] [38400/50000 (77%)]	Loss: 0.4578 Acc: 86.79
+Train Epoch: 231 [Baseline] [44800/50000 (90%)]	Loss: 0.4588 Acc: 86.77
+ 77%|███████▋  | 232/300 [45:44<13:22, 11.79s/it]EPOCH:231, ======================ACC:73.87====================
+BEST EPOCH:231,BEST ACC:73.87
+Train Epoch: 232 [Baseline] [6400/50000 (13%)]	Loss: 0.4120 Acc: 88.27
+Train Epoch: 232 [Baseline] [12800/50000 (26%)]	Loss: 0.4195 Acc: 88.01
+Train Epoch: 232 [Baseline] [19200/50000 (38%)]	Loss: 0.4235 Acc: 87.76
+Train Epoch: 232 [Baseline] [25600/50000 (51%)]	Loss: 0.4299 Acc: 87.62
+Train Epoch: 232 [Baseline] [32000/50000 (64%)]	Loss: 0.4333 Acc: 87.56
+Train Epoch: 232 [Baseline] [38400/50000 (77%)]	Loss: 0.4378 Acc: 87.43
+Train Epoch: 232 [Baseline] [44800/50000 (90%)]	Loss: 0.4406 Acc: 87.36
+ 78%|███████▊  | 233/300 [45:56<13:10, 11.80s/it]EPOCH:232, ======================ACC:74.08====================
+BEST EPOCH:232,BEST ACC:74.08
+Train Epoch: 233 [Baseline] [6400/50000 (13%)]	Loss: 0.4175 Acc: 88.53
+Train Epoch: 233 [Baseline] [12800/50000 (26%)]	Loss: 0.4166 Acc: 88.40
+Train Epoch: 233 [Baseline] [19200/50000 (38%)]	Loss: 0.4229 Acc: 88.02
+Train Epoch: 233 [Baseline] [25600/50000 (51%)]	Loss: 0.4258 Acc: 88.01
+Train Epoch: 233 [Baseline] [32000/50000 (64%)]	Loss: 0.4305 Acc: 87.80
+Train Epoch: 233 [Baseline] [38400/50000 (77%)]	Loss: 0.4393 Acc: 87.53
+Train Epoch: 233 [Baseline] [44800/50000 (90%)]	Loss: 0.4446 Acc: 87.38
+ 78%|███████▊  | 234/300 [46:08<12:59, 11.81s/it]EPOCH:233, ======================ACC:73.77====================
+BEST EPOCH:232,BEST ACC:74.08
+Train Epoch: 234 [Baseline] [6400/50000 (13%)]	Loss: 0.4034 Acc: 88.67
+Train Epoch: 234 [Baseline] [12800/50000 (26%)]	Loss: 0.4154 Acc: 88.12
+Train Epoch: 234 [Baseline] [19200/50000 (38%)]	Loss: 0.4170 Acc: 88.11
+Train Epoch: 234 [Baseline] [25600/50000 (51%)]	Loss: 0.4275 Acc: 87.82
+Train Epoch: 234 [Baseline] [32000/50000 (64%)]	Loss: 0.4307 Acc: 87.73
+Train Epoch: 234 [Baseline] [38400/50000 (77%)]	Loss: 0.4376 Acc: 87.52
+Train Epoch: 234 [Baseline] [44800/50000 (90%)]	Loss: 0.4404 Acc: 87.51
+ 78%|███████▊  | 235/300 [46:19<12:44, 11.77s/it]EPOCH:234, ======================ACC:74.11====================
+BEST EPOCH:234,BEST ACC:74.11
+Train Epoch: 235 [Baseline] [6400/50000 (13%)]	Loss: 0.4105 Acc: 88.48
+Train Epoch: 235 [Baseline] [12800/50000 (26%)]	Loss: 0.4177 Acc: 88.16
+Train Epoch: 235 [Baseline] [19200/50000 (38%)]	Loss: 0.4161 Acc: 88.35
+Train Epoch: 235 [Baseline] [25600/50000 (51%)]	Loss: 0.4184 Acc: 88.22
+Train Epoch: 235 [Baseline] [32000/50000 (64%)]	Loss: 0.4210 Acc: 88.17
+Train Epoch: 235 [Baseline] [38400/50000 (77%)]	Loss: 0.4247 Acc: 88.04
+Train Epoch: 235 [Baseline] [44800/50000 (90%)]	Loss: 0.4269 Acc: 87.91
+ 79%|███████▊  | 236/300 [46:31<12:33, 11.78s/it]EPOCH:235, ======================ACC:74.07====================
+BEST EPOCH:234,BEST ACC:74.11
+Train Epoch: 236 [Baseline] [6400/50000 (13%)]	Loss: 0.3967 Acc: 89.03
+Train Epoch: 236 [Baseline] [12800/50000 (26%)]	Loss: 0.3991 Acc: 88.79
+Train Epoch: 236 [Baseline] [19200/50000 (38%)]	Loss: 0.4074 Acc: 88.50
+Train Epoch: 236 [Baseline] [25600/50000 (51%)]	Loss: 0.4097 Acc: 88.39
+Train Epoch: 236 [Baseline] [32000/50000 (64%)]	Loss: 0.4163 Acc: 88.30
+Train Epoch: 236 [Baseline] [38400/50000 (77%)]	Loss: 0.4156 Acc: 88.35
+Train Epoch: 236 [Baseline] [44800/50000 (90%)]	Loss: 0.4160 Acc: 88.29
+ 79%|███████▉  | 237/300 [46:43<12:21, 11.77s/it]EPOCH:236, ======================ACC:73.27====================
+BEST EPOCH:234,BEST ACC:74.11
+Train Epoch: 237 [Baseline] [6400/50000 (13%)]	Loss: 0.3764 Acc: 89.56
+Train Epoch: 237 [Baseline] [12800/50000 (26%)]	Loss: 0.3840 Acc: 89.25
+Train Epoch: 237 [Baseline] [19200/50000 (38%)]	Loss: 0.3957 Acc: 88.85
+Train Epoch: 237 [Baseline] [25600/50000 (51%)]	Loss: 0.4000 Acc: 88.70
+Train Epoch: 237 [Baseline] [32000/50000 (64%)]	Loss: 0.3951 Acc: 88.85
+Train Epoch: 237 [Baseline] [38400/50000 (77%)]	Loss: 0.3970 Acc: 88.79
+Train Epoch: 237 [Baseline] [44800/50000 (90%)]	Loss: 0.4005 Acc: 88.63
+ 79%|███████▉  | 238/300 [46:55<12:09, 11.76s/it]EPOCH:237, ======================ACC:74.31====================
+BEST EPOCH:237,BEST ACC:74.31
+Train Epoch: 238 [Baseline] [6400/50000 (13%)]	Loss: 0.3882 Acc: 89.25
+Train Epoch: 238 [Baseline] [12800/50000 (26%)]	Loss: 0.3833 Acc: 89.38
+Train Epoch: 238 [Baseline] [19200/50000 (38%)]	Loss: 0.3860 Acc: 89.23
+Train Epoch: 238 [Baseline] [25600/50000 (51%)]	Loss: 0.3853 Acc: 89.20
+Train Epoch: 238 [Baseline] [32000/50000 (64%)]	Loss: 0.3917 Acc: 89.07
+Train Epoch: 238 [Baseline] [38400/50000 (77%)]	Loss: 0.3947 Acc: 89.03
+Train Epoch: 238 [Baseline] [44800/50000 (90%)]	Loss: 0.3980 Acc: 88.88
+ 80%|███████▉  | 239/300 [47:06<11:56, 11.75s/it]EPOCH:238, ======================ACC:74.76====================
+BEST EPOCH:238,BEST ACC:74.76
+Train Epoch: 239 [Baseline] [6400/50000 (13%)]	Loss: 0.3488 Acc: 90.42
+Train Epoch: 239 [Baseline] [12800/50000 (26%)]	Loss: 0.3712 Acc: 89.44
+Train Epoch: 239 [Baseline] [19200/50000 (38%)]	Loss: 0.3725 Acc: 89.40
+Train Epoch: 239 [Baseline] [25600/50000 (51%)]	Loss: 0.3782 Acc: 89.25
+Train Epoch: 239 [Baseline] [32000/50000 (64%)]	Loss: 0.3815 Acc: 89.15
+Train Epoch: 239 [Baseline] [38400/50000 (77%)]	Loss: 0.3826 Acc: 89.17
+Train Epoch: 239 [Baseline] [44800/50000 (90%)]	Loss: 0.3826 Acc: 89.22
+ 80%|████████  | 240/300 [47:18<11:45, 11.76s/it]EPOCH:239, ======================ACC:73.36====================
+BEST EPOCH:238,BEST ACC:74.76
+Train Epoch: 240 [Baseline] [6400/50000 (13%)]	Loss: 0.3722 Acc: 89.42
+Train Epoch: 240 [Baseline] [12800/50000 (26%)]	Loss: 0.3724 Acc: 89.55
+Train Epoch: 240 [Baseline] [19200/50000 (38%)]	Loss: 0.3732 Acc: 89.52
+Train Epoch: 240 [Baseline] [25600/50000 (51%)]	Loss: 0.3742 Acc: 89.48
+Train Epoch: 240 [Baseline] [32000/50000 (64%)]	Loss: 0.3756 Acc: 89.36
+Train Epoch: 240 [Baseline] [38400/50000 (77%)]	Loss: 0.3738 Acc: 89.44
+Train Epoch: 240 [Baseline] [44800/50000 (90%)]	Loss: 0.3775 Acc: 89.35
+ 80%|████████  | 241/300 [47:30<11:34, 11.76s/it]EPOCH:240, ======================ACC:74.98====================
+BEST EPOCH:240,BEST ACC:74.98
+Train Epoch: 241 [Baseline] [6400/50000 (13%)]	Loss: 0.3507 Acc: 90.45
+Train Epoch: 241 [Baseline] [12800/50000 (26%)]	Loss: 0.3456 Acc: 90.44
+Train Epoch: 241 [Baseline] [19200/50000 (38%)]	Loss: 0.3519 Acc: 90.19
+Train Epoch: 241 [Baseline] [25600/50000 (51%)]	Loss: 0.3567 Acc: 89.87
+Train Epoch: 241 [Baseline] [32000/50000 (64%)]	Loss: 0.3637 Acc: 89.72
+Train Epoch: 241 [Baseline] [38400/50000 (77%)]	Loss: 0.3697 Acc: 89.52
+Train Epoch: 241 [Baseline] [44800/50000 (90%)]	Loss: 0.3732 Acc: 89.36
+ 81%|████████  | 242/300 [47:42<11:19, 11.72s/it]EPOCH:241, ======================ACC:74.21====================
+BEST EPOCH:240,BEST ACC:74.98
+Train Epoch: 242 [Baseline] [6400/50000 (13%)]	Loss: 0.3670 Acc: 89.98
+Train Epoch: 242 [Baseline] [12800/50000 (26%)]	Loss: 0.3575 Acc: 90.16
+Train Epoch: 242 [Baseline] [19200/50000 (38%)]	Loss: 0.3634 Acc: 89.93
+Train Epoch: 242 [Baseline] [25600/50000 (51%)]	Loss: 0.3660 Acc: 89.98
+Train Epoch: 242 [Baseline] [32000/50000 (64%)]	Loss: 0.3693 Acc: 89.88
+Train Epoch: 242 [Baseline] [38400/50000 (77%)]	Loss: 0.3709 Acc: 89.76
+Train Epoch: 242 [Baseline] [44800/50000 (90%)]	Loss: 0.3716 Acc: 89.70
+ 81%|████████  | 243/300 [47:53<11:07, 11.71s/it]EPOCH:242, ======================ACC:73.86====================
+BEST EPOCH:240,BEST ACC:74.98
+Train Epoch: 243 [Baseline] [6400/50000 (13%)]	Loss: 0.3420 Acc: 90.33
+Train Epoch: 243 [Baseline] [12800/50000 (26%)]	Loss: 0.3371 Acc: 90.34
+Train Epoch: 243 [Baseline] [19200/50000 (38%)]	Loss: 0.3330 Acc: 90.52
+Train Epoch: 243 [Baseline] [25600/50000 (51%)]	Loss: 0.3426 Acc: 90.33
+Train Epoch: 243 [Baseline] [32000/50000 (64%)]	Loss: 0.3467 Acc: 90.19
+Train Epoch: 243 [Baseline] [38400/50000 (77%)]	Loss: 0.3507 Acc: 90.13
+Train Epoch: 243 [Baseline] [44800/50000 (90%)]	Loss: 0.3560 Acc: 89.95
+ 81%|████████▏ | 244/300 [48:05<10:54, 11.68s/it]EPOCH:243, ======================ACC:75.39====================
+BEST EPOCH:243,BEST ACC:75.39
+Train Epoch: 244 [Baseline] [6400/50000 (13%)]	Loss: 0.3629 Acc: 89.75
+Train Epoch: 244 [Baseline] [12800/50000 (26%)]	Loss: 0.3444 Acc: 90.28
+Train Epoch: 244 [Baseline] [19200/50000 (38%)]	Loss: 0.3441 Acc: 90.34
+Train Epoch: 244 [Baseline] [25600/50000 (51%)]	Loss: 0.3445 Acc: 90.42
+Train Epoch: 244 [Baseline] [32000/50000 (64%)]	Loss: 0.3453 Acc: 90.38
+Train Epoch: 244 [Baseline] [38400/50000 (77%)]	Loss: 0.3459 Acc: 90.31
+Train Epoch: 244 [Baseline] [44800/50000 (90%)]	Loss: 0.3478 Acc: 90.26
+ 82%|████████▏ | 245/300 [48:17<10:45, 11.74s/it]EPOCH:244, ======================ACC:75.25====================
+BEST EPOCH:243,BEST ACC:75.39
+Train Epoch: 245 [Baseline] [6400/50000 (13%)]	Loss: 0.3258 Acc: 90.94
+Train Epoch: 245 [Baseline] [12800/50000 (26%)]	Loss: 0.3261 Acc: 90.91
+Train Epoch: 245 [Baseline] [19200/50000 (38%)]	Loss: 0.3282 Acc: 90.93
+Train Epoch: 245 [Baseline] [25600/50000 (51%)]	Loss: 0.3308 Acc: 90.79
+Train Epoch: 245 [Baseline] [32000/50000 (64%)]	Loss: 0.3316 Acc: 90.80
+Train Epoch: 245 [Baseline] [38400/50000 (77%)]	Loss: 0.3321 Acc: 90.73
+Train Epoch: 245 [Baseline] [44800/50000 (90%)]	Loss: 0.3376 Acc: 90.60
+ 82%|████████▏ | 246/300 [48:29<10:39, 11.85s/it]EPOCH:245, ======================ACC:74.86====================
+BEST EPOCH:243,BEST ACC:75.39
+Train Epoch: 246 [Baseline] [6400/50000 (13%)]	Loss: 0.3339 Acc: 90.97
+Train Epoch: 246 [Baseline] [12800/50000 (26%)]	Loss: 0.3237 Acc: 91.05
+Train Epoch: 246 [Baseline] [19200/50000 (38%)]	Loss: 0.3269 Acc: 91.02
+Train Epoch: 246 [Baseline] [25600/50000 (51%)]	Loss: 0.3285 Acc: 90.82
+Train Epoch: 246 [Baseline] [32000/50000 (64%)]	Loss: 0.3303 Acc: 90.76
+Train Epoch: 246 [Baseline] [38400/50000 (77%)]	Loss: 0.3299 Acc: 90.77
+Train Epoch: 246 [Baseline] [44800/50000 (90%)]	Loss: 0.3329 Acc: 90.69
+ 82%|████████▏ | 247/300 [48:41<10:28, 11.86s/it]EPOCH:246, ======================ACC:75.0====================
+BEST EPOCH:243,BEST ACC:75.39
+Train Epoch: 247 [Baseline] [6400/50000 (13%)]	Loss: 0.3149 Acc: 91.50
+Train Epoch: 247 [Baseline] [12800/50000 (26%)]	Loss: 0.3139 Acc: 91.60
+Train Epoch: 247 [Baseline] [19200/50000 (38%)]	Loss: 0.3166 Acc: 91.44
+Train Epoch: 247 [Baseline] [25600/50000 (51%)]	Loss: 0.3184 Acc: 91.23
+Train Epoch: 247 [Baseline] [32000/50000 (64%)]	Loss: 0.3210 Acc: 91.19
+Train Epoch: 247 [Baseline] [38400/50000 (77%)]	Loss: 0.3234 Acc: 91.13
+Train Epoch: 247 [Baseline] [44800/50000 (90%)]	Loss: 0.3259 Acc: 91.04
+ 83%|████████▎ | 248/300 [48:53<10:18, 11.90s/it]EPOCH:247, ======================ACC:75.46====================
+BEST EPOCH:247,BEST ACC:75.46
+Train Epoch: 248 [Baseline] [6400/50000 (13%)]	Loss: 0.3070 Acc: 91.28
+Train Epoch: 248 [Baseline] [12800/50000 (26%)]	Loss: 0.3178 Acc: 91.20
+Train Epoch: 248 [Baseline] [19200/50000 (38%)]	Loss: 0.3169 Acc: 91.26
+Train Epoch: 248 [Baseline] [25600/50000 (51%)]	Loss: 0.3129 Acc: 91.48
+Train Epoch: 248 [Baseline] [32000/50000 (64%)]	Loss: 0.3085 Acc: 91.61
+Train Epoch: 248 [Baseline] [38400/50000 (77%)]	Loss: 0.3089 Acc: 91.58
+Train Epoch: 248 [Baseline] [44800/50000 (90%)]	Loss: 0.3115 Acc: 91.42
+ 83%|████████▎ | 249/300 [49:05<10:07, 11.92s/it]EPOCH:248, ======================ACC:75.12====================
+BEST EPOCH:247,BEST ACC:75.46
+Train Epoch: 249 [Baseline] [6400/50000 (13%)]	Loss: 0.3200 Acc: 91.39
+Train Epoch: 249 [Baseline] [12800/50000 (26%)]	Loss: 0.3192 Acc: 91.40
+Train Epoch: 249 [Baseline] [19200/50000 (38%)]	Loss: 0.3181 Acc: 91.42
+Train Epoch: 249 [Baseline] [25600/50000 (51%)]	Loss: 0.3169 Acc: 91.46
+Train Epoch: 249 [Baseline] [32000/50000 (64%)]	Loss: 0.3155 Acc: 91.50
+Train Epoch: 249 [Baseline] [38400/50000 (77%)]	Loss: 0.3169 Acc: 91.43
+Train Epoch: 249 [Baseline] [44800/50000 (90%)]	Loss: 0.3153 Acc: 91.40
+ 83%|████████▎ | 250/300 [49:17<09:57, 11.95s/it]EPOCH:249, ======================ACC:75.29====================
+BEST EPOCH:247,BEST ACC:75.46
+Train Epoch: 250 [Baseline] [6400/50000 (13%)]	Loss: 0.2815 Acc: 92.41
+Train Epoch: 250 [Baseline] [12800/50000 (26%)]	Loss: 0.2824 Acc: 92.29
+Train Epoch: 250 [Baseline] [19200/50000 (38%)]	Loss: 0.2928 Acc: 91.94
+Train Epoch: 250 [Baseline] [25600/50000 (51%)]	Loss: 0.2912 Acc: 92.00
+Train Epoch: 250 [Baseline] [32000/50000 (64%)]	Loss: 0.2936 Acc: 91.91
+Train Epoch: 250 [Baseline] [38400/50000 (77%)]	Loss: 0.2941 Acc: 91.89
+Train Epoch: 250 [Baseline] [44800/50000 (90%)]	Loss: 0.2959 Acc: 91.85
+ 84%|████████▎ | 251/300 [49:29<09:47, 11.99s/it]EPOCH:250, ======================ACC:75.88====================
+BEST EPOCH:250,BEST ACC:75.88
+Train Epoch: 251 [Baseline] [6400/50000 (13%)]	Loss: 0.2784 Acc: 92.52
+Train Epoch: 251 [Baseline] [12800/50000 (26%)]	Loss: 0.2853 Acc: 92.38
+Train Epoch: 251 [Baseline] [19200/50000 (38%)]	Loss: 0.2878 Acc: 92.28
+Train Epoch: 251 [Baseline] [25600/50000 (51%)]	Loss: 0.2898 Acc: 92.17
+Train Epoch: 251 [Baseline] [32000/50000 (64%)]	Loss: 0.2908 Acc: 92.12
+Train Epoch: 251 [Baseline] [38400/50000 (77%)]	Loss: 0.2929 Acc: 92.09
+Train Epoch: 251 [Baseline] [44800/50000 (90%)]	Loss: 0.2928 Acc: 92.04
+ 84%|████████▍ | 252/300 [49:41<09:34, 11.98s/it]EPOCH:251, ======================ACC:75.3====================
+BEST EPOCH:250,BEST ACC:75.88
+Train Epoch: 252 [Baseline] [6400/50000 (13%)]	Loss: 0.2845 Acc: 92.23
+Train Epoch: 252 [Baseline] [12800/50000 (26%)]	Loss: 0.2928 Acc: 92.02
+Train Epoch: 252 [Baseline] [19200/50000 (38%)]	Loss: 0.2931 Acc: 92.05
+Train Epoch: 252 [Baseline] [25600/50000 (51%)]	Loss: 0.2946 Acc: 91.92
+Train Epoch: 252 [Baseline] [32000/50000 (64%)]	Loss: 0.2941 Acc: 91.91
+Train Epoch: 252 [Baseline] [38400/50000 (77%)]	Loss: 0.2948 Acc: 91.84
+Train Epoch: 252 [Baseline] [44800/50000 (90%)]	Loss: 0.2934 Acc: 91.92
+ 84%|████████▍ | 253/300 [49:53<09:20, 11.92s/it]EPOCH:252, ======================ACC:75.94====================
+BEST EPOCH:252,BEST ACC:75.94
+Train Epoch: 253 [Baseline] [6400/50000 (13%)]	Loss: 0.2713 Acc: 92.58
+Train Epoch: 253 [Baseline] [12800/50000 (26%)]	Loss: 0.2748 Acc: 92.53
+Train Epoch: 253 [Baseline] [19200/50000 (38%)]	Loss: 0.2792 Acc: 92.35
+Train Epoch: 253 [Baseline] [25600/50000 (51%)]	Loss: 0.2824 Acc: 92.32
+Train Epoch: 253 [Baseline] [32000/50000 (64%)]	Loss: 0.2837 Acc: 92.26
+Train Epoch: 253 [Baseline] [38400/50000 (77%)]	Loss: 0.2839 Acc: 92.28
+Train Epoch: 253 [Baseline] [44800/50000 (90%)]	Loss: 0.2874 Acc: 92.15
+ 85%|████████▍ | 254/300 [50:04<09:05, 11.86s/it]EPOCH:253, ======================ACC:76.33====================
+BEST EPOCH:253,BEST ACC:76.33
+Train Epoch: 254 [Baseline] [6400/50000 (13%)]	Loss: 0.2414 Acc: 93.12
+Train Epoch: 254 [Baseline] [12800/50000 (26%)]	Loss: 0.2595 Acc: 92.77
+Train Epoch: 254 [Baseline] [19200/50000 (38%)]	Loss: 0.2616 Acc: 92.74
+Train Epoch: 254 [Baseline] [25600/50000 (51%)]	Loss: 0.2621 Acc: 92.71
+Train Epoch: 254 [Baseline] [32000/50000 (64%)]	Loss: 0.2659 Acc: 92.69
+Train Epoch: 254 [Baseline] [38400/50000 (77%)]	Loss: 0.2665 Acc: 92.71
+Train Epoch: 254 [Baseline] [44800/50000 (90%)]	Loss: 0.2651 Acc: 92.76
+ 85%|████████▌ | 255/300 [50:16<08:52, 11.83s/it]EPOCH:254, ======================ACC:75.95====================
+BEST EPOCH:253,BEST ACC:76.33
+Train Epoch: 255 [Baseline] [6400/50000 (13%)]	Loss: 0.2665 Acc: 92.91
+Train Epoch: 255 [Baseline] [12800/50000 (26%)]	Loss: 0.2589 Acc: 92.98
+Train Epoch: 255 [Baseline] [19200/50000 (38%)]	Loss: 0.2604 Acc: 92.94
+Train Epoch: 255 [Baseline] [25600/50000 (51%)]	Loss: 0.2620 Acc: 92.90
+Train Epoch: 255 [Baseline] [32000/50000 (64%)]	Loss: 0.2652 Acc: 92.78
+Train Epoch: 255 [Baseline] [38400/50000 (77%)]	Loss: 0.2680 Acc: 92.73
+Train Epoch: 255 [Baseline] [44800/50000 (90%)]	Loss: 0.2690 Acc: 92.68
+ 85%|████████▌ | 256/300 [50:28<08:37, 11.77s/it]EPOCH:255, ======================ACC:76.45====================
+BEST EPOCH:255,BEST ACC:76.45
+Train Epoch: 256 [Baseline] [6400/50000 (13%)]	Loss: 0.2605 Acc: 93.00
+Train Epoch: 256 [Baseline] [12800/50000 (26%)]	Loss: 0.2594 Acc: 92.99
+Train Epoch: 256 [Baseline] [19200/50000 (38%)]	Loss: 0.2575 Acc: 92.90
+Train Epoch: 256 [Baseline] [25600/50000 (51%)]	Loss: 0.2549 Acc: 92.95
+Train Epoch: 256 [Baseline] [32000/50000 (64%)]	Loss: 0.2578 Acc: 92.86
+Train Epoch: 256 [Baseline] [38400/50000 (77%)]	Loss: 0.2584 Acc: 92.85
+Train Epoch: 256 [Baseline] [44800/50000 (90%)]	Loss: 0.2606 Acc: 92.83
+ 86%|████████▌ | 257/300 [50:39<08:26, 11.77s/it]EPOCH:256, ======================ACC:75.77====================
+BEST EPOCH:255,BEST ACC:76.45
+Train Epoch: 257 [Baseline] [6400/50000 (13%)]	Loss: 0.2373 Acc: 93.77
+Train Epoch: 257 [Baseline] [12800/50000 (26%)]	Loss: 0.2393 Acc: 93.67
+Train Epoch: 257 [Baseline] [19200/50000 (38%)]	Loss: 0.2437 Acc: 93.61
+Train Epoch: 257 [Baseline] [25600/50000 (51%)]	Loss: 0.2484 Acc: 93.49
+Train Epoch: 257 [Baseline] [32000/50000 (64%)]	Loss: 0.2524 Acc: 93.33
+Train Epoch: 257 [Baseline] [38400/50000 (77%)]	Loss: 0.2533 Acc: 93.36
+Train Epoch: 257 [Baseline] [44800/50000 (90%)]	Loss: 0.2552 Acc: 93.24
+ 86%|████████▌ | 258/300 [50:51<08:14, 11.77s/it]EPOCH:257, ======================ACC:76.53====================
+BEST EPOCH:257,BEST ACC:76.53
+Train Epoch: 258 [Baseline] [6400/50000 (13%)]	Loss: 0.2392 Acc: 93.59
+Train Epoch: 258 [Baseline] [12800/50000 (26%)]	Loss: 0.2401 Acc: 93.59
+Train Epoch: 258 [Baseline] [19200/50000 (38%)]	Loss: 0.2409 Acc: 93.57
+Train Epoch: 258 [Baseline] [25600/50000 (51%)]	Loss: 0.2373 Acc: 93.71
+Train Epoch: 258 [Baseline] [32000/50000 (64%)]	Loss: 0.2395 Acc: 93.65
+Train Epoch: 258 [Baseline] [38400/50000 (77%)]	Loss: 0.2406 Acc: 93.64
+Train Epoch: 258 [Baseline] [44800/50000 (90%)]	Loss: 0.2413 Acc: 93.59
+ 86%|████████▋ | 259/300 [51:03<08:02, 11.78s/it]EPOCH:258, ======================ACC:76.54====================
+BEST EPOCH:258,BEST ACC:76.54
+Train Epoch: 259 [Baseline] [6400/50000 (13%)]	Loss: 0.2374 Acc: 93.61
+Train Epoch: 259 [Baseline] [12800/50000 (26%)]	Loss: 0.2393 Acc: 93.61
+Train Epoch: 259 [Baseline] [19200/50000 (38%)]	Loss: 0.2426 Acc: 93.56
+Train Epoch: 259 [Baseline] [25600/50000 (51%)]	Loss: 0.2401 Acc: 93.69
+Train Epoch: 259 [Baseline] [32000/50000 (64%)]	Loss: 0.2391 Acc: 93.67
+Train Epoch: 259 [Baseline] [38400/50000 (77%)]	Loss: 0.2374 Acc: 93.76
+Train Epoch: 259 [Baseline] [44800/50000 (90%)]	Loss: 0.2390 Acc: 93.71
+ 87%|████████▋ | 260/300 [51:15<07:52, 11.82s/it]EPOCH:259, ======================ACC:76.39====================
+BEST EPOCH:258,BEST ACC:76.54
+Train Epoch: 260 [Baseline] [6400/50000 (13%)]	Loss: 0.2162 Acc: 94.09
+Train Epoch: 260 [Baseline] [12800/50000 (26%)]	Loss: 0.2182 Acc: 94.05
+Train Epoch: 260 [Baseline] [19200/50000 (38%)]	Loss: 0.2166 Acc: 94.17
+Train Epoch: 260 [Baseline] [25600/50000 (51%)]	Loss: 0.2195 Acc: 94.20
+Train Epoch: 260 [Baseline] [32000/50000 (64%)]	Loss: 0.2180 Acc: 94.20
+Train Epoch: 260 [Baseline] [38400/50000 (77%)]	Loss: 0.2212 Acc: 94.12
+Train Epoch: 260 [Baseline] [44800/50000 (90%)]	Loss: 0.2224 Acc: 94.08
+ 87%|████████▋ | 261/300 [51:27<07:39, 11.79s/it]EPOCH:260, ======================ACC:77.0====================
+BEST EPOCH:260,BEST ACC:77.0
+Train Epoch: 261 [Baseline] [6400/50000 (13%)]	Loss: 0.2406 Acc: 93.61
+Train Epoch: 261 [Baseline] [12800/50000 (26%)]	Loss: 0.2340 Acc: 93.59
+Train Epoch: 261 [Baseline] [19200/50000 (38%)]	Loss: 0.2298 Acc: 93.81
+Train Epoch: 261 [Baseline] [25600/50000 (51%)]	Loss: 0.2272 Acc: 93.87
+Train Epoch: 261 [Baseline] [32000/50000 (64%)]	Loss: 0.2281 Acc: 93.88
+Train Epoch: 261 [Baseline] [38400/50000 (77%)]	Loss: 0.2257 Acc: 93.95
+Train Epoch: 261 [Baseline] [44800/50000 (90%)]	Loss: 0.2247 Acc: 93.98
+ 87%|████████▋ | 262/300 [51:38<07:26, 11.75s/it]EPOCH:261, ======================ACC:77.03====================
+BEST EPOCH:261,BEST ACC:77.03
+Train Epoch: 262 [Baseline] [6400/50000 (13%)]	Loss: 0.2075 Acc: 94.36
+Train Epoch: 262 [Baseline] [12800/50000 (26%)]	Loss: 0.2168 Acc: 94.27
+Train Epoch: 262 [Baseline] [19200/50000 (38%)]	Loss: 0.2139 Acc: 94.33
+Train Epoch: 262 [Baseline] [25600/50000 (51%)]	Loss: 0.2171 Acc: 94.23
+Train Epoch: 262 [Baseline] [32000/50000 (64%)]	Loss: 0.2188 Acc: 94.20
+Train Epoch: 262 [Baseline] [38400/50000 (77%)]	Loss: 0.2188 Acc: 94.22
+Train Epoch: 262 [Baseline] [44800/50000 (90%)]	Loss: 0.2178 Acc: 94.18
+ 88%|████████▊ | 263/300 [51:50<07:12, 11.70s/it]EPOCH:262, ======================ACC:76.93====================
+BEST EPOCH:261,BEST ACC:77.03
+Train Epoch: 263 [Baseline] [6400/50000 (13%)]	Loss: 0.2023 Acc: 94.72
+Train Epoch: 263 [Baseline] [12800/50000 (26%)]	Loss: 0.2038 Acc: 94.70
+Train Epoch: 263 [Baseline] [19200/50000 (38%)]	Loss: 0.2008 Acc: 94.74
+Train Epoch: 263 [Baseline] [25600/50000 (51%)]	Loss: 0.2002 Acc: 94.79
+Train Epoch: 263 [Baseline] [32000/50000 (64%)]	Loss: 0.2045 Acc: 94.62
+Train Epoch: 263 [Baseline] [38400/50000 (77%)]	Loss: 0.2054 Acc: 94.60
+Train Epoch: 263 [Baseline] [44800/50000 (90%)]	Loss: 0.2092 Acc: 94.48
+ 88%|████████▊ | 264/300 [52:02<07:00, 11.68s/it]EPOCH:263, ======================ACC:77.28====================
+BEST EPOCH:263,BEST ACC:77.28
+Train Epoch: 264 [Baseline] [6400/50000 (13%)]	Loss: 0.2041 Acc: 95.03
+Train Epoch: 264 [Baseline] [12800/50000 (26%)]	Loss: 0.2074 Acc: 94.88
+Train Epoch: 264 [Baseline] [19200/50000 (38%)]	Loss: 0.2054 Acc: 94.78
+Train Epoch: 264 [Baseline] [25600/50000 (51%)]	Loss: 0.2074 Acc: 94.61
+Train Epoch: 264 [Baseline] [32000/50000 (64%)]	Loss: 0.2077 Acc: 94.61
+Train Epoch: 264 [Baseline] [38400/50000 (77%)]	Loss: 0.2090 Acc: 94.58
+Train Epoch: 264 [Baseline] [44800/50000 (90%)]	Loss: 0.2103 Acc: 94.51
+ 88%|████████▊ | 265/300 [52:13<06:51, 11.74s/it]EPOCH:264, ======================ACC:77.15====================
+BEST EPOCH:263,BEST ACC:77.28
+Train Epoch: 265 [Baseline] [6400/50000 (13%)]	Loss: 0.1953 Acc: 94.92
+Train Epoch: 265 [Baseline] [12800/50000 (26%)]	Loss: 0.1873 Acc: 95.21
+Train Epoch: 265 [Baseline] [19200/50000 (38%)]	Loss: 0.1853 Acc: 95.31
+Train Epoch: 265 [Baseline] [25600/50000 (51%)]	Loss: 0.1883 Acc: 95.17
+Train Epoch: 265 [Baseline] [32000/50000 (64%)]	Loss: 0.1917 Acc: 95.08
+Train Epoch: 265 [Baseline] [38400/50000 (77%)]	Loss: 0.1944 Acc: 94.96
+Train Epoch: 265 [Baseline] [44800/50000 (90%)]	Loss: 0.1957 Acc: 94.94
+ 89%|████████▊ | 266/300 [52:25<06:40, 11.77s/it]EPOCH:265, ======================ACC:77.32====================
+BEST EPOCH:265,BEST ACC:77.32
+Train Epoch: 266 [Baseline] [6400/50000 (13%)]	Loss: 0.1963 Acc: 94.98
+Train Epoch: 266 [Baseline] [12800/50000 (26%)]	Loss: 0.1941 Acc: 94.95
+Train Epoch: 266 [Baseline] [19200/50000 (38%)]	Loss: 0.1963 Acc: 94.87
+Train Epoch: 266 [Baseline] [25600/50000 (51%)]	Loss: 0.1962 Acc: 94.84
+Train Epoch: 266 [Baseline] [32000/50000 (64%)]	Loss: 0.1973 Acc: 94.80
+Train Epoch: 266 [Baseline] [38400/50000 (77%)]	Loss: 0.1960 Acc: 94.88
+Train Epoch: 266 [Baseline] [44800/50000 (90%)]	Loss: 0.1946 Acc: 94.90
+ 89%|████████▉ | 267/300 [52:37<06:27, 11.73s/it]EPOCH:266, ======================ACC:77.51====================
+BEST EPOCH:266,BEST ACC:77.51
+Train Epoch: 267 [Baseline] [6400/50000 (13%)]	Loss: 0.1816 Acc: 95.34
+Train Epoch: 267 [Baseline] [12800/50000 (26%)]	Loss: 0.1920 Acc: 95.02
+Train Epoch: 267 [Baseline] [19200/50000 (38%)]	Loss: 0.1880 Acc: 95.21
+Train Epoch: 267 [Baseline] [25600/50000 (51%)]	Loss: 0.1929 Acc: 95.11
+Train Epoch: 267 [Baseline] [32000/50000 (64%)]	Loss: 0.1895 Acc: 95.19
+Train Epoch: 267 [Baseline] [38400/50000 (77%)]	Loss: 0.1907 Acc: 95.15
+Train Epoch: 267 [Baseline] [44800/50000 (90%)]	Loss: 0.1929 Acc: 95.04
+ 89%|████████▉ | 268/300 [52:49<06:15, 11.72s/it]EPOCH:267, ======================ACC:77.43====================
+BEST EPOCH:266,BEST ACC:77.51
+Train Epoch: 268 [Baseline] [6400/50000 (13%)]	Loss: 0.1968 Acc: 95.11
+Train Epoch: 268 [Baseline] [12800/50000 (26%)]	Loss: 0.1937 Acc: 95.12
+Train Epoch: 268 [Baseline] [19200/50000 (38%)]	Loss: 0.1872 Acc: 95.22
+Train Epoch: 268 [Baseline] [25600/50000 (51%)]	Loss: 0.1847 Acc: 95.31
+Train Epoch: 268 [Baseline] [32000/50000 (64%)]	Loss: 0.1843 Acc: 95.30
+Train Epoch: 268 [Baseline] [38400/50000 (77%)]	Loss: 0.1831 Acc: 95.31
+Train Epoch: 268 [Baseline] [44800/50000 (90%)]	Loss: 0.1848 Acc: 95.24
+ 90%|████████▉ | 269/300 [53:00<06:02, 11.71s/it]EPOCH:268, ======================ACC:77.58====================
+BEST EPOCH:268,BEST ACC:77.58
+Train Epoch: 269 [Baseline] [6400/50000 (13%)]	Loss: 0.1836 Acc: 95.56
+Train Epoch: 269 [Baseline] [12800/50000 (26%)]	Loss: 0.1792 Acc: 95.45
+Train Epoch: 269 [Baseline] [19200/50000 (38%)]	Loss: 0.1799 Acc: 95.34
+Train Epoch: 269 [Baseline] [25600/50000 (51%)]	Loss: 0.1794 Acc: 95.36
+Train Epoch: 269 [Baseline] [32000/50000 (64%)]	Loss: 0.1783 Acc: 95.37
+Train Epoch: 269 [Baseline] [38400/50000 (77%)]	Loss: 0.1763 Acc: 95.45
+Train Epoch: 269 [Baseline] [44800/50000 (90%)]	Loss: 0.1786 Acc: 95.35
+ 90%|█████████ | 270/300 [53:12<05:51, 11.70s/it]EPOCH:269, ======================ACC:77.68====================
+BEST EPOCH:269,BEST ACC:77.68
+Train Epoch: 270 [Baseline] [6400/50000 (13%)]	Loss: 0.1635 Acc: 95.81
+Train Epoch: 270 [Baseline] [12800/50000 (26%)]	Loss: 0.1642 Acc: 95.81
+Train Epoch: 270 [Baseline] [19200/50000 (38%)]	Loss: 0.1708 Acc: 95.63
+Train Epoch: 270 [Baseline] [25600/50000 (51%)]	Loss: 0.1731 Acc: 95.59
+Train Epoch: 270 [Baseline] [32000/50000 (64%)]	Loss: 0.1740 Acc: 95.58
+Train Epoch: 270 [Baseline] [38400/50000 (77%)]	Loss: 0.1736 Acc: 95.55
+Train Epoch: 270 [Baseline] [44800/50000 (90%)]	Loss: 0.1738 Acc: 95.55
+ 90%|█████████ | 271/300 [53:24<05:41, 11.79s/it]EPOCH:270, ======================ACC:77.74====================
+BEST EPOCH:270,BEST ACC:77.74
+Train Epoch: 271 [Baseline] [6400/50000 (13%)]	Loss: 0.1650 Acc: 95.84
+Train Epoch: 271 [Baseline] [12800/50000 (26%)]	Loss: 0.1698 Acc: 95.73
+Train Epoch: 271 [Baseline] [19200/50000 (38%)]	Loss: 0.1654 Acc: 95.84
+Train Epoch: 271 [Baseline] [25600/50000 (51%)]	Loss: 0.1681 Acc: 95.75
+Train Epoch: 271 [Baseline] [32000/50000 (64%)]	Loss: 0.1705 Acc: 95.63
+Train Epoch: 271 [Baseline] [38400/50000 (77%)]	Loss: 0.1700 Acc: 95.63
+Train Epoch: 271 [Baseline] [44800/50000 (90%)]	Loss: 0.1683 Acc: 95.71
+ 91%|█████████ | 272/300 [53:36<05:33, 11.91s/it]EPOCH:271, ======================ACC:77.84====================
+BEST EPOCH:271,BEST ACC:77.84
+Train Epoch: 272 [Baseline] [6400/50000 (13%)]	Loss: 0.1545 Acc: 96.06
+Train Epoch: 272 [Baseline] [12800/50000 (26%)]	Loss: 0.1638 Acc: 95.87
+Train Epoch: 272 [Baseline] [19200/50000 (38%)]	Loss: 0.1605 Acc: 95.98
+Train Epoch: 272 [Baseline] [25600/50000 (51%)]	Loss: 0.1607 Acc: 95.99
+Train Epoch: 272 [Baseline] [32000/50000 (64%)]	Loss: 0.1624 Acc: 95.90
+Train Epoch: 272 [Baseline] [38400/50000 (77%)]	Loss: 0.1650 Acc: 95.80
+Train Epoch: 272 [Baseline] [44800/50000 (90%)]	Loss: 0.1660 Acc: 95.78
+ 91%|█████████ | 273/300 [53:48<05:21, 11.91s/it]EPOCH:272, ======================ACC:77.96====================
+BEST EPOCH:272,BEST ACC:77.96
+Train Epoch: 273 [Baseline] [6400/50000 (13%)]	Loss: 0.1523 Acc: 96.19
+Train Epoch: 273 [Baseline] [12800/50000 (26%)]	Loss: 0.1572 Acc: 96.12
+Train Epoch: 273 [Baseline] [19200/50000 (38%)]	Loss: 0.1582 Acc: 96.01
+Train Epoch: 273 [Baseline] [25600/50000 (51%)]	Loss: 0.1568 Acc: 96.05
+Train Epoch: 273 [Baseline] [32000/50000 (64%)]	Loss: 0.1583 Acc: 96.04
+Train Epoch: 273 [Baseline] [38400/50000 (77%)]	Loss: 0.1593 Acc: 95.99
+Train Epoch: 273 [Baseline] [44800/50000 (90%)]	Loss: 0.1581 Acc: 96.02
+ 91%|█████████▏| 274/300 [54:00<05:11, 11.96s/it]EPOCH:273, ======================ACC:77.54====================
+BEST EPOCH:272,BEST ACC:77.96
+Train Epoch: 274 [Baseline] [6400/50000 (13%)]	Loss: 0.1628 Acc: 96.02
+Train Epoch: 274 [Baseline] [12800/50000 (26%)]	Loss: 0.1584 Acc: 95.97
+Train Epoch: 274 [Baseline] [19200/50000 (38%)]	Loss: 0.1590 Acc: 95.99
+Train Epoch: 274 [Baseline] [25600/50000 (51%)]	Loss: 0.1578 Acc: 95.98
+Train Epoch: 274 [Baseline] [32000/50000 (64%)]	Loss: 0.1575 Acc: 96.03
+Train Epoch: 274 [Baseline] [38400/50000 (77%)]	Loss: 0.1584 Acc: 95.98
+Train Epoch: 274 [Baseline] [44800/50000 (90%)]	Loss: 0.1586 Acc: 95.98
+ 92%|█████████▏| 275/300 [54:13<05:01, 12.08s/it]EPOCH:274, ======================ACC:77.88====================
+BEST EPOCH:272,BEST ACC:77.96
+Train Epoch: 275 [Baseline] [6400/50000 (13%)]	Loss: 0.1494 Acc: 96.39
+Train Epoch: 275 [Baseline] [12800/50000 (26%)]	Loss: 0.1486 Acc: 96.28
+Train Epoch: 275 [Baseline] [19200/50000 (38%)]	Loss: 0.1549 Acc: 96.03
+Train Epoch: 275 [Baseline] [25600/50000 (51%)]	Loss: 0.1502 Acc: 96.22
+Train Epoch: 275 [Baseline] [32000/50000 (64%)]	Loss: 0.1507 Acc: 96.18
+Train Epoch: 275 [Baseline] [38400/50000 (77%)]	Loss: 0.1510 Acc: 96.19
+Train Epoch: 275 [Baseline] [44800/50000 (90%)]	Loss: 0.1514 Acc: 96.17
+ 92%|█████████▏| 276/300 [54:25<04:49, 12.07s/it]EPOCH:275, ======================ACC:78.12====================
+BEST EPOCH:275,BEST ACC:78.12
+Train Epoch: 276 [Baseline] [6400/50000 (13%)]	Loss: 0.1536 Acc: 96.11
+Train Epoch: 276 [Baseline] [12800/50000 (26%)]	Loss: 0.1470 Acc: 96.30
+Train Epoch: 276 [Baseline] [19200/50000 (38%)]	Loss: 0.1468 Acc: 96.25
+Train Epoch: 276 [Baseline] [25600/50000 (51%)]	Loss: 0.1493 Acc: 96.14
+Train Epoch: 276 [Baseline] [32000/50000 (64%)]	Loss: 0.1500 Acc: 96.13
+Train Epoch: 276 [Baseline] [38400/50000 (77%)]	Loss: 0.1480 Acc: 96.17
+Train Epoch: 276 [Baseline] [44800/50000 (90%)]	Loss: 0.1480 Acc: 96.19
+ 92%|█████████▏| 277/300 [54:37<04:37, 12.06s/it]EPOCH:276, ======================ACC:77.92====================
+BEST EPOCH:275,BEST ACC:78.12
+Train Epoch: 277 [Baseline] [6400/50000 (13%)]	Loss: 0.1453 Acc: 96.30
+Train Epoch: 277 [Baseline] [12800/50000 (26%)]	Loss: 0.1470 Acc: 96.29
+Train Epoch: 277 [Baseline] [19200/50000 (38%)]	Loss: 0.1483 Acc: 96.24
+Train Epoch: 277 [Baseline] [25600/50000 (51%)]	Loss: 0.1457 Acc: 96.27
+Train Epoch: 277 [Baseline] [32000/50000 (64%)]	Loss: 0.1436 Acc: 96.34
+Train Epoch: 277 [Baseline] [38400/50000 (77%)]	Loss: 0.1456 Acc: 96.27
+Train Epoch: 277 [Baseline] [44800/50000 (90%)]	Loss: 0.1458 Acc: 96.29
+ 93%|█████████▎| 278/300 [54:49<04:24, 12.02s/it]EPOCH:277, ======================ACC:78.37====================
+BEST EPOCH:277,BEST ACC:78.37
+Train Epoch: 278 [Baseline] [6400/50000 (13%)]	Loss: 0.1437 Acc: 96.41
+Train Epoch: 278 [Baseline] [12800/50000 (26%)]	Loss: 0.1445 Acc: 96.45
+Train Epoch: 278 [Baseline] [19200/50000 (38%)]	Loss: 0.1412 Acc: 96.54
+Train Epoch: 278 [Baseline] [25600/50000 (51%)]	Loss: 0.1396 Acc: 96.58
+Train Epoch: 278 [Baseline] [32000/50000 (64%)]	Loss: 0.1399 Acc: 96.58
+Train Epoch: 278 [Baseline] [38400/50000 (77%)]	Loss: 0.1430 Acc: 96.45
+Train Epoch: 278 [Baseline] [44800/50000 (90%)]	Loss: 0.1438 Acc: 96.43
+ 93%|█████████▎| 279/300 [55:00<04:11, 11.97s/it]EPOCH:278, ======================ACC:78.47====================
+BEST EPOCH:278,BEST ACC:78.47
+Train Epoch: 279 [Baseline] [6400/50000 (13%)]	Loss: 0.1572 Acc: 95.73
+Train Epoch: 279 [Baseline] [12800/50000 (26%)]	Loss: 0.1445 Acc: 96.25
+Train Epoch: 279 [Baseline] [19200/50000 (38%)]	Loss: 0.1462 Acc: 96.31
+Train Epoch: 279 [Baseline] [25600/50000 (51%)]	Loss: 0.1444 Acc: 96.33
+Train Epoch: 279 [Baseline] [32000/50000 (64%)]	Loss: 0.1431 Acc: 96.40
+Train Epoch: 279 [Baseline] [38400/50000 (77%)]	Loss: 0.1424 Acc: 96.41
+Train Epoch: 279 [Baseline] [44800/50000 (90%)]	Loss: 0.1435 Acc: 96.39
+ 93%|█████████▎| 280/300 [55:12<03:56, 11.80s/it]EPOCH:279, ======================ACC:78.74====================
+BEST EPOCH:279,BEST ACC:78.74
+Train Epoch: 280 [Baseline] [6400/50000 (13%)]	Loss: 0.1237 Acc: 96.89
+Train Epoch: 280 [Baseline] [12800/50000 (26%)]	Loss: 0.1314 Acc: 96.61
+Train Epoch: 280 [Baseline] [19200/50000 (38%)]	Loss: 0.1336 Acc: 96.60
+Train Epoch: 280 [Baseline] [25600/50000 (51%)]	Loss: 0.1366 Acc: 96.45
+Train Epoch: 280 [Baseline] [32000/50000 (64%)]	Loss: 0.1362 Acc: 96.52
+Train Epoch: 280 [Baseline] [38400/50000 (77%)]	Loss: 0.1326 Acc: 96.62
+Train Epoch: 280 [Baseline] [44800/50000 (90%)]	Loss: 0.1315 Acc: 96.65
+ 94%|█████████▎| 281/300 [55:24<03:44, 11.81s/it]EPOCH:280, ======================ACC:78.21====================
+BEST EPOCH:279,BEST ACC:78.74
+Train Epoch: 281 [Baseline] [6400/50000 (13%)]	Loss: 0.1312 Acc: 96.56
+Train Epoch: 281 [Baseline] [12800/50000 (26%)]	Loss: 0.1244 Acc: 96.94
+Train Epoch: 281 [Baseline] [19200/50000 (38%)]	Loss: 0.1265 Acc: 96.81
+Train Epoch: 281 [Baseline] [25600/50000 (51%)]	Loss: 0.1300 Acc: 96.73
+Train Epoch: 281 [Baseline] [32000/50000 (64%)]	Loss: 0.1297 Acc: 96.80
+Train Epoch: 281 [Baseline] [38400/50000 (77%)]	Loss: 0.1310 Acc: 96.77
+Train Epoch: 281 [Baseline] [44800/50000 (90%)]	Loss: 0.1318 Acc: 96.71
+ 94%|█████████▍| 282/300 [55:35<03:31, 11.77s/it]EPOCH:281, ======================ACC:78.29====================
+BEST EPOCH:279,BEST ACC:78.74
+Train Epoch: 282 [Baseline] [6400/50000 (13%)]	Loss: 0.1298 Acc: 97.05
+Train Epoch: 282 [Baseline] [12800/50000 (26%)]	Loss: 0.1319 Acc: 96.93
+Train Epoch: 282 [Baseline] [19200/50000 (38%)]	Loss: 0.1325 Acc: 96.82
+Train Epoch: 282 [Baseline] [25600/50000 (51%)]	Loss: 0.1319 Acc: 96.82
+Train Epoch: 282 [Baseline] [32000/50000 (64%)]	Loss: 0.1292 Acc: 96.86
+Train Epoch: 282 [Baseline] [38400/50000 (77%)]	Loss: 0.1301 Acc: 96.81
+Train Epoch: 282 [Baseline] [44800/50000 (90%)]	Loss: 0.1299 Acc: 96.81
+ 94%|█████████▍| 283/300 [55:47<03:19, 11.73s/it]EPOCH:282, ======================ACC:78.66====================
+BEST EPOCH:279,BEST ACC:78.74
+Train Epoch: 283 [Baseline] [6400/50000 (13%)]	Loss: 0.1272 Acc: 96.94
+Train Epoch: 283 [Baseline] [12800/50000 (26%)]	Loss: 0.1317 Acc: 96.86
+Train Epoch: 283 [Baseline] [19200/50000 (38%)]	Loss: 0.1304 Acc: 96.81
+Train Epoch: 283 [Baseline] [25600/50000 (51%)]	Loss: 0.1312 Acc: 96.76
+Train Epoch: 283 [Baseline] [32000/50000 (64%)]	Loss: 0.1291 Acc: 96.80
+Train Epoch: 283 [Baseline] [38400/50000 (77%)]	Loss: 0.1282 Acc: 96.85
+Train Epoch: 283 [Baseline] [44800/50000 (90%)]	Loss: 0.1290 Acc: 96.83
+ 95%|█████████▍| 284/300 [55:59<03:08, 11.75s/it]EPOCH:283, ======================ACC:78.89====================
+BEST EPOCH:283,BEST ACC:78.89
+Train Epoch: 284 [Baseline] [6400/50000 (13%)]	Loss: 0.1256 Acc: 96.97
+Train Epoch: 284 [Baseline] [12800/50000 (26%)]	Loss: 0.1212 Acc: 97.02
+Train Epoch: 284 [Baseline] [19200/50000 (38%)]	Loss: 0.1266 Acc: 96.83
+Train Epoch: 284 [Baseline] [25600/50000 (51%)]	Loss: 0.1264 Acc: 96.88
+Train Epoch: 284 [Baseline] [32000/50000 (64%)]	Loss: 0.1281 Acc: 96.83
+Train Epoch: 284 [Baseline] [38400/50000 (77%)]	Loss: 0.1276 Acc: 96.88
+Train Epoch: 284 [Baseline] [44800/50000 (90%)]	Loss: 0.1266 Acc: 96.88
+ 95%|█████████▌| 285/300 [56:10<02:55, 11.73s/it]EPOCH:284, ======================ACC:78.99====================
+BEST EPOCH:284,BEST ACC:78.99
+Train Epoch: 285 [Baseline] [6400/50000 (13%)]	Loss: 0.1221 Acc: 96.84
+Train Epoch: 285 [Baseline] [12800/50000 (26%)]	Loss: 0.1239 Acc: 96.90
+Train Epoch: 285 [Baseline] [19200/50000 (38%)]	Loss: 0.1197 Acc: 97.04
+Train Epoch: 285 [Baseline] [25600/50000 (51%)]	Loss: 0.1212 Acc: 96.99
+Train Epoch: 285 [Baseline] [32000/50000 (64%)]	Loss: 0.1219 Acc: 97.00
+Train Epoch: 285 [Baseline] [38400/50000 (77%)]	Loss: 0.1209 Acc: 97.02
+Train Epoch: 285 [Baseline] [44800/50000 (90%)]	Loss: 0.1225 Acc: 96.98
+ 95%|█████████▌| 286/300 [56:22<02:44, 11.78s/it]EPOCH:285, ======================ACC:78.59====================
+BEST EPOCH:284,BEST ACC:78.99
+Train Epoch: 286 [Baseline] [6400/50000 (13%)]	Loss: 0.1177 Acc: 97.34
+Train Epoch: 286 [Baseline] [12800/50000 (26%)]	Loss: 0.1163 Acc: 97.26
+Train Epoch: 286 [Baseline] [19200/50000 (38%)]	Loss: 0.1201 Acc: 97.10
+Train Epoch: 286 [Baseline] [25600/50000 (51%)]	Loss: 0.1200 Acc: 97.07
+Train Epoch: 286 [Baseline] [32000/50000 (64%)]	Loss: 0.1216 Acc: 97.05
+Train Epoch: 286 [Baseline] [38400/50000 (77%)]	Loss: 0.1207 Acc: 97.05
+Train Epoch: 286 [Baseline] [44800/50000 (90%)]	Loss: 0.1208 Acc: 97.02
+ 96%|█████████▌| 287/300 [56:34<02:33, 11.81s/it]EPOCH:286, ======================ACC:78.7====================
+BEST EPOCH:284,BEST ACC:78.99
+Train Epoch: 287 [Baseline] [6400/50000 (13%)]	Loss: 0.1157 Acc: 97.17
+Train Epoch: 287 [Baseline] [12800/50000 (26%)]	Loss: 0.1188 Acc: 97.11
+Train Epoch: 287 [Baseline] [19200/50000 (38%)]	Loss: 0.1198 Acc: 97.04
+Train Epoch: 287 [Baseline] [25600/50000 (51%)]	Loss: 0.1217 Acc: 97.02
+Train Epoch: 287 [Baseline] [32000/50000 (64%)]	Loss: 0.1202 Acc: 97.08
+Train Epoch: 287 [Baseline] [38400/50000 (77%)]	Loss: 0.1221 Acc: 96.98
+Train Epoch: 287 [Baseline] [44800/50000 (90%)]	Loss: 0.1209 Acc: 96.98
+ 96%|█████████▌| 288/300 [56:46<02:21, 11.80s/it]EPOCH:287, ======================ACC:78.92====================
+BEST EPOCH:284,BEST ACC:78.99
+Train Epoch: 288 [Baseline] [6400/50000 (13%)]	Loss: 0.1229 Acc: 97.02
+Train Epoch: 288 [Baseline] [12800/50000 (26%)]	Loss: 0.1186 Acc: 97.20
+Train Epoch: 288 [Baseline] [19200/50000 (38%)]	Loss: 0.1176 Acc: 97.23
+Train Epoch: 288 [Baseline] [25600/50000 (51%)]	Loss: 0.1153 Acc: 97.26
+Train Epoch: 288 [Baseline] [32000/50000 (64%)]	Loss: 0.1159 Acc: 97.26
+Train Epoch: 288 [Baseline] [38400/50000 (77%)]	Loss: 0.1149 Acc: 97.26
+Train Epoch: 288 [Baseline] [44800/50000 (90%)]	Loss: 0.1136 Acc: 97.32
+ 96%|█████████▋| 289/300 [56:58<02:09, 11.77s/it]EPOCH:288, ======================ACC:79.04====================
+BEST EPOCH:288,BEST ACC:79.04
+Train Epoch: 289 [Baseline] [6400/50000 (13%)]	Loss: 0.1213 Acc: 96.80
+Train Epoch: 289 [Baseline] [12800/50000 (26%)]	Loss: 0.1177 Acc: 96.99
+Train Epoch: 289 [Baseline] [19200/50000 (38%)]	Loss: 0.1163 Acc: 97.06
+Train Epoch: 289 [Baseline] [25600/50000 (51%)]	Loss: 0.1129 Acc: 97.16
+Train Epoch: 289 [Baseline] [32000/50000 (64%)]	Loss: 0.1135 Acc: 97.20
+Train Epoch: 289 [Baseline] [38400/50000 (77%)]	Loss: 0.1132 Acc: 97.19
+Train Epoch: 289 [Baseline] [44800/50000 (90%)]	Loss: 0.1142 Acc: 97.16
+ 97%|█████████▋| 290/300 [57:09<01:57, 11.77s/it]EPOCH:289, ======================ACC:78.77====================
+BEST EPOCH:288,BEST ACC:79.04
+Train Epoch: 290 [Baseline] [6400/50000 (13%)]	Loss: 0.1001 Acc: 97.72
+Train Epoch: 290 [Baseline] [12800/50000 (26%)]	Loss: 0.1015 Acc: 97.70
+Train Epoch: 290 [Baseline] [19200/50000 (38%)]	Loss: 0.1048 Acc: 97.55
+Train Epoch: 290 [Baseline] [25600/50000 (51%)]	Loss: 0.1106 Acc: 97.35
+Train Epoch: 290 [Baseline] [32000/50000 (64%)]	Loss: 0.1114 Acc: 97.29
+Train Epoch: 290 [Baseline] [38400/50000 (77%)]	Loss: 0.1094 Acc: 97.36
+Train Epoch: 290 [Baseline] [44800/50000 (90%)]	Loss: 0.1085 Acc: 97.39
+ 97%|█████████▋| 291/300 [57:21<01:45, 11.74s/it]EPOCH:290, ======================ACC:78.73====================
+BEST EPOCH:288,BEST ACC:79.04
+Train Epoch: 291 [Baseline] [6400/50000 (13%)]	Loss: 0.1063 Acc: 97.39
+Train Epoch: 291 [Baseline] [12800/50000 (26%)]	Loss: 0.1069 Acc: 97.41
+Train Epoch: 291 [Baseline] [19200/50000 (38%)]	Loss: 0.1065 Acc: 97.44
+Train Epoch: 291 [Baseline] [25600/50000 (51%)]	Loss: 0.1078 Acc: 97.41
+Train Epoch: 291 [Baseline] [32000/50000 (64%)]	Loss: 0.1097 Acc: 97.37
+Train Epoch: 291 [Baseline] [38400/50000 (77%)]	Loss: 0.1131 Acc: 97.29
+Train Epoch: 291 [Baseline] [44800/50000 (90%)]	Loss: 0.1133 Acc: 97.26
+ 97%|█████████▋| 292/300 [57:33<01:33, 11.73s/it]EPOCH:291, ======================ACC:78.98====================
+BEST EPOCH:288,BEST ACC:79.04
+Train Epoch: 292 [Baseline] [6400/50000 (13%)]	Loss: 0.1054 Acc: 97.53
+Train Epoch: 292 [Baseline] [12800/50000 (26%)]	Loss: 0.1060 Acc: 97.46
+Train Epoch: 292 [Baseline] [19200/50000 (38%)]	Loss: 0.1085 Acc: 97.37
+Train Epoch: 292 [Baseline] [25600/50000 (51%)]	Loss: 0.1117 Acc: 97.28
+Train Epoch: 292 [Baseline] [32000/50000 (64%)]	Loss: 0.1121 Acc: 97.26
+Train Epoch: 292 [Baseline] [38400/50000 (77%)]	Loss: 0.1115 Acc: 97.27
+Train Epoch: 292 [Baseline] [44800/50000 (90%)]	Loss: 0.1114 Acc: 97.27
+ 98%|█████████▊| 293/300 [57:44<01:22, 11.72s/it]EPOCH:292, ======================ACC:78.98====================
+BEST EPOCH:288,BEST ACC:79.04
+Train Epoch: 293 [Baseline] [6400/50000 (13%)]	Loss: 0.1115 Acc: 97.25
+Train Epoch: 293 [Baseline] [12800/50000 (26%)]	Loss: 0.1089 Acc: 97.34
+Train Epoch: 293 [Baseline] [19200/50000 (38%)]	Loss: 0.1073 Acc: 97.36
+Train Epoch: 293 [Baseline] [25600/50000 (51%)]	Loss: 0.1070 Acc: 97.38
+Train Epoch: 293 [Baseline] [32000/50000 (64%)]	Loss: 0.1092 Acc: 97.36
+Train Epoch: 293 [Baseline] [38400/50000 (77%)]	Loss: 0.1090 Acc: 97.34
+Train Epoch: 293 [Baseline] [44800/50000 (90%)]	Loss: 0.1107 Acc: 97.31
+ 98%|█████████▊| 294/300 [57:56<01:10, 11.76s/it]EPOCH:293, ======================ACC:79.16====================
+BEST EPOCH:293,BEST ACC:79.16
+Train Epoch: 294 [Baseline] [6400/50000 (13%)]	Loss: 0.1081 Acc: 97.41
+Train Epoch: 294 [Baseline] [12800/50000 (26%)]	Loss: 0.1096 Acc: 97.38
+Train Epoch: 294 [Baseline] [19200/50000 (38%)]	Loss: 0.1083 Acc: 97.39
+Train Epoch: 294 [Baseline] [25600/50000 (51%)]	Loss: 0.1088 Acc: 97.39
+Train Epoch: 294 [Baseline] [32000/50000 (64%)]	Loss: 0.1076 Acc: 97.41
+Train Epoch: 294 [Baseline] [38400/50000 (77%)]	Loss: 0.1089 Acc: 97.34
+Train Epoch: 294 [Baseline] [44800/50000 (90%)]	Loss: 0.1090 Acc: 97.37
+ 98%|█████████▊| 295/300 [58:08<00:58, 11.80s/it]EPOCH:294, ======================ACC:79.01====================
+BEST EPOCH:293,BEST ACC:79.16
+Train Epoch: 295 [Baseline] [6400/50000 (13%)]	Loss: 0.1056 Acc: 97.47
+Train Epoch: 295 [Baseline] [12800/50000 (26%)]	Loss: 0.1065 Acc: 97.50
+Train Epoch: 295 [Baseline] [19200/50000 (38%)]	Loss: 0.1058 Acc: 97.44
+Train Epoch: 295 [Baseline] [25600/50000 (51%)]	Loss: 0.1090 Acc: 97.32
+Train Epoch: 295 [Baseline] [32000/50000 (64%)]	Loss: 0.1074 Acc: 97.33
+Train Epoch: 295 [Baseline] [38400/50000 (77%)]	Loss: 0.1066 Acc: 97.40
+Train Epoch: 295 [Baseline] [44800/50000 (90%)]	Loss: 0.1066 Acc: 97.40
+ 99%|█████████▊| 296/300 [58:20<00:47, 11.89s/it]EPOCH:295, ======================ACC:79.29====================
+BEST EPOCH:295,BEST ACC:79.29
+Train Epoch: 296 [Baseline] [6400/50000 (13%)]	Loss: 0.1115 Acc: 97.20
+Train Epoch: 296 [Baseline] [12800/50000 (26%)]	Loss: 0.1102 Acc: 97.34
+Train Epoch: 296 [Baseline] [19200/50000 (38%)]	Loss: 0.1074 Acc: 97.38
+Train Epoch: 296 [Baseline] [25600/50000 (51%)]	Loss: 0.1058 Acc: 97.44
+Train Epoch: 296 [Baseline] [32000/50000 (64%)]	Loss: 0.1058 Acc: 97.43
+Train Epoch: 296 [Baseline] [38400/50000 (77%)]	Loss: 0.1061 Acc: 97.40
+Train Epoch: 296 [Baseline] [44800/50000 (90%)]	Loss: 0.1062 Acc: 97.37
+ 99%|█████████▉| 297/300 [58:33<00:35, 11.98s/it]EPOCH:296, ======================ACC:79.19====================
+BEST EPOCH:295,BEST ACC:79.29
+Train Epoch: 297 [Baseline] [6400/50000 (13%)]	Loss: 0.1140 Acc: 97.23
+Train Epoch: 297 [Baseline] [12800/50000 (26%)]	Loss: 0.1113 Acc: 97.32
+Train Epoch: 297 [Baseline] [19200/50000 (38%)]	Loss: 0.1071 Acc: 97.44
+Train Epoch: 297 [Baseline] [25600/50000 (51%)]	Loss: 0.1057 Acc: 97.51
+Train Epoch: 297 [Baseline] [32000/50000 (64%)]	Loss: 0.1076 Acc: 97.43
+Train Epoch: 297 [Baseline] [38400/50000 (77%)]	Loss: 0.1042 Acc: 97.51
+Train Epoch: 297 [Baseline] [44800/50000 (90%)]	Loss: 0.1032 Acc: 97.55
+ 99%|█████████▉| 298/300 [58:44<00:23, 11.94s/it]EPOCH:297, ======================ACC:79.12====================
+BEST EPOCH:295,BEST ACC:79.29
+Train Epoch: 298 [Baseline] [6400/50000 (13%)]	Loss: 0.1085 Acc: 97.17
+Train Epoch: 298 [Baseline] [12800/50000 (26%)]	Loss: 0.1048 Acc: 97.39
+Train Epoch: 298 [Baseline] [19200/50000 (38%)]	Loss: 0.1031 Acc: 97.44
+Train Epoch: 298 [Baseline] [25600/50000 (51%)]	Loss: 0.1052 Acc: 97.40
+Train Epoch: 298 [Baseline] [32000/50000 (64%)]	Loss: 0.1039 Acc: 97.45
+Train Epoch: 298 [Baseline] [38400/50000 (77%)]	Loss: 0.1027 Acc: 97.51
+Train Epoch: 298 [Baseline] [44800/50000 (90%)]	Loss: 0.1027 Acc: 97.49
+100%|█████████▉| 299/300 [58:57<00:12, 12.02s/it]EPOCH:298, ======================ACC:79.16====================
+BEST EPOCH:295,BEST ACC:79.29
+Train Epoch: 299 [Baseline] [6400/50000 (13%)]	Loss: 0.1049 Acc: 97.48
+Train Epoch: 299 [Baseline] [12800/50000 (26%)]	Loss: 0.0992 Acc: 97.60
+Train Epoch: 299 [Baseline] [19200/50000 (38%)]	Loss: 0.0960 Acc: 97.69
+Train Epoch: 299 [Baseline] [25600/50000 (51%)]	Loss: 0.0981 Acc: 97.64
+Train Epoch: 299 [Baseline] [32000/50000 (64%)]	Loss: 0.0995 Acc: 97.59
+Train Epoch: 299 [Baseline] [38400/50000 (77%)]	Loss: 0.1013 Acc: 97.54
+Train Epoch: 299 [Baseline] [44800/50000 (90%)]	Loss: 0.0993 Acc: 97.59
+100%|██████████| 300/300 [59:09<00:00, 12.01s/it]100%|██████████| 300/300 [59:09<00:00, 11.83s/it]
+EPOCH:299, ======================ACC:79.14====================
+BEST EPOCH:295,BEST ACC:79.29
+Result saved to ablation_results.csv

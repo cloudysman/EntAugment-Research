@@ -1,0 +1,8 @@
+usage: train_MAB.py [-h] [--momentum MOMENTUM] [--log_interval LOG_INTERVAL]
+                    [--weight-decay W] [--conf CONF] [--gpus GPUS]
+                    [--resume RESUME] [--cutout_length CUTOUT_LENGTH]
+                    --dataset DATASET [--save_model SAVE_MODEL]
+                    [--num_worker {2,4,8,16,32}] [--aug AUG]
+                    [--alpha_schedule {linear,cosine,step}]
+                    [--ucb_alpha UCB_ALPHA]
+train_MAB.py: error: unrecognized arguments: echo MAB PID: 4015005_cifar10.txt

@@ -1,0 +1,339 @@
+import pathlib
+import sys
+import os
+import time
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument("--momentum", type=float, default=0.9, help="momentum")
+parser.add_argument('--log_interval', type=int, default=50, help='log training status')
+parser.add_argument('--weight-decay', '--wd', default=5e-4, type=float,
+                    metavar='W', help='weight decay (default: 5e-4)')
+parser.add_argument('--conf', default='./confs/resnet18.yaml', type=str, help=' yaml file')
+parser.add_argument('--gpus', type=str, default='0')
+parser.add_argument('--resume', type=str, default=None)
+parser.add_argument('--cutout_length', type=int, default=16)
+parser.add_argument('--dataset', type=str, required=True)
+parser.add_argument('--save_model', type=bool, default=False)
+parser.add_argument('--num_worker', type=int, default=8, choices=[2, 4, 8, 16, 32])
+parser.add_argument('--aug', type=str, default='entaugment')
+parser.add_argument('--alpha_schedule', type=str, default='linear',
+                    choices=['linear', 'cosine', 'step'])
+parser.add_argument('--ucb_alpha', type=float, default=1.0,
+                    help='UCB exploration constant for MAB')
+parser.add_argument('--seed', type=int, default=42,
+                    help='Random seed for reproducibility')
+args = parser.parse_args()
+os.environ['CUDA_VISIBLE_DEVICES'] = args.gpus
+
+import random
+import numpy as np
+import math
+from tqdm import tqdm
+import torchvision.transforms as transforms
+from torch.utils.data import DataLoader
+import torch.nn as nn
+import torch.nn.functional as F
+import torch
+from torch import optim
+import csv
+from Dataset import CIFAR10Dataset, CIFAR100Dataset
+from Network import *
+from augmentation.entaugment import ALL_TRANSFORMS, PARAMETER_MAX
+from augmentation.cutout import Cutout
+from augmentation import trivialaugment
+import yaml
+from warmup_scheduler import GradualWarmupScheduler
+
+
+def set_seed(seed):
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
+
+set_seed(args.seed)
+
+cuda = True if torch.cuda.is_available() else False
+
+with open(args.conf) as f:
+    cfg = yaml.safe_load(f)
+
+transform_test = transforms.Compose([
+    transforms.ToTensor(),
+    transforms.Normalize(mean=[x / 255.0 for x in [125.3, 123.0, 113.9]],
+                         std=[x / 255.0 for x in [63.0, 62.1, 66.7]])
+])
+transform_warmup = transforms.Compose([
+    transforms.ToPILImage(),
+    transforms.RandomCrop(32, padding=4),
+    transforms.ToTensor(),
+    transforms.Normalize(mean=[x / 255.0 for x in [125.3, 123.0, 113.9]],
+                         std=[x / 255.0 for x in [63.0, 62.1, 66.7]])
+])
+
+best_acc = 0
+best_epoch = 0
+warmup_epoch = 10
+acc_list = []
+NUM_CLASSES = num_class(args.dataset.lower())
+model = get_model(cfg['model']['type'], num_classes=NUM_CLASSES)
+model = torch.nn.DataParallel(
+    model, device_ids=np.arange(len(args.gpus.split(','))).tolist()
+).cuda()
+
+if cfg['optimizer']['type'] == 'sgd':
+    optimizer = optim.SGD(
+        model.parameters(),
+        lr=cfg['lr'],
+        momentum=args.momentum,
+        weight_decay=cfg['optimizer']['decay'],
+        nesterov=cfg['optimizer']['nesterov']
+    )
+
+lr_schduler_type = cfg['lr_schedule']['type']
+if lr_schduler_type == 'cosine':
+    scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(
+        optimizer, T_max=cfg['epoch'], eta_min=0.)
+elif lr_schduler_type == 'step':
+    scheduler = torch.optim.lr_scheduler.MultiStepLR(
+        optimizer, milestones=cfg['lr_schedule']['milestones'],
+        gamma=cfg['lr_schedule']['gamma'])
+
+if cfg['lr_schedule']['warmup'] != '' and cfg['lr_schedule']['warmup']['epoch'] > 0:
+    scheduler = GradualWarmupScheduler(
+        optimizer,
+        multiplier=cfg['lr_schedule']['warmup']['multiplier'],
+        total_epoch=cfg['lr_schedule']['warmup']['epoch'],
+        after_scheduler=scheduler
+    )
+
+epoches = cfg['epoch']
+criterion = nn.CrossEntropyLoss(reduction='none')
+
+if args.dataset == 'CIFAR10':
+    root = 'data/CIFAR10/'
+    trainset = CIFAR10Dataset(root=root, train=True, transform=transform_warmup, aug=args.aug)
+    testset = CIFAR10Dataset(root=root, train=False, transform=transform_test)
+elif args.dataset == 'CIFAR100':
+    root = 'data/CIFAR100/cifar-100-python/'
+    trainset = CIFAR100Dataset(root, train=True, fine_label=True,
+                               transform=transform_warmup, aug=args.aug)
+    testset = CIFAR100Dataset(root, train=False, fine_label=True,
+                              transform=transform_test)
+
+train_loader = DataLoader(dataset=trainset, batch_size=cfg['batch'],
+                          shuffle=True, num_workers=8, pin_memory=True)
+test_loader = DataLoader(dataset=testset, batch_size=cfg['batch'],
+                         shuffle=False, num_workers=8, pin_memory=True)
+
+start_epoch = 0
+if args.resume:
+    print('==> Resuming from checkpoint..')
+    assert os.path.isdir('checkpoint'), 'Error: no checkpoint directory found!'
+    checkpoint = torch.load('./checkpoint/{}/{}'.format(args.dataset, args.resume))
+    model.load_state_dict(checkpoint['net'])
+    best_acc = checkpoint['acc']
+    start_epoch = checkpoint['epoch']
+
+
+# ─────────────────────────────────────────────
+# MAB: Multi-Armed Bandit with UCB selection
+# ─────────────────────────────────────────────
+
+class OperationMAB:
+    def __init__(self, operations, ucb_alpha=1.0):
+        self.K = len(operations)
+        self.operations = operations
+        self.op_names = [op.name for op in operations]
+        self.counts = np.zeros(self.K)
+        self.rewards = np.zeros(self.K)
+        self.ucb_alpha = ucb_alpha
+        self.current_op = 0
+
+    def select(self, epoch):
+        if epoch < self.K:
+            return epoch % self.K
+        total = self.counts.sum()
+        avg_reward = self.rewards / (self.counts + 1e-8)
+        exploration = self.ucb_alpha * np.sqrt(np.log(total + 1) / (self.counts + 1e-8))
+        return int(np.argmax(avg_reward + exploration))
+
+    def update(self, arm, reward):
+        self.counts[arm] += 1
+        self.rewards[arm] += reward
+
+    def stats(self):
+        avg = self.rewards / (self.counts + 1e-8)
+        return ' | '.join('{}: cnt={:.0f} avg_r={:.4f}'.format(
+            self.op_names[i], self.counts[i], avg[i]) for i in range(self.K))
+
+
+class EntAugmentFixed:
+    def __init__(self, M, op_idx):
+        self.op = ALL_TRANSFORMS[op_idx]
+        self.level = min(int(PARAMETER_MAX * M) + 1, PARAMETER_MAX)
+
+    def __call__(self, img):
+        return self.op.pil_transformer(1., self.level)(img)
+
+
+def make_magnitude_MAB(magnitude, cutout_length, op_idx):
+    trivialaugment.set_augmentation_space(augmentation_space='standard', num_strengths=30)
+    return transforms.Compose([
+        transforms.ToPILImage(),
+        EntAugmentFixed(M=magnitude, op_idx=op_idx),
+        transforms.RandomCrop(32, padding=4),
+        transforms.RandomHorizontalFlip(),
+        transforms.ToTensor(),
+        transforms.Normalize(mean=[x / 255.0 for x in [125.3, 123.0, 113.9]],
+                             std=[x / 255.0 for x in [63.0, 62.1, 66.7]]),
+        Cutout(1, cutout_length)
+    ])
+
+
+def get_alpha(epoch, total_epochs, schedule='linear'):
+    progress = epoch / total_epochs
+    if schedule == 'linear':
+        return 1.0 - progress
+    elif schedule == 'cosine':
+        return 0.5 * (1.0 + math.cos(math.pi * progress))
+    elif schedule == 'step':
+        return 1.0 if progress < 0.33 else (0.5 if progress < 0.66 else 0.0)
+
+
+def compute_val_loss(net):
+    net.eval()
+    val_criterion = nn.CrossEntropyLoss()
+    inputs, targets = next(iter(test_loader))
+    with torch.no_grad():
+        outputs = net(inputs.cuda())
+        loss = val_criterion(outputs, targets.cuda())
+    return loss.item()
+
+
+# ─────────────────────────────────────────────
+# Training loop: MAB per-batch
+# ─────────────────────────────────────────────
+
+def train(net, epoch, mab):
+    global optimizer
+    net.train()
+
+    alpha = get_alpha(epoch, epoches, schedule=args.alpha_schedule)
+    training_loss = 0.0
+    training_magnitude = 0.0
+    total = len(train_loader.dataset)
+    correct = 0
+
+    # Track which operations were used this epoch (for reward assignment)
+    epoch_op_counts = np.zeros(mab.K)
+
+    for i, data in enumerate(train_loader, 0):
+        idx, inputs, labels = data
+        inputs, labels = inputs.cuda(), labels.cuda()
+
+        # MAB selects operation PER-BATCH
+        op_idx = mab.select(epoch)
+        epoch_op_counts[op_idx] += 1
+        trainset.make_magnitude_transform = lambda magnitude, cutout_length, oi=op_idx: \
+            make_magnitude_MAB(magnitude, cutout_length, op_idx=oi)
+
+        optimizer.zero_grad()
+        outputs = net(inputs)
+        loss = criterion(outputs, labels)
+
+        # Entropy-only magnitude (same as original EntAugment)
+        probability = F.softmax(outputs, dim=1)
+        entropy_val = -torch.sum(probability * torch.log(probability + 1e-8), dim=1)
+        entropy_normalized = entropy_val / np.log(NUM_CLASSES)
+        magnitude = (1.0 - entropy_normalized).clamp(0.0, 1.0)
+
+        loss_scalar = loss.mean()
+        trainset.set_MAGNITUDE(idx, magnitude.detach().cpu())
+        training_loss += loss_scalar.item()
+        training_magnitude += magnitude.mean().item()
+
+        _, predicted = outputs.max(1)
+        loss_scalar.backward()
+        optimizer.step()
+        correct += predicted.eq(labels).sum().item()
+
+        if (i + 1) % args.log_interval == 0:
+            trained_total = (i + 1) * len(labels)
+            top_op = mab.op_names[int(np.argmax(epoch_op_counts))]
+            print('Train Epoch: {} (top_op={}) [{}/{} ({:.0f}%)]\t'
+                  'Loss: {:.4f} Mag: {:.4f} Alpha: {:.3f} Acc: {:.2f}'.format(
+                epoch, top_op,
+                trained_total, total, 100. * trained_total / total,
+                training_loss / (i + 1), training_magnitude / (i + 1),
+                alpha, 100. * correct / trained_total))
+
+    if epoch >= warmup_epoch:
+        trainset.is_warmup_finished = True
+
+    # Return most-used operation this epoch for reward assignment
+    most_used_op = int(np.argmax(epoch_op_counts))
+    return most_used_op
+
+
+def test(net, epoch):
+    global best_acc, best_epoch
+    net.eval()
+    correct = 0
+    total = 0
+    with torch.no_grad():
+        for inputs, targets in test_loader:
+            inputs, targets = inputs.cuda(), targets.cuda()
+            outputs = net(inputs)
+            _, predicted = outputs.max(1)
+            total += targets.size(0)
+            correct += predicted.eq(targets).sum().item()
+    acc = correct * 100. / total
+    print('EPOCH:{}, ======================ACC:{}===================='.format(epoch, acc))
+    acc_list.append(acc)
+    if acc >= best_acc:
+        best_acc = acc
+        best_epoch = epoch
+    print('BEST EPOCH:{},BEST ACC:{}'.format(best_epoch, best_acc))
+
+
+# ─────────────────────────────────────────────
+# Main
+# ─────────────────────────────────────────────
+
+if __name__ == '__main__':
+    print('=== EntAugment + MAB (per-batch) ===')
+    print('Seed: {}, UCB alpha: {}'.format(args.seed, args.ucb_alpha))
+    print('Dataset: {}, Model: {}, Epochs: {}'.format(
+        args.dataset, cfg['model']['type'], epoches))
+
+    mab = OperationMAB(ALL_TRANSFORMS, ucb_alpha=args.ucb_alpha)
+    prev_val_loss = compute_val_loss(model)
+
+    for epoch in tqdm(range(start_epoch, epoches)):
+        most_used_op = train(model, epoch, mab)
+
+        current_val_loss = compute_val_loss(model)
+        reward = prev_val_loss - current_val_loss
+        mab.update(most_used_op, reward)
+        prev_val_loss = current_val_loss
+
+        test(model, epoch)
+        scheduler.step()
+
+        if (epoch + 1) % 10 == 0:
+            print('\n[MAB Stats @ epoch {}]\n{}\n'.format(epoch, mab.stats()))
+
+    # Auto-save results
+    result_file = 'benchmark_results.csv'
+    file_exists = os.path.isfile(result_file)
+    with open(result_file, 'a', newline='') as f:
+        writer = csv.writer(f)
+        if not file_exists:
+            writer.writerow(['dataset', 'model', 'seed', 'best_epoch', 'best_acc', 'method'])
+        writer.writerow([args.dataset, cfg['model']['type'], args.seed,
+                         best_epoch, best_acc, 'EntAugment_MAB_perBatch'])
+    print('Result saved to {}'.format(result_file))

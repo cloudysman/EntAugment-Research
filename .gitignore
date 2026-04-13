@@ -1,0 +1,6 @@
+data/
+my_train
+*.tar.gz
+train
+*/train
+*/**/train

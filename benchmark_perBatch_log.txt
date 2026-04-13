@@ -1,0 +1,42 @@
+nohup: ignoring input
+[06:56:44] START: CIFAR10 resnet18 seed=42
+[07:35:41] DONE: CIFAR10 resnet18 seed=42 | BEST EPOCH:293,BEST ACC:96.84
+[07:35:41] START: CIFAR10 resnet18 seed=123
+[08:14:19] DONE: CIFAR10 resnet18 seed=123 | BEST EPOCH:294,BEST ACC:96.7
+[08:14:19] START: CIFAR10 resnet18 seed=456
+[08:51:02] DONE: CIFAR10 resnet18 seed=456 | BEST EPOCH:287,BEST ACC:96.78
+[08:51:02] START: CIFAR10 resnet50 seed=42
+Terminated
+[09:59:12] DONE: CIFAR10 resnet50 seed=42 | BEST EPOCH:109,BEST ACC:86.48
+[09:59:12] START: CIFAR10 resnet50 seed=123
+[12:16:18] DONE: CIFAR10 resnet50 seed=123 | BEST EPOCH:299,BEST ACC:96.66
+[12:16:18] START: CIFAR10 resnet50 seed=456
+[14:26:03] DONE: CIFAR10 resnet50 seed=456 | BEST EPOCH:297,BEST ACC:97.06
+[14:26:03] START: CIFAR10 wrn2810 seed=42
+[18:20:22] DONE: CIFAR10 wrn2810 seed=42 | BEST EPOCH:295,BEST ACC:97.5
+[18:20:22] START: CIFAR10 wrn2810 seed=123
+[22:11:56] DONE: CIFAR10 wrn2810 seed=123 | BEST EPOCH:296,BEST ACC:97.46
+[22:11:56] START: CIFAR10 wrn2810 seed=456
+[02:04:38] DONE: CIFAR10 wrn2810 seed=456 | BEST EPOCH:293,BEST ACC:97.48
+[02:04:38] START: CIFAR100 resnet18 seed=42
+[02:45:02] DONE: CIFAR100 resnet18 seed=42 | BEST EPOCH:278,BEST ACC:79.0
+[02:45:02] START: CIFAR100 resnet18 seed=123
+[03:25:39] DONE: CIFAR100 resnet18 seed=123 | BEST EPOCH:299,BEST ACC:78.63
+[03:25:39] START: CIFAR100 resnet18 seed=456
+[04:06:35] DONE: CIFAR100 resnet18 seed=456 | BEST EPOCH:272,BEST ACC:78.88
+[04:06:35] START: CIFAR100 resnet50 seed=42
+[06:16:32] DONE: CIFAR100 resnet50 seed=42 | BEST EPOCH:296,BEST ACC:81.7
+[06:16:32] START: CIFAR100 resnet50 seed=123
+[08:27:49] DONE: CIFAR100 resnet50 seed=123 | BEST EPOCH:299,BEST ACC:81.25
+[08:27:49] START: CIFAR100 resnet50 seed=456
+[10:48:05] DONE: CIFAR100 resnet50 seed=456 | BEST EPOCH:298,BEST ACC:81.15
+[10:48:05] START: CIFAR100 wrn2810 seed=42
+run_benchmark_perBatch.sh: line 5: 47878 Killed                  python train_EntAugment_MAB_perBatch.py --dataset $DATASET --conf confs/$CONF --seed $SEED --gpus $GPU > $LOG_DIR/${DATASET}_${MODEL}_seed${SEED}.txt 2>&1
+[12:36:16] DONE: CIFAR100 wrn2810 seed=42 | BEST EPOCH:131,BEST ACC:69.48
+[12:36:16] START: CIFAR100 wrn2810 seed=123
+run_benchmark_perBatch.sh: line 5: 171485 Killed                  python train_EntAugment_MAB_perBatch.py --dataset $DATASET --conf confs/$CONF --seed $SEED --gpus $GPU > $LOG_DIR/${DATASET}_${MODEL}_seed${SEED}.txt 2>&1
+[12:37:17] DONE: CIFAR100 wrn2810 seed=123 | BEST EPOCH:0,BEST ACC:1.2
+[12:37:17] START: CIFAR100 wrn2810 seed=456
+run_benchmark_perBatch.sh: line 5: 172874 Killed                  python train_EntAugment_MAB_perBatch.py --dataset $DATASET --conf confs/$CONF --seed $SEED --gpus $GPU > $LOG_DIR/${DATASET}_${MODEL}_seed${SEED}.txt 2>&1
+[12:37:36] DONE: CIFAR100 wrn2810 seed=456 | 
+=== ALL DONE ===

@@ -1,0 +1,38 @@
+nohup: ignoring input
+=== Scale Up: H1 vs PureCutMix on R-50 and WRN-28-10 ===
+=== 1 GPU, song song từng cặp ===
+[14:35:06] START cặp R-50: H1 + PureCutMix song song
+  PIDs: H1=1795047, PureCutMix=1795049
+[23:19:35] DONE cặp R-50
+  H1:         BEST EPOCH:297,BEST ACC:83.4
+  PureCutMix: BEST EPOCH:299,BEST ACC:83.68
+[23:19:35] START cặp WRN-28-10: H1 + PureCutMix song song
+  PIDs: H1=2296354, PureCutMix=2296355
+[15:46:05] DONE cặp WRN-28-10
+  H1:         BEST EPOCH:293,BEST ACC:85.41
+  PureCutMix: BEST EPOCH:299,BEST ACC:85.74
+
+=== ALL DONE ===
+
+Bảng kết quả:
+Config     | R-18       | R-50       | WRN
+-----------|------------|------------|------------
+H1         | 81.94% | 83.4% | 85.41%
+PureCutMix | 81.85% | 83.68% | 85.74%
+
+config,dataset,model,seed,best_epoch,best_acc
+A,CIFAR100,resnet18,42,299,78.95
+H1,CIFAR100,resnet18,42,298,81.94
+H3,CIFAR100,resnet18,42,291,80.87
+H4,CIFAR100,resnet18,42,299,81.16
+H5,CIFAR100,resnet18,42,294,81.61
+Baseline,CIFAR100,resnet18,42,295,79.29
+PureCutMix,CIFAR100,resnet18,42,294,81.85
+PureCutMix,CIFAR100,resnet50,42,299,83.68
+PureCutMix,CIFAR100,resnet50,42,299,83.68
+H1,CIFAR100,resnet50,42,297,83.4
+H1,CIFAR100,resnet50,42,297,83.4
+PureCutMix,CIFAR100,wresnet28_10,42,299,85.74
+PureCutMix,CIFAR100,wresnet28_10,42,299,85.74
+H1,CIFAR100,wresnet28_10,42,293,85.41
+H1,CIFAR100,wresnet28_10,42,293,85.41
