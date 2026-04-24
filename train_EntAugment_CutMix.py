@@ -19,6 +19,7 @@ parser.add_argument('--cutmix_prob', type=float, default=0.5,
                     help='Probability of applying CutMix per batch')
 parser.add_argument('--cutmix_alpha', type=float, default=1.0,
                     help='Beta distribution alpha for CutMix lambda')
+parser.add_argument('--result_file', type=str, default='benchmark_composition_results.csv')
 args = parser.parse_args()
 os.environ['CUDA_VISIBLE_DEVICES'] = args.gpus
 
@@ -266,7 +267,7 @@ if __name__ == '__main__':
         test(model, epoch)
         scheduler.step()
 
-    result_file = 'benchmark_results.csv'
+    result_file = args.result_file
     file_exists = os.path.isfile(result_file)
     with open(result_file, 'a', newline='') as f:
         writer = csv.writer(f)

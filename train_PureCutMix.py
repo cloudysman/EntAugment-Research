@@ -17,6 +17,7 @@ parser.add_argument('--save_model', type=bool, default=False)
 parser.add_argument('--num_worker', type=int, default=8)
 parser.add_argument('--seed', type=int, default=42)
 parser.add_argument('--cutmix_alpha', type=float, default=1.0)
+parser.add_argument('--result_file', type=str, default='benchmark_composition_results.csv')
 args = parser.parse_args()
 os.environ['CUDA_VISIBLE_DEVICES'] = args.gpus
 
@@ -111,9 +112,8 @@ elif args.dataset == 'CIFAR100':
     testset = CIFAR100Dataset(root, train=False, fine_label=True,
                               transform=transform_test)
 
-# Tắt EntAugment hoàn toàn: giữ is_warmup_finished = False suốt training
-# → trainset chỉ dùng warmup_transform (basic crop+flip)
-trainset.is_warmup_finished = False
+# Bypass EntAugment hoàn toàn: dùng external_transform (crop+flip chỉ)
+trainset.external_transform = transform_train
 
 train_loader = DataLoader(trainset, batch_size=cfg['batch'],
                           shuffle=True, num_workers=8, pin_memory=True)
@@ -236,7 +236,7 @@ if __name__ == '__main__':
         test(model, epoch)
         scheduler.step()
 
-    result_file = 'ablation_results.csv'
+    result_file = args.result_file
     file_exists = os.path.isfile(result_file)
     with open(result_file, 'a', newline='') as f:
         writer = csv.writer(f)

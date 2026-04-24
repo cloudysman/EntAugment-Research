@@ -15,6 +15,9 @@ parser.add_argument('--dataset', type=str, required=True)
 parser.add_argument('--save_model', type=bool, default=False)
 parser.add_argument('--num_worker', type=int, default=8)
 parser.add_argument('--seed', type=int, default=42)
+parser.add_argument('--ra_n', type=int, default=2)
+parser.add_argument('--ra_m', type=int, default=9)
+parser.add_argument('--result_file', type=str, default='benchmark_composition_results.csv')
 args = parser.parse_args()
 os.environ['CUDA_VISIBLE_DEVICES'] = args.gpus
 
@@ -29,6 +32,7 @@ import yaml
 
 from Dataset import CIFAR10Dataset, CIFAR100Dataset
 from Network import *
+from augmentation import trivialaugment
 from warmup_scheduler import GradualWarmupScheduler
 
 
@@ -46,9 +50,22 @@ set_seed(args.seed)
 with open(args.conf) as f:
     cfg = yaml.safe_load(f)
 
-# Baseline: chỉ crop + flip
+trivialaugment.set_augmentation_space(augmentation_space='standard', num_strengths=30)
+
+class RandAugment:
+    def __init__(self, n=2, m=9):
+        self.n = n
+        self.m = m
+
+    def __call__(self, img):
+        ops = random.choices(trivialaugment.ALL_TRANSFORMS, k=self.n)
+        for op in ops:
+            img = op.pil_transformer(1.0, self.m)(img)
+        return img
+
 transform_train = transforms.Compose([
     transforms.ToPILImage(),
+    RandAugment(n=args.ra_n, m=args.ra_m),
     transforms.RandomCrop(32, padding=4),
     transforms.RandomHorizontalFlip(),
     transforms.ToTensor(),
@@ -109,7 +126,6 @@ elif args.dataset == 'CIFAR100':
     testset = CIFAR100Dataset(root, train=False, fine_label=True,
                               transform=transform_test)
 
-# Bypass EntAugment hoàn toàn
 trainset.external_transform = transform_train
 
 train_loader = DataLoader(trainset, batch_size=cfg['batch'],
@@ -125,10 +141,6 @@ if args.resume:
     start_epoch = checkpoint['epoch']
 
 
-# ─────────────────────────────────────────────
-# Training loop — Baseline only
-# ─────────────────────────────────────────────
-
 def train(net, epoch):
     global optimizer
     net.train()
@@ -140,10 +152,8 @@ def train(net, epoch):
         idx, inputs, labels = data
         inputs, labels = inputs.cuda(), labels.cuda()
         optimizer.zero_grad()
-
         outputs = net(inputs)
         loss = criterion(outputs, labels).mean()
-
         training_loss += loss.item()
         _, predicted = outputs.max(1)
         loss.backward()
@@ -152,7 +162,7 @@ def train(net, epoch):
 
         if (i + 1) % args.log_interval == 0:
             trained_total = (i + 1) * len(inputs)
-            print('Train Epoch: {} [Baseline] [{}/{} ({:.0f}%)]\t'
+            print('Train Epoch: {} [RandAugment] [{}/{} ({:.0f}%)]\t'
                   'Loss: {:.4f} Acc: {:.2f}'.format(
                 epoch, trained_total, total, 100. * trained_total / total,
                 training_loss / (i + 1), 100. * correct / trained_total))
@@ -180,7 +190,7 @@ def test(net, epoch):
 
 
 if __name__ == '__main__':
-    print('=== Baseline (crop + flip only, no CutMix, no EntAugment) ===')
+    print('=== Pure RandAugment (N={}, M={}) — no CutMix ==='.format(args.ra_n, args.ra_m))
     print('Seed: {}, Dataset: {}, Model: {}, Epochs: {}'.format(
         args.seed, args.dataset, cfg['model']['type'], epoches))
 
@@ -189,12 +199,12 @@ if __name__ == '__main__':
         test(model, epoch)
         scheduler.step()
 
-    result_file = 'ablation_results.csv'
+    result_file = args.result_file
     file_exists = os.path.isfile(result_file)
     with open(result_file, 'a', newline='') as f:
         writer = csv.writer(f)
         if not file_exists:
-            writer.writerow(['config', 'dataset', 'model', 'seed', 'best_epoch', 'best_acc'])
-        writer.writerow(['Baseline', args.dataset, cfg['model']['type'],
+            writer.writerow(['method', 'dataset', 'model', 'seed', 'best_epoch', 'best_acc'])
+        writer.writerow(['RandAugment_only', args.dataset, cfg['model']['type'],
                          args.seed, best_epoch, best_acc])
     print('Result saved to {}'.format(result_file))

@@ -15,6 +15,11 @@ parser.add_argument('--dataset', type=str, required=True)
 parser.add_argument('--save_model', type=bool, default=False)
 parser.add_argument('--num_worker', type=int, default=8)
 parser.add_argument('--seed', type=int, default=42)
+parser.add_argument('--cutmix_prob', type=float, default=0.5)
+parser.add_argument('--cutmix_alpha', type=float, default=1.0)
+parser.add_argument('--ra_n', type=int, default=2, help='RandAugment N: number of ops per sample')
+parser.add_argument('--ra_m', type=int, default=9, help='RandAugment M: magnitude (0-30)')
+parser.add_argument('--result_file', type=str, default='benchmark_composition_results.csv')
 args = parser.parse_args()
 os.environ['CUDA_VISIBLE_DEVICES'] = args.gpus
 
@@ -29,6 +34,7 @@ import yaml
 
 from Dataset import CIFAR10Dataset, CIFAR100Dataset
 from Network import *
+from augmentation import trivialaugment
 from warmup_scheduler import GradualWarmupScheduler
 
 
@@ -46,9 +52,24 @@ set_seed(args.seed)
 with open(args.conf) as f:
     cfg = yaml.safe_load(f)
 
-# Baseline: chỉ crop + flip
+# RandAugment transform
+trivialaugment.set_augmentation_space(augmentation_space='standard', num_strengths=30)
+
+class RandAugment:
+    """Standard RandAugment: apply N random ops each with magnitude M."""
+    def __init__(self, n=2, m=9):
+        self.n = n
+        self.m = m  # fixed magnitude
+
+    def __call__(self, img):
+        ops = random.choices(trivialaugment.ALL_TRANSFORMS, k=self.n)
+        for op in ops:
+            img = op.pil_transformer(1.0, self.m)(img)
+        return img
+
 transform_train = transforms.Compose([
     transforms.ToPILImage(),
+    RandAugment(n=args.ra_n, m=args.ra_m),
     transforms.RandomCrop(32, padding=4),
     transforms.RandomHorizontalFlip(),
     transforms.ToTensor(),
@@ -98,6 +119,7 @@ if cfg['lr_schedule']['warmup'] != '' and cfg['lr_schedule']['warmup']['epoch'] 
 epoches = cfg['epoch']
 criterion = nn.CrossEntropyLoss(reduction='none')
 
+# Dùng standard Dataset nhưng tắt EntAugment magnitude
 if args.dataset == 'CIFAR10':
     root = 'data/CIFAR10/'
     trainset = CIFAR10Dataset(root=root, train=True, transform=transform_train, aug='none')
@@ -109,7 +131,7 @@ elif args.dataset == 'CIFAR100':
     testset = CIFAR100Dataset(root, train=False, fine_label=True,
                               transform=transform_test)
 
-# Bypass EntAugment hoàn toàn
+# Bypass EntAugment hoàn toàn: dùng external_transform (RandAugment + crop + flip)
 trainset.external_transform = transform_train
 
 train_loader = DataLoader(trainset, batch_size=cfg['batch'],
@@ -126,7 +148,32 @@ if args.resume:
 
 
 # ─────────────────────────────────────────────
-# Training loop — Baseline only
+# CutMix helpers
+# ─────────────────────────────────────────────
+
+def rand_bbox(size, lam):
+    W, H = size[2], size[3]
+    cut_rat = np.sqrt(1. - lam)
+    cut_w, cut_h = int(W * cut_rat), int(H * cut_rat)
+    cx, cy = np.random.randint(W), np.random.randint(H)
+    bbx1 = np.clip(cx - cut_w // 2, 0, W)
+    bby1 = np.clip(cy - cut_h // 2, 0, H)
+    bbx2 = np.clip(cx + cut_w // 2, 0, W)
+    bby2 = np.clip(cy + cut_h // 2, 0, H)
+    return bbx1, bby1, bbx2, bby2
+
+
+def cutmix_data(inputs, labels, alpha=1.0):
+    lam = np.random.beta(alpha, alpha)
+    index = torch.randperm(inputs.size(0)).cuda()
+    bbx1, bby1, bbx2, bby2 = rand_bbox(inputs.size(), lam)
+    inputs[:, :, bbx1:bbx2, bby1:bby2] = inputs[index, :, bbx1:bbx2, bby1:bby2]
+    lam = 1 - ((bbx2 - bbx1) * (bby2 - bby1) / (inputs.size(-1) * inputs.size(-2)))
+    return inputs, labels, labels[index], lam
+
+
+# ─────────────────────────────────────────────
+# Training loop
 # ─────────────────────────────────────────────
 
 def train(net, epoch):
@@ -141,18 +188,31 @@ def train(net, epoch):
         inputs, labels = inputs.cuda(), labels.cuda()
         optimizer.zero_grad()
 
-        outputs = net(inputs)
-        loss = criterion(outputs, labels).mean()
+        use_cutmix = np.random.random() < args.cutmix_prob
+
+        if use_cutmix:
+            inputs, labels_a, labels_b, lam = cutmix_data(inputs, labels, args.cutmix_alpha)
+            outputs = net(inputs)
+            loss = lam * criterion(outputs, labels_a).mean() \
+                 + (1 - lam) * criterion(outputs, labels_b).mean()
+        else:
+            outputs = net(inputs)
+            loss = criterion(outputs, labels).mean()
 
         training_loss += loss.item()
         _, predicted = outputs.max(1)
         loss.backward()
         optimizer.step()
-        correct += predicted.eq(labels).sum().item()
+
+        if use_cutmix:
+            correct += (lam * predicted.eq(labels_a).sum().float()
+                      + (1 - lam) * predicted.eq(labels_b).sum().float()).item()
+        else:
+            correct += predicted.eq(labels).sum().item()
 
         if (i + 1) % args.log_interval == 0:
             trained_total = (i + 1) * len(inputs)
-            print('Train Epoch: {} [Baseline] [{}/{} ({:.0f}%)]\t'
+            print('Train Epoch: {} [RA+CutMix] [{}/{} ({:.0f}%)]\t'
                   'Loss: {:.4f} Acc: {:.2f}'.format(
                 epoch, trained_total, total, 100. * trained_total / total,
                 training_loss / (i + 1), 100. * correct / trained_total))
@@ -180,7 +240,8 @@ def test(net, epoch):
 
 
 if __name__ == '__main__':
-    print('=== Baseline (crop + flip only, no CutMix, no EntAugment) ===')
+    print('=== RandAugment (N={}, M={}) + CutMix (p={}) ==='.format(
+        args.ra_n, args.ra_m, args.cutmix_prob))
     print('Seed: {}, Dataset: {}, Model: {}, Epochs: {}'.format(
         args.seed, args.dataset, cfg['model']['type'], epoches))
 
@@ -189,12 +250,13 @@ if __name__ == '__main__':
         test(model, epoch)
         scheduler.step()
 
-    result_file = 'ablation_results.csv'
+    result_file = args.result_file
     file_exists = os.path.isfile(result_file)
     with open(result_file, 'a', newline='') as f:
         writer = csv.writer(f)
         if not file_exists:
-            writer.writerow(['config', 'dataset', 'model', 'seed', 'best_epoch', 'best_acc'])
-        writer.writerow(['Baseline', args.dataset, cfg['model']['type'],
+            writer.writerow(['method', 'dataset', 'model', 'seed',
+                             'best_epoch', 'best_acc'])
+        writer.writerow(['RandAugment_CutMix', args.dataset, cfg['model']['type'],
                          args.seed, best_epoch, best_acc])
     print('Result saved to {}'.format(result_file))

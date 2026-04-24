@@ -1,0 +1,48 @@
+nohup: ignoring input
+=== 18 runs: EntAugment_CutMix + EntAugment_EntCutMix ===
+=== CIFAR-100 x {R18, R50, WRN} x {seed 42, 123, 456} ===
+=== Strategy: song song 2 jobs/lần, tuần tự theo architecture ===
+
+── ResNet-18 ──
+[08:25:59] START: cutmix_c100_r18_s42.log + entcutmix_c100_r18_s42.log
+[09:41:18] DONE:  BEST EPOCH:299,BEST ACC:81.55
+[09:41:18] DONE:  BEST EPOCH:294,BEST ACC:81.38
+[09:41:18] START: cutmix_c100_r18_s123.log + entcutmix_c100_r18_s123.log
+[10:48:52] DONE:  BEST EPOCH:293,BEST ACC:81.81
+[10:48:52] DONE:  BEST EPOCH:294,BEST ACC:81.45
+[10:48:52] START: cutmix_c100_r18_s456.log + entcutmix_c100_r18_s456.log
+[11:53:57] DONE:  BEST EPOCH:298,BEST ACC:81.14
+[11:53:57] DONE:  BEST EPOCH:298,BEST ACC:81.27
+
+── ResNet-50 ──
+[11:53:57] START: cutmix_c100_r50_s42.log + entcutmix_c100_r50_s42.log
+[19:04:29] DONE:  BEST EPOCH:298,BEST ACC:83.6
+[19:04:29] DONE:  BEST EPOCH:292,BEST ACC:83.74
+[19:04:29] START: cutmix_c100_r50_s123.log + entcutmix_c100_r50_s123.log
+[23:48:09] DONE:  BEST EPOCH:298,BEST ACC:83.37
+[23:48:09] DONE:  BEST EPOCH:294,BEST ACC:83.23
+[23:48:09] START: cutmix_c100_r50_s456.log + entcutmix_c100_r50_s456.log
+[11:05:03] DONE:  BEST EPOCH:299,BEST ACC:83.74
+[11:05:03] DONE:  BEST EPOCH:298,BEST ACC:82.96
+
+── WRN-28-10 ──
+[11:05:03] START: cutmix_c100_wrn_s42.log + entcutmix_c100_wrn_s42.log
+[23:00:01] DONE:  BEST EPOCH:293,BEST ACC:85.65
+[23:00:01] DONE:  BEST EPOCH:299,BEST ACC:85.6
+[23:00:01] START: cutmix_c100_wrn_s123.log + entcutmix_c100_wrn_s123.log
+[18:55:50] DONE:  BEST EPOCH:294,BEST ACC:85.41
+[18:55:50] DONE:  BEST EPOCH:299,BEST ACC:85.12
+[18:55:50] START: cutmix_c100_wrn_s456.log + entcutmix_c100_wrn_s456.log
+[04:16:17] DONE:  BEST EPOCH:294,BEST ACC:85.26
+[04:16:17] DONE:  BEST EPOCH:292,BEST ACC:85.31
+
+=== ALL 18 RUNS DONE ===
+
+── EntAugment_CutMix ──
+  cutmix/resnet18: seed42=81.55% seed123=81.81% seed456=81.14%
+  cutmix/resnet50: seed42=83.6% seed123=83.37% seed456=83.74%
+  cutmix/wrn2810: seed42=85.65% seed123=85.41% seed456=85.26%
+── EntAugment_EntCutMix ──
+  entcutmix/resnet18: seed42=81.38% seed123=81.45% seed456=81.27%
+  entcutmix/resnet50: seed42=83.74% seed123=83.23% seed456=82.96%
+  entcutmix/wrn2810: seed42=85.6% seed123=85.12% seed456=85.31%

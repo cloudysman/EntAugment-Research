@@ -1,0 +1,2705 @@
+=== H1: EntAugment + Standard CutMix ===
+Seed: 42, cutmix_prob: 0.5, cutmix_alpha: 1.0
+Dataset: CIFAR100, Model: resnet50, Epochs: 300
+  0%|          | 0/300 [00:00<?, ?it/s]Train Epoch: 0 [6400/50000 (13%)]	Loss: 4.8247 Mag: 0.0509 Acc: 0.91
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 4.8248 Mag: 0.0511 Acc: 0.96
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 4.8229 Mag: 0.0510 Acc: 1.00
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 4.8220 Mag: 0.0511 Acc: 0.94
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 4.8235 Mag: 0.0510 Acc: 0.95
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 4.8256 Mag: 0.0511 Acc: 0.94
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 4.8253 Mag: 0.0510 Acc: 0.95
+  0%|          | 1/300 [00:53<4:28:38, 53.91s/it]EPOCH:0, ======================ACC:0.94====================
+BEST EPOCH:0,BEST ACC:0.94
+Train Epoch: 1 [6400/50000 (13%)]	Loss: 5.6107 Mag: 0.0478 Acc: 1.04
+Train Epoch: 1 [12800/50000 (26%)]	Loss: 5.2074 Mag: 0.0332 Acc: 1.09
+Train Epoch: 1 [19200/50000 (38%)]	Loss: 5.0473 Mag: 0.0267 Acc: 1.14
+Train Epoch: 1 [25600/50000 (51%)]	Loss: 4.9545 Mag: 0.0221 Acc: 1.19
+Train Epoch: 1 [32000/50000 (64%)]	Loss: 4.8927 Mag: 0.0195 Acc: 1.22
+Train Epoch: 1 [38400/50000 (77%)]	Loss: 4.8473 Mag: 0.0175 Acc: 1.23
+Train Epoch: 1 [44800/50000 (90%)]	Loss: 4.8138 Mag: 0.0161 Acc: 1.26
+  1%|          | 2/300 [01:46<4:24:10, 53.19s/it]EPOCH:1, ======================ACC:2.39====================
+BEST EPOCH:1,BEST ACC:2.39
+Train Epoch: 2 [6400/50000 (13%)]	Loss: 4.5484 Mag: 0.0207 Acc: 2.11
+Train Epoch: 2 [12800/50000 (26%)]	Loss: 4.5237 Mag: 0.0259 Acc: 2.24
+Train Epoch: 2 [19200/50000 (38%)]	Loss: 4.4987 Mag: 0.0312 Acc: 2.50
+Train Epoch: 2 [25600/50000 (51%)]	Loss: 4.4710 Mag: 0.0371 Acc: 2.66
+Train Epoch: 2 [32000/50000 (64%)]	Loss: 4.4423 Mag: 0.0428 Acc: 2.99
+Train Epoch: 2 [38400/50000 (77%)]	Loss: 4.4198 Mag: 0.0477 Acc: 3.27
+Train Epoch: 2 [44800/50000 (90%)]	Loss: 4.4005 Mag: 0.0521 Acc: 3.56
+  1%|          | 3/300 [02:39<4:22:15, 52.98s/it]EPOCH:2, ======================ACC:8.12====================
+BEST EPOCH:2,BEST ACC:8.12
+Train Epoch: 3 [6400/50000 (13%)]	Loss: 4.2144 Mag: 0.0949 Acc: 5.96
+Train Epoch: 3 [12800/50000 (26%)]	Loss: 4.2257 Mag: 0.0921 Acc: 5.71
+Train Epoch: 3 [19200/50000 (38%)]	Loss: 4.2117 Mag: 0.0938 Acc: 5.80
+Train Epoch: 3 [25600/50000 (51%)]	Loss: 4.1894 Mag: 0.0984 Acc: 6.17
+Train Epoch: 3 [32000/50000 (64%)]	Loss: 4.1789 Mag: 0.1001 Acc: 6.37
+Train Epoch: 3 [38400/50000 (77%)]	Loss: 4.1678 Mag: 0.1015 Acc: 6.50
+Train Epoch: 3 [44800/50000 (90%)]	Loss: 4.1540 Mag: 0.1046 Acc: 6.70
+  1%|▏         | 4/300 [03:32<4:21:01, 52.91s/it]EPOCH:3, ======================ACC:13.29====================
+BEST EPOCH:3,BEST ACC:13.29
+Train Epoch: 4 [6400/50000 (13%)]	Loss: 4.1322 Mag: 0.1076 Acc: 7.75
+Train Epoch: 4 [12800/50000 (26%)]	Loss: 4.0761 Mag: 0.1188 Acc: 8.16
+Train Epoch: 4 [19200/50000 (38%)]	Loss: 4.0612 Mag: 0.1223 Acc: 8.55
+Train Epoch: 4 [25600/50000 (51%)]	Loss: 4.0416 Mag: 0.1267 Acc: 8.82
+Train Epoch: 4 [32000/50000 (64%)]	Loss: 4.0249 Mag: 0.1294 Acc: 9.05
+Train Epoch: 4 [38400/50000 (77%)]	Loss: 4.0168 Mag: 0.1312 Acc: 9.20
+Train Epoch: 4 [44800/50000 (90%)]	Loss: 3.9927 Mag: 0.1361 Acc: 9.56
+  2%|▏         | 5/300 [04:25<4:20:25, 52.97s/it]EPOCH:4, ======================ACC:16.97====================
+BEST EPOCH:4,BEST ACC:16.97
+Train Epoch: 5 [6400/50000 (13%)]	Loss: 3.9220 Mag: 0.1527 Acc: 10.75
+Train Epoch: 5 [12800/50000 (26%)]	Loss: 3.9256 Mag: 0.1513 Acc: 10.94
+Train Epoch: 5 [19200/50000 (38%)]	Loss: 3.9068 Mag: 0.1552 Acc: 11.07
+Train Epoch: 5 [25600/50000 (51%)]	Loss: 3.8915 Mag: 0.1583 Acc: 11.31
+Train Epoch: 5 [32000/50000 (64%)]	Loss: 3.8894 Mag: 0.1588 Acc: 11.39
+Train Epoch: 5 [38400/50000 (77%)]	Loss: 3.8653 Mag: 0.1635 Acc: 11.73
+Train Epoch: 5 [44800/50000 (90%)]	Loss: 3.8497 Mag: 0.1670 Acc: 12.01
+  2%|▏         | 6/300 [05:18<4:20:01, 53.07s/it]EPOCH:5, ======================ACC:21.45====================
+BEST EPOCH:5,BEST ACC:21.45
+Train Epoch: 6 [6400/50000 (13%)]	Loss: 3.7221 Mag: 0.1939 Acc: 14.59
+Train Epoch: 6 [12800/50000 (26%)]	Loss: 3.6738 Mag: 0.2032 Acc: 15.41
+Train Epoch: 6 [19200/50000 (38%)]	Loss: 3.6822 Mag: 0.2018 Acc: 15.26
+Train Epoch: 6 [25600/50000 (51%)]	Loss: 3.6967 Mag: 0.1996 Acc: 15.03
+Train Epoch: 6 [32000/50000 (64%)]	Loss: 3.6594 Mag: 0.2065 Acc: 15.52
+Train Epoch: 6 [38400/50000 (77%)]	Loss: 3.6454 Mag: 0.2090 Acc: 15.72
+Train Epoch: 6 [44800/50000 (90%)]	Loss: 3.6215 Mag: 0.2142 Acc: 15.96
+  2%|▏         | 7/300 [06:11<4:18:48, 53.00s/it]EPOCH:6, ======================ACC:28.73====================
+BEST EPOCH:6,BEST ACC:28.73
+Train Epoch: 7 [6400/50000 (13%)]	Loss: 3.5115 Mag: 0.2372 Acc: 17.57
+Train Epoch: 7 [12800/50000 (26%)]	Loss: 3.4895 Mag: 0.2420 Acc: 18.04
+Train Epoch: 7 [19200/50000 (38%)]	Loss: 3.4908 Mag: 0.2416 Acc: 18.31
+Train Epoch: 7 [25600/50000 (51%)]	Loss: 3.4681 Mag: 0.2483 Acc: 18.69
+Train Epoch: 7 [32000/50000 (64%)]	Loss: 3.4613 Mag: 0.2488 Acc: 18.90
+Train Epoch: 7 [38400/50000 (77%)]	Loss: 3.4311 Mag: 0.2552 Acc: 19.39
+Train Epoch: 7 [44800/50000 (90%)]	Loss: 3.4093 Mag: 0.2603 Acc: 19.62
+  3%|▎         | 8/300 [07:04<4:17:55, 53.00s/it]EPOCH:7, ======================ACC:25.96====================
+BEST EPOCH:6,BEST ACC:28.73
+Train Epoch: 8 [6400/50000 (13%)]	Loss: 3.2920 Mag: 0.2849 Acc: 21.67
+Train Epoch: 8 [12800/50000 (26%)]	Loss: 3.2369 Mag: 0.2950 Acc: 22.65
+Train Epoch: 8 [19200/50000 (38%)]	Loss: 3.2291 Mag: 0.2964 Acc: 22.88
+Train Epoch: 8 [25600/50000 (51%)]	Loss: 3.2727 Mag: 0.2865 Acc: 22.23
+Train Epoch: 8 [32000/50000 (64%)]	Loss: 3.2737 Mag: 0.2871 Acc: 22.27
+Train Epoch: 8 [38400/50000 (77%)]	Loss: 3.2455 Mag: 0.2916 Acc: 22.83
+Train Epoch: 8 [44800/50000 (90%)]	Loss: 3.2309 Mag: 0.2949 Acc: 23.10
+  3%|▎         | 9/300 [07:57<4:17:25, 53.08s/it]EPOCH:8, ======================ACC:28.29====================
+BEST EPOCH:6,BEST ACC:28.73
+Train Epoch: 9 [6400/50000 (13%)]	Loss: 3.2135 Mag: 0.2966 Acc: 23.83
+Train Epoch: 9 [12800/50000 (26%)]	Loss: 3.1866 Mag: 0.3034 Acc: 24.24
+Train Epoch: 9 [19200/50000 (38%)]	Loss: 3.1251 Mag: 0.3144 Acc: 25.18
+Train Epoch: 9 [25600/50000 (51%)]	Loss: 3.1201 Mag: 0.3164 Acc: 25.25
+Train Epoch: 9 [32000/50000 (64%)]	Loss: 3.1159 Mag: 0.3167 Acc: 25.57
+Train Epoch: 9 [38400/50000 (77%)]	Loss: 3.1229 Mag: 0.3153 Acc: 25.43
+Train Epoch: 9 [44800/50000 (90%)]	Loss: 3.1102 Mag: 0.3184 Acc: 25.63
+  3%|▎         | 10/300 [08:51<4:18:00, 53.38s/it]EPOCH:9, ======================ACC:36.48====================
+BEST EPOCH:9,BEST ACC:36.48
+Train Epoch: 10 [6400/50000 (13%)]	Loss: 3.1264 Mag: 0.3123 Acc: 25.38
+Train Epoch: 10 [12800/50000 (26%)]	Loss: 3.0759 Mag: 0.3232 Acc: 26.71
+Train Epoch: 10 [19200/50000 (38%)]	Loss: 3.0476 Mag: 0.3271 Acc: 27.24
+Train Epoch: 10 [25600/50000 (51%)]	Loss: 3.0722 Mag: 0.3241 Acc: 26.83
+Train Epoch: 10 [32000/50000 (64%)]	Loss: 3.0661 Mag: 0.3243 Acc: 26.93
+Train Epoch: 10 [38400/50000 (77%)]	Loss: 3.0411 Mag: 0.3296 Acc: 27.38
+Train Epoch: 10 [44800/50000 (90%)]	Loss: 3.0308 Mag: 0.3314 Acc: 27.63
+  4%|▎         | 11/300 [09:44<4:17:03, 53.37s/it]EPOCH:10, ======================ACC:38.82====================
+BEST EPOCH:10,BEST ACC:38.82
+Train Epoch: 11 [6400/50000 (13%)]	Loss: 2.9668 Mag: 0.3405 Acc: 28.31
+Train Epoch: 11 [12800/50000 (26%)]	Loss: 2.9110 Mag: 0.3538 Acc: 29.27
+Train Epoch: 11 [19200/50000 (38%)]	Loss: 2.9333 Mag: 0.3485 Acc: 28.88
+Train Epoch: 11 [25600/50000 (51%)]	Loss: 2.9207 Mag: 0.3531 Acc: 29.24
+Train Epoch: 11 [32000/50000 (64%)]	Loss: 2.8971 Mag: 0.3573 Acc: 29.62
+Train Epoch: 11 [38400/50000 (77%)]	Loss: 2.8965 Mag: 0.3579 Acc: 29.69
+Train Epoch: 11 [44800/50000 (90%)]	Loss: 2.8880 Mag: 0.3599 Acc: 29.80
+  4%|▍         | 12/300 [10:38<4:16:00, 53.33s/it]EPOCH:11, ======================ACC:41.33====================
+BEST EPOCH:11,BEST ACC:41.33
+Train Epoch: 12 [6400/50000 (13%)]	Loss: 2.8051 Mag: 0.3811 Acc: 31.57
+Train Epoch: 12 [12800/50000 (26%)]	Loss: 2.7834 Mag: 0.3838 Acc: 31.76
+Train Epoch: 12 [19200/50000 (38%)]	Loss: 2.7896 Mag: 0.3807 Acc: 31.67
+Train Epoch: 12 [25600/50000 (51%)]	Loss: 2.7951 Mag: 0.3795 Acc: 31.76
+Train Epoch: 12 [32000/50000 (64%)]	Loss: 2.7771 Mag: 0.3832 Acc: 31.99
+Train Epoch: 12 [38400/50000 (77%)]	Loss: 2.7586 Mag: 0.3862 Acc: 32.33
+Train Epoch: 12 [44800/50000 (90%)]	Loss: 2.7468 Mag: 0.3894 Acc: 32.54
+  4%|▍         | 13/300 [11:31<4:14:48, 53.27s/it]EPOCH:12, ======================ACC:36.69====================
+BEST EPOCH:11,BEST ACC:41.33
+Train Epoch: 13 [6400/50000 (13%)]	Loss: 2.7861 Mag: 0.3699 Acc: 32.78
+Train Epoch: 13 [12800/50000 (26%)]	Loss: 2.8722 Mag: 0.3627 Acc: 30.96
+Train Epoch: 13 [19200/50000 (38%)]	Loss: 2.8462 Mag: 0.3648 Acc: 31.64
+Train Epoch: 13 [25600/50000 (51%)]	Loss: 2.7958 Mag: 0.3748 Acc: 32.42
+Train Epoch: 13 [32000/50000 (64%)]	Loss: 2.7839 Mag: 0.3796 Acc: 32.54
+Train Epoch: 13 [38400/50000 (77%)]	Loss: 2.8131 Mag: 0.3733 Acc: 32.09
+Train Epoch: 13 [44800/50000 (90%)]	Loss: 2.7927 Mag: 0.3776 Acc: 32.41
+  5%|▍         | 14/300 [12:24<4:13:59, 53.28s/it]EPOCH:13, ======================ACC:45.81====================
+BEST EPOCH:13,BEST ACC:45.81
+Train Epoch: 14 [6400/50000 (13%)]	Loss: 2.7880 Mag: 0.3777 Acc: 32.83
+Train Epoch: 14 [12800/50000 (26%)]	Loss: 2.7379 Mag: 0.3900 Acc: 33.48
+Train Epoch: 14 [19200/50000 (38%)]	Loss: 2.7349 Mag: 0.3907 Acc: 33.56
+Train Epoch: 14 [25600/50000 (51%)]	Loss: 2.7252 Mag: 0.3917 Acc: 33.72
+Train Epoch: 14 [32000/50000 (64%)]	Loss: 2.7583 Mag: 0.3863 Acc: 33.14
+Train Epoch: 14 [38400/50000 (77%)]	Loss: 2.7743 Mag: 0.3818 Acc: 32.88
+Train Epoch: 14 [44800/50000 (90%)]	Loss: 2.7958 Mag: 0.3783 Acc: 32.39
+  5%|▌         | 15/300 [13:18<4:13:26, 53.36s/it]EPOCH:14, ======================ACC:45.32====================
+BEST EPOCH:13,BEST ACC:45.81
+Train Epoch: 15 [6400/50000 (13%)]	Loss: 2.6332 Mag: 0.4032 Acc: 35.85
+Train Epoch: 15 [12800/50000 (26%)]	Loss: 2.6376 Mag: 0.4073 Acc: 35.33
+Train Epoch: 15 [19200/50000 (38%)]	Loss: 2.6798 Mag: 0.3999 Acc: 34.71
+Train Epoch: 15 [25600/50000 (51%)]	Loss: 2.6741 Mag: 0.4017 Acc: 34.69
+Train Epoch: 15 [32000/50000 (64%)]	Loss: 2.6758 Mag: 0.4016 Acc: 34.72
+Train Epoch: 15 [38400/50000 (77%)]	Loss: 2.6606 Mag: 0.4046 Acc: 35.12
+Train Epoch: 15 [44800/50000 (90%)]	Loss: 2.6354 Mag: 0.4096 Acc: 35.50
+  5%|▌         | 16/300 [14:11<4:12:13, 53.29s/it]EPOCH:15, ======================ACC:42.21====================
+BEST EPOCH:13,BEST ACC:45.81
+Train Epoch: 16 [6400/50000 (13%)]	Loss: 2.4538 Mag: 0.4451 Acc: 39.32
+Train Epoch: 16 [12800/50000 (26%)]	Loss: 2.4932 Mag: 0.4377 Acc: 38.33
+Train Epoch: 16 [19200/50000 (38%)]	Loss: 2.5553 Mag: 0.4285 Acc: 37.15
+Train Epoch: 16 [25600/50000 (51%)]	Loss: 2.5668 Mag: 0.4246 Acc: 36.95
+Train Epoch: 16 [32000/50000 (64%)]	Loss: 2.5772 Mag: 0.4232 Acc: 36.79
+Train Epoch: 16 [38400/50000 (77%)]	Loss: 2.6019 Mag: 0.4198 Acc: 36.48
+Train Epoch: 16 [44800/50000 (90%)]	Loss: 2.5933 Mag: 0.4192 Acc: 36.58
+  6%|▌         | 17/300 [15:04<4:11:29, 53.32s/it]EPOCH:16, ======================ACC:46.3====================
+BEST EPOCH:16,BEST ACC:46.3
+Train Epoch: 17 [6400/50000 (13%)]	Loss: 2.7051 Mag: 0.3988 Acc: 34.21
+Train Epoch: 17 [12800/50000 (26%)]	Loss: 2.6884 Mag: 0.3964 Acc: 34.77
+Train Epoch: 17 [19200/50000 (38%)]	Loss: 2.6836 Mag: 0.4000 Acc: 35.01
+Train Epoch: 17 [25600/50000 (51%)]	Loss: 2.6966 Mag: 0.3987 Acc: 35.03
+Train Epoch: 17 [32000/50000 (64%)]	Loss: 2.6940 Mag: 0.3990 Acc: 35.08
+Train Epoch: 17 [38400/50000 (77%)]	Loss: 2.7008 Mag: 0.3976 Acc: 34.88
+Train Epoch: 17 [44800/50000 (90%)]	Loss: 2.6919 Mag: 0.3999 Acc: 35.05
+  6%|▌         | 18/300 [15:57<4:10:32, 53.31s/it]EPOCH:17, ======================ACC:48.77====================
+BEST EPOCH:17,BEST ACC:48.77
+Train Epoch: 18 [6400/50000 (13%)]	Loss: 2.6532 Mag: 0.4112 Acc: 36.71
+Train Epoch: 18 [12800/50000 (26%)]	Loss: 2.5244 Mag: 0.4324 Acc: 38.37
+Train Epoch: 18 [19200/50000 (38%)]	Loss: 2.5160 Mag: 0.4332 Acc: 38.30
+Train Epoch: 18 [25600/50000 (51%)]	Loss: 2.5317 Mag: 0.4330 Acc: 37.90
+Train Epoch: 18 [32000/50000 (64%)]	Loss: 2.5370 Mag: 0.4333 Acc: 37.86
+Train Epoch: 18 [38400/50000 (77%)]	Loss: 2.5456 Mag: 0.4302 Acc: 37.82
+Train Epoch: 18 [44800/50000 (90%)]	Loss: 2.5540 Mag: 0.4286 Acc: 37.59
+  6%|▋         | 19/300 [16:51<4:10:29, 53.49s/it]EPOCH:18, ======================ACC:48.85====================
+BEST EPOCH:18,BEST ACC:48.85
+Train Epoch: 19 [6400/50000 (13%)]	Loss: 2.6633 Mag: 0.4062 Acc: 35.81
+Train Epoch: 19 [12800/50000 (26%)]	Loss: 2.6127 Mag: 0.4162 Acc: 36.60
+Train Epoch: 19 [19200/50000 (38%)]	Loss: 2.6158 Mag: 0.4150 Acc: 36.71
+Train Epoch: 19 [25600/50000 (51%)]	Loss: 2.5876 Mag: 0.4190 Acc: 37.28
+Train Epoch: 19 [32000/50000 (64%)]	Loss: 2.6098 Mag: 0.4168 Acc: 36.93
+Train Epoch: 19 [38400/50000 (77%)]	Loss: 2.5924 Mag: 0.4199 Acc: 37.23
+Train Epoch: 19 [44800/50000 (90%)]	Loss: 2.5836 Mag: 0.4215 Acc: 37.34
+  7%|▋         | 20/300 [17:45<4:09:16, 53.42s/it]EPOCH:19, ======================ACC:50.2====================
+BEST EPOCH:19,BEST ACC:50.2
+Train Epoch: 20 [6400/50000 (13%)]	Loss: 2.5792 Mag: 0.4419 Acc: 38.20
+Train Epoch: 20 [12800/50000 (26%)]	Loss: 2.5123 Mag: 0.4371 Acc: 39.23
+Train Epoch: 20 [19200/50000 (38%)]	Loss: 2.5083 Mag: 0.4392 Acc: 39.19
+Train Epoch: 20 [25600/50000 (51%)]	Loss: 2.5683 Mag: 0.4271 Acc: 38.01
+Train Epoch: 20 [32000/50000 (64%)]	Loss: 2.5590 Mag: 0.4295 Acc: 38.08
+Train Epoch: 20 [38400/50000 (77%)]	Loss: 2.5661 Mag: 0.4284 Acc: 37.95
+Train Epoch: 20 [44800/50000 (90%)]	Loss: 2.5928 Mag: 0.4230 Acc: 37.51
+  7%|▋         | 21/300 [18:38<4:07:48, 53.29s/it]EPOCH:20, ======================ACC:47.02====================
+BEST EPOCH:19,BEST ACC:50.2
+Train Epoch: 21 [6400/50000 (13%)]	Loss: 2.5034 Mag: 0.4300 Acc: 39.12
+Train Epoch: 21 [12800/50000 (26%)]	Loss: 2.4516 Mag: 0.4449 Acc: 39.61
+Train Epoch: 21 [19200/50000 (38%)]	Loss: 2.5144 Mag: 0.4346 Acc: 38.62
+Train Epoch: 21 [25600/50000 (51%)]	Loss: 2.5160 Mag: 0.4354 Acc: 38.53
+Train Epoch: 21 [32000/50000 (64%)]	Loss: 2.5205 Mag: 0.4348 Acc: 38.49
+Train Epoch: 21 [38400/50000 (77%)]	Loss: 2.5176 Mag: 0.4360 Acc: 38.60
+Train Epoch: 21 [44800/50000 (90%)]	Loss: 2.5361 Mag: 0.4320 Acc: 38.22
+  7%|▋         | 22/300 [19:31<4:06:49, 53.27s/it]EPOCH:21, ======================ACC:48.23====================
+BEST EPOCH:19,BEST ACC:50.2
+Train Epoch: 22 [6400/50000 (13%)]	Loss: 2.6293 Mag: 0.4162 Acc: 37.04
+Train Epoch: 22 [12800/50000 (26%)]	Loss: 2.5748 Mag: 0.4258 Acc: 38.26
+Train Epoch: 22 [19200/50000 (38%)]	Loss: 2.5974 Mag: 0.4202 Acc: 37.91
+Train Epoch: 22 [25600/50000 (51%)]	Loss: 2.5870 Mag: 0.4215 Acc: 38.00
+Train Epoch: 22 [32000/50000 (64%)]	Loss: 2.5953 Mag: 0.4216 Acc: 37.81
+Train Epoch: 22 [38400/50000 (77%)]	Loss: 2.5865 Mag: 0.4221 Acc: 37.81
+Train Epoch: 22 [44800/50000 (90%)]	Loss: 2.5877 Mag: 0.4229 Acc: 37.74
+  8%|▊         | 23/300 [20:24<4:06:03, 53.30s/it]EPOCH:22, ======================ACC:46.05====================
+BEST EPOCH:19,BEST ACC:50.2
+Train Epoch: 23 [6400/50000 (13%)]	Loss: 2.5002 Mag: 0.4413 Acc: 38.36
+Train Epoch: 23 [12800/50000 (26%)]	Loss: 2.5256 Mag: 0.4354 Acc: 38.60
+Train Epoch: 23 [19200/50000 (38%)]	Loss: 2.5233 Mag: 0.4355 Acc: 38.57
+Train Epoch: 23 [25600/50000 (51%)]	Loss: 2.5456 Mag: 0.4296 Acc: 38.19
+Train Epoch: 23 [32000/50000 (64%)]	Loss: 2.5438 Mag: 0.4314 Acc: 38.29
+Train Epoch: 23 [38400/50000 (77%)]	Loss: 2.5724 Mag: 0.4244 Acc: 37.82
+Train Epoch: 23 [44800/50000 (90%)]	Loss: 2.5527 Mag: 0.4280 Acc: 38.04
+  8%|▊         | 24/300 [21:17<4:04:20, 53.12s/it]EPOCH:23, ======================ACC:44.18====================
+BEST EPOCH:19,BEST ACC:50.2
+Train Epoch: 24 [6400/50000 (13%)]	Loss: 2.4107 Mag: 0.4547 Acc: 40.35
+Train Epoch: 24 [12800/50000 (26%)]	Loss: 2.4153 Mag: 0.4571 Acc: 40.41
+Train Epoch: 24 [19200/50000 (38%)]	Loss: 2.4546 Mag: 0.4487 Acc: 39.90
+Train Epoch: 24 [25600/50000 (51%)]	Loss: 2.4474 Mag: 0.4501 Acc: 40.04
+Train Epoch: 24 [32000/50000 (64%)]	Loss: 2.4756 Mag: 0.4463 Acc: 39.41
+Train Epoch: 24 [38400/50000 (77%)]	Loss: 2.4626 Mag: 0.4481 Acc: 39.80
+Train Epoch: 24 [44800/50000 (90%)]	Loss: 2.4623 Mag: 0.4486 Acc: 39.85
+  8%|▊         | 25/300 [22:09<4:02:21, 52.88s/it]EPOCH:24, ======================ACC:48.14====================
+BEST EPOCH:19,BEST ACC:50.2
+Train Epoch: 25 [6400/50000 (13%)]	Loss: 2.4710 Mag: 0.4518 Acc: 40.06
+Train Epoch: 25 [12800/50000 (26%)]	Loss: 2.5044 Mag: 0.4402 Acc: 39.70
+Train Epoch: 25 [19200/50000 (38%)]	Loss: 2.4895 Mag: 0.4405 Acc: 39.91
+Train Epoch: 25 [25600/50000 (51%)]	Loss: 2.4665 Mag: 0.4461 Acc: 40.36
+Train Epoch: 25 [32000/50000 (64%)]	Loss: 2.4559 Mag: 0.4484 Acc: 40.39
+Train Epoch: 25 [38400/50000 (77%)]	Loss: 2.4544 Mag: 0.4493 Acc: 40.41
+Train Epoch: 25 [44800/50000 (90%)]	Loss: 2.4746 Mag: 0.4448 Acc: 39.99
+  9%|▊         | 26/300 [23:02<4:00:57, 52.76s/it]EPOCH:25, ======================ACC:38.72====================
+BEST EPOCH:19,BEST ACC:50.2
+Train Epoch: 26 [6400/50000 (13%)]	Loss: 2.3273 Mag: 0.4781 Acc: 42.30
+Train Epoch: 26 [12800/50000 (26%)]	Loss: 2.3893 Mag: 0.4665 Acc: 41.19
+Train Epoch: 26 [19200/50000 (38%)]	Loss: 2.4434 Mag: 0.4549 Acc: 40.31
+Train Epoch: 26 [25600/50000 (51%)]	Loss: 2.3977 Mag: 0.4615 Acc: 41.07
+Train Epoch: 26 [32000/50000 (64%)]	Loss: 2.3895 Mag: 0.4625 Acc: 41.29
+Train Epoch: 26 [38400/50000 (77%)]	Loss: 2.4124 Mag: 0.4608 Acc: 40.72
+Train Epoch: 26 [44800/50000 (90%)]	Loss: 2.4116 Mag: 0.4608 Acc: 40.75
+  9%|▉         | 27/300 [23:55<4:00:58, 52.96s/it]EPOCH:26, ======================ACC:53.51====================
+BEST EPOCH:26,BEST ACC:53.51
+Train Epoch: 27 [6400/50000 (13%)]	Loss: 2.5252 Mag: 0.4307 Acc: 39.55
+Train Epoch: 27 [12800/50000 (26%)]	Loss: 2.4501 Mag: 0.4431 Acc: 40.66
+Train Epoch: 27 [19200/50000 (38%)]	Loss: 2.4281 Mag: 0.4523 Acc: 40.97
+Train Epoch: 27 [25600/50000 (51%)]	Loss: 2.4356 Mag: 0.4512 Acc: 40.69
+Train Epoch: 27 [32000/50000 (64%)]	Loss: 2.4311 Mag: 0.4523 Acc: 40.80
+Train Epoch: 27 [38400/50000 (77%)]	Loss: 2.4195 Mag: 0.4546 Acc: 41.06
+Train Epoch: 27 [44800/50000 (90%)]	Loss: 2.4117 Mag: 0.4567 Acc: 41.16
+  9%|▉         | 28/300 [24:49<4:00:58, 53.16s/it]EPOCH:27, ======================ACC:47.87====================
+BEST EPOCH:26,BEST ACC:53.51
+Train Epoch: 28 [6400/50000 (13%)]	Loss: 2.6158 Mag: 0.4211 Acc: 37.50
+Train Epoch: 28 [12800/50000 (26%)]	Loss: 2.5018 Mag: 0.4400 Acc: 39.68
+Train Epoch: 28 [19200/50000 (38%)]	Loss: 2.4458 Mag: 0.4499 Acc: 40.59
+Train Epoch: 28 [25600/50000 (51%)]	Loss: 2.5052 Mag: 0.4407 Acc: 39.43
+Train Epoch: 28 [32000/50000 (64%)]	Loss: 2.5192 Mag: 0.4368 Acc: 39.15
+Train Epoch: 28 [38400/50000 (77%)]	Loss: 2.5128 Mag: 0.4376 Acc: 39.23
+Train Epoch: 28 [44800/50000 (90%)]	Loss: 2.5269 Mag: 0.4355 Acc: 39.11
+ 10%|▉         | 29/300 [25:42<4:00:33, 53.26s/it]EPOCH:28, ======================ACC:50.29====================
+BEST EPOCH:26,BEST ACC:53.51
+Train Epoch: 29 [6400/50000 (13%)]	Loss: 2.3072 Mag: 0.4708 Acc: 42.80
+Train Epoch: 29 [12800/50000 (26%)]	Loss: 2.3708 Mag: 0.4634 Acc: 41.66
+Train Epoch: 29 [19200/50000 (38%)]	Loss: 2.3970 Mag: 0.4594 Acc: 41.40
+Train Epoch: 29 [25600/50000 (51%)]	Loss: 2.4050 Mag: 0.4581 Acc: 41.18
+Train Epoch: 29 [32000/50000 (64%)]	Loss: 2.4330 Mag: 0.4531 Acc: 40.56
+Train Epoch: 29 [38400/50000 (77%)]	Loss: 2.4171 Mag: 0.4566 Acc: 40.90
+Train Epoch: 29 [44800/50000 (90%)]	Loss: 2.4081 Mag: 0.4585 Acc: 40.99
+ 10%|█         | 30/300 [26:35<3:59:33, 53.24s/it]EPOCH:29, ======================ACC:49.43====================
+BEST EPOCH:26,BEST ACC:53.51
+Train Epoch: 30 [6400/50000 (13%)]	Loss: 2.7942 Mag: 0.3843 Acc: 33.70
+Train Epoch: 30 [12800/50000 (26%)]	Loss: 2.6579 Mag: 0.4059 Acc: 36.39
+Train Epoch: 30 [19200/50000 (38%)]	Loss: 2.6052 Mag: 0.4191 Acc: 37.55
+Train Epoch: 30 [25600/50000 (51%)]	Loss: 2.5269 Mag: 0.4332 Acc: 39.06
+Train Epoch: 30 [32000/50000 (64%)]	Loss: 2.5387 Mag: 0.4329 Acc: 38.66
+Train Epoch: 30 [38400/50000 (77%)]	Loss: 2.5482 Mag: 0.4299 Acc: 38.64
+Train Epoch: 30 [44800/50000 (90%)]	Loss: 2.5352 Mag: 0.4331 Acc: 38.82
+ 10%|█         | 31/300 [27:29<3:58:44, 53.25s/it]EPOCH:30, ======================ACC:50.72====================
+BEST EPOCH:26,BEST ACC:53.51
+Train Epoch: 31 [6400/50000 (13%)]	Loss: 2.3730 Mag: 0.4671 Acc: 43.24
+Train Epoch: 31 [12800/50000 (26%)]	Loss: 2.3021 Mag: 0.4773 Acc: 43.91
+Train Epoch: 31 [19200/50000 (38%)]	Loss: 2.3399 Mag: 0.4701 Acc: 42.67
+Train Epoch: 31 [25600/50000 (51%)]	Loss: 2.3957 Mag: 0.4622 Acc: 41.71
+Train Epoch: 31 [32000/50000 (64%)]	Loss: 2.3944 Mag: 0.4625 Acc: 41.73
+Train Epoch: 31 [38400/50000 (77%)]	Loss: 2.3881 Mag: 0.4628 Acc: 41.90
+Train Epoch: 31 [44800/50000 (90%)]	Loss: 2.4028 Mag: 0.4608 Acc: 41.68
+ 11%|█         | 32/300 [28:22<3:57:53, 53.26s/it]EPOCH:31, ======================ACC:48.44====================
+BEST EPOCH:26,BEST ACC:53.51
+Train Epoch: 32 [6400/50000 (13%)]	Loss: 2.5773 Mag: 0.4292 Acc: 38.59
+Train Epoch: 32 [12800/50000 (26%)]	Loss: 2.4885 Mag: 0.4448 Acc: 40.03
+Train Epoch: 32 [19200/50000 (38%)]	Loss: 2.4984 Mag: 0.4401 Acc: 39.95
+Train Epoch: 32 [25600/50000 (51%)]	Loss: 2.5014 Mag: 0.4398 Acc: 39.86
+Train Epoch: 32 [32000/50000 (64%)]	Loss: 2.5107 Mag: 0.4389 Acc: 39.55
+Train Epoch: 32 [38400/50000 (77%)]	Loss: 2.4904 Mag: 0.4416 Acc: 40.00
+Train Epoch: 32 [44800/50000 (90%)]	Loss: 2.4633 Mag: 0.4465 Acc: 40.55
+ 11%|█         | 33/300 [29:15<3:56:59, 53.26s/it]EPOCH:32, ======================ACC:52.56====================
+BEST EPOCH:26,BEST ACC:53.51
+Train Epoch: 33 [6400/50000 (13%)]	Loss: 2.3890 Mag: 0.4662 Acc: 41.64
+Train Epoch: 33 [12800/50000 (26%)]	Loss: 2.3332 Mag: 0.4767 Acc: 42.82
+Train Epoch: 33 [19200/50000 (38%)]	Loss: 2.3299 Mag: 0.4748 Acc: 42.98
+Train Epoch: 33 [25600/50000 (51%)]	Loss: 2.3449 Mag: 0.4748 Acc: 42.71
+Train Epoch: 33 [32000/50000 (64%)]	Loss: 2.3461 Mag: 0.4732 Acc: 42.74
+Train Epoch: 33 [38400/50000 (77%)]	Loss: 2.3672 Mag: 0.4689 Acc: 42.30
+Train Epoch: 33 [44800/50000 (90%)]	Loss: 2.3856 Mag: 0.4658 Acc: 42.01
+ 11%|█▏        | 34/300 [30:08<3:55:49, 53.19s/it]EPOCH:33, ======================ACC:51.57====================
+BEST EPOCH:26,BEST ACC:53.51
+Train Epoch: 34 [6400/50000 (13%)]	Loss: 2.2177 Mag: 0.4919 Acc: 45.54
+Train Epoch: 34 [12800/50000 (26%)]	Loss: 2.2770 Mag: 0.4872 Acc: 44.42
+Train Epoch: 34 [19200/50000 (38%)]	Loss: 2.3210 Mag: 0.4764 Acc: 43.50
+Train Epoch: 34 [25600/50000 (51%)]	Loss: 2.3742 Mag: 0.4680 Acc: 42.47
+Train Epoch: 34 [32000/50000 (64%)]	Loss: 2.4339 Mag: 0.4547 Acc: 41.27
+Train Epoch: 34 [38400/50000 (77%)]	Loss: 2.4176 Mag: 0.4579 Acc: 41.56
+Train Epoch: 34 [44800/50000 (90%)]	Loss: 2.4262 Mag: 0.4561 Acc: 41.48
+ 12%|█▏        | 35/300 [31:01<3:54:54, 53.19s/it]EPOCH:34, ======================ACC:49.19====================
+BEST EPOCH:26,BEST ACC:53.51
+Train Epoch: 35 [6400/50000 (13%)]	Loss: 2.2593 Mag: 0.4874 Acc: 43.54
+Train Epoch: 35 [12800/50000 (26%)]	Loss: 2.2724 Mag: 0.4881 Acc: 43.66
+Train Epoch: 35 [19200/50000 (38%)]	Loss: 2.3334 Mag: 0.4738 Acc: 42.80
+Train Epoch: 35 [25600/50000 (51%)]	Loss: 2.3696 Mag: 0.4676 Acc: 42.18
+Train Epoch: 35 [32000/50000 (64%)]	Loss: 2.4229 Mag: 0.4578 Acc: 41.29
+Train Epoch: 35 [38400/50000 (77%)]	Loss: 2.4312 Mag: 0.4551 Acc: 41.15
+Train Epoch: 35 [44800/50000 (90%)]	Loss: 2.4206 Mag: 0.4575 Acc: 41.34
+ 12%|█▏        | 36/300 [31:55<3:54:04, 53.20s/it]EPOCH:35, ======================ACC:52.71====================
+BEST EPOCH:26,BEST ACC:53.51
+Train Epoch: 36 [6400/50000 (13%)]	Loss: 2.3296 Mag: 0.4739 Acc: 43.30
+Train Epoch: 36 [12800/50000 (26%)]	Loss: 2.2797 Mag: 0.4835 Acc: 44.30
+Train Epoch: 36 [19200/50000 (38%)]	Loss: 2.3452 Mag: 0.4742 Acc: 43.09
+Train Epoch: 36 [25600/50000 (51%)]	Loss: 2.3760 Mag: 0.4665 Acc: 42.57
+Train Epoch: 36 [32000/50000 (64%)]	Loss: 2.4025 Mag: 0.4617 Acc: 41.97
+Train Epoch: 36 [38400/50000 (77%)]	Loss: 2.4021 Mag: 0.4607 Acc: 41.81
+Train Epoch: 36 [44800/50000 (90%)]	Loss: 2.4303 Mag: 0.4551 Acc: 41.34
+ 12%|█▏        | 37/300 [32:48<3:53:01, 53.16s/it]EPOCH:36, ======================ACC:47.91====================
+BEST EPOCH:26,BEST ACC:53.51
+Train Epoch: 37 [6400/50000 (13%)]	Loss: 2.5484 Mag: 0.4207 Acc: 39.67
+Train Epoch: 37 [12800/50000 (26%)]	Loss: 2.3459 Mag: 0.4661 Acc: 42.77
+Train Epoch: 37 [19200/50000 (38%)]	Loss: 2.3355 Mag: 0.4727 Acc: 42.92
+Train Epoch: 37 [25600/50000 (51%)]	Loss: 2.3464 Mag: 0.4705 Acc: 42.73
+Train Epoch: 37 [32000/50000 (64%)]	Loss: 2.3713 Mag: 0.4668 Acc: 42.39
+Train Epoch: 37 [38400/50000 (77%)]	Loss: 2.3523 Mag: 0.4689 Acc: 42.72
+Train Epoch: 37 [44800/50000 (90%)]	Loss: 2.3633 Mag: 0.4683 Acc: 42.45
+ 13%|█▎        | 38/300 [33:42<3:53:11, 53.40s/it]EPOCH:37, ======================ACC:52.17====================
+BEST EPOCH:26,BEST ACC:53.51
+Train Epoch: 38 [6400/50000 (13%)]	Loss: 2.5202 Mag: 0.4424 Acc: 39.93
+Train Epoch: 38 [12800/50000 (26%)]	Loss: 2.4347 Mag: 0.4542 Acc: 41.51
+Train Epoch: 38 [19200/50000 (38%)]	Loss: 2.4475 Mag: 0.4524 Acc: 41.17
+Train Epoch: 38 [25600/50000 (51%)]	Loss: 2.4279 Mag: 0.4564 Acc: 41.65
+Train Epoch: 38 [32000/50000 (64%)]	Loss: 2.4474 Mag: 0.4528 Acc: 41.17
+Train Epoch: 38 [38400/50000 (77%)]	Loss: 2.4094 Mag: 0.4603 Acc: 41.88
+Train Epoch: 38 [44800/50000 (90%)]	Loss: 2.4112 Mag: 0.4600 Acc: 41.82
+ 13%|█▎        | 39/300 [34:35<3:52:02, 53.34s/it]EPOCH:38, ======================ACC:53.75====================
+BEST EPOCH:38,BEST ACC:53.75
+Train Epoch: 39 [6400/50000 (13%)]	Loss: 2.3460 Mag: 0.4735 Acc: 43.58
+Train Epoch: 39 [12800/50000 (26%)]	Loss: 2.3784 Mag: 0.4655 Acc: 42.47
+Train Epoch: 39 [19200/50000 (38%)]	Loss: 2.4202 Mag: 0.4561 Acc: 41.55
+Train Epoch: 39 [25600/50000 (51%)]	Loss: 2.3902 Mag: 0.4623 Acc: 41.98
+Train Epoch: 39 [32000/50000 (64%)]	Loss: 2.3945 Mag: 0.4623 Acc: 41.90
+Train Epoch: 39 [38400/50000 (77%)]	Loss: 2.3643 Mag: 0.4686 Acc: 42.44
+Train Epoch: 39 [44800/50000 (90%)]	Loss: 2.3626 Mag: 0.4694 Acc: 42.59
+ 13%|█▎        | 40/300 [35:28<3:50:57, 53.30s/it]EPOCH:39, ======================ACC:50.83====================
+BEST EPOCH:38,BEST ACC:53.75
+Train Epoch: 40 [6400/50000 (13%)]	Loss: 2.2005 Mag: 0.5024 Acc: 45.35
+Train Epoch: 40 [12800/50000 (26%)]	Loss: 2.2548 Mag: 0.4899 Acc: 44.18
+Train Epoch: 40 [19200/50000 (38%)]	Loss: 2.2411 Mag: 0.4927 Acc: 44.54
+Train Epoch: 40 [25600/50000 (51%)]	Loss: 2.2624 Mag: 0.4903 Acc: 44.47
+Train Epoch: 40 [32000/50000 (64%)]	Loss: 2.2397 Mag: 0.4941 Acc: 44.84
+Train Epoch: 40 [38400/50000 (77%)]	Loss: 2.2620 Mag: 0.4909 Acc: 44.30
+Train Epoch: 40 [44800/50000 (90%)]	Loss: 2.2631 Mag: 0.4901 Acc: 44.27
+ 14%|█▎        | 41/300 [36:21<3:50:02, 53.29s/it]EPOCH:40, ======================ACC:49.64====================
+BEST EPOCH:38,BEST ACC:53.75
+Train Epoch: 41 [6400/50000 (13%)]	Loss: 2.2854 Mag: 0.4726 Acc: 43.95
+Train Epoch: 41 [12800/50000 (26%)]	Loss: 2.3006 Mag: 0.4801 Acc: 43.41
+Train Epoch: 41 [19200/50000 (38%)]	Loss: 2.2841 Mag: 0.4839 Acc: 43.83
+Train Epoch: 41 [25600/50000 (51%)]	Loss: 2.3026 Mag: 0.4802 Acc: 43.73
+Train Epoch: 41 [32000/50000 (64%)]	Loss: 2.3005 Mag: 0.4815 Acc: 43.67
+Train Epoch: 41 [38400/50000 (77%)]	Loss: 2.3080 Mag: 0.4800 Acc: 43.58
+Train Epoch: 41 [44800/50000 (90%)]	Loss: 2.3000 Mag: 0.4821 Acc: 43.77
+ 14%|█▍        | 42/300 [37:14<3:48:50, 53.22s/it]EPOCH:41, ======================ACC:53.31====================
+BEST EPOCH:38,BEST ACC:53.75
+Train Epoch: 42 [6400/50000 (13%)]	Loss: 2.3337 Mag: 0.4745 Acc: 43.25
+Train Epoch: 42 [12800/50000 (26%)]	Loss: 2.3921 Mag: 0.4637 Acc: 41.77
+Train Epoch: 42 [19200/50000 (38%)]	Loss: 2.3514 Mag: 0.4738 Acc: 42.74
+Train Epoch: 42 [25600/50000 (51%)]	Loss: 2.3580 Mag: 0.4725 Acc: 42.60
+Train Epoch: 42 [32000/50000 (64%)]	Loss: 2.3673 Mag: 0.4697 Acc: 42.33
+Train Epoch: 42 [38400/50000 (77%)]	Loss: 2.3680 Mag: 0.4688 Acc: 42.33
+Train Epoch: 42 [44800/50000 (90%)]	Loss: 2.3508 Mag: 0.4720 Acc: 42.73
+ 14%|█▍        | 43/300 [38:08<3:48:00, 53.23s/it]EPOCH:42, ======================ACC:50.49====================
+BEST EPOCH:38,BEST ACC:53.75
+Train Epoch: 43 [6400/50000 (13%)]	Loss: 2.3893 Mag: 0.4596 Acc: 42.06
+Train Epoch: 43 [12800/50000 (26%)]	Loss: 2.3188 Mag: 0.4750 Acc: 43.34
+Train Epoch: 43 [19200/50000 (38%)]	Loss: 2.2972 Mag: 0.4839 Acc: 43.88
+Train Epoch: 43 [25600/50000 (51%)]	Loss: 2.3162 Mag: 0.4793 Acc: 43.45
+Train Epoch: 43 [32000/50000 (64%)]	Loss: 2.3240 Mag: 0.4793 Acc: 43.28
+Train Epoch: 43 [38400/50000 (77%)]	Loss: 2.3423 Mag: 0.4731 Acc: 42.98
+Train Epoch: 43 [44800/50000 (90%)]	Loss: 2.3615 Mag: 0.4705 Acc: 42.71
+ 15%|█▍        | 44/300 [39:01<3:46:50, 53.16s/it]EPOCH:43, ======================ACC:56.7====================
+BEST EPOCH:43,BEST ACC:56.7
+Train Epoch: 44 [6400/50000 (13%)]	Loss: 2.3311 Mag: 0.4654 Acc: 43.77
+Train Epoch: 44 [12800/50000 (26%)]	Loss: 2.2331 Mag: 0.4882 Acc: 45.62
+Train Epoch: 44 [19200/50000 (38%)]	Loss: 2.2672 Mag: 0.4842 Acc: 44.88
+Train Epoch: 44 [25600/50000 (51%)]	Loss: 2.3076 Mag: 0.4790 Acc: 44.18
+Train Epoch: 44 [32000/50000 (64%)]	Loss: 2.2944 Mag: 0.4821 Acc: 44.47
+Train Epoch: 44 [38400/50000 (77%)]	Loss: 2.3113 Mag: 0.4788 Acc: 44.15
+Train Epoch: 44 [44800/50000 (90%)]	Loss: 2.3484 Mag: 0.4720 Acc: 43.36
+ 15%|█▌        | 45/300 [39:54<3:45:33, 53.07s/it]EPOCH:44, ======================ACC:53.97====================
+BEST EPOCH:43,BEST ACC:56.7
+Train Epoch: 45 [6400/50000 (13%)]	Loss: 2.2606 Mag: 0.4855 Acc: 44.77
+Train Epoch: 45 [12800/50000 (26%)]	Loss: 2.3450 Mag: 0.4726 Acc: 43.28
+Train Epoch: 45 [19200/50000 (38%)]	Loss: 2.3568 Mag: 0.4672 Acc: 43.12
+Train Epoch: 45 [25600/50000 (51%)]	Loss: 2.3176 Mag: 0.4758 Acc: 43.93
+Train Epoch: 45 [32000/50000 (64%)]	Loss: 2.3196 Mag: 0.4771 Acc: 43.76
+Train Epoch: 45 [38400/50000 (77%)]	Loss: 2.3368 Mag: 0.4738 Acc: 43.37
+Train Epoch: 45 [44800/50000 (90%)]	Loss: 2.3340 Mag: 0.4747 Acc: 43.38
+ 15%|█▌        | 46/300 [40:47<3:44:46, 53.10s/it]EPOCH:45, ======================ACC:54.15====================
+BEST EPOCH:43,BEST ACC:56.7
+Train Epoch: 46 [6400/50000 (13%)]	Loss: 2.2214 Mag: 0.4884 Acc: 45.10
+Train Epoch: 46 [12800/50000 (26%)]	Loss: 2.2703 Mag: 0.4874 Acc: 44.67
+Train Epoch: 46 [19200/50000 (38%)]	Loss: 2.2347 Mag: 0.4930 Acc: 45.54
+Train Epoch: 46 [25600/50000 (51%)]	Loss: 2.2648 Mag: 0.4909 Acc: 44.83
+Train Epoch: 46 [32000/50000 (64%)]	Loss: 2.3000 Mag: 0.4827 Acc: 44.02
+Train Epoch: 46 [38400/50000 (77%)]	Loss: 2.2646 Mag: 0.4885 Acc: 44.67
+Train Epoch: 46 [44800/50000 (90%)]	Loss: 2.2809 Mag: 0.4861 Acc: 44.29
+ 16%|█▌        | 47/300 [41:40<3:44:09, 53.16s/it]EPOCH:46, ======================ACC:56.44====================
+BEST EPOCH:43,BEST ACC:56.7
+Train Epoch: 47 [6400/50000 (13%)]	Loss: 2.2617 Mag: 0.4891 Acc: 44.95
+Train Epoch: 47 [12800/50000 (26%)]	Loss: 2.2941 Mag: 0.4848 Acc: 44.28
+Train Epoch: 47 [19200/50000 (38%)]	Loss: 2.3030 Mag: 0.4840 Acc: 43.96
+Train Epoch: 47 [25600/50000 (51%)]	Loss: 2.3038 Mag: 0.4814 Acc: 43.96
+Train Epoch: 47 [32000/50000 (64%)]	Loss: 2.3154 Mag: 0.4794 Acc: 43.72
+Train Epoch: 47 [38400/50000 (77%)]	Loss: 2.2936 Mag: 0.4845 Acc: 44.10
+Train Epoch: 47 [44800/50000 (90%)]	Loss: 2.3118 Mag: 0.4809 Acc: 43.78
+ 16%|█▌        | 48/300 [42:34<3:43:43, 53.27s/it]EPOCH:47, ======================ACC:48.66====================
+BEST EPOCH:43,BEST ACC:56.7
+Train Epoch: 48 [6400/50000 (13%)]	Loss: 2.1615 Mag: 0.5063 Acc: 46.67
+Train Epoch: 48 [12800/50000 (26%)]	Loss: 2.2417 Mag: 0.4926 Acc: 45.13
+Train Epoch: 48 [19200/50000 (38%)]	Loss: 2.2635 Mag: 0.4891 Acc: 44.51
+Train Epoch: 48 [25600/50000 (51%)]	Loss: 2.2604 Mag: 0.4893 Acc: 44.59
+Train Epoch: 48 [32000/50000 (64%)]	Loss: 2.2886 Mag: 0.4846 Acc: 43.92
+Train Epoch: 48 [38400/50000 (77%)]	Loss: 2.3044 Mag: 0.4815 Acc: 43.66
+Train Epoch: 48 [44800/50000 (90%)]	Loss: 2.3043 Mag: 0.4813 Acc: 43.64
+ 16%|█▋        | 49/300 [43:26<3:42:17, 53.14s/it]EPOCH:48, ======================ACC:58.68====================
+BEST EPOCH:48,BEST ACC:58.68
+Train Epoch: 49 [6400/50000 (13%)]	Loss: 2.1107 Mag: 0.5243 Acc: 48.12
+Train Epoch: 49 [12800/50000 (26%)]	Loss: 2.2905 Mag: 0.4884 Acc: 44.82
+Train Epoch: 49 [19200/50000 (38%)]	Loss: 2.2961 Mag: 0.4845 Acc: 44.63
+Train Epoch: 49 [25600/50000 (51%)]	Loss: 2.3111 Mag: 0.4803 Acc: 44.14
+Train Epoch: 49 [32000/50000 (64%)]	Loss: 2.2990 Mag: 0.4833 Acc: 44.23
+Train Epoch: 49 [38400/50000 (77%)]	Loss: 2.2929 Mag: 0.4842 Acc: 44.32
+Train Epoch: 49 [44800/50000 (90%)]	Loss: 2.3006 Mag: 0.4830 Acc: 44.18
+ 17%|█▋        | 50/300 [44:19<3:41:18, 53.11s/it]EPOCH:49, ======================ACC:56.48====================
+BEST EPOCH:48,BEST ACC:58.68
+Train Epoch: 50 [6400/50000 (13%)]	Loss: 2.1812 Mag: 0.5060 Acc: 46.80
+Train Epoch: 50 [12800/50000 (26%)]	Loss: 2.2872 Mag: 0.4845 Acc: 44.56
+Train Epoch: 50 [19200/50000 (38%)]	Loss: 2.2763 Mag: 0.4875 Acc: 45.00
+Train Epoch: 50 [25600/50000 (51%)]	Loss: 2.2566 Mag: 0.4910 Acc: 45.26
+Train Epoch: 50 [32000/50000 (64%)]	Loss: 2.2537 Mag: 0.4907 Acc: 45.24
+Train Epoch: 50 [38400/50000 (77%)]	Loss: 2.2530 Mag: 0.4916 Acc: 45.22
+Train Epoch: 50 [44800/50000 (90%)]	Loss: 2.2452 Mag: 0.4940 Acc: 45.30
+ 17%|█▋        | 51/300 [45:13<3:40:27, 53.12s/it]EPOCH:50, ======================ACC:52.41====================
+BEST EPOCH:48,BEST ACC:58.68
+Train Epoch: 51 [6400/50000 (13%)]	Loss: 2.2645 Mag: 0.4900 Acc: 44.41
+Train Epoch: 51 [12800/50000 (26%)]	Loss: 2.3085 Mag: 0.4848 Acc: 43.27
+Train Epoch: 51 [19200/50000 (38%)]	Loss: 2.2496 Mag: 0.4954 Acc: 44.67
+Train Epoch: 51 [25600/50000 (51%)]	Loss: 2.2716 Mag: 0.4900 Acc: 44.39
+Train Epoch: 51 [32000/50000 (64%)]	Loss: 2.3001 Mag: 0.4854 Acc: 43.97
+Train Epoch: 51 [38400/50000 (77%)]	Loss: 2.3407 Mag: 0.4759 Acc: 43.21
+Train Epoch: 51 [44800/50000 (90%)]	Loss: 2.3476 Mag: 0.4741 Acc: 43.04
+ 17%|█▋        | 52/300 [46:06<3:39:50, 53.19s/it]EPOCH:51, ======================ACC:55.75====================
+BEST EPOCH:48,BEST ACC:58.68
+Train Epoch: 52 [6400/50000 (13%)]	Loss: 2.0780 Mag: 0.5209 Acc: 48.19
+Train Epoch: 52 [12800/50000 (26%)]	Loss: 2.1408 Mag: 0.5108 Acc: 47.44
+Train Epoch: 52 [19200/50000 (38%)]	Loss: 2.2320 Mag: 0.4963 Acc: 45.68
+Train Epoch: 52 [25600/50000 (51%)]	Loss: 2.2915 Mag: 0.4843 Acc: 44.59
+Train Epoch: 52 [32000/50000 (64%)]	Loss: 2.2831 Mag: 0.4856 Acc: 44.75
+Train Epoch: 52 [38400/50000 (77%)]	Loss: 2.2527 Mag: 0.4919 Acc: 45.18
+Train Epoch: 52 [44800/50000 (90%)]	Loss: 2.2641 Mag: 0.4897 Acc: 44.95
+ 18%|█▊        | 53/300 [46:59<3:38:48, 53.15s/it]EPOCH:52, ======================ACC:55.14====================
+BEST EPOCH:48,BEST ACC:58.68
+Train Epoch: 53 [6400/50000 (13%)]	Loss: 2.2109 Mag: 0.4946 Acc: 45.40
+Train Epoch: 53 [12800/50000 (26%)]	Loss: 2.2174 Mag: 0.4970 Acc: 45.54
+Train Epoch: 53 [19200/50000 (38%)]	Loss: 2.3093 Mag: 0.4795 Acc: 43.72
+Train Epoch: 53 [25600/50000 (51%)]	Loss: 2.2885 Mag: 0.4838 Acc: 44.18
+Train Epoch: 53 [32000/50000 (64%)]	Loss: 2.2802 Mag: 0.4840 Acc: 44.28
+Train Epoch: 53 [38400/50000 (77%)]	Loss: 2.3162 Mag: 0.4795 Acc: 43.70
+Train Epoch: 53 [44800/50000 (90%)]	Loss: 2.3150 Mag: 0.4791 Acc: 43.76
+ 18%|█▊        | 54/300 [47:52<3:37:46, 53.11s/it]EPOCH:53, ======================ACC:52.38====================
+BEST EPOCH:48,BEST ACC:58.68
+Train Epoch: 54 [6400/50000 (13%)]	Loss: 2.1856 Mag: 0.5011 Acc: 45.49
+Train Epoch: 54 [12800/50000 (26%)]	Loss: 2.1955 Mag: 0.5019 Acc: 45.30
+Train Epoch: 54 [19200/50000 (38%)]	Loss: 2.2285 Mag: 0.4985 Acc: 44.98
+Train Epoch: 54 [25600/50000 (51%)]	Loss: 2.2254 Mag: 0.4993 Acc: 45.18
+Train Epoch: 54 [32000/50000 (64%)]	Loss: 2.2835 Mag: 0.4876 Acc: 44.16
+Train Epoch: 54 [38400/50000 (77%)]	Loss: 2.3047 Mag: 0.4825 Acc: 43.87
+Train Epoch: 54 [44800/50000 (90%)]	Loss: 2.3145 Mag: 0.4805 Acc: 43.73
+ 18%|█▊        | 55/300 [48:45<3:36:56, 53.13s/it]EPOCH:54, ======================ACC:55.97====================
+BEST EPOCH:48,BEST ACC:58.68
+Train Epoch: 55 [6400/50000 (13%)]	Loss: 2.2695 Mag: 0.4825 Acc: 44.37
+Train Epoch: 55 [12800/50000 (26%)]	Loss: 2.2042 Mag: 0.4951 Acc: 45.94
+Train Epoch: 55 [19200/50000 (38%)]	Loss: 2.2629 Mag: 0.4883 Acc: 44.69
+Train Epoch: 55 [25600/50000 (51%)]	Loss: 2.2533 Mag: 0.4895 Acc: 44.92
+Train Epoch: 55 [32000/50000 (64%)]	Loss: 2.2772 Mag: 0.4860 Acc: 44.58
+Train Epoch: 55 [38400/50000 (77%)]	Loss: 2.2739 Mag: 0.4874 Acc: 44.68
+Train Epoch: 55 [44800/50000 (90%)]	Loss: 2.2539 Mag: 0.4914 Acc: 45.11
+ 19%|█▊        | 56/300 [49:38<3:36:02, 53.12s/it]EPOCH:55, ======================ACC:57.55====================
+BEST EPOCH:48,BEST ACC:58.68
+Train Epoch: 56 [6400/50000 (13%)]	Loss: 2.1948 Mag: 0.4989 Acc: 46.18
+Train Epoch: 56 [12800/50000 (26%)]	Loss: 2.2624 Mag: 0.4863 Acc: 44.92
+Train Epoch: 56 [19200/50000 (38%)]	Loss: 2.2850 Mag: 0.4848 Acc: 44.72
+Train Epoch: 56 [25600/50000 (51%)]	Loss: 2.2584 Mag: 0.4906 Acc: 45.04
+Train Epoch: 56 [32000/50000 (64%)]	Loss: 2.2727 Mag: 0.4871 Acc: 44.74
+Train Epoch: 56 [38400/50000 (77%)]	Loss: 2.2439 Mag: 0.4938 Acc: 45.06
+Train Epoch: 56 [44800/50000 (90%)]	Loss: 2.2770 Mag: 0.4866 Acc: 44.55
+ 19%|█▉        | 57/300 [50:32<3:35:28, 53.20s/it]EPOCH:56, ======================ACC:57.06====================
+BEST EPOCH:48,BEST ACC:58.68
+Train Epoch: 57 [6400/50000 (13%)]	Loss: 2.2886 Mag: 0.4842 Acc: 43.95
+Train Epoch: 57 [12800/50000 (26%)]	Loss: 2.3028 Mag: 0.4829 Acc: 44.28
+Train Epoch: 57 [19200/50000 (38%)]	Loss: 2.3499 Mag: 0.4735 Acc: 43.20
+Train Epoch: 57 [25600/50000 (51%)]	Loss: 2.3409 Mag: 0.4761 Acc: 43.21
+Train Epoch: 57 [32000/50000 (64%)]	Loss: 2.3394 Mag: 0.4755 Acc: 43.28
+Train Epoch: 57 [38400/50000 (77%)]	Loss: 2.3204 Mag: 0.4779 Acc: 43.69
+Train Epoch: 57 [44800/50000 (90%)]	Loss: 2.3277 Mag: 0.4767 Acc: 43.58
+ 19%|█▉        | 58/300 [51:25<3:34:30, 53.18s/it]EPOCH:57, ======================ACC:57.71====================
+BEST EPOCH:48,BEST ACC:58.68
+Train Epoch: 58 [6400/50000 (13%)]	Loss: 2.1179 Mag: 0.5146 Acc: 48.60
+Train Epoch: 58 [12800/50000 (26%)]	Loss: 2.1445 Mag: 0.5149 Acc: 47.78
+Train Epoch: 58 [19200/50000 (38%)]	Loss: 2.2335 Mag: 0.4974 Acc: 45.90
+Train Epoch: 58 [25600/50000 (51%)]	Loss: 2.2434 Mag: 0.4941 Acc: 45.69
+Train Epoch: 58 [32000/50000 (64%)]	Loss: 2.2635 Mag: 0.4897 Acc: 45.31
+Train Epoch: 58 [38400/50000 (77%)]	Loss: 2.2789 Mag: 0.4868 Acc: 44.94
+Train Epoch: 58 [44800/50000 (90%)]	Loss: 2.2832 Mag: 0.4867 Acc: 44.84
+ 20%|█▉        | 59/300 [52:18<3:33:09, 53.07s/it]EPOCH:58, ======================ACC:56.94====================
+BEST EPOCH:48,BEST ACC:58.68
+Train Epoch: 59 [6400/50000 (13%)]	Loss: 2.4036 Mag: 0.4674 Acc: 43.60
+Train Epoch: 59 [12800/50000 (26%)]	Loss: 2.2769 Mag: 0.4878 Acc: 45.48
+Train Epoch: 59 [19200/50000 (38%)]	Loss: 2.2652 Mag: 0.4908 Acc: 45.62
+Train Epoch: 59 [25600/50000 (51%)]	Loss: 2.2849 Mag: 0.4875 Acc: 45.16
+Train Epoch: 59 [32000/50000 (64%)]	Loss: 2.2787 Mag: 0.4883 Acc: 45.23
+Train Epoch: 59 [38400/50000 (77%)]	Loss: 2.3002 Mag: 0.4838 Acc: 44.61
+Train Epoch: 59 [44800/50000 (90%)]	Loss: 2.3068 Mag: 0.4822 Acc: 44.42
+ 20%|██        | 60/300 [53:10<3:31:44, 52.93s/it]EPOCH:59, ======================ACC:49.71====================
+BEST EPOCH:48,BEST ACC:58.68
+Train Epoch: 60 [6400/50000 (13%)]	Loss: 2.0876 Mag: 0.5218 Acc: 47.84
+Train Epoch: 60 [12800/50000 (26%)]	Loss: 2.1721 Mag: 0.5100 Acc: 46.47
+Train Epoch: 60 [19200/50000 (38%)]	Loss: 2.2060 Mag: 0.5019 Acc: 45.88
+Train Epoch: 60 [25600/50000 (51%)]	Loss: 2.2523 Mag: 0.4928 Acc: 45.12
+Train Epoch: 60 [32000/50000 (64%)]	Loss: 2.2451 Mag: 0.4937 Acc: 45.33
+Train Epoch: 60 [38400/50000 (77%)]	Loss: 2.2587 Mag: 0.4917 Acc: 45.07
+Train Epoch: 60 [44800/50000 (90%)]	Loss: 2.2660 Mag: 0.4900 Acc: 44.89
+ 20%|██        | 61/300 [54:03<3:30:39, 52.89s/it]EPOCH:60, ======================ACC:57.76====================
+BEST EPOCH:48,BEST ACC:58.68
+Train Epoch: 61 [6400/50000 (13%)]	Loss: 2.2441 Mag: 0.4907 Acc: 45.31
+Train Epoch: 61 [12800/50000 (26%)]	Loss: 2.2081 Mag: 0.4983 Acc: 46.22
+Train Epoch: 61 [19200/50000 (38%)]	Loss: 2.2337 Mag: 0.4939 Acc: 45.62
+Train Epoch: 61 [25600/50000 (51%)]	Loss: 2.2540 Mag: 0.4916 Acc: 45.10
+Train Epoch: 61 [32000/50000 (64%)]	Loss: 2.2229 Mag: 0.4989 Acc: 45.74
+Train Epoch: 61 [38400/50000 (77%)]	Loss: 2.2006 Mag: 0.5036 Acc: 46.19
+Train Epoch: 61 [44800/50000 (90%)]	Loss: 2.2042 Mag: 0.5024 Acc: 46.13
+ 21%|██        | 62/300 [54:56<3:30:07, 52.97s/it]EPOCH:61, ======================ACC:56.06====================
+BEST EPOCH:48,BEST ACC:58.68
+Train Epoch: 62 [6400/50000 (13%)]	Loss: 2.1674 Mag: 0.5114 Acc: 46.87
+Train Epoch: 62 [12800/50000 (26%)]	Loss: 2.2620 Mag: 0.4907 Acc: 45.06
+Train Epoch: 62 [19200/50000 (38%)]	Loss: 2.2260 Mag: 0.4972 Acc: 45.85
+Train Epoch: 62 [25600/50000 (51%)]	Loss: 2.2562 Mag: 0.4930 Acc: 45.37
+Train Epoch: 62 [32000/50000 (64%)]	Loss: 2.2837 Mag: 0.4876 Acc: 44.70
+Train Epoch: 62 [38400/50000 (77%)]	Loss: 2.2916 Mag: 0.4852 Acc: 44.45
+Train Epoch: 62 [44800/50000 (90%)]	Loss: 2.2837 Mag: 0.4858 Acc: 44.66
+ 21%|██        | 63/300 [55:49<3:29:25, 53.02s/it]EPOCH:62, ======================ACC:54.3====================
+BEST EPOCH:48,BEST ACC:58.68
+Train Epoch: 63 [6400/50000 (13%)]	Loss: 2.2951 Mag: 0.4731 Acc: 44.48
+Train Epoch: 63 [12800/50000 (26%)]	Loss: 2.2816 Mag: 0.4846 Acc: 44.52
+Train Epoch: 63 [19200/50000 (38%)]	Loss: 2.2578 Mag: 0.4884 Acc: 45.10
+Train Epoch: 63 [25600/50000 (51%)]	Loss: 2.2639 Mag: 0.4895 Acc: 44.76
+Train Epoch: 63 [32000/50000 (64%)]	Loss: 2.2951 Mag: 0.4846 Acc: 44.14
+Train Epoch: 63 [38400/50000 (77%)]	Loss: 2.2928 Mag: 0.4839 Acc: 44.33
+Train Epoch: 63 [44800/50000 (90%)]	Loss: 2.2746 Mag: 0.4876 Acc: 44.66
+ 21%|██▏       | 64/300 [56:42<3:28:26, 52.99s/it]EPOCH:63, ======================ACC:55.3====================
+BEST EPOCH:48,BEST ACC:58.68
+Train Epoch: 64 [6400/50000 (13%)]	Loss: 2.3465 Mag: 0.4753 Acc: 43.95
+Train Epoch: 64 [12800/50000 (26%)]	Loss: 2.3140 Mag: 0.4826 Acc: 44.70
+Train Epoch: 64 [19200/50000 (38%)]	Loss: 2.3005 Mag: 0.4822 Acc: 44.70
+Train Epoch: 64 [25600/50000 (51%)]	Loss: 2.3374 Mag: 0.4763 Acc: 44.18
+Train Epoch: 64 [32000/50000 (64%)]	Loss: 2.3018 Mag: 0.4821 Acc: 44.77
+Train Epoch: 64 [38400/50000 (77%)]	Loss: 2.2940 Mag: 0.4836 Acc: 44.85
+Train Epoch: 64 [44800/50000 (90%)]	Loss: 2.2730 Mag: 0.4872 Acc: 45.14
+ 22%|██▏       | 65/300 [57:36<3:28:10, 53.15s/it]EPOCH:64, ======================ACC:59.92====================
+BEST EPOCH:64,BEST ACC:59.92
+Train Epoch: 65 [6400/50000 (13%)]	Loss: 2.1147 Mag: 0.5193 Acc: 47.58
+Train Epoch: 65 [12800/50000 (26%)]	Loss: 2.1979 Mag: 0.5032 Acc: 45.90
+Train Epoch: 65 [19200/50000 (38%)]	Loss: 2.2359 Mag: 0.4946 Acc: 45.56
+Train Epoch: 65 [25600/50000 (51%)]	Loss: 2.2393 Mag: 0.4954 Acc: 45.56
+Train Epoch: 65 [32000/50000 (64%)]	Loss: 2.2370 Mag: 0.4947 Acc: 45.64
+Train Epoch: 65 [38400/50000 (77%)]	Loss: 2.2454 Mag: 0.4943 Acc: 45.40
+Train Epoch: 65 [44800/50000 (90%)]	Loss: 2.2642 Mag: 0.4902 Acc: 45.15
+ 22%|██▏       | 66/300 [58:29<3:27:14, 53.14s/it]EPOCH:65, ======================ACC:55.87====================
+BEST EPOCH:64,BEST ACC:59.92
+Train Epoch: 66 [6400/50000 (13%)]	Loss: 2.1485 Mag: 0.5041 Acc: 47.19
+Train Epoch: 66 [12800/50000 (26%)]	Loss: 2.2790 Mag: 0.4853 Acc: 45.08
+Train Epoch: 66 [19200/50000 (38%)]	Loss: 2.2597 Mag: 0.4892 Acc: 45.40
+Train Epoch: 66 [25600/50000 (51%)]	Loss: 2.2600 Mag: 0.4906 Acc: 45.14
+Train Epoch: 66 [32000/50000 (64%)]	Loss: 2.2373 Mag: 0.4949 Acc: 45.73
+Train Epoch: 66 [38400/50000 (77%)]	Loss: 2.2439 Mag: 0.4942 Acc: 45.49
+Train Epoch: 66 [44800/50000 (90%)]	Loss: 2.2646 Mag: 0.4903 Acc: 45.11
+ 22%|██▏       | 67/300 [59:21<3:25:37, 52.95s/it]EPOCH:66, ======================ACC:54.48====================
+BEST EPOCH:64,BEST ACC:59.92
+Train Epoch: 67 [6400/50000 (13%)]	Loss: 2.2480 Mag: 0.4959 Acc: 46.04
+Train Epoch: 67 [12800/50000 (26%)]	Loss: 2.3013 Mag: 0.4887 Acc: 44.75
+Train Epoch: 67 [19200/50000 (38%)]	Loss: 2.2661 Mag: 0.4914 Acc: 45.05
+Train Epoch: 67 [25600/50000 (51%)]	Loss: 2.2329 Mag: 0.4991 Acc: 45.69
+Train Epoch: 67 [32000/50000 (64%)]	Loss: 2.2547 Mag: 0.4937 Acc: 45.28
+Train Epoch: 67 [38400/50000 (77%)]	Loss: 2.2555 Mag: 0.4932 Acc: 45.22
+Train Epoch: 67 [44800/50000 (90%)]	Loss: 2.2718 Mag: 0.4897 Acc: 44.89
+ 23%|██▎       | 68/300 [1:00:15<3:24:58, 53.01s/it]EPOCH:67, ======================ACC:56.13====================
+BEST EPOCH:64,BEST ACC:59.92
+Train Epoch: 68 [6400/50000 (13%)]	Loss: 2.1136 Mag: 0.5228 Acc: 47.45
+Train Epoch: 68 [12800/50000 (26%)]	Loss: 2.2435 Mag: 0.4930 Acc: 45.09
+Train Epoch: 68 [19200/50000 (38%)]	Loss: 2.2120 Mag: 0.4989 Acc: 45.75
+Train Epoch: 68 [25600/50000 (51%)]	Loss: 2.1867 Mag: 0.5058 Acc: 46.27
+Train Epoch: 68 [32000/50000 (64%)]	Loss: 2.1862 Mag: 0.5071 Acc: 46.14
+Train Epoch: 68 [38400/50000 (77%)]	Loss: 2.1973 Mag: 0.5047 Acc: 46.03
+Train Epoch: 68 [44800/50000 (90%)]	Loss: 2.2164 Mag: 0.5010 Acc: 45.72
+ 23%|██▎       | 69/300 [1:01:08<3:24:20, 53.07s/it]EPOCH:68, ======================ACC:54.19====================
+BEST EPOCH:64,BEST ACC:59.92
+Train Epoch: 69 [6400/50000 (13%)]	Loss: 2.1207 Mag: 0.5174 Acc: 48.24
+Train Epoch: 69 [12800/50000 (26%)]	Loss: 2.2093 Mag: 0.5032 Acc: 46.48
+Train Epoch: 69 [19200/50000 (38%)]	Loss: 2.2281 Mag: 0.4977 Acc: 45.95
+Train Epoch: 69 [25600/50000 (51%)]	Loss: 2.2287 Mag: 0.4987 Acc: 46.01
+Train Epoch: 69 [32000/50000 (64%)]	Loss: 2.2601 Mag: 0.4917 Acc: 45.34
+Train Epoch: 69 [38400/50000 (77%)]	Loss: 2.2839 Mag: 0.4876 Acc: 44.68
+Train Epoch: 69 [44800/50000 (90%)]	Loss: 2.2949 Mag: 0.4841 Acc: 44.43
+ 23%|██▎       | 70/300 [1:02:01<3:23:33, 53.10s/it]EPOCH:69, ======================ACC:54.49====================
+BEST EPOCH:64,BEST ACC:59.92
+Train Epoch: 70 [6400/50000 (13%)]	Loss: 2.3663 Mag: 0.4648 Acc: 43.48
+Train Epoch: 70 [12800/50000 (26%)]	Loss: 2.3314 Mag: 0.4724 Acc: 44.59
+Train Epoch: 70 [19200/50000 (38%)]	Loss: 2.3267 Mag: 0.4732 Acc: 44.40
+Train Epoch: 70 [25600/50000 (51%)]	Loss: 2.2927 Mag: 0.4815 Acc: 44.79
+Train Epoch: 70 [32000/50000 (64%)]	Loss: 2.2846 Mag: 0.4836 Acc: 45.10
+Train Epoch: 70 [38400/50000 (77%)]	Loss: 2.2590 Mag: 0.4886 Acc: 45.54
+Train Epoch: 70 [44800/50000 (90%)]	Loss: 2.2407 Mag: 0.4940 Acc: 45.82
+ 24%|██▎       | 71/300 [1:02:54<3:22:50, 53.15s/it]EPOCH:70, ======================ACC:58.34====================
+BEST EPOCH:64,BEST ACC:59.92
+Train Epoch: 71 [6400/50000 (13%)]	Loss: 2.2164 Mag: 0.5075 Acc: 45.68
+Train Epoch: 71 [12800/50000 (26%)]	Loss: 2.2591 Mag: 0.4954 Acc: 45.28
+Train Epoch: 71 [19200/50000 (38%)]	Loss: 2.2382 Mag: 0.4984 Acc: 45.53
+Train Epoch: 71 [25600/50000 (51%)]	Loss: 2.2130 Mag: 0.5018 Acc: 46.13
+Train Epoch: 71 [32000/50000 (64%)]	Loss: 2.2629 Mag: 0.4923 Acc: 45.31
+Train Epoch: 71 [38400/50000 (77%)]	Loss: 2.2585 Mag: 0.4928 Acc: 45.33
+Train Epoch: 71 [44800/50000 (90%)]	Loss: 2.2872 Mag: 0.4865 Acc: 44.78
+ 24%|██▍       | 72/300 [1:03:48<3:22:12, 53.21s/it]EPOCH:71, ======================ACC:56.17====================
+BEST EPOCH:64,BEST ACC:59.92
+Train Epoch: 72 [6400/50000 (13%)]	Loss: 2.3527 Mag: 0.4732 Acc: 43.49
+Train Epoch: 72 [12800/50000 (26%)]	Loss: 2.3429 Mag: 0.4738 Acc: 43.60
+Train Epoch: 72 [19200/50000 (38%)]	Loss: 2.3754 Mag: 0.4652 Acc: 43.03
+Train Epoch: 72 [25600/50000 (51%)]	Loss: 2.3276 Mag: 0.4759 Acc: 43.98
+Train Epoch: 72 [32000/50000 (64%)]	Loss: 2.2893 Mag: 0.4838 Acc: 44.62
+Train Epoch: 72 [38400/50000 (77%)]	Loss: 2.2834 Mag: 0.4853 Acc: 44.77
+Train Epoch: 72 [44800/50000 (90%)]	Loss: 2.2720 Mag: 0.4881 Acc: 44.95
+ 24%|██▍       | 73/300 [1:04:41<3:21:29, 53.26s/it]EPOCH:72, ======================ACC:55.29====================
+BEST EPOCH:64,BEST ACC:59.92
+Train Epoch: 73 [6400/50000 (13%)]	Loss: 2.3736 Mag: 0.4665 Acc: 43.33
+Train Epoch: 73 [12800/50000 (26%)]	Loss: 2.2027 Mag: 0.4991 Acc: 46.67
+Train Epoch: 73 [19200/50000 (38%)]	Loss: 2.2717 Mag: 0.4898 Acc: 45.19
+Train Epoch: 73 [25600/50000 (51%)]	Loss: 2.2311 Mag: 0.4984 Acc: 46.00
+Train Epoch: 73 [32000/50000 (64%)]	Loss: 2.2278 Mag: 0.4985 Acc: 46.04
+Train Epoch: 73 [38400/50000 (77%)]	Loss: 2.2140 Mag: 0.5008 Acc: 46.24
+Train Epoch: 73 [44800/50000 (90%)]	Loss: 2.2110 Mag: 0.5014 Acc: 46.16
+ 25%|██▍       | 74/300 [1:05:35<3:21:01, 53.37s/it]EPOCH:73, ======================ACC:56.51====================
+BEST EPOCH:64,BEST ACC:59.92
+Train Epoch: 74 [6400/50000 (13%)]	Loss: 2.3049 Mag: 0.4790 Acc: 44.61
+Train Epoch: 74 [12800/50000 (26%)]	Loss: 2.2678 Mag: 0.4889 Acc: 45.39
+Train Epoch: 74 [19200/50000 (38%)]	Loss: 2.2393 Mag: 0.4963 Acc: 45.74
+Train Epoch: 74 [25600/50000 (51%)]	Loss: 2.2478 Mag: 0.4940 Acc: 45.51
+Train Epoch: 74 [32000/50000 (64%)]	Loss: 2.2603 Mag: 0.4924 Acc: 45.23
+Train Epoch: 74 [38400/50000 (77%)]	Loss: 2.2376 Mag: 0.4962 Acc: 45.67
+Train Epoch: 74 [44800/50000 (90%)]	Loss: 2.2337 Mag: 0.4974 Acc: 45.65
+ 25%|██▌       | 75/300 [1:06:28<3:20:28, 53.46s/it]EPOCH:74, ======================ACC:57.85====================
+BEST EPOCH:64,BEST ACC:59.92
+Train Epoch: 75 [6400/50000 (13%)]	Loss: 2.2714 Mag: 0.4860 Acc: 44.97
+Train Epoch: 75 [12800/50000 (26%)]	Loss: 2.2957 Mag: 0.4880 Acc: 44.71
+Train Epoch: 75 [19200/50000 (38%)]	Loss: 2.2516 Mag: 0.4945 Acc: 45.43
+Train Epoch: 75 [25600/50000 (51%)]	Loss: 2.2221 Mag: 0.4997 Acc: 45.87
+Train Epoch: 75 [32000/50000 (64%)]	Loss: 2.2539 Mag: 0.4943 Acc: 45.23
+Train Epoch: 75 [38400/50000 (77%)]	Loss: 2.2273 Mag: 0.4980 Acc: 45.65
+Train Epoch: 75 [44800/50000 (90%)]	Loss: 2.2344 Mag: 0.4973 Acc: 45.47
+ 25%|██▌       | 76/300 [1:07:21<3:18:52, 53.27s/it]EPOCH:75, ======================ACC:57.3====================
+BEST EPOCH:64,BEST ACC:59.92
+Train Epoch: 76 [6400/50000 (13%)]	Loss: 1.9917 Mag: 0.5367 Acc: 50.74
+Train Epoch: 76 [12800/50000 (26%)]	Loss: 2.0807 Mag: 0.5250 Acc: 49.10
+Train Epoch: 76 [19200/50000 (38%)]	Loss: 2.1131 Mag: 0.5193 Acc: 48.21
+Train Epoch: 76 [25600/50000 (51%)]	Loss: 2.1575 Mag: 0.5118 Acc: 47.27
+Train Epoch: 76 [32000/50000 (64%)]	Loss: 2.1476 Mag: 0.5131 Acc: 47.44
+Train Epoch: 76 [38400/50000 (77%)]	Loss: 2.1825 Mag: 0.5073 Acc: 46.66
+Train Epoch: 76 [44800/50000 (90%)]	Loss: 2.1856 Mag: 0.5059 Acc: 46.73
+ 26%|██▌       | 77/300 [1:08:14<3:17:33, 53.16s/it]EPOCH:76, ======================ACC:58.18====================
+BEST EPOCH:64,BEST ACC:59.92
+Train Epoch: 77 [6400/50000 (13%)]	Loss: 2.2913 Mag: 0.4867 Acc: 45.38
+Train Epoch: 77 [12800/50000 (26%)]	Loss: 2.1129 Mag: 0.5210 Acc: 48.29
+Train Epoch: 77 [19200/50000 (38%)]	Loss: 2.1790 Mag: 0.5076 Acc: 47.08
+Train Epoch: 77 [25600/50000 (51%)]	Loss: 2.1664 Mag: 0.5094 Acc: 47.19
+Train Epoch: 77 [32000/50000 (64%)]	Loss: 2.2243 Mag: 0.4999 Acc: 46.17
+Train Epoch: 77 [38400/50000 (77%)]	Loss: 2.2424 Mag: 0.4953 Acc: 45.75
+Train Epoch: 77 [44800/50000 (90%)]	Loss: 2.2251 Mag: 0.4990 Acc: 45.98
+ 26%|██▌       | 78/300 [1:09:07<3:16:33, 53.12s/it]EPOCH:77, ======================ACC:54.55====================
+BEST EPOCH:64,BEST ACC:59.92
+Train Epoch: 78 [6400/50000 (13%)]	Loss: 2.1295 Mag: 0.5049 Acc: 48.12
+Train Epoch: 78 [12800/50000 (26%)]	Loss: 2.1275 Mag: 0.5132 Acc: 47.95
+Train Epoch: 78 [19200/50000 (38%)]	Loss: 2.1968 Mag: 0.5017 Acc: 46.63
+Train Epoch: 78 [25600/50000 (51%)]	Loss: 2.2222 Mag: 0.4977 Acc: 46.16
+Train Epoch: 78 [32000/50000 (64%)]	Loss: 2.2123 Mag: 0.5003 Acc: 46.43
+Train Epoch: 78 [38400/50000 (77%)]	Loss: 2.1883 Mag: 0.5056 Acc: 46.61
+Train Epoch: 78 [44800/50000 (90%)]	Loss: 2.2470 Mag: 0.4947 Acc: 45.39
+ 26%|██▋       | 79/300 [1:10:00<3:15:19, 53.03s/it]EPOCH:78, ======================ACC:56.96====================
+BEST EPOCH:64,BEST ACC:59.92
+Train Epoch: 79 [6400/50000 (13%)]	Loss: 2.2927 Mag: 0.4846 Acc: 45.00
+Train Epoch: 79 [12800/50000 (26%)]	Loss: 2.2383 Mag: 0.4938 Acc: 46.15
+Train Epoch: 79 [19200/50000 (38%)]	Loss: 2.2360 Mag: 0.4968 Acc: 45.79
+Train Epoch: 79 [25600/50000 (51%)]	Loss: 2.1729 Mag: 0.5086 Acc: 46.98
+Train Epoch: 79 [32000/50000 (64%)]	Loss: 2.1733 Mag: 0.5091 Acc: 46.90
+Train Epoch: 79 [38400/50000 (77%)]	Loss: 2.1599 Mag: 0.5119 Acc: 47.21
+Train Epoch: 79 [44800/50000 (90%)]	Loss: 2.1519 Mag: 0.5132 Acc: 47.26
+ 27%|██▋       | 80/300 [1:10:53<3:14:31, 53.05s/it]EPOCH:79, ======================ACC:57.72====================
+BEST EPOCH:64,BEST ACC:59.92
+Train Epoch: 80 [6400/50000 (13%)]	Loss: 2.3505 Mag: 0.4756 Acc: 43.77
+Train Epoch: 80 [12800/50000 (26%)]	Loss: 2.3600 Mag: 0.4736 Acc: 43.56
+Train Epoch: 80 [19200/50000 (38%)]	Loss: 2.3092 Mag: 0.4822 Acc: 44.67
+Train Epoch: 80 [25600/50000 (51%)]	Loss: 2.3266 Mag: 0.4785 Acc: 44.41
+Train Epoch: 80 [32000/50000 (64%)]	Loss: 2.3302 Mag: 0.4783 Acc: 44.15
+Train Epoch: 80 [38400/50000 (77%)]	Loss: 2.3257 Mag: 0.4784 Acc: 44.18
+Train Epoch: 80 [44800/50000 (90%)]	Loss: 2.3053 Mag: 0.4821 Acc: 44.57
+ 27%|██▋       | 81/300 [1:11:46<3:13:48, 53.10s/it]EPOCH:80, ======================ACC:57.5====================
+BEST EPOCH:64,BEST ACC:59.92
+Train Epoch: 81 [6400/50000 (13%)]	Loss: 2.0398 Mag: 0.5297 Acc: 50.02
+Train Epoch: 81 [12800/50000 (26%)]	Loss: 2.1161 Mag: 0.5196 Acc: 47.95
+Train Epoch: 81 [19200/50000 (38%)]	Loss: 2.1439 Mag: 0.5155 Acc: 47.40
+Train Epoch: 81 [25600/50000 (51%)]	Loss: 2.1186 Mag: 0.5199 Acc: 47.80
+Train Epoch: 81 [32000/50000 (64%)]	Loss: 2.1417 Mag: 0.5156 Acc: 47.41
+Train Epoch: 81 [38400/50000 (77%)]	Loss: 2.1313 Mag: 0.5183 Acc: 47.68
+Train Epoch: 81 [44800/50000 (90%)]	Loss: 2.1213 Mag: 0.5192 Acc: 47.87
+ 27%|██▋       | 82/300 [1:12:39<3:12:59, 53.12s/it]EPOCH:81, ======================ACC:54.05====================
+BEST EPOCH:64,BEST ACC:59.92
+Train Epoch: 82 [6400/50000 (13%)]	Loss: 2.3025 Mag: 0.4865 Acc: 45.09
+Train Epoch: 82 [12800/50000 (26%)]	Loss: 2.2382 Mag: 0.4967 Acc: 45.98
+Train Epoch: 82 [19200/50000 (38%)]	Loss: 2.2790 Mag: 0.4879 Acc: 45.32
+Train Epoch: 82 [25600/50000 (51%)]	Loss: 2.3202 Mag: 0.4804 Acc: 44.42
+Train Epoch: 82 [32000/50000 (64%)]	Loss: 2.3025 Mag: 0.4829 Acc: 44.73
+Train Epoch: 82 [38400/50000 (77%)]	Loss: 2.3113 Mag: 0.4813 Acc: 44.57
+Train Epoch: 82 [44800/50000 (90%)]	Loss: 2.2958 Mag: 0.4848 Acc: 44.74
+ 28%|██▊       | 83/300 [1:13:33<3:12:17, 53.17s/it]EPOCH:82, ======================ACC:58.02====================
+BEST EPOCH:64,BEST ACC:59.92
+Train Epoch: 83 [6400/50000 (13%)]	Loss: 2.1054 Mag: 0.5200 Acc: 48.43
+Train Epoch: 83 [12800/50000 (26%)]	Loss: 2.1224 Mag: 0.5175 Acc: 47.88
+Train Epoch: 83 [19200/50000 (38%)]	Loss: 2.1076 Mag: 0.5199 Acc: 48.23
+Train Epoch: 83 [25600/50000 (51%)]	Loss: 2.1023 Mag: 0.5223 Acc: 48.33
+Train Epoch: 83 [32000/50000 (64%)]	Loss: 2.1277 Mag: 0.5182 Acc: 47.91
+Train Epoch: 83 [38400/50000 (77%)]	Loss: 2.1658 Mag: 0.5105 Acc: 47.35
+Train Epoch: 83 [44800/50000 (90%)]	Loss: 2.1754 Mag: 0.5083 Acc: 47.20
+ 28%|██▊       | 84/300 [1:14:26<3:12:08, 53.37s/it]EPOCH:83, ======================ACC:58.75====================
+BEST EPOCH:64,BEST ACC:59.92
+Train Epoch: 84 [6400/50000 (13%)]	Loss: 2.2721 Mag: 0.4946 Acc: 44.44
+Train Epoch: 84 [12800/50000 (26%)]	Loss: 2.1867 Mag: 0.5065 Acc: 46.50
+Train Epoch: 84 [19200/50000 (38%)]	Loss: 2.1742 Mag: 0.5098 Acc: 46.87
+Train Epoch: 84 [25600/50000 (51%)]	Loss: 2.2169 Mag: 0.5019 Acc: 46.05
+Train Epoch: 84 [32000/50000 (64%)]	Loss: 2.2140 Mag: 0.5016 Acc: 46.00
+Train Epoch: 84 [38400/50000 (77%)]	Loss: 2.2168 Mag: 0.5014 Acc: 45.95
+Train Epoch: 84 [44800/50000 (90%)]	Loss: 2.2097 Mag: 0.5026 Acc: 46.19
+ 28%|██▊       | 85/300 [1:15:20<3:10:59, 53.30s/it]EPOCH:84, ======================ACC:58.18====================
+BEST EPOCH:64,BEST ACC:59.92
+Train Epoch: 85 [6400/50000 (13%)]	Loss: 2.0541 Mag: 0.5376 Acc: 49.07
+Train Epoch: 85 [12800/50000 (26%)]	Loss: 2.1992 Mag: 0.5069 Acc: 46.10
+Train Epoch: 85 [19200/50000 (38%)]	Loss: 2.2412 Mag: 0.4966 Acc: 45.61
+Train Epoch: 85 [25600/50000 (51%)]	Loss: 2.2292 Mag: 0.4991 Acc: 45.96
+Train Epoch: 85 [32000/50000 (64%)]	Loss: 2.2761 Mag: 0.4890 Acc: 45.20
+Train Epoch: 85 [38400/50000 (77%)]	Loss: 2.2852 Mag: 0.4876 Acc: 44.98
+Train Epoch: 85 [44800/50000 (90%)]	Loss: 2.2819 Mag: 0.4879 Acc: 44.97
+ 29%|██▊       | 86/300 [1:16:13<3:10:11, 53.33s/it]EPOCH:85, ======================ACC:54.97====================
+BEST EPOCH:64,BEST ACC:59.92
+Train Epoch: 86 [6400/50000 (13%)]	Loss: 2.2158 Mag: 0.4932 Acc: 46.12
+Train Epoch: 86 [12800/50000 (26%)]	Loss: 2.2744 Mag: 0.4858 Acc: 44.85
+Train Epoch: 86 [19200/50000 (38%)]	Loss: 2.2517 Mag: 0.4910 Acc: 45.45
+Train Epoch: 86 [25600/50000 (51%)]	Loss: 2.1768 Mag: 0.5065 Acc: 46.83
+Train Epoch: 86 [32000/50000 (64%)]	Loss: 2.1685 Mag: 0.5083 Acc: 46.83
+Train Epoch: 86 [38400/50000 (77%)]	Loss: 2.1790 Mag: 0.5067 Acc: 46.71
+Train Epoch: 86 [44800/50000 (90%)]	Loss: 2.2000 Mag: 0.5039 Acc: 46.45
+ 29%|██▉       | 87/300 [1:17:06<3:09:07, 53.28s/it]EPOCH:86, ======================ACC:55.99====================
+BEST EPOCH:64,BEST ACC:59.92
+Train Epoch: 87 [6400/50000 (13%)]	Loss: 2.3232 Mag: 0.4772 Acc: 43.71
+Train Epoch: 87 [12800/50000 (26%)]	Loss: 2.2912 Mag: 0.4849 Acc: 44.03
+Train Epoch: 87 [19200/50000 (38%)]	Loss: 2.2067 Mag: 0.4995 Acc: 45.77
+Train Epoch: 87 [25600/50000 (51%)]	Loss: 2.2329 Mag: 0.4969 Acc: 45.39
+Train Epoch: 87 [32000/50000 (64%)]	Loss: 2.1958 Mag: 0.5035 Acc: 46.24
+Train Epoch: 87 [38400/50000 (77%)]	Loss: 2.1959 Mag: 0.5037 Acc: 46.25
+Train Epoch: 87 [44800/50000 (90%)]	Loss: 2.1961 Mag: 0.5044 Acc: 46.22
+ 29%|██▉       | 88/300 [1:17:59<3:08:07, 53.24s/it]EPOCH:87, ======================ACC:57.75====================
+BEST EPOCH:64,BEST ACC:59.92
+Train Epoch: 88 [6400/50000 (13%)]	Loss: 2.2791 Mag: 0.4873 Acc: 45.44
+Train Epoch: 88 [12800/50000 (26%)]	Loss: 2.1898 Mag: 0.5030 Acc: 46.77
+Train Epoch: 88 [19200/50000 (38%)]	Loss: 2.2318 Mag: 0.4981 Acc: 45.85
+Train Epoch: 88 [25600/50000 (51%)]	Loss: 2.2211 Mag: 0.4994 Acc: 46.04
+Train Epoch: 88 [32000/50000 (64%)]	Loss: 2.1909 Mag: 0.5056 Acc: 46.65
+Train Epoch: 88 [38400/50000 (77%)]	Loss: 2.1991 Mag: 0.5043 Acc: 46.60
+Train Epoch: 88 [44800/50000 (90%)]	Loss: 2.1938 Mag: 0.5046 Acc: 46.53
+ 30%|██▉       | 89/300 [1:18:52<3:07:13, 53.24s/it]EPOCH:88, ======================ACC:61.51====================
+BEST EPOCH:88,BEST ACC:61.51
+Train Epoch: 89 [6400/50000 (13%)]	Loss: 2.3548 Mag: 0.4742 Acc: 43.53
+Train Epoch: 89 [12800/50000 (26%)]	Loss: 2.3022 Mag: 0.4824 Acc: 44.27
+Train Epoch: 89 [19200/50000 (38%)]	Loss: 2.2788 Mag: 0.4873 Acc: 45.02
+Train Epoch: 89 [25600/50000 (51%)]	Loss: 2.2173 Mag: 0.4996 Acc: 46.06
+Train Epoch: 89 [32000/50000 (64%)]	Loss: 2.2182 Mag: 0.5013 Acc: 46.11
+Train Epoch: 89 [38400/50000 (77%)]	Loss: 2.2214 Mag: 0.4987 Acc: 46.03
+Train Epoch: 89 [44800/50000 (90%)]	Loss: 2.2289 Mag: 0.4979 Acc: 45.97
+ 30%|███       | 90/300 [1:19:46<3:06:19, 53.23s/it]EPOCH:89, ======================ACC:52.48====================
+BEST EPOCH:88,BEST ACC:61.51
+Train Epoch: 90 [6400/50000 (13%)]	Loss: 2.4112 Mag: 0.4642 Acc: 42.63
+Train Epoch: 90 [12800/50000 (26%)]	Loss: 2.3179 Mag: 0.4763 Acc: 44.14
+Train Epoch: 90 [19200/50000 (38%)]	Loss: 2.2072 Mag: 0.5014 Acc: 46.43
+Train Epoch: 90 [25600/50000 (51%)]	Loss: 2.2279 Mag: 0.4965 Acc: 46.01
+Train Epoch: 90 [32000/50000 (64%)]	Loss: 2.2132 Mag: 0.5005 Acc: 46.37
+Train Epoch: 90 [38400/50000 (77%)]	Loss: 2.2041 Mag: 0.5027 Acc: 46.40
+Train Epoch: 90 [44800/50000 (90%)]	Loss: 2.2332 Mag: 0.4971 Acc: 45.98
+ 30%|███       | 91/300 [1:20:39<3:05:21, 53.21s/it]EPOCH:90, ======================ACC:59.77====================
+BEST EPOCH:88,BEST ACC:61.51
+Train Epoch: 91 [6400/50000 (13%)]	Loss: 2.0718 Mag: 0.5287 Acc: 49.91
+Train Epoch: 91 [12800/50000 (26%)]	Loss: 2.0515 Mag: 0.5371 Acc: 49.65
+Train Epoch: 91 [19200/50000 (38%)]	Loss: 2.0616 Mag: 0.5314 Acc: 49.58
+Train Epoch: 91 [25600/50000 (51%)]	Loss: 2.0676 Mag: 0.5311 Acc: 49.41
+Train Epoch: 91 [32000/50000 (64%)]	Loss: 2.1218 Mag: 0.5202 Acc: 48.22
+Train Epoch: 91 [38400/50000 (77%)]	Loss: 2.1498 Mag: 0.5144 Acc: 47.57
+Train Epoch: 91 [44800/50000 (90%)]	Loss: 2.1682 Mag: 0.5110 Acc: 47.16
+ 31%|███       | 92/300 [1:21:32<3:04:31, 53.23s/it]EPOCH:91, ======================ACC:60.58====================
+BEST EPOCH:88,BEST ACC:61.51
+Train Epoch: 92 [6400/50000 (13%)]	Loss: 1.9043 Mag: 0.5640 Acc: 52.95
+Train Epoch: 92 [12800/50000 (26%)]	Loss: 2.0760 Mag: 0.5306 Acc: 49.36
+Train Epoch: 92 [19200/50000 (38%)]	Loss: 2.1129 Mag: 0.5206 Acc: 48.55
+Train Epoch: 92 [25600/50000 (51%)]	Loss: 2.1456 Mag: 0.5160 Acc: 47.82
+Train Epoch: 92 [32000/50000 (64%)]	Loss: 2.1647 Mag: 0.5114 Acc: 47.41
+Train Epoch: 92 [38400/50000 (77%)]	Loss: 2.1996 Mag: 0.5039 Acc: 46.61
+Train Epoch: 92 [44800/50000 (90%)]	Loss: 2.2177 Mag: 0.5007 Acc: 46.41
+ 31%|███       | 93/300 [1:22:26<3:04:15, 53.41s/it]EPOCH:92, ======================ACC:56.52====================
+BEST EPOCH:88,BEST ACC:61.51
+Train Epoch: 93 [6400/50000 (13%)]	Loss: 2.1621 Mag: 0.5074 Acc: 47.07
+Train Epoch: 93 [12800/50000 (26%)]	Loss: 2.0567 Mag: 0.5279 Acc: 49.02
+Train Epoch: 93 [19200/50000 (38%)]	Loss: 2.0704 Mag: 0.5283 Acc: 48.92
+Train Epoch: 93 [25600/50000 (51%)]	Loss: 2.1258 Mag: 0.5196 Acc: 47.92
+Train Epoch: 93 [32000/50000 (64%)]	Loss: 2.1114 Mag: 0.5214 Acc: 48.10
+Train Epoch: 93 [38400/50000 (77%)]	Loss: 2.1096 Mag: 0.5216 Acc: 48.11
+Train Epoch: 93 [44800/50000 (90%)]	Loss: 2.1294 Mag: 0.5180 Acc: 47.75
+ 31%|███▏      | 94/300 [1:23:19<3:02:56, 53.29s/it]EPOCH:93, ======================ACC:60.07====================
+BEST EPOCH:88,BEST ACC:61.51
+Train Epoch: 94 [6400/50000 (13%)]	Loss: 2.3624 Mag: 0.4700 Acc: 43.54
+Train Epoch: 94 [12800/50000 (26%)]	Loss: 2.2885 Mag: 0.4845 Acc: 44.92
+Train Epoch: 94 [19200/50000 (38%)]	Loss: 2.2207 Mag: 0.4977 Acc: 46.38
+Train Epoch: 94 [25600/50000 (51%)]	Loss: 2.2762 Mag: 0.4870 Acc: 45.16
+Train Epoch: 94 [32000/50000 (64%)]	Loss: 2.2509 Mag: 0.4922 Acc: 45.67
+Train Epoch: 94 [38400/50000 (77%)]	Loss: 2.2496 Mag: 0.4934 Acc: 45.82
+Train Epoch: 94 [44800/50000 (90%)]	Loss: 2.2455 Mag: 0.4946 Acc: 45.94
+ 32%|███▏      | 95/300 [1:24:12<3:01:54, 53.24s/it]EPOCH:94, ======================ACC:58.29====================
+BEST EPOCH:88,BEST ACC:61.51
+Train Epoch: 95 [6400/50000 (13%)]	Loss: 2.0422 Mag: 0.5380 Acc: 49.91
+Train Epoch: 95 [12800/50000 (26%)]	Loss: 2.1291 Mag: 0.5179 Acc: 47.92
+Train Epoch: 95 [19200/50000 (38%)]	Loss: 2.1564 Mag: 0.5143 Acc: 47.69
+Train Epoch: 95 [25600/50000 (51%)]	Loss: 2.1635 Mag: 0.5124 Acc: 47.62
+Train Epoch: 95 [32000/50000 (64%)]	Loss: 2.1628 Mag: 0.5124 Acc: 47.71
+Train Epoch: 95 [38400/50000 (77%)]	Loss: 2.1582 Mag: 0.5133 Acc: 47.69
+Train Epoch: 95 [44800/50000 (90%)]	Loss: 2.1730 Mag: 0.5102 Acc: 47.41
+ 32%|███▏      | 96/300 [1:25:05<3:01:10, 53.29s/it]EPOCH:95, ======================ACC:56.06====================
+BEST EPOCH:88,BEST ACC:61.51
+Train Epoch: 96 [6400/50000 (13%)]	Loss: 2.0985 Mag: 0.5241 Acc: 48.50
+Train Epoch: 96 [12800/50000 (26%)]	Loss: 2.0881 Mag: 0.5254 Acc: 49.10
+Train Epoch: 96 [19200/50000 (38%)]	Loss: 2.1145 Mag: 0.5211 Acc: 48.56
+Train Epoch: 96 [25600/50000 (51%)]	Loss: 2.1302 Mag: 0.5182 Acc: 48.15
+Train Epoch: 96 [32000/50000 (64%)]	Loss: 2.1462 Mag: 0.5161 Acc: 47.87
+Train Epoch: 96 [38400/50000 (77%)]	Loss: 2.1149 Mag: 0.5220 Acc: 48.39
+Train Epoch: 96 [44800/50000 (90%)]	Loss: 2.1264 Mag: 0.5202 Acc: 48.20
+ 32%|███▏      | 97/300 [1:25:59<3:00:02, 53.21s/it]EPOCH:96, ======================ACC:57.69====================
+BEST EPOCH:88,BEST ACC:61.51
+Train Epoch: 97 [6400/50000 (13%)]	Loss: 2.2754 Mag: 0.4874 Acc: 45.22
+Train Epoch: 97 [12800/50000 (26%)]	Loss: 2.1237 Mag: 0.5187 Acc: 48.33
+Train Epoch: 97 [19200/50000 (38%)]	Loss: 2.1366 Mag: 0.5160 Acc: 47.90
+Train Epoch: 97 [25600/50000 (51%)]	Loss: 2.1695 Mag: 0.5094 Acc: 47.28
+Train Epoch: 97 [32000/50000 (64%)]	Loss: 2.2112 Mag: 0.5013 Acc: 46.49
+Train Epoch: 97 [38400/50000 (77%)]	Loss: 2.1838 Mag: 0.5075 Acc: 47.05
+Train Epoch: 97 [44800/50000 (90%)]	Loss: 2.1687 Mag: 0.5105 Acc: 47.31
+ 33%|███▎      | 98/300 [1:26:52<2:59:13, 53.23s/it]EPOCH:97, ======================ACC:59.18====================
+BEST EPOCH:88,BEST ACC:61.51
+Train Epoch: 98 [6400/50000 (13%)]	Loss: 2.1127 Mag: 0.5189 Acc: 48.97
+Train Epoch: 98 [12800/50000 (26%)]	Loss: 2.1145 Mag: 0.5221 Acc: 48.69
+Train Epoch: 98 [19200/50000 (38%)]	Loss: 2.1594 Mag: 0.5138 Acc: 47.77
+Train Epoch: 98 [25600/50000 (51%)]	Loss: 2.1560 Mag: 0.5133 Acc: 47.76
+Train Epoch: 98 [32000/50000 (64%)]	Loss: 2.1325 Mag: 0.5176 Acc: 48.14
+Train Epoch: 98 [38400/50000 (77%)]	Loss: 2.1282 Mag: 0.5190 Acc: 48.30
+Train Epoch: 98 [44800/50000 (90%)]	Loss: 2.1301 Mag: 0.5186 Acc: 48.11
+ 33%|███▎      | 99/300 [1:27:45<2:58:18, 53.22s/it]EPOCH:98, ======================ACC:59.63====================
+BEST EPOCH:88,BEST ACC:61.51
+Train Epoch: 99 [6400/50000 (13%)]	Loss: 2.0638 Mag: 0.5315 Acc: 50.01
+Train Epoch: 99 [12800/50000 (26%)]	Loss: 2.0477 Mag: 0.5353 Acc: 50.35
+Train Epoch: 99 [19200/50000 (38%)]	Loss: 2.0589 Mag: 0.5345 Acc: 49.83
+Train Epoch: 99 [25600/50000 (51%)]	Loss: 2.1150 Mag: 0.5224 Acc: 48.80
+Train Epoch: 99 [32000/50000 (64%)]	Loss: 2.1009 Mag: 0.5255 Acc: 49.02
+Train Epoch: 99 [38400/50000 (77%)]	Loss: 2.1105 Mag: 0.5238 Acc: 48.71
+Train Epoch: 99 [44800/50000 (90%)]	Loss: 2.0973 Mag: 0.5268 Acc: 48.96
+ 33%|███▎      | 100/300 [1:28:38<2:57:21, 53.21s/it]EPOCH:99, ======================ACC:56.84====================
+BEST EPOCH:88,BEST ACC:61.51
+Train Epoch: 100 [6400/50000 (13%)]	Loss: 2.1057 Mag: 0.5212 Acc: 49.56
+Train Epoch: 100 [12800/50000 (26%)]	Loss: 2.1203 Mag: 0.5171 Acc: 49.19
+Train Epoch: 100 [19200/50000 (38%)]	Loss: 2.1318 Mag: 0.5194 Acc: 48.81
+Train Epoch: 100 [25600/50000 (51%)]	Loss: 2.1051 Mag: 0.5225 Acc: 49.11
+Train Epoch: 100 [32000/50000 (64%)]	Loss: 2.1349 Mag: 0.5172 Acc: 48.54
+Train Epoch: 100 [38400/50000 (77%)]	Loss: 2.1553 Mag: 0.5130 Acc: 48.11
+Train Epoch: 100 [44800/50000 (90%)]	Loss: 2.1572 Mag: 0.5131 Acc: 48.00
+ 34%|███▎      | 101/300 [1:29:32<2:56:39, 53.26s/it]EPOCH:100, ======================ACC:58.99====================
+BEST EPOCH:88,BEST ACC:61.51
+Train Epoch: 101 [6400/50000 (13%)]	Loss: 2.0686 Mag: 0.5293 Acc: 49.59
+Train Epoch: 101 [12800/50000 (26%)]	Loss: 2.0385 Mag: 0.5361 Acc: 50.25
+Train Epoch: 101 [19200/50000 (38%)]	Loss: 2.0753 Mag: 0.5302 Acc: 49.36
+Train Epoch: 101 [25600/50000 (51%)]	Loss: 2.0896 Mag: 0.5281 Acc: 49.22
+Train Epoch: 101 [32000/50000 (64%)]	Loss: 2.1357 Mag: 0.5192 Acc: 48.17
+Train Epoch: 101 [38400/50000 (77%)]	Loss: 2.1134 Mag: 0.5224 Acc: 48.48
+Train Epoch: 101 [44800/50000 (90%)]	Loss: 2.1438 Mag: 0.5167 Acc: 47.90
+ 34%|███▍      | 102/300 [1:30:25<2:56:09, 53.38s/it]EPOCH:101, ======================ACC:59.92====================
+BEST EPOCH:88,BEST ACC:61.51
+Train Epoch: 102 [6400/50000 (13%)]	Loss: 2.1450 Mag: 0.5074 Acc: 48.87
+Train Epoch: 102 [12800/50000 (26%)]	Loss: 2.2653 Mag: 0.4886 Acc: 46.08
+Train Epoch: 102 [19200/50000 (38%)]	Loss: 2.2128 Mag: 0.4989 Acc: 46.76
+Train Epoch: 102 [25600/50000 (51%)]	Loss: 2.1675 Mag: 0.5076 Acc: 47.57
+Train Epoch: 102 [32000/50000 (64%)]	Loss: 2.1901 Mag: 0.5045 Acc: 47.27
+Train Epoch: 102 [38400/50000 (77%)]	Loss: 2.2078 Mag: 0.5024 Acc: 46.87
+Train Epoch: 102 [44800/50000 (90%)]	Loss: 2.1774 Mag: 0.5078 Acc: 47.43
+ 34%|███▍      | 103/300 [1:31:19<2:55:22, 53.41s/it]EPOCH:102, ======================ACC:57.9====================
+BEST EPOCH:88,BEST ACC:61.51
+Train Epoch: 103 [6400/50000 (13%)]	Loss: 2.0174 Mag: 0.5426 Acc: 50.81
+Train Epoch: 103 [12800/50000 (26%)]	Loss: 2.0516 Mag: 0.5366 Acc: 49.86
+Train Epoch: 103 [19200/50000 (38%)]	Loss: 2.0512 Mag: 0.5352 Acc: 49.98
+Train Epoch: 103 [25600/50000 (51%)]	Loss: 2.0989 Mag: 0.5259 Acc: 48.82
+Train Epoch: 103 [32000/50000 (64%)]	Loss: 2.0947 Mag: 0.5263 Acc: 49.07
+Train Epoch: 103 [38400/50000 (77%)]	Loss: 2.1081 Mag: 0.5238 Acc: 48.69
+Train Epoch: 103 [44800/50000 (90%)]	Loss: 2.1199 Mag: 0.5210 Acc: 48.43
+ 35%|███▍      | 104/300 [1:32:12<2:54:08, 53.31s/it]EPOCH:103, ======================ACC:62.16====================
+BEST EPOCH:103,BEST ACC:62.16
+Train Epoch: 104 [6400/50000 (13%)]	Loss: 2.1906 Mag: 0.5055 Acc: 46.77
+Train Epoch: 104 [12800/50000 (26%)]	Loss: 2.0857 Mag: 0.5260 Acc: 48.85
+Train Epoch: 104 [19200/50000 (38%)]	Loss: 2.0559 Mag: 0.5325 Acc: 49.52
+Train Epoch: 104 [25600/50000 (51%)]	Loss: 2.0644 Mag: 0.5311 Acc: 49.44
+Train Epoch: 104 [32000/50000 (64%)]	Loss: 2.0474 Mag: 0.5352 Acc: 49.74
+Train Epoch: 104 [38400/50000 (77%)]	Loss: 2.0498 Mag: 0.5353 Acc: 49.69
+Train Epoch: 104 [44800/50000 (90%)]	Loss: 2.0444 Mag: 0.5369 Acc: 49.80
+ 35%|███▌      | 105/300 [1:33:05<2:52:58, 53.22s/it]EPOCH:104, ======================ACC:59.19====================
+BEST EPOCH:103,BEST ACC:62.16
+Train Epoch: 105 [6400/50000 (13%)]	Loss: 1.9070 Mag: 0.5578 Acc: 52.67
+Train Epoch: 105 [12800/50000 (26%)]	Loss: 1.9763 Mag: 0.5481 Acc: 50.95
+Train Epoch: 105 [19200/50000 (38%)]	Loss: 1.9701 Mag: 0.5512 Acc: 51.08
+Train Epoch: 105 [25600/50000 (51%)]	Loss: 2.0058 Mag: 0.5446 Acc: 50.34
+Train Epoch: 105 [32000/50000 (64%)]	Loss: 2.0513 Mag: 0.5347 Acc: 49.28
+Train Epoch: 105 [38400/50000 (77%)]	Loss: 2.0383 Mag: 0.5370 Acc: 49.48
+Train Epoch: 105 [44800/50000 (90%)]	Loss: 2.0630 Mag: 0.5332 Acc: 49.15
+ 35%|███▌      | 106/300 [1:33:58<2:52:00, 53.20s/it]EPOCH:105, ======================ACC:59.76====================
+BEST EPOCH:103,BEST ACC:62.16
+Train Epoch: 106 [6400/50000 (13%)]	Loss: 2.0326 Mag: 0.5344 Acc: 50.10
+Train Epoch: 106 [12800/50000 (26%)]	Loss: 2.1270 Mag: 0.5182 Acc: 48.31
+Train Epoch: 106 [19200/50000 (38%)]	Loss: 2.1425 Mag: 0.5175 Acc: 47.97
+Train Epoch: 106 [25600/50000 (51%)]	Loss: 2.1522 Mag: 0.5155 Acc: 47.80
+Train Epoch: 106 [32000/50000 (64%)]	Loss: 2.1639 Mag: 0.5120 Acc: 47.54
+Train Epoch: 106 [38400/50000 (77%)]	Loss: 2.1831 Mag: 0.5089 Acc: 47.02
+Train Epoch: 106 [44800/50000 (90%)]	Loss: 2.1409 Mag: 0.5161 Acc: 47.70
+ 36%|███▌      | 107/300 [1:34:51<2:51:14, 53.24s/it]EPOCH:106, ======================ACC:56.38====================
+BEST EPOCH:103,BEST ACC:62.16
+Train Epoch: 107 [6400/50000 (13%)]	Loss: 2.1121 Mag: 0.5227 Acc: 48.25
+Train Epoch: 107 [12800/50000 (26%)]	Loss: 2.0996 Mag: 0.5259 Acc: 48.68
+Train Epoch: 107 [19200/50000 (38%)]	Loss: 2.0768 Mag: 0.5287 Acc: 49.17
+Train Epoch: 107 [25600/50000 (51%)]	Loss: 2.0707 Mag: 0.5317 Acc: 49.05
+Train Epoch: 107 [32000/50000 (64%)]	Loss: 2.0609 Mag: 0.5318 Acc: 49.35
+Train Epoch: 107 [38400/50000 (77%)]	Loss: 2.0883 Mag: 0.5279 Acc: 48.86
+Train Epoch: 107 [44800/50000 (90%)]	Loss: 2.1128 Mag: 0.5232 Acc: 48.43
+ 36%|███▌      | 108/300 [1:35:45<2:50:23, 53.25s/it]EPOCH:107, ======================ACC:60.1====================
+BEST EPOCH:103,BEST ACC:62.16
+Train Epoch: 108 [6400/50000 (13%)]	Loss: 1.9486 Mag: 0.5487 Acc: 52.10
+Train Epoch: 108 [12800/50000 (26%)]	Loss: 2.0352 Mag: 0.5383 Acc: 50.25
+Train Epoch: 108 [19200/50000 (38%)]	Loss: 2.1197 Mag: 0.5226 Acc: 48.78
+Train Epoch: 108 [25600/50000 (51%)]	Loss: 2.1312 Mag: 0.5186 Acc: 48.53
+Train Epoch: 108 [32000/50000 (64%)]	Loss: 2.1272 Mag: 0.5183 Acc: 48.55
+Train Epoch: 108 [38400/50000 (77%)]	Loss: 2.1349 Mag: 0.5175 Acc: 48.44
+Train Epoch: 108 [44800/50000 (90%)]	Loss: 2.1306 Mag: 0.5189 Acc: 48.49
+ 36%|███▋      | 109/300 [1:36:38<2:49:28, 53.24s/it]EPOCH:108, ======================ACC:59.89====================
+BEST EPOCH:103,BEST ACC:62.16
+Train Epoch: 109 [6400/50000 (13%)]	Loss: 2.1016 Mag: 0.5249 Acc: 49.38
+Train Epoch: 109 [12800/50000 (26%)]	Loss: 2.0961 Mag: 0.5249 Acc: 49.03
+Train Epoch: 109 [19200/50000 (38%)]	Loss: 2.0127 Mag: 0.5405 Acc: 50.42
+Train Epoch: 109 [25600/50000 (51%)]	Loss: 1.9678 Mag: 0.5517 Acc: 51.09
+Train Epoch: 109 [32000/50000 (64%)]	Loss: 1.9728 Mag: 0.5516 Acc: 50.88
+Train Epoch: 109 [38400/50000 (77%)]	Loss: 1.9772 Mag: 0.5508 Acc: 50.86
+Train Epoch: 109 [44800/50000 (90%)]	Loss: 1.9924 Mag: 0.5473 Acc: 50.58
+ 37%|███▋      | 110/300 [1:37:30<2:47:57, 53.04s/it]EPOCH:109, ======================ACC:59.72====================
+BEST EPOCH:103,BEST ACC:62.16
+Train Epoch: 110 [6400/50000 (13%)]	Loss: 2.3816 Mag: 0.4663 Acc: 43.29
+Train Epoch: 110 [12800/50000 (26%)]	Loss: 2.2686 Mag: 0.4889 Acc: 45.98
+Train Epoch: 110 [19200/50000 (38%)]	Loss: 2.1637 Mag: 0.5104 Acc: 47.93
+Train Epoch: 110 [25600/50000 (51%)]	Loss: 2.1611 Mag: 0.5128 Acc: 48.05
+Train Epoch: 110 [32000/50000 (64%)]	Loss: 2.1975 Mag: 0.5053 Acc: 47.25
+Train Epoch: 110 [38400/50000 (77%)]	Loss: 2.1701 Mag: 0.5107 Acc: 47.73
+Train Epoch: 110 [44800/50000 (90%)]	Loss: 2.1590 Mag: 0.5127 Acc: 47.90
+ 37%|███▋      | 111/300 [1:38:23<2:46:51, 52.97s/it]EPOCH:110, ======================ACC:60.37====================
+BEST EPOCH:103,BEST ACC:62.16
+Train Epoch: 111 [6400/50000 (13%)]	Loss: 1.9865 Mag: 0.5476 Acc: 51.33
+Train Epoch: 111 [12800/50000 (26%)]	Loss: 2.0878 Mag: 0.5263 Acc: 49.55
+Train Epoch: 111 [19200/50000 (38%)]	Loss: 2.0937 Mag: 0.5261 Acc: 49.24
+Train Epoch: 111 [25600/50000 (51%)]	Loss: 2.1274 Mag: 0.5196 Acc: 48.40
+Train Epoch: 111 [32000/50000 (64%)]	Loss: 2.0886 Mag: 0.5267 Acc: 49.18
+Train Epoch: 111 [38400/50000 (77%)]	Loss: 2.0793 Mag: 0.5290 Acc: 49.30
+Train Epoch: 111 [44800/50000 (90%)]	Loss: 2.0999 Mag: 0.5249 Acc: 48.79
+ 37%|███▋      | 112/300 [1:39:17<2:46:47, 53.23s/it]EPOCH:111, ======================ACC:58.25====================
+BEST EPOCH:103,BEST ACC:62.16
+Train Epoch: 112 [6400/50000 (13%)]	Loss: 1.9672 Mag: 0.5493 Acc: 52.23
+Train Epoch: 112 [12800/50000 (26%)]	Loss: 2.0253 Mag: 0.5382 Acc: 50.86
+Train Epoch: 112 [19200/50000 (38%)]	Loss: 2.0095 Mag: 0.5414 Acc: 50.83
+Train Epoch: 112 [25600/50000 (51%)]	Loss: 2.0446 Mag: 0.5365 Acc: 50.08
+Train Epoch: 112 [32000/50000 (64%)]	Loss: 2.0730 Mag: 0.5308 Acc: 49.63
+Train Epoch: 112 [38400/50000 (77%)]	Loss: 2.0939 Mag: 0.5268 Acc: 49.21
+Train Epoch: 112 [44800/50000 (90%)]	Loss: 2.1111 Mag: 0.5226 Acc: 48.99
+ 38%|███▊      | 113/300 [1:40:09<2:45:10, 53.00s/it]EPOCH:112, ======================ACC:58.59====================
+BEST EPOCH:103,BEST ACC:62.16
+Train Epoch: 113 [6400/50000 (13%)]	Loss: 2.0662 Mag: 0.5306 Acc: 49.50
+Train Epoch: 113 [12800/50000 (26%)]	Loss: 2.1551 Mag: 0.5132 Acc: 48.06
+Train Epoch: 113 [19200/50000 (38%)]	Loss: 2.0939 Mag: 0.5256 Acc: 49.28
+Train Epoch: 113 [25600/50000 (51%)]	Loss: 2.0863 Mag: 0.5269 Acc: 49.27
+Train Epoch: 113 [32000/50000 (64%)]	Loss: 2.0943 Mag: 0.5263 Acc: 49.25
+Train Epoch: 113 [38400/50000 (77%)]	Loss: 2.1083 Mag: 0.5239 Acc: 48.97
+Train Epoch: 113 [44800/50000 (90%)]	Loss: 2.0949 Mag: 0.5263 Acc: 49.18
+ 38%|███▊      | 114/300 [1:41:02<2:44:04, 52.93s/it]EPOCH:113, ======================ACC:58.89====================
+BEST EPOCH:103,BEST ACC:62.16
+Train Epoch: 114 [6400/50000 (13%)]	Loss: 2.3766 Mag: 0.4684 Acc: 43.68
+Train Epoch: 114 [12800/50000 (26%)]	Loss: 2.1882 Mag: 0.5042 Acc: 47.03
+Train Epoch: 114 [19200/50000 (38%)]	Loss: 2.1947 Mag: 0.5055 Acc: 47.26
+Train Epoch: 114 [25600/50000 (51%)]	Loss: 2.2080 Mag: 0.5025 Acc: 47.08
+Train Epoch: 114 [32000/50000 (64%)]	Loss: 2.2029 Mag: 0.5036 Acc: 47.06
+Train Epoch: 114 [38400/50000 (77%)]	Loss: 2.2097 Mag: 0.5020 Acc: 46.84
+Train Epoch: 114 [44800/50000 (90%)]	Loss: 2.2231 Mag: 0.4998 Acc: 46.52
+ 38%|███▊      | 115/300 [1:41:55<2:43:09, 52.92s/it]EPOCH:114, ======================ACC:61.2====================
+BEST EPOCH:103,BEST ACC:62.16
+Train Epoch: 115 [6400/50000 (13%)]	Loss: 2.2420 Mag: 0.4989 Acc: 46.39
+Train Epoch: 115 [12800/50000 (26%)]	Loss: 2.2378 Mag: 0.4982 Acc: 46.32
+Train Epoch: 115 [19200/50000 (38%)]	Loss: 2.1401 Mag: 0.5158 Acc: 48.21
+Train Epoch: 115 [25600/50000 (51%)]	Loss: 2.1009 Mag: 0.5240 Acc: 48.86
+Train Epoch: 115 [32000/50000 (64%)]	Loss: 2.1591 Mag: 0.5124 Acc: 47.70
+Train Epoch: 115 [38400/50000 (77%)]	Loss: 2.1464 Mag: 0.5153 Acc: 47.95
+Train Epoch: 115 [44800/50000 (90%)]	Loss: 2.1456 Mag: 0.5151 Acc: 47.90
+ 39%|███▊      | 116/300 [1:42:48<2:42:29, 52.99s/it]EPOCH:115, ======================ACC:62.44====================
+BEST EPOCH:115,BEST ACC:62.44
+Train Epoch: 116 [6400/50000 (13%)]	Loss: 2.2874 Mag: 0.4866 Acc: 46.09
+Train Epoch: 116 [12800/50000 (26%)]	Loss: 2.0637 Mag: 0.5323 Acc: 50.01
+Train Epoch: 116 [19200/50000 (38%)]	Loss: 2.0818 Mag: 0.5284 Acc: 49.47
+Train Epoch: 116 [25600/50000 (51%)]	Loss: 2.0799 Mag: 0.5290 Acc: 49.53
+Train Epoch: 116 [32000/50000 (64%)]	Loss: 2.0648 Mag: 0.5330 Acc: 49.90
+Train Epoch: 116 [38400/50000 (77%)]	Loss: 2.0867 Mag: 0.5286 Acc: 49.44
+Train Epoch: 116 [44800/50000 (90%)]	Loss: 2.1052 Mag: 0.5249 Acc: 48.99
+ 39%|███▉      | 117/300 [1:43:41<2:41:40, 53.01s/it]EPOCH:116, ======================ACC:61.91====================
+BEST EPOCH:115,BEST ACC:62.44
+Train Epoch: 117 [6400/50000 (13%)]	Loss: 1.9236 Mag: 0.5575 Acc: 52.02
+Train Epoch: 117 [12800/50000 (26%)]	Loss: 1.8990 Mag: 0.5629 Acc: 52.47
+Train Epoch: 117 [19200/50000 (38%)]	Loss: 1.9381 Mag: 0.5560 Acc: 51.75
+Train Epoch: 117 [25600/50000 (51%)]	Loss: 1.9929 Mag: 0.5475 Acc: 50.76
+Train Epoch: 117 [32000/50000 (64%)]	Loss: 2.0325 Mag: 0.5389 Acc: 50.09
+Train Epoch: 117 [38400/50000 (77%)]	Loss: 2.0388 Mag: 0.5380 Acc: 49.91
+Train Epoch: 117 [44800/50000 (90%)]	Loss: 2.0530 Mag: 0.5350 Acc: 49.61
+ 39%|███▉      | 118/300 [1:44:35<2:40:58, 53.07s/it]EPOCH:117, ======================ACC:61.81====================
+BEST EPOCH:115,BEST ACC:62.44
+Train Epoch: 118 [6400/50000 (13%)]	Loss: 2.1277 Mag: 0.5201 Acc: 48.90
+Train Epoch: 118 [12800/50000 (26%)]	Loss: 2.0769 Mag: 0.5307 Acc: 49.61
+Train Epoch: 118 [19200/50000 (38%)]	Loss: 2.1200 Mag: 0.5204 Acc: 48.71
+Train Epoch: 118 [25600/50000 (51%)]	Loss: 2.1321 Mag: 0.5186 Acc: 48.55
+Train Epoch: 118 [32000/50000 (64%)]	Loss: 2.1435 Mag: 0.5170 Acc: 48.32
+Train Epoch: 118 [38400/50000 (77%)]	Loss: 2.1661 Mag: 0.5115 Acc: 47.80
+Train Epoch: 118 [44800/50000 (90%)]	Loss: 2.1634 Mag: 0.5129 Acc: 47.80
+ 40%|███▉      | 119/300 [1:45:28<2:40:14, 53.12s/it]EPOCH:118, ======================ACC:60.59====================
+BEST EPOCH:115,BEST ACC:62.44
+Train Epoch: 119 [6400/50000 (13%)]	Loss: 2.0172 Mag: 0.5405 Acc: 51.16
+Train Epoch: 119 [12800/50000 (26%)]	Loss: 2.0757 Mag: 0.5266 Acc: 49.93
+Train Epoch: 119 [19200/50000 (38%)]	Loss: 2.1300 Mag: 0.5186 Acc: 48.68
+Train Epoch: 119 [25600/50000 (51%)]	Loss: 2.1405 Mag: 0.5157 Acc: 48.27
+Train Epoch: 119 [32000/50000 (64%)]	Loss: 2.1165 Mag: 0.5201 Acc: 48.70
+Train Epoch: 119 [38400/50000 (77%)]	Loss: 2.1091 Mag: 0.5222 Acc: 48.76
+Train Epoch: 119 [44800/50000 (90%)]	Loss: 2.1347 Mag: 0.5178 Acc: 48.28
+ 40%|████      | 120/300 [1:46:21<2:39:35, 53.20s/it]EPOCH:119, ======================ACC:61.77====================
+BEST EPOCH:115,BEST ACC:62.44
+Train Epoch: 120 [6400/50000 (13%)]	Loss: 2.2471 Mag: 0.4987 Acc: 46.13
+Train Epoch: 120 [12800/50000 (26%)]	Loss: 2.2260 Mag: 0.5013 Acc: 46.75
+Train Epoch: 120 [19200/50000 (38%)]	Loss: 2.1589 Mag: 0.5130 Acc: 47.90
+Train Epoch: 120 [25600/50000 (51%)]	Loss: 2.1556 Mag: 0.5137 Acc: 47.99
+Train Epoch: 120 [32000/50000 (64%)]	Loss: 2.1493 Mag: 0.5158 Acc: 48.19
+Train Epoch: 120 [38400/50000 (77%)]	Loss: 2.1310 Mag: 0.5182 Acc: 48.30
+Train Epoch: 120 [44800/50000 (90%)]	Loss: 2.1142 Mag: 0.5218 Acc: 48.65
+ 40%|████      | 121/300 [1:47:15<2:39:22, 53.42s/it]EPOCH:120, ======================ACC:59.03====================
+BEST EPOCH:115,BEST ACC:62.44
+Train Epoch: 121 [6400/50000 (13%)]	Loss: 1.8025 Mag: 0.5789 Acc: 55.25
+Train Epoch: 121 [12800/50000 (26%)]	Loss: 1.9316 Mag: 0.5587 Acc: 52.23
+Train Epoch: 121 [19200/50000 (38%)]	Loss: 1.9749 Mag: 0.5490 Acc: 51.37
+Train Epoch: 121 [25600/50000 (51%)]	Loss: 2.0005 Mag: 0.5452 Acc: 50.78
+Train Epoch: 121 [32000/50000 (64%)]	Loss: 1.9877 Mag: 0.5479 Acc: 51.15
+Train Epoch: 121 [38400/50000 (77%)]	Loss: 1.9691 Mag: 0.5520 Acc: 51.58
+Train Epoch: 121 [44800/50000 (90%)]	Loss: 1.9837 Mag: 0.5496 Acc: 51.19
+ 41%|████      | 122/300 [1:48:08<2:38:18, 53.36s/it]EPOCH:121, ======================ACC:63.75====================
+BEST EPOCH:121,BEST ACC:63.75
+Train Epoch: 122 [6400/50000 (13%)]	Loss: 1.9205 Mag: 0.5606 Acc: 51.81
+Train Epoch: 122 [12800/50000 (26%)]	Loss: 1.9776 Mag: 0.5471 Acc: 50.85
+Train Epoch: 122 [19200/50000 (38%)]	Loss: 2.0079 Mag: 0.5446 Acc: 50.49
+Train Epoch: 122 [25600/50000 (51%)]	Loss: 2.0417 Mag: 0.5369 Acc: 49.85
+Train Epoch: 122 [32000/50000 (64%)]	Loss: 2.0411 Mag: 0.5379 Acc: 49.90
+Train Epoch: 122 [38400/50000 (77%)]	Loss: 2.0755 Mag: 0.5308 Acc: 49.29
+Train Epoch: 122 [44800/50000 (90%)]	Loss: 2.0859 Mag: 0.5288 Acc: 49.10
+ 41%|████      | 123/300 [1:49:02<2:37:18, 53.33s/it]EPOCH:122, ======================ACC:62.98====================
+BEST EPOCH:121,BEST ACC:63.75
+Train Epoch: 123 [6400/50000 (13%)]	Loss: 1.8460 Mag: 0.5744 Acc: 54.57
+Train Epoch: 123 [12800/50000 (26%)]	Loss: 1.8907 Mag: 0.5675 Acc: 53.12
+Train Epoch: 123 [19200/50000 (38%)]	Loss: 1.9644 Mag: 0.5559 Acc: 51.66
+Train Epoch: 123 [25600/50000 (51%)]	Loss: 1.9884 Mag: 0.5489 Acc: 51.05
+Train Epoch: 123 [32000/50000 (64%)]	Loss: 2.0027 Mag: 0.5461 Acc: 50.93
+Train Epoch: 123 [38400/50000 (77%)]	Loss: 2.0172 Mag: 0.5427 Acc: 50.61
+Train Epoch: 123 [44800/50000 (90%)]	Loss: 2.0172 Mag: 0.5431 Acc: 50.57
+ 41%|████▏     | 124/300 [1:49:55<2:36:20, 53.30s/it]EPOCH:123, ======================ACC:61.47====================
+BEST EPOCH:121,BEST ACC:63.75
+Train Epoch: 124 [6400/50000 (13%)]	Loss: 1.9137 Mag: 0.5619 Acc: 53.56
+Train Epoch: 124 [12800/50000 (26%)]	Loss: 1.9379 Mag: 0.5574 Acc: 52.34
+Train Epoch: 124 [19200/50000 (38%)]	Loss: 1.9227 Mag: 0.5604 Acc: 52.38
+Train Epoch: 124 [25600/50000 (51%)]	Loss: 1.9979 Mag: 0.5474 Acc: 50.95
+Train Epoch: 124 [32000/50000 (64%)]	Loss: 2.0366 Mag: 0.5391 Acc: 50.20
+Train Epoch: 124 [38400/50000 (77%)]	Loss: 2.0427 Mag: 0.5381 Acc: 49.94
+Train Epoch: 124 [44800/50000 (90%)]	Loss: 2.0437 Mag: 0.5368 Acc: 49.92
+ 42%|████▏     | 125/300 [1:50:48<2:35:20, 53.26s/it]EPOCH:124, ======================ACC:62.18====================
+BEST EPOCH:121,BEST ACC:63.75
+Train Epoch: 125 [6400/50000 (13%)]	Loss: 1.9974 Mag: 0.5427 Acc: 51.04
+Train Epoch: 125 [12800/50000 (26%)]	Loss: 2.0459 Mag: 0.5355 Acc: 50.28
+Train Epoch: 125 [19200/50000 (38%)]	Loss: 2.0165 Mag: 0.5411 Acc: 50.76
+Train Epoch: 125 [25600/50000 (51%)]	Loss: 2.0200 Mag: 0.5400 Acc: 50.72
+Train Epoch: 125 [32000/50000 (64%)]	Loss: 2.0321 Mag: 0.5386 Acc: 50.47
+Train Epoch: 125 [38400/50000 (77%)]	Loss: 2.0581 Mag: 0.5338 Acc: 49.98
+Train Epoch: 125 [44800/50000 (90%)]	Loss: 2.0669 Mag: 0.5325 Acc: 49.73
+ 42%|████▏     | 126/300 [1:51:41<2:34:24, 53.24s/it]EPOCH:125, ======================ACC:59.12====================
+BEST EPOCH:121,BEST ACC:63.75
+Train Epoch: 126 [6400/50000 (13%)]	Loss: 2.1768 Mag: 0.5058 Acc: 47.83
+Train Epoch: 126 [12800/50000 (26%)]	Loss: 2.0949 Mag: 0.5241 Acc: 49.42
+Train Epoch: 126 [19200/50000 (38%)]	Loss: 2.0685 Mag: 0.5301 Acc: 49.70
+Train Epoch: 126 [25600/50000 (51%)]	Loss: 2.1171 Mag: 0.5217 Acc: 48.73
+Train Epoch: 126 [32000/50000 (64%)]	Loss: 2.0953 Mag: 0.5266 Acc: 49.17
+Train Epoch: 126 [38400/50000 (77%)]	Loss: 2.0901 Mag: 0.5274 Acc: 49.24
+Train Epoch: 126 [44800/50000 (90%)]	Loss: 2.0714 Mag: 0.5312 Acc: 49.58
+ 42%|████▏     | 127/300 [1:52:34<2:33:31, 53.25s/it]EPOCH:126, ======================ACC:62.57====================
+BEST EPOCH:121,BEST ACC:63.75
+Train Epoch: 127 [6400/50000 (13%)]	Loss: 2.2439 Mag: 0.4977 Acc: 45.92
+Train Epoch: 127 [12800/50000 (26%)]	Loss: 2.1264 Mag: 0.5200 Acc: 48.98
+Train Epoch: 127 [19200/50000 (38%)]	Loss: 2.1445 Mag: 0.5166 Acc: 48.40
+Train Epoch: 127 [25600/50000 (51%)]	Loss: 2.1795 Mag: 0.5096 Acc: 47.47
+Train Epoch: 127 [32000/50000 (64%)]	Loss: 2.1272 Mag: 0.5202 Acc: 48.34
+Train Epoch: 127 [38400/50000 (77%)]	Loss: 2.1242 Mag: 0.5208 Acc: 48.38
+Train Epoch: 127 [44800/50000 (90%)]	Loss: 2.1239 Mag: 0.5198 Acc: 48.53
+ 43%|████▎     | 128/300 [1:53:28<2:32:45, 53.29s/it]EPOCH:127, ======================ACC:62.16====================
+BEST EPOCH:121,BEST ACC:63.75
+Train Epoch: 128 [6400/50000 (13%)]	Loss: 1.9261 Mag: 0.5600 Acc: 52.30
+Train Epoch: 128 [12800/50000 (26%)]	Loss: 2.0104 Mag: 0.5425 Acc: 50.41
+Train Epoch: 128 [19200/50000 (38%)]	Loss: 1.9919 Mag: 0.5465 Acc: 50.81
+Train Epoch: 128 [25600/50000 (51%)]	Loss: 2.0522 Mag: 0.5353 Acc: 49.68
+Train Epoch: 128 [32000/50000 (64%)]	Loss: 2.0354 Mag: 0.5380 Acc: 50.10
+Train Epoch: 128 [38400/50000 (77%)]	Loss: 2.0549 Mag: 0.5349 Acc: 49.70
+Train Epoch: 128 [44800/50000 (90%)]	Loss: 2.0773 Mag: 0.5303 Acc: 49.35
+ 43%|████▎     | 129/300 [1:54:21<2:31:52, 53.29s/it]EPOCH:128, ======================ACC:60.81====================
+BEST EPOCH:121,BEST ACC:63.75
+Train Epoch: 129 [6400/50000 (13%)]	Loss: 1.9465 Mag: 0.5498 Acc: 52.34
+Train Epoch: 129 [12800/50000 (26%)]	Loss: 2.0418 Mag: 0.5352 Acc: 50.73
+Train Epoch: 129 [19200/50000 (38%)]	Loss: 2.0264 Mag: 0.5383 Acc: 51.06
+Train Epoch: 129 [25600/50000 (51%)]	Loss: 2.0617 Mag: 0.5326 Acc: 50.23
+Train Epoch: 129 [32000/50000 (64%)]	Loss: 2.0475 Mag: 0.5353 Acc: 50.43
+Train Epoch: 129 [38400/50000 (77%)]	Loss: 2.0627 Mag: 0.5330 Acc: 50.00
+Train Epoch: 129 [44800/50000 (90%)]	Loss: 2.0403 Mag: 0.5370 Acc: 50.38
+ 43%|████▎     | 130/300 [1:55:15<2:31:36, 53.51s/it]EPOCH:129, ======================ACC:60.15====================
+BEST EPOCH:121,BEST ACC:63.75
+Train Epoch: 130 [6400/50000 (13%)]	Loss: 2.0268 Mag: 0.5396 Acc: 49.97
+Train Epoch: 130 [12800/50000 (26%)]	Loss: 1.9136 Mag: 0.5624 Acc: 52.28
+Train Epoch: 130 [19200/50000 (38%)]	Loss: 1.9185 Mag: 0.5632 Acc: 52.24
+Train Epoch: 130 [25600/50000 (51%)]	Loss: 1.9711 Mag: 0.5515 Acc: 51.18
+Train Epoch: 130 [32000/50000 (64%)]	Loss: 1.9903 Mag: 0.5478 Acc: 50.97
+Train Epoch: 130 [38400/50000 (77%)]	Loss: 2.0037 Mag: 0.5460 Acc: 50.74
+Train Epoch: 130 [44800/50000 (90%)]	Loss: 2.0334 Mag: 0.5402 Acc: 50.15
+ 44%|████▎     | 131/300 [1:56:08<2:30:26, 53.41s/it]EPOCH:130, ======================ACC:62.82====================
+BEST EPOCH:121,BEST ACC:63.75
+Train Epoch: 131 [6400/50000 (13%)]	Loss: 2.1701 Mag: 0.5079 Acc: 47.85
+Train Epoch: 131 [12800/50000 (26%)]	Loss: 2.1452 Mag: 0.5169 Acc: 48.52
+Train Epoch: 131 [19200/50000 (38%)]	Loss: 2.1216 Mag: 0.5193 Acc: 49.05
+Train Epoch: 131 [25600/50000 (51%)]	Loss: 2.1515 Mag: 0.5150 Acc: 48.25
+Train Epoch: 131 [32000/50000 (64%)]	Loss: 2.1402 Mag: 0.5177 Acc: 48.40
+Train Epoch: 131 [38400/50000 (77%)]	Loss: 2.1317 Mag: 0.5195 Acc: 48.43
+Train Epoch: 131 [44800/50000 (90%)]	Loss: 2.1058 Mag: 0.5246 Acc: 48.94
+ 44%|████▍     | 132/300 [1:57:01<2:28:42, 53.11s/it]EPOCH:131, ======================ACC:62.77====================
+BEST EPOCH:121,BEST ACC:63.75
+Train Epoch: 132 [6400/50000 (13%)]	Loss: 1.8951 Mag: 0.5605 Acc: 53.09
+Train Epoch: 132 [12800/50000 (26%)]	Loss: 1.9898 Mag: 0.5456 Acc: 50.98
+Train Epoch: 132 [19200/50000 (38%)]	Loss: 2.0330 Mag: 0.5381 Acc: 50.30
+Train Epoch: 132 [25600/50000 (51%)]	Loss: 2.0342 Mag: 0.5386 Acc: 50.33
+Train Epoch: 132 [32000/50000 (64%)]	Loss: 2.0052 Mag: 0.5454 Acc: 50.77
+Train Epoch: 132 [38400/50000 (77%)]	Loss: 2.0426 Mag: 0.5371 Acc: 50.05
+Train Epoch: 132 [44800/50000 (90%)]	Loss: 2.0651 Mag: 0.5328 Acc: 49.67
+ 44%|████▍     | 133/300 [1:57:53<2:27:22, 52.95s/it]EPOCH:132, ======================ACC:63.75====================
+BEST EPOCH:132,BEST ACC:63.75
+Train Epoch: 133 [6400/50000 (13%)]	Loss: 2.0717 Mag: 0.5305 Acc: 49.64
+Train Epoch: 133 [12800/50000 (26%)]	Loss: 1.9393 Mag: 0.5551 Acc: 51.89
+Train Epoch: 133 [19200/50000 (38%)]	Loss: 1.9917 Mag: 0.5474 Acc: 50.91
+Train Epoch: 133 [25600/50000 (51%)]	Loss: 1.9844 Mag: 0.5490 Acc: 51.08
+Train Epoch: 133 [32000/50000 (64%)]	Loss: 1.9899 Mag: 0.5493 Acc: 50.96
+Train Epoch: 133 [38400/50000 (77%)]	Loss: 2.0199 Mag: 0.5422 Acc: 50.46
+Train Epoch: 133 [44800/50000 (90%)]	Loss: 2.0130 Mag: 0.5426 Acc: 50.63
+ 45%|████▍     | 134/300 [1:58:46<2:26:41, 53.02s/it]EPOCH:133, ======================ACC:59.34====================
+BEST EPOCH:132,BEST ACC:63.75
+Train Epoch: 134 [6400/50000 (13%)]	Loss: 2.0153 Mag: 0.5399 Acc: 50.80
+Train Epoch: 134 [12800/50000 (26%)]	Loss: 2.0359 Mag: 0.5367 Acc: 50.60
+Train Epoch: 134 [19200/50000 (38%)]	Loss: 2.0303 Mag: 0.5386 Acc: 50.56
+Train Epoch: 134 [25600/50000 (51%)]	Loss: 2.0673 Mag: 0.5332 Acc: 49.69
+Train Epoch: 134 [32000/50000 (64%)]	Loss: 2.0934 Mag: 0.5269 Acc: 49.20
+Train Epoch: 134 [38400/50000 (77%)]	Loss: 2.0829 Mag: 0.5287 Acc: 49.35
+Train Epoch: 134 [44800/50000 (90%)]	Loss: 2.0604 Mag: 0.5339 Acc: 49.79
+ 45%|████▌     | 135/300 [1:59:40<2:25:54, 53.06s/it]EPOCH:134, ======================ACC:64.64====================
+BEST EPOCH:134,BEST ACC:64.64
+Train Epoch: 135 [6400/50000 (13%)]	Loss: 1.9753 Mag: 0.5474 Acc: 51.83
+Train Epoch: 135 [12800/50000 (26%)]	Loss: 2.0272 Mag: 0.5412 Acc: 50.96
+Train Epoch: 135 [19200/50000 (38%)]	Loss: 2.0463 Mag: 0.5365 Acc: 50.54
+Train Epoch: 135 [25600/50000 (51%)]	Loss: 2.0429 Mag: 0.5373 Acc: 50.52
+Train Epoch: 135 [32000/50000 (64%)]	Loss: 2.0530 Mag: 0.5353 Acc: 50.23
+Train Epoch: 135 [38400/50000 (77%)]	Loss: 2.0075 Mag: 0.5446 Acc: 50.97
+Train Epoch: 135 [44800/50000 (90%)]	Loss: 2.0189 Mag: 0.5430 Acc: 50.66
+ 45%|████▌     | 136/300 [2:00:33<2:25:02, 53.06s/it]EPOCH:135, ======================ACC:61.83====================
+BEST EPOCH:134,BEST ACC:64.64
+Train Epoch: 136 [6400/50000 (13%)]	Loss: 2.1071 Mag: 0.5236 Acc: 49.80
+Train Epoch: 136 [12800/50000 (26%)]	Loss: 2.0328 Mag: 0.5383 Acc: 50.65
+Train Epoch: 136 [19200/50000 (38%)]	Loss: 2.0380 Mag: 0.5378 Acc: 50.48
+Train Epoch: 136 [25600/50000 (51%)]	Loss: 1.9999 Mag: 0.5460 Acc: 51.12
+Train Epoch: 136 [32000/50000 (64%)]	Loss: 1.9728 Mag: 0.5510 Acc: 51.71
+Train Epoch: 136 [38400/50000 (77%)]	Loss: 1.9649 Mag: 0.5537 Acc: 51.72
+Train Epoch: 136 [44800/50000 (90%)]	Loss: 1.9933 Mag: 0.5481 Acc: 51.02
+ 46%|████▌     | 137/300 [2:01:26<2:24:13, 53.09s/it]EPOCH:136, ======================ACC:59.47====================
+BEST EPOCH:134,BEST ACC:64.64
+Train Epoch: 137 [6400/50000 (13%)]	Loss: 2.0718 Mag: 0.5354 Acc: 49.61
+Train Epoch: 137 [12800/50000 (26%)]	Loss: 2.0371 Mag: 0.5398 Acc: 50.03
+Train Epoch: 137 [19200/50000 (38%)]	Loss: 2.0026 Mag: 0.5441 Acc: 50.76
+Train Epoch: 137 [25600/50000 (51%)]	Loss: 2.0592 Mag: 0.5348 Acc: 49.67
+Train Epoch: 137 [32000/50000 (64%)]	Loss: 2.0276 Mag: 0.5403 Acc: 50.38
+Train Epoch: 137 [38400/50000 (77%)]	Loss: 1.9925 Mag: 0.5482 Acc: 50.97
+Train Epoch: 137 [44800/50000 (90%)]	Loss: 2.0051 Mag: 0.5460 Acc: 50.72
+ 46%|████▌     | 138/300 [2:02:19<2:23:27, 53.14s/it]EPOCH:137, ======================ACC:64.73====================
+BEST EPOCH:137,BEST ACC:64.73
+Train Epoch: 138 [6400/50000 (13%)]	Loss: 1.9426 Mag: 0.5542 Acc: 52.61
+Train Epoch: 138 [12800/50000 (26%)]	Loss: 1.9828 Mag: 0.5492 Acc: 51.68
+Train Epoch: 138 [19200/50000 (38%)]	Loss: 1.9861 Mag: 0.5506 Acc: 51.53
+Train Epoch: 138 [25600/50000 (51%)]	Loss: 2.0105 Mag: 0.5456 Acc: 50.76
+Train Epoch: 138 [32000/50000 (64%)]	Loss: 1.9854 Mag: 0.5508 Acc: 51.11
+Train Epoch: 138 [38400/50000 (77%)]	Loss: 1.9788 Mag: 0.5514 Acc: 51.28
+Train Epoch: 138 [44800/50000 (90%)]	Loss: 2.0133 Mag: 0.5447 Acc: 50.60
+ 46%|████▋     | 139/300 [2:03:13<2:23:16, 53.39s/it]EPOCH:138, ======================ACC:64.3====================
+BEST EPOCH:137,BEST ACC:64.73
+Train Epoch: 139 [6400/50000 (13%)]	Loss: 1.8583 Mag: 0.5723 Acc: 54.54
+Train Epoch: 139 [12800/50000 (26%)]	Loss: 1.8569 Mag: 0.5738 Acc: 53.97
+Train Epoch: 139 [19200/50000 (38%)]	Loss: 1.9334 Mag: 0.5598 Acc: 52.33
+Train Epoch: 139 [25600/50000 (51%)]	Loss: 1.9462 Mag: 0.5571 Acc: 52.03
+Train Epoch: 139 [32000/50000 (64%)]	Loss: 1.9789 Mag: 0.5509 Acc: 51.42
+Train Epoch: 139 [38400/50000 (77%)]	Loss: 1.9835 Mag: 0.5499 Acc: 51.25
+Train Epoch: 139 [44800/50000 (90%)]	Loss: 1.9623 Mag: 0.5543 Acc: 51.64
+ 47%|████▋     | 140/300 [2:04:06<2:22:09, 53.31s/it]EPOCH:139, ======================ACC:63.77====================
+BEST EPOCH:137,BEST ACC:64.73
+Train Epoch: 140 [6400/50000 (13%)]	Loss: 2.1147 Mag: 0.5198 Acc: 48.50
+Train Epoch: 140 [12800/50000 (26%)]	Loss: 2.0085 Mag: 0.5424 Acc: 50.92
+Train Epoch: 140 [19200/50000 (38%)]	Loss: 2.0045 Mag: 0.5442 Acc: 51.08
+Train Epoch: 140 [25600/50000 (51%)]	Loss: 2.0095 Mag: 0.5437 Acc: 50.92
+Train Epoch: 140 [32000/50000 (64%)]	Loss: 2.0117 Mag: 0.5438 Acc: 50.83
+Train Epoch: 140 [38400/50000 (77%)]	Loss: 2.0122 Mag: 0.5438 Acc: 50.89
+Train Epoch: 140 [44800/50000 (90%)]	Loss: 2.0221 Mag: 0.5416 Acc: 50.69
+ 47%|████▋     | 141/300 [2:04:59<2:21:05, 53.24s/it]EPOCH:140, ======================ACC:61.71====================
+BEST EPOCH:137,BEST ACC:64.73
+Train Epoch: 141 [6400/50000 (13%)]	Loss: 2.0105 Mag: 0.5424 Acc: 51.90
+Train Epoch: 141 [12800/50000 (26%)]	Loss: 1.9915 Mag: 0.5499 Acc: 52.07
+Train Epoch: 141 [19200/50000 (38%)]	Loss: 2.0053 Mag: 0.5450 Acc: 51.49
+Train Epoch: 141 [25600/50000 (51%)]	Loss: 2.0007 Mag: 0.5457 Acc: 51.54
+Train Epoch: 141 [32000/50000 (64%)]	Loss: 2.0276 Mag: 0.5412 Acc: 50.86
+Train Epoch: 141 [38400/50000 (77%)]	Loss: 2.0360 Mag: 0.5382 Acc: 50.73
+Train Epoch: 141 [44800/50000 (90%)]	Loss: 2.0317 Mag: 0.5403 Acc: 50.79
+ 47%|████▋     | 142/300 [2:05:52<2:20:04, 53.19s/it]EPOCH:141, ======================ACC:63.45====================
+BEST EPOCH:137,BEST ACC:64.73
+Train Epoch: 142 [6400/50000 (13%)]	Loss: 1.6392 Mag: 0.6151 Acc: 57.77
+Train Epoch: 142 [12800/50000 (26%)]	Loss: 1.7663 Mag: 0.5940 Acc: 55.39
+Train Epoch: 142 [19200/50000 (38%)]	Loss: 1.8302 Mag: 0.5804 Acc: 54.36
+Train Epoch: 142 [25600/50000 (51%)]	Loss: 1.8763 Mag: 0.5723 Acc: 53.43
+Train Epoch: 142 [32000/50000 (64%)]	Loss: 1.8792 Mag: 0.5713 Acc: 53.41
+Train Epoch: 142 [38400/50000 (77%)]	Loss: 1.8889 Mag: 0.5694 Acc: 53.21
+Train Epoch: 142 [44800/50000 (90%)]	Loss: 1.9077 Mag: 0.5654 Acc: 52.85
+ 48%|████▊     | 143/300 [2:06:46<2:19:13, 53.21s/it]EPOCH:142, ======================ACC:64.41====================
+BEST EPOCH:137,BEST ACC:64.73
+Train Epoch: 143 [6400/50000 (13%)]	Loss: 1.9842 Mag: 0.5529 Acc: 51.09
+Train Epoch: 143 [12800/50000 (26%)]	Loss: 1.9339 Mag: 0.5610 Acc: 52.29
+Train Epoch: 143 [19200/50000 (38%)]	Loss: 1.9288 Mag: 0.5620 Acc: 52.46
+Train Epoch: 143 [25600/50000 (51%)]	Loss: 1.9831 Mag: 0.5511 Acc: 51.17
+Train Epoch: 143 [32000/50000 (64%)]	Loss: 1.9768 Mag: 0.5522 Acc: 51.35
+Train Epoch: 143 [38400/50000 (77%)]	Loss: 2.0012 Mag: 0.5473 Acc: 50.99
+Train Epoch: 143 [44800/50000 (90%)]	Loss: 1.9823 Mag: 0.5513 Acc: 51.28
+ 48%|████▊     | 144/300 [2:07:39<2:18:18, 53.19s/it]EPOCH:143, ======================ACC:63.6====================
+BEST EPOCH:137,BEST ACC:64.73
+Train Epoch: 144 [6400/50000 (13%)]	Loss: 2.0292 Mag: 0.5438 Acc: 49.97
+Train Epoch: 144 [12800/50000 (26%)]	Loss: 1.9764 Mag: 0.5506 Acc: 51.32
+Train Epoch: 144 [19200/50000 (38%)]	Loss: 1.9427 Mag: 0.5599 Acc: 52.05
+Train Epoch: 144 [25600/50000 (51%)]	Loss: 1.9093 Mag: 0.5664 Acc: 52.57
+Train Epoch: 144 [32000/50000 (64%)]	Loss: 1.9754 Mag: 0.5521 Acc: 51.36
+Train Epoch: 144 [38400/50000 (77%)]	Loss: 2.0034 Mag: 0.5471 Acc: 50.89
+Train Epoch: 144 [44800/50000 (90%)]	Loss: 1.9981 Mag: 0.5483 Acc: 50.95
+ 48%|████▊     | 145/300 [2:08:32<2:17:18, 53.15s/it]EPOCH:144, ======================ACC:64.33====================
+BEST EPOCH:137,BEST ACC:64.73
+Train Epoch: 145 [6400/50000 (13%)]	Loss: 1.9575 Mag: 0.5536 Acc: 51.92
+Train Epoch: 145 [12800/50000 (26%)]	Loss: 1.9179 Mag: 0.5621 Acc: 52.82
+Train Epoch: 145 [19200/50000 (38%)]	Loss: 1.9478 Mag: 0.5582 Acc: 52.38
+Train Epoch: 145 [25600/50000 (51%)]	Loss: 1.9710 Mag: 0.5527 Acc: 51.77
+Train Epoch: 145 [32000/50000 (64%)]	Loss: 2.0138 Mag: 0.5448 Acc: 50.99
+Train Epoch: 145 [38400/50000 (77%)]	Loss: 1.9823 Mag: 0.5501 Acc: 51.53
+Train Epoch: 145 [44800/50000 (90%)]	Loss: 1.9868 Mag: 0.5499 Acc: 51.42
+ 49%|████▊     | 146/300 [2:09:25<2:16:25, 53.15s/it]EPOCH:145, ======================ACC:62.07====================
+BEST EPOCH:137,BEST ACC:64.73
+Train Epoch: 146 [6400/50000 (13%)]	Loss: 1.8531 Mag: 0.5765 Acc: 54.38
+Train Epoch: 146 [12800/50000 (26%)]	Loss: 1.7339 Mag: 0.6007 Acc: 56.31
+Train Epoch: 146 [19200/50000 (38%)]	Loss: 1.7859 Mag: 0.5909 Acc: 55.35
+Train Epoch: 146 [25600/50000 (51%)]	Loss: 1.8929 Mag: 0.5707 Acc: 53.33
+Train Epoch: 146 [32000/50000 (64%)]	Loss: 1.9249 Mag: 0.5633 Acc: 52.67
+Train Epoch: 146 [38400/50000 (77%)]	Loss: 1.9572 Mag: 0.5564 Acc: 51.90
+Train Epoch: 146 [44800/50000 (90%)]	Loss: 1.9719 Mag: 0.5541 Acc: 51.66
+ 49%|████▉     | 147/300 [2:10:18<2:15:27, 53.12s/it]EPOCH:146, ======================ACC:65.66====================
+BEST EPOCH:146,BEST ACC:65.66
+Train Epoch: 147 [6400/50000 (13%)]	Loss: 1.9070 Mag: 0.5636 Acc: 53.01
+Train Epoch: 147 [12800/50000 (26%)]	Loss: 1.9272 Mag: 0.5605 Acc: 52.91
+Train Epoch: 147 [19200/50000 (38%)]	Loss: 1.9667 Mag: 0.5536 Acc: 51.85
+Train Epoch: 147 [25600/50000 (51%)]	Loss: 2.0320 Mag: 0.5399 Acc: 50.49
+Train Epoch: 147 [32000/50000 (64%)]	Loss: 2.0535 Mag: 0.5352 Acc: 50.06
+Train Epoch: 147 [38400/50000 (77%)]	Loss: 2.0422 Mag: 0.5380 Acc: 50.55
+Train Epoch: 147 [44800/50000 (90%)]	Loss: 2.0177 Mag: 0.5429 Acc: 51.03
+ 49%|████▉     | 148/300 [2:11:12<2:15:03, 53.31s/it]EPOCH:147, ======================ACC:63.73====================
+BEST EPOCH:146,BEST ACC:65.66
+Train Epoch: 148 [6400/50000 (13%)]	Loss: 1.9736 Mag: 0.5477 Acc: 51.45
+Train Epoch: 148 [12800/50000 (26%)]	Loss: 1.8966 Mag: 0.5669 Acc: 53.29
+Train Epoch: 148 [19200/50000 (38%)]	Loss: 1.8975 Mag: 0.5668 Acc: 53.08
+Train Epoch: 148 [25600/50000 (51%)]	Loss: 1.8853 Mag: 0.5696 Acc: 53.27
+Train Epoch: 148 [32000/50000 (64%)]	Loss: 1.9032 Mag: 0.5663 Acc: 52.89
+Train Epoch: 148 [38400/50000 (77%)]	Loss: 1.9054 Mag: 0.5662 Acc: 52.92
+Train Epoch: 148 [44800/50000 (90%)]	Loss: 1.9186 Mag: 0.5637 Acc: 52.67
+ 50%|████▉     | 149/300 [2:12:05<2:14:17, 53.36s/it]EPOCH:148, ======================ACC:60.42====================
+BEST EPOCH:146,BEST ACC:65.66
+Train Epoch: 149 [6400/50000 (13%)]	Loss: 2.0956 Mag: 0.5320 Acc: 49.40
+Train Epoch: 149 [12800/50000 (26%)]	Loss: 1.9936 Mag: 0.5492 Acc: 51.63
+Train Epoch: 149 [19200/50000 (38%)]	Loss: 1.9811 Mag: 0.5531 Acc: 51.90
+Train Epoch: 149 [25600/50000 (51%)]	Loss: 1.9557 Mag: 0.5565 Acc: 52.31
+Train Epoch: 149 [32000/50000 (64%)]	Loss: 1.9545 Mag: 0.5586 Acc: 52.48
+Train Epoch: 149 [38400/50000 (77%)]	Loss: 1.9507 Mag: 0.5580 Acc: 52.38
+Train Epoch: 149 [44800/50000 (90%)]	Loss: 1.9424 Mag: 0.5601 Acc: 52.48
+ 50%|█████     | 150/300 [2:12:58<2:13:11, 53.28s/it]EPOCH:149, ======================ACC:66.94====================
+BEST EPOCH:149,BEST ACC:66.94
+Train Epoch: 150 [6400/50000 (13%)]	Loss: 1.9983 Mag: 0.5505 Acc: 52.27
+Train Epoch: 150 [12800/50000 (26%)]	Loss: 1.9990 Mag: 0.5469 Acc: 51.98
+Train Epoch: 150 [19200/50000 (38%)]	Loss: 1.9976 Mag: 0.5475 Acc: 51.77
+Train Epoch: 150 [25600/50000 (51%)]	Loss: 2.0199 Mag: 0.5432 Acc: 51.27
+Train Epoch: 150 [32000/50000 (64%)]	Loss: 2.0457 Mag: 0.5382 Acc: 50.75
+Train Epoch: 150 [38400/50000 (77%)]	Loss: 2.0448 Mag: 0.5379 Acc: 50.76
+Train Epoch: 150 [44800/50000 (90%)]	Loss: 1.9910 Mag: 0.5489 Acc: 51.59
+ 50%|█████     | 151/300 [2:13:51<2:12:11, 53.23s/it]EPOCH:150, ======================ACC:61.07====================
+BEST EPOCH:149,BEST ACC:66.94
+Train Epoch: 151 [6400/50000 (13%)]	Loss: 2.0199 Mag: 0.5430 Acc: 52.13
+Train Epoch: 151 [12800/50000 (26%)]	Loss: 1.9731 Mag: 0.5484 Acc: 52.63
+Train Epoch: 151 [19200/50000 (38%)]	Loss: 1.9347 Mag: 0.5580 Acc: 52.99
+Train Epoch: 151 [25600/50000 (51%)]	Loss: 1.9419 Mag: 0.5583 Acc: 52.80
+Train Epoch: 151 [32000/50000 (64%)]	Loss: 1.9670 Mag: 0.5541 Acc: 52.20
+Train Epoch: 151 [38400/50000 (77%)]	Loss: 1.9444 Mag: 0.5583 Acc: 52.62
+Train Epoch: 151 [44800/50000 (90%)]	Loss: 1.9607 Mag: 0.5557 Acc: 52.34
+ 51%|█████     | 152/300 [2:14:45<2:11:31, 53.32s/it]EPOCH:151, ======================ACC:61.3====================
+BEST EPOCH:149,BEST ACC:66.94
+Train Epoch: 152 [6400/50000 (13%)]	Loss: 2.0776 Mag: 0.5276 Acc: 49.89
+Train Epoch: 152 [12800/50000 (26%)]	Loss: 2.0545 Mag: 0.5341 Acc: 50.52
+Train Epoch: 152 [19200/50000 (38%)]	Loss: 2.0578 Mag: 0.5346 Acc: 50.21
+Train Epoch: 152 [25600/50000 (51%)]	Loss: 2.0075 Mag: 0.5441 Acc: 51.18
+Train Epoch: 152 [32000/50000 (64%)]	Loss: 1.9999 Mag: 0.5461 Acc: 51.43
+Train Epoch: 152 [38400/50000 (77%)]	Loss: 2.0244 Mag: 0.5418 Acc: 50.94
+Train Epoch: 152 [44800/50000 (90%)]	Loss: 2.0007 Mag: 0.5465 Acc: 51.43
+ 51%|█████     | 153/300 [2:15:38<2:10:31, 53.28s/it]EPOCH:152, ======================ACC:63.94====================
+BEST EPOCH:149,BEST ACC:66.94
+Train Epoch: 153 [6400/50000 (13%)]	Loss: 1.7211 Mag: 0.5976 Acc: 56.74
+Train Epoch: 153 [12800/50000 (26%)]	Loss: 1.8420 Mag: 0.5787 Acc: 54.18
+Train Epoch: 153 [19200/50000 (38%)]	Loss: 1.9510 Mag: 0.5571 Acc: 52.16
+Train Epoch: 153 [25600/50000 (51%)]	Loss: 1.9376 Mag: 0.5594 Acc: 52.47
+Train Epoch: 153 [32000/50000 (64%)]	Loss: 1.9141 Mag: 0.5645 Acc: 52.85
+Train Epoch: 153 [38400/50000 (77%)]	Loss: 1.9745 Mag: 0.5529 Acc: 51.63
+Train Epoch: 153 [44800/50000 (90%)]	Loss: 1.9607 Mag: 0.5554 Acc: 52.04
+ 51%|█████▏    | 154/300 [2:16:31<2:09:29, 53.21s/it]EPOCH:153, ======================ACC:65.79====================
+BEST EPOCH:149,BEST ACC:66.94
+Train Epoch: 154 [6400/50000 (13%)]	Loss: 1.9957 Mag: 0.5465 Acc: 51.61
+Train Epoch: 154 [12800/50000 (26%)]	Loss: 1.9917 Mag: 0.5483 Acc: 51.53
+Train Epoch: 154 [19200/50000 (38%)]	Loss: 1.9853 Mag: 0.5498 Acc: 51.87
+Train Epoch: 154 [25600/50000 (51%)]	Loss: 1.9983 Mag: 0.5475 Acc: 51.48
+Train Epoch: 154 [32000/50000 (64%)]	Loss: 2.0234 Mag: 0.5433 Acc: 50.92
+Train Epoch: 154 [38400/50000 (77%)]	Loss: 2.0052 Mag: 0.5462 Acc: 51.25
+Train Epoch: 154 [44800/50000 (90%)]	Loss: 1.9886 Mag: 0.5499 Acc: 51.47
+ 52%|█████▏    | 155/300 [2:17:24<2:08:30, 53.17s/it]EPOCH:154, ======================ACC:65.11====================
+BEST EPOCH:149,BEST ACC:66.94
+Train Epoch: 155 [6400/50000 (13%)]	Loss: 1.9060 Mag: 0.5619 Acc: 53.24
+Train Epoch: 155 [12800/50000 (26%)]	Loss: 1.8637 Mag: 0.5712 Acc: 54.01
+Train Epoch: 155 [19200/50000 (38%)]	Loss: 1.8867 Mag: 0.5692 Acc: 53.15
+Train Epoch: 155 [25600/50000 (51%)]	Loss: 1.9807 Mag: 0.5495 Acc: 51.30
+Train Epoch: 155 [32000/50000 (64%)]	Loss: 1.9532 Mag: 0.5563 Acc: 51.84
+Train Epoch: 155 [38400/50000 (77%)]	Loss: 1.9770 Mag: 0.5508 Acc: 51.26
+Train Epoch: 155 [44800/50000 (90%)]	Loss: 1.9492 Mag: 0.5566 Acc: 51.91
+ 52%|█████▏    | 156/300 [2:18:18<2:07:42, 53.21s/it]EPOCH:155, ======================ACC:65.49====================
+BEST EPOCH:149,BEST ACC:66.94
+Train Epoch: 156 [6400/50000 (13%)]	Loss: 2.0471 Mag: 0.5352 Acc: 50.42
+Train Epoch: 156 [12800/50000 (26%)]	Loss: 1.9851 Mag: 0.5496 Acc: 51.17
+Train Epoch: 156 [19200/50000 (38%)]	Loss: 2.0624 Mag: 0.5332 Acc: 49.60
+Train Epoch: 156 [25600/50000 (51%)]	Loss: 2.0000 Mag: 0.5466 Acc: 51.08
+Train Epoch: 156 [32000/50000 (64%)]	Loss: 2.0376 Mag: 0.5397 Acc: 50.26
+Train Epoch: 156 [38400/50000 (77%)]	Loss: 2.0421 Mag: 0.5380 Acc: 50.34
+Train Epoch: 156 [44800/50000 (90%)]	Loss: 2.0022 Mag: 0.5461 Acc: 51.15
+ 52%|█████▏    | 157/300 [2:19:11<2:06:49, 53.21s/it]EPOCH:156, ======================ACC:65.13====================
+BEST EPOCH:149,BEST ACC:66.94
+Train Epoch: 157 [6400/50000 (13%)]	Loss: 1.7333 Mag: 0.6027 Acc: 57.31
+Train Epoch: 157 [12800/50000 (26%)]	Loss: 1.9584 Mag: 0.5581 Acc: 52.54
+Train Epoch: 157 [19200/50000 (38%)]	Loss: 1.9021 Mag: 0.5665 Acc: 53.97
+Train Epoch: 157 [25600/50000 (51%)]	Loss: 1.9217 Mag: 0.5642 Acc: 53.44
+Train Epoch: 157 [32000/50000 (64%)]	Loss: 1.9081 Mag: 0.5677 Acc: 53.66
+Train Epoch: 157 [38400/50000 (77%)]	Loss: 1.8935 Mag: 0.5689 Acc: 53.79
+Train Epoch: 157 [44800/50000 (90%)]	Loss: 1.8982 Mag: 0.5685 Acc: 53.59
+ 53%|█████▎    | 158/300 [2:20:05<2:06:26, 53.42s/it]EPOCH:157, ======================ACC:64.31====================
+BEST EPOCH:149,BEST ACC:66.94
+Train Epoch: 158 [6400/50000 (13%)]	Loss: 2.0410 Mag: 0.5381 Acc: 50.87
+Train Epoch: 158 [12800/50000 (26%)]	Loss: 1.9621 Mag: 0.5547 Acc: 52.49
+Train Epoch: 158 [19200/50000 (38%)]	Loss: 1.9735 Mag: 0.5530 Acc: 52.11
+Train Epoch: 158 [25600/50000 (51%)]	Loss: 1.9654 Mag: 0.5543 Acc: 52.17
+Train Epoch: 158 [32000/50000 (64%)]	Loss: 1.9367 Mag: 0.5608 Acc: 52.70
+Train Epoch: 158 [38400/50000 (77%)]	Loss: 1.9389 Mag: 0.5603 Acc: 52.62
+Train Epoch: 158 [44800/50000 (90%)]	Loss: 1.9435 Mag: 0.5592 Acc: 52.64
+ 53%|█████▎    | 159/300 [2:20:58<2:05:29, 53.40s/it]EPOCH:158, ======================ACC:63.5====================
+BEST EPOCH:149,BEST ACC:66.94
+Train Epoch: 159 [6400/50000 (13%)]	Loss: 1.6152 Mag: 0.6199 Acc: 59.16
+Train Epoch: 159 [12800/50000 (26%)]	Loss: 1.6955 Mag: 0.6107 Acc: 57.63
+Train Epoch: 159 [19200/50000 (38%)]	Loss: 1.7243 Mag: 0.6046 Acc: 57.07
+Train Epoch: 159 [25600/50000 (51%)]	Loss: 1.7990 Mag: 0.5867 Acc: 55.79
+Train Epoch: 159 [32000/50000 (64%)]	Loss: 1.8172 Mag: 0.5862 Acc: 55.35
+Train Epoch: 159 [38400/50000 (77%)]	Loss: 1.8334 Mag: 0.5824 Acc: 54.84
+Train Epoch: 159 [44800/50000 (90%)]	Loss: 1.8401 Mag: 0.5808 Acc: 54.69
+ 53%|█████▎    | 160/300 [2:21:51<2:04:23, 53.31s/it]EPOCH:159, ======================ACC:66.33====================
+BEST EPOCH:149,BEST ACC:66.94
+Train Epoch: 160 [6400/50000 (13%)]	Loss: 1.9176 Mag: 0.5618 Acc: 53.99
+Train Epoch: 160 [12800/50000 (26%)]	Loss: 1.8529 Mag: 0.5766 Acc: 54.39
+Train Epoch: 160 [19200/50000 (38%)]	Loss: 1.9160 Mag: 0.5644 Acc: 53.15
+Train Epoch: 160 [25600/50000 (51%)]	Loss: 1.9855 Mag: 0.5503 Acc: 51.76
+Train Epoch: 160 [32000/50000 (64%)]	Loss: 1.9613 Mag: 0.5556 Acc: 52.32
+Train Epoch: 160 [38400/50000 (77%)]	Loss: 1.9211 Mag: 0.5630 Acc: 52.92
+Train Epoch: 160 [44800/50000 (90%)]	Loss: 1.9258 Mag: 0.5625 Acc: 52.85
+ 54%|█████▎    | 161/300 [2:22:44<2:03:21, 53.24s/it]EPOCH:160, ======================ACC:66.64====================
+BEST EPOCH:149,BEST ACC:66.94
+Train Epoch: 161 [6400/50000 (13%)]	Loss: 1.9929 Mag: 0.5486 Acc: 52.79
+Train Epoch: 161 [12800/50000 (26%)]	Loss: 1.9342 Mag: 0.5638 Acc: 53.56
+Train Epoch: 161 [19200/50000 (38%)]	Loss: 1.9805 Mag: 0.5531 Acc: 52.45
+Train Epoch: 161 [25600/50000 (51%)]	Loss: 2.0151 Mag: 0.5456 Acc: 51.47
+Train Epoch: 161 [32000/50000 (64%)]	Loss: 2.0064 Mag: 0.5466 Acc: 51.77
+Train Epoch: 161 [38400/50000 (77%)]	Loss: 1.9835 Mag: 0.5515 Acc: 52.21
+Train Epoch: 161 [44800/50000 (90%)]	Loss: 1.9715 Mag: 0.5537 Acc: 52.28
+ 54%|█████▍    | 162/300 [2:23:38<2:02:34, 53.29s/it]EPOCH:161, ======================ACC:63.42====================
+BEST EPOCH:149,BEST ACC:66.94
+Train Epoch: 162 [6400/50000 (13%)]	Loss: 1.7846 Mag: 0.5879 Acc: 56.70
+Train Epoch: 162 [12800/50000 (26%)]	Loss: 1.8793 Mag: 0.5714 Acc: 54.55
+Train Epoch: 162 [19200/50000 (38%)]	Loss: 1.9266 Mag: 0.5623 Acc: 53.09
+Train Epoch: 162 [25600/50000 (51%)]	Loss: 1.9182 Mag: 0.5649 Acc: 53.22
+Train Epoch: 162 [32000/50000 (64%)]	Loss: 1.9044 Mag: 0.5675 Acc: 53.53
+Train Epoch: 162 [38400/50000 (77%)]	Loss: 1.9243 Mag: 0.5633 Acc: 53.17
+Train Epoch: 162 [44800/50000 (90%)]	Loss: 1.9488 Mag: 0.5588 Acc: 52.61
+ 54%|█████▍    | 163/300 [2:24:31<2:01:38, 53.27s/it]EPOCH:162, ======================ACC:65.42====================
+BEST EPOCH:149,BEST ACC:66.94
+Train Epoch: 163 [6400/50000 (13%)]	Loss: 1.8988 Mag: 0.5656 Acc: 53.80
+Train Epoch: 163 [12800/50000 (26%)]	Loss: 1.8839 Mag: 0.5702 Acc: 54.24
+Train Epoch: 163 [19200/50000 (38%)]	Loss: 1.8979 Mag: 0.5677 Acc: 53.90
+Train Epoch: 163 [25600/50000 (51%)]	Loss: 1.8658 Mag: 0.5742 Acc: 54.22
+Train Epoch: 163 [32000/50000 (64%)]	Loss: 1.8958 Mag: 0.5684 Acc: 53.74
+Train Epoch: 163 [38400/50000 (77%)]	Loss: 1.9261 Mag: 0.5632 Acc: 53.11
+Train Epoch: 163 [44800/50000 (90%)]	Loss: 1.9180 Mag: 0.5643 Acc: 53.34
+ 55%|█████▍    | 164/300 [2:25:24<2:00:37, 53.22s/it]EPOCH:163, ======================ACC:65.03====================
+BEST EPOCH:149,BEST ACC:66.94
+Train Epoch: 164 [6400/50000 (13%)]	Loss: 1.9472 Mag: 0.5576 Acc: 52.66
+Train Epoch: 164 [12800/50000 (26%)]	Loss: 1.9617 Mag: 0.5537 Acc: 52.46
+Train Epoch: 164 [19200/50000 (38%)]	Loss: 1.9914 Mag: 0.5477 Acc: 51.74
+Train Epoch: 164 [25600/50000 (51%)]	Loss: 1.9834 Mag: 0.5495 Acc: 52.07
+Train Epoch: 164 [32000/50000 (64%)]	Loss: 1.9661 Mag: 0.5532 Acc: 52.35
+Train Epoch: 164 [38400/50000 (77%)]	Loss: 1.9795 Mag: 0.5502 Acc: 52.06
+Train Epoch: 164 [44800/50000 (90%)]	Loss: 1.9667 Mag: 0.5538 Acc: 52.32
+ 55%|█████▌    | 165/300 [2:26:17<1:59:42, 53.21s/it]EPOCH:164, ======================ACC:65.75====================
+BEST EPOCH:149,BEST ACC:66.94
+Train Epoch: 165 [6400/50000 (13%)]	Loss: 1.8018 Mag: 0.5883 Acc: 55.80
+Train Epoch: 165 [12800/50000 (26%)]	Loss: 1.7866 Mag: 0.5904 Acc: 56.35
+Train Epoch: 165 [19200/50000 (38%)]	Loss: 1.7960 Mag: 0.5898 Acc: 55.84
+Train Epoch: 165 [25600/50000 (51%)]	Loss: 1.7732 Mag: 0.5945 Acc: 56.04
+Train Epoch: 165 [32000/50000 (64%)]	Loss: 1.7735 Mag: 0.5944 Acc: 56.11
+Train Epoch: 165 [38400/50000 (77%)]	Loss: 1.7749 Mag: 0.5938 Acc: 56.03
+Train Epoch: 165 [44800/50000 (90%)]	Loss: 1.7705 Mag: 0.5956 Acc: 56.10
+ 55%|█████▌    | 166/300 [2:27:11<1:58:58, 53.27s/it]EPOCH:165, ======================ACC:64.89====================
+BEST EPOCH:149,BEST ACC:66.94
+Train Epoch: 166 [6400/50000 (13%)]	Loss: 1.9404 Mag: 0.5563 Acc: 52.47
+Train Epoch: 166 [12800/50000 (26%)]	Loss: 1.9722 Mag: 0.5503 Acc: 51.82
+Train Epoch: 166 [19200/50000 (38%)]	Loss: 1.9820 Mag: 0.5494 Acc: 51.51
+Train Epoch: 166 [25600/50000 (51%)]	Loss: 1.9681 Mag: 0.5515 Acc: 52.02
+Train Epoch: 166 [32000/50000 (64%)]	Loss: 1.9392 Mag: 0.5583 Acc: 52.54
+Train Epoch: 166 [38400/50000 (77%)]	Loss: 1.9338 Mag: 0.5610 Acc: 52.55
+Train Epoch: 166 [44800/50000 (90%)]	Loss: 1.9414 Mag: 0.5590 Acc: 52.36
+ 56%|█████▌    | 167/300 [2:28:04<1:58:12, 53.33s/it]EPOCH:166, ======================ACC:65.95====================
+BEST EPOCH:149,BEST ACC:66.94
+Train Epoch: 167 [6400/50000 (13%)]	Loss: 1.6432 Mag: 0.6172 Acc: 58.00
+Train Epoch: 167 [12800/50000 (26%)]	Loss: 1.6539 Mag: 0.6169 Acc: 58.18
+Train Epoch: 167 [19200/50000 (38%)]	Loss: 1.7491 Mag: 0.5978 Acc: 56.63
+Train Epoch: 167 [25600/50000 (51%)]	Loss: 1.7748 Mag: 0.5942 Acc: 56.01
+Train Epoch: 167 [32000/50000 (64%)]	Loss: 1.7597 Mag: 0.5966 Acc: 56.24
+Train Epoch: 167 [38400/50000 (77%)]	Loss: 1.7702 Mag: 0.5952 Acc: 56.10
+Train Epoch: 167 [44800/50000 (90%)]	Loss: 1.7912 Mag: 0.5910 Acc: 55.66
+ 56%|█████▌    | 168/300 [2:28:58<1:57:23, 53.36s/it]EPOCH:167, ======================ACC:70.1====================
+BEST EPOCH:167,BEST ACC:70.1
+Train Epoch: 168 [6400/50000 (13%)]	Loss: 1.8907 Mag: 0.5708 Acc: 53.77
+Train Epoch: 168 [12800/50000 (26%)]	Loss: 1.8183 Mag: 0.5829 Acc: 54.95
+Train Epoch: 168 [19200/50000 (38%)]	Loss: 1.8210 Mag: 0.5847 Acc: 54.95
+Train Epoch: 168 [25600/50000 (51%)]	Loss: 1.8277 Mag: 0.5833 Acc: 54.91
+Train Epoch: 168 [32000/50000 (64%)]	Loss: 1.8474 Mag: 0.5804 Acc: 54.50
+Train Epoch: 168 [38400/50000 (77%)]	Loss: 1.8626 Mag: 0.5770 Acc: 54.15
+Train Epoch: 168 [44800/50000 (90%)]	Loss: 1.8881 Mag: 0.5719 Acc: 53.66
+ 56%|█████▋    | 169/300 [2:29:51<1:56:21, 53.29s/it]EPOCH:168, ======================ACC:64.98====================
+BEST EPOCH:167,BEST ACC:70.1
+Train Epoch: 169 [6400/50000 (13%)]	Loss: 2.0996 Mag: 0.5253 Acc: 49.81
+Train Epoch: 169 [12800/50000 (26%)]	Loss: 2.0504 Mag: 0.5389 Acc: 50.70
+Train Epoch: 169 [19200/50000 (38%)]	Loss: 2.0000 Mag: 0.5464 Acc: 51.79
+Train Epoch: 169 [25600/50000 (51%)]	Loss: 1.9948 Mag: 0.5474 Acc: 51.80
+Train Epoch: 169 [32000/50000 (64%)]	Loss: 2.0317 Mag: 0.5406 Acc: 51.10
+Train Epoch: 169 [38400/50000 (77%)]	Loss: 2.0014 Mag: 0.5474 Acc: 51.68
+Train Epoch: 169 [44800/50000 (90%)]	Loss: 2.0034 Mag: 0.5473 Acc: 51.59
+ 57%|█████▋    | 170/300 [2:30:44<1:55:23, 53.26s/it]EPOCH:169, ======================ACC:67.97====================
+BEST EPOCH:167,BEST ACC:70.1
+Train Epoch: 170 [6400/50000 (13%)]	Loss: 1.8883 Mag: 0.5672 Acc: 53.55
+Train Epoch: 170 [12800/50000 (26%)]	Loss: 1.8772 Mag: 0.5730 Acc: 54.15
+Train Epoch: 170 [19200/50000 (38%)]	Loss: 1.8451 Mag: 0.5791 Acc: 54.85
+Train Epoch: 170 [25600/50000 (51%)]	Loss: 1.8981 Mag: 0.5671 Acc: 53.64
+Train Epoch: 170 [32000/50000 (64%)]	Loss: 1.8675 Mag: 0.5739 Acc: 54.23
+Train Epoch: 170 [38400/50000 (77%)]	Loss: 1.8859 Mag: 0.5710 Acc: 53.95
+Train Epoch: 170 [44800/50000 (90%)]	Loss: 1.8719 Mag: 0.5734 Acc: 54.25
+ 57%|█████▋    | 171/300 [2:31:37<1:54:23, 53.21s/it]EPOCH:170, ======================ACC:65.2====================
+BEST EPOCH:167,BEST ACC:70.1
+Train Epoch: 171 [6400/50000 (13%)]	Loss: 1.6738 Mag: 0.6122 Acc: 58.69
+Train Epoch: 171 [12800/50000 (26%)]	Loss: 1.7970 Mag: 0.5889 Acc: 56.26
+Train Epoch: 171 [19200/50000 (38%)]	Loss: 1.7808 Mag: 0.5922 Acc: 56.23
+Train Epoch: 171 [25600/50000 (51%)]	Loss: 1.8043 Mag: 0.5873 Acc: 55.72
+Train Epoch: 171 [32000/50000 (64%)]	Loss: 1.8280 Mag: 0.5831 Acc: 55.38
+Train Epoch: 171 [38400/50000 (77%)]	Loss: 1.8348 Mag: 0.5819 Acc: 55.23
+Train Epoch: 171 [44800/50000 (90%)]	Loss: 1.8745 Mag: 0.5738 Acc: 54.37
+ 57%|█████▋    | 172/300 [2:32:30<1:53:26, 53.17s/it]EPOCH:171, ======================ACC:66.33====================
+BEST EPOCH:167,BEST ACC:70.1
+Train Epoch: 172 [6400/50000 (13%)]	Loss: 1.9307 Mag: 0.5641 Acc: 54.10
+Train Epoch: 172 [12800/50000 (26%)]	Loss: 1.9675 Mag: 0.5533 Acc: 52.48
+Train Epoch: 172 [19200/50000 (38%)]	Loss: 1.9477 Mag: 0.5582 Acc: 52.71
+Train Epoch: 172 [25600/50000 (51%)]	Loss: 1.9676 Mag: 0.5540 Acc: 52.42
+Train Epoch: 172 [32000/50000 (64%)]	Loss: 1.9372 Mag: 0.5603 Acc: 52.94
+Train Epoch: 172 [38400/50000 (77%)]	Loss: 1.9176 Mag: 0.5655 Acc: 53.30
+Train Epoch: 172 [44800/50000 (90%)]	Loss: 1.8973 Mag: 0.5693 Acc: 53.63
+ 58%|█████▊    | 173/300 [2:33:23<1:52:20, 53.08s/it]EPOCH:172, ======================ACC:68.48====================
+BEST EPOCH:167,BEST ACC:70.1
+Train Epoch: 173 [6400/50000 (13%)]	Loss: 1.8568 Mag: 0.5766 Acc: 53.95
+Train Epoch: 173 [12800/50000 (26%)]	Loss: 1.9254 Mag: 0.5651 Acc: 53.14
+Train Epoch: 173 [19200/50000 (38%)]	Loss: 1.9810 Mag: 0.5525 Acc: 51.95
+Train Epoch: 173 [25600/50000 (51%)]	Loss: 1.9211 Mag: 0.5640 Acc: 53.19
+Train Epoch: 173 [32000/50000 (64%)]	Loss: 1.8972 Mag: 0.5688 Acc: 53.64
+Train Epoch: 173 [38400/50000 (77%)]	Loss: 1.8876 Mag: 0.5709 Acc: 53.88
+Train Epoch: 173 [44800/50000 (90%)]	Loss: 1.8937 Mag: 0.5699 Acc: 53.77
+ 58%|█████▊    | 174/300 [2:34:16<1:51:30, 53.10s/it]EPOCH:173, ======================ACC:67.7====================
+BEST EPOCH:167,BEST ACC:70.1
+Train Epoch: 174 [6400/50000 (13%)]	Loss: 2.0055 Mag: 0.5412 Acc: 51.69
+Train Epoch: 174 [12800/50000 (26%)]	Loss: 1.9638 Mag: 0.5529 Acc: 52.77
+Train Epoch: 174 [19200/50000 (38%)]	Loss: 1.9197 Mag: 0.5616 Acc: 53.13
+Train Epoch: 174 [25600/50000 (51%)]	Loss: 1.9375 Mag: 0.5596 Acc: 52.65
+Train Epoch: 174 [32000/50000 (64%)]	Loss: 1.9403 Mag: 0.5597 Acc: 52.78
+Train Epoch: 174 [38400/50000 (77%)]	Loss: 1.9165 Mag: 0.5646 Acc: 53.13
+Train Epoch: 174 [44800/50000 (90%)]	Loss: 1.9427 Mag: 0.5594 Acc: 52.68
+ 58%|█████▊    | 175/300 [2:35:09<1:50:47, 53.18s/it]EPOCH:174, ======================ACC:66.58====================
+BEST EPOCH:167,BEST ACC:70.1
+Train Epoch: 175 [6400/50000 (13%)]	Loss: 1.8821 Mag: 0.5774 Acc: 54.21
+Train Epoch: 175 [12800/50000 (26%)]	Loss: 1.8294 Mag: 0.5840 Acc: 55.25
+Train Epoch: 175 [19200/50000 (38%)]	Loss: 1.7978 Mag: 0.5895 Acc: 55.73
+Train Epoch: 175 [25600/50000 (51%)]	Loss: 1.8680 Mag: 0.5756 Acc: 54.21
+Train Epoch: 175 [32000/50000 (64%)]	Loss: 1.8537 Mag: 0.5784 Acc: 54.46
+Train Epoch: 175 [38400/50000 (77%)]	Loss: 1.8946 Mag: 0.5702 Acc: 53.61
+Train Epoch: 175 [44800/50000 (90%)]	Loss: 1.8763 Mag: 0.5733 Acc: 53.98
+ 59%|█████▊    | 176/300 [2:36:03<1:50:14, 53.34s/it]EPOCH:175, ======================ACC:65.89====================
+BEST EPOCH:167,BEST ACC:70.1
+Train Epoch: 176 [6400/50000 (13%)]	Loss: 1.8964 Mag: 0.5646 Acc: 53.94
+Train Epoch: 176 [12800/50000 (26%)]	Loss: 1.9757 Mag: 0.5505 Acc: 52.14
+Train Epoch: 176 [19200/50000 (38%)]	Loss: 1.9674 Mag: 0.5548 Acc: 52.32
+Train Epoch: 176 [25600/50000 (51%)]	Loss: 1.9555 Mag: 0.5570 Acc: 52.65
+Train Epoch: 176 [32000/50000 (64%)]	Loss: 1.9555 Mag: 0.5571 Acc: 52.63
+Train Epoch: 176 [38400/50000 (77%)]	Loss: 1.9114 Mag: 0.5669 Acc: 53.52
+Train Epoch: 176 [44800/50000 (90%)]	Loss: 1.9332 Mag: 0.5624 Acc: 53.15
+ 59%|█████▉    | 177/300 [2:36:57<1:49:30, 53.42s/it]EPOCH:176, ======================ACC:68.43====================
+BEST EPOCH:167,BEST ACC:70.1
+Train Epoch: 177 [6400/50000 (13%)]	Loss: 1.8118 Mag: 0.5851 Acc: 57.01
+Train Epoch: 177 [12800/50000 (26%)]	Loss: 1.7740 Mag: 0.5921 Acc: 56.93
+Train Epoch: 177 [19200/50000 (38%)]	Loss: 1.7240 Mag: 0.6029 Acc: 57.79
+Train Epoch: 177 [25600/50000 (51%)]	Loss: 1.7602 Mag: 0.5966 Acc: 56.86
+Train Epoch: 177 [32000/50000 (64%)]	Loss: 1.7983 Mag: 0.5895 Acc: 56.01
+Train Epoch: 177 [38400/50000 (77%)]	Loss: 1.8626 Mag: 0.5771 Acc: 54.79
+Train Epoch: 177 [44800/50000 (90%)]	Loss: 1.8975 Mag: 0.5691 Acc: 54.09
+ 59%|█████▉    | 178/300 [2:37:50<1:48:22, 53.30s/it]EPOCH:177, ======================ACC:69.06====================
+BEST EPOCH:167,BEST ACC:70.1
+Train Epoch: 178 [6400/50000 (13%)]	Loss: 1.8921 Mag: 0.5733 Acc: 54.93
+Train Epoch: 178 [12800/50000 (26%)]	Loss: 1.8915 Mag: 0.5701 Acc: 54.57
+Train Epoch: 178 [19200/50000 (38%)]	Loss: 1.9322 Mag: 0.5624 Acc: 53.73
+Train Epoch: 178 [25600/50000 (51%)]	Loss: 1.8827 Mag: 0.5717 Acc: 54.65
+Train Epoch: 178 [32000/50000 (64%)]	Loss: 1.9109 Mag: 0.5663 Acc: 54.07
+Train Epoch: 178 [38400/50000 (77%)]	Loss: 1.8379 Mag: 0.5813 Acc: 55.33
+Train Epoch: 178 [44800/50000 (90%)]	Loss: 1.8409 Mag: 0.5807 Acc: 55.17
+ 60%|█████▉    | 179/300 [2:38:43<1:47:28, 53.29s/it]EPOCH:178, ======================ACC:68.33====================
+BEST EPOCH:167,BEST ACC:70.1
+Train Epoch: 179 [6400/50000 (13%)]	Loss: 1.8905 Mag: 0.5696 Acc: 54.19
+Train Epoch: 179 [12800/50000 (26%)]	Loss: 1.9174 Mag: 0.5630 Acc: 53.58
+Train Epoch: 179 [19200/50000 (38%)]	Loss: 1.7980 Mag: 0.5892 Acc: 55.87
+Train Epoch: 179 [25600/50000 (51%)]	Loss: 1.7587 Mag: 0.5973 Acc: 56.69
+Train Epoch: 179 [32000/50000 (64%)]	Loss: 1.7883 Mag: 0.5919 Acc: 56.05
+Train Epoch: 179 [38400/50000 (77%)]	Loss: 1.7656 Mag: 0.5958 Acc: 56.42
+Train Epoch: 179 [44800/50000 (90%)]	Loss: 1.7954 Mag: 0.5903 Acc: 55.77
+ 60%|██████    | 180/300 [2:39:36<1:46:28, 53.23s/it]EPOCH:179, ======================ACC:69.99====================
+BEST EPOCH:167,BEST ACC:70.1
+Train Epoch: 180 [6400/50000 (13%)]	Loss: 1.7945 Mag: 0.5912 Acc: 56.45
+Train Epoch: 180 [12800/50000 (26%)]	Loss: 1.7154 Mag: 0.6068 Acc: 57.99
+Train Epoch: 180 [19200/50000 (38%)]	Loss: 1.7732 Mag: 0.5957 Acc: 56.75
+Train Epoch: 180 [25600/50000 (51%)]	Loss: 1.7778 Mag: 0.5945 Acc: 56.60
+Train Epoch: 180 [32000/50000 (64%)]	Loss: 1.7659 Mag: 0.5966 Acc: 56.72
+Train Epoch: 180 [38400/50000 (77%)]	Loss: 1.7779 Mag: 0.5945 Acc: 56.34
+Train Epoch: 180 [44800/50000 (90%)]	Loss: 1.8089 Mag: 0.5884 Acc: 55.67
+ 60%|██████    | 181/300 [2:40:29<1:45:18, 53.10s/it]EPOCH:180, ======================ACC:68.78====================
+BEST EPOCH:167,BEST ACC:70.1
+Train Epoch: 181 [6400/50000 (13%)]	Loss: 1.8684 Mag: 0.5759 Acc: 54.26
+Train Epoch: 181 [12800/50000 (26%)]	Loss: 1.8404 Mag: 0.5821 Acc: 55.01
+Train Epoch: 181 [19200/50000 (38%)]	Loss: 1.8507 Mag: 0.5784 Acc: 55.13
+Train Epoch: 181 [25600/50000 (51%)]	Loss: 1.8472 Mag: 0.5800 Acc: 55.16
+Train Epoch: 181 [32000/50000 (64%)]	Loss: 1.8719 Mag: 0.5752 Acc: 54.54
+Train Epoch: 181 [38400/50000 (77%)]	Loss: 1.8997 Mag: 0.5699 Acc: 53.92
+Train Epoch: 181 [44800/50000 (90%)]	Loss: 1.8609 Mag: 0.5773 Acc: 54.64
+ 61%|██████    | 182/300 [2:41:21<1:43:59, 52.88s/it]EPOCH:181, ======================ACC:67.38====================
+BEST EPOCH:167,BEST ACC:70.1
+Train Epoch: 182 [6400/50000 (13%)]	Loss: 1.6838 Mag: 0.6121 Acc: 59.06
+Train Epoch: 182 [12800/50000 (26%)]	Loss: 1.6463 Mag: 0.6210 Acc: 59.71
+Train Epoch: 182 [19200/50000 (38%)]	Loss: 1.7625 Mag: 0.5970 Acc: 57.24
+Train Epoch: 182 [25600/50000 (51%)]	Loss: 1.7044 Mag: 0.6090 Acc: 58.12
+Train Epoch: 182 [32000/50000 (64%)]	Loss: 1.6957 Mag: 0.6110 Acc: 58.21
+Train Epoch: 182 [38400/50000 (77%)]	Loss: 1.6877 Mag: 0.6130 Acc: 58.33
+Train Epoch: 182 [44800/50000 (90%)]	Loss: 1.7205 Mag: 0.6065 Acc: 57.59
+ 61%|██████    | 183/300 [2:42:14<1:42:49, 52.73s/it]EPOCH:182, ======================ACC:66.38====================
+BEST EPOCH:167,BEST ACC:70.1
+Train Epoch: 183 [6400/50000 (13%)]	Loss: 1.6698 Mag: 0.6186 Acc: 58.52
+Train Epoch: 183 [12800/50000 (26%)]	Loss: 1.8554 Mag: 0.5788 Acc: 54.64
+Train Epoch: 183 [19200/50000 (38%)]	Loss: 1.8836 Mag: 0.5726 Acc: 54.18
+Train Epoch: 183 [25600/50000 (51%)]	Loss: 1.8916 Mag: 0.5709 Acc: 54.10
+Train Epoch: 183 [32000/50000 (64%)]	Loss: 1.8522 Mag: 0.5798 Acc: 54.95
+Train Epoch: 183 [38400/50000 (77%)]	Loss: 1.8614 Mag: 0.5774 Acc: 54.80
+Train Epoch: 183 [44800/50000 (90%)]	Loss: 1.8893 Mag: 0.5720 Acc: 54.16
+ 61%|██████▏   | 184/300 [2:43:06<1:41:44, 52.63s/it]EPOCH:183, ======================ACC:69.82====================
+BEST EPOCH:167,BEST ACC:70.1
+Train Epoch: 184 [6400/50000 (13%)]	Loss: 1.5864 Mag: 0.6255 Acc: 60.18
+Train Epoch: 184 [12800/50000 (26%)]	Loss: 1.6183 Mag: 0.6251 Acc: 59.65
+Train Epoch: 184 [19200/50000 (38%)]	Loss: 1.6282 Mag: 0.6239 Acc: 59.50
+Train Epoch: 184 [25600/50000 (51%)]	Loss: 1.6420 Mag: 0.6220 Acc: 59.00
+Train Epoch: 184 [32000/50000 (64%)]	Loss: 1.6861 Mag: 0.6136 Acc: 58.23
+Train Epoch: 184 [38400/50000 (77%)]	Loss: 1.7144 Mag: 0.6081 Acc: 57.62
+Train Epoch: 184 [44800/50000 (90%)]	Loss: 1.7277 Mag: 0.6045 Acc: 57.37
+ 62%|██████▏   | 185/300 [2:43:59<1:40:51, 52.62s/it]EPOCH:184, ======================ACC:69.88====================
+BEST EPOCH:167,BEST ACC:70.1
+Train Epoch: 185 [6400/50000 (13%)]	Loss: 1.6981 Mag: 0.6087 Acc: 58.50
+Train Epoch: 185 [12800/50000 (26%)]	Loss: 1.7492 Mag: 0.6008 Acc: 57.21
+Train Epoch: 185 [19200/50000 (38%)]	Loss: 1.6963 Mag: 0.6122 Acc: 58.08
+Train Epoch: 185 [25600/50000 (51%)]	Loss: 1.7343 Mag: 0.6039 Acc: 57.45
+Train Epoch: 185 [32000/50000 (64%)]	Loss: 1.7469 Mag: 0.6014 Acc: 57.14
+Train Epoch: 185 [38400/50000 (77%)]	Loss: 1.7347 Mag: 0.6036 Acc: 57.32
+Train Epoch: 185 [44800/50000 (90%)]	Loss: 1.7826 Mag: 0.5938 Acc: 56.30
+ 62%|██████▏   | 186/300 [2:44:51<1:40:05, 52.68s/it]EPOCH:185, ======================ACC:69.14====================
+BEST EPOCH:167,BEST ACC:70.1
+Train Epoch: 186 [6400/50000 (13%)]	Loss: 1.8112 Mag: 0.5796 Acc: 55.71
+Train Epoch: 186 [12800/50000 (26%)]	Loss: 1.7963 Mag: 0.5889 Acc: 56.24
+Train Epoch: 186 [19200/50000 (38%)]	Loss: 1.9155 Mag: 0.5650 Acc: 53.57
+Train Epoch: 186 [25600/50000 (51%)]	Loss: 1.8877 Mag: 0.5696 Acc: 53.94
+Train Epoch: 186 [32000/50000 (64%)]	Loss: 1.8811 Mag: 0.5721 Acc: 54.09
+Train Epoch: 186 [38400/50000 (77%)]	Loss: 1.8436 Mag: 0.5800 Acc: 54.88
+Train Epoch: 186 [44800/50000 (90%)]	Loss: 1.8362 Mag: 0.5819 Acc: 55.02
+ 62%|██████▏   | 187/300 [2:45:45<1:39:28, 52.82s/it]EPOCH:186, ======================ACC:69.2====================
+BEST EPOCH:167,BEST ACC:70.1
+Train Epoch: 187 [6400/50000 (13%)]	Loss: 1.8549 Mag: 0.5745 Acc: 54.95
+Train Epoch: 187 [12800/50000 (26%)]	Loss: 1.8443 Mag: 0.5778 Acc: 54.69
+Train Epoch: 187 [19200/50000 (38%)]	Loss: 1.8097 Mag: 0.5858 Acc: 55.27
+Train Epoch: 187 [25600/50000 (51%)]	Loss: 1.8382 Mag: 0.5803 Acc: 54.86
+Train Epoch: 187 [32000/50000 (64%)]	Loss: 1.8795 Mag: 0.5728 Acc: 54.21
+Train Epoch: 187 [38400/50000 (77%)]	Loss: 1.8592 Mag: 0.5766 Acc: 54.78
+Train Epoch: 187 [44800/50000 (90%)]	Loss: 1.8386 Mag: 0.5820 Acc: 55.17
+ 63%|██████▎   | 188/300 [2:46:37<1:38:26, 52.73s/it]EPOCH:187, ======================ACC:71.04====================
+BEST EPOCH:187,BEST ACC:71.04
+Train Epoch: 188 [6400/50000 (13%)]	Loss: 1.7208 Mag: 0.5991 Acc: 57.43
+Train Epoch: 188 [12800/50000 (26%)]	Loss: 1.7466 Mag: 0.5988 Acc: 57.60
+Train Epoch: 188 [19200/50000 (38%)]	Loss: 1.7538 Mag: 0.5978 Acc: 57.24
+Train Epoch: 188 [25600/50000 (51%)]	Loss: 1.6991 Mag: 0.6086 Acc: 58.17
+Train Epoch: 188 [32000/50000 (64%)]	Loss: 1.7054 Mag: 0.6084 Acc: 57.85
+Train Epoch: 188 [38400/50000 (77%)]	Loss: 1.7161 Mag: 0.6061 Acc: 57.67
+Train Epoch: 188 [44800/50000 (90%)]	Loss: 1.7494 Mag: 0.5994 Acc: 57.02
+ 63%|██████▎   | 189/300 [2:47:30<1:37:41, 52.81s/it]EPOCH:188, ======================ACC:69.67====================
+BEST EPOCH:187,BEST ACC:71.04
+Train Epoch: 189 [6400/50000 (13%)]	Loss: 1.5695 Mag: 0.6335 Acc: 60.94
+Train Epoch: 189 [12800/50000 (26%)]	Loss: 1.5875 Mag: 0.6318 Acc: 60.47
+Train Epoch: 189 [19200/50000 (38%)]	Loss: 1.7397 Mag: 0.6025 Acc: 57.44
+Train Epoch: 189 [25600/50000 (51%)]	Loss: 1.7735 Mag: 0.5959 Acc: 56.91
+Train Epoch: 189 [32000/50000 (64%)]	Loss: 1.8243 Mag: 0.5854 Acc: 55.92
+Train Epoch: 189 [38400/50000 (77%)]	Loss: 1.7922 Mag: 0.5921 Acc: 56.49
+Train Epoch: 189 [44800/50000 (90%)]	Loss: 1.7657 Mag: 0.5978 Acc: 56.99
+ 63%|██████▎   | 190/300 [2:48:23<1:37:01, 52.92s/it]EPOCH:189, ======================ACC:68.08====================
+BEST EPOCH:187,BEST ACC:71.04
+Train Epoch: 190 [6400/50000 (13%)]	Loss: 1.7614 Mag: 0.5891 Acc: 57.36
+Train Epoch: 190 [12800/50000 (26%)]	Loss: 1.8068 Mag: 0.5863 Acc: 56.38
+Train Epoch: 190 [19200/50000 (38%)]	Loss: 1.7762 Mag: 0.5928 Acc: 56.78
+Train Epoch: 190 [25600/50000 (51%)]	Loss: 1.7444 Mag: 0.6008 Acc: 57.31
+Train Epoch: 190 [32000/50000 (64%)]	Loss: 1.7858 Mag: 0.5920 Acc: 56.41
+Train Epoch: 190 [38400/50000 (77%)]	Loss: 1.7804 Mag: 0.5933 Acc: 56.47
+Train Epoch: 190 [44800/50000 (90%)]	Loss: 1.7795 Mag: 0.5936 Acc: 56.31
+ 64%|██████▎   | 191/300 [2:49:16<1:36:13, 52.97s/it]EPOCH:190, ======================ACC:69.09====================
+BEST EPOCH:187,BEST ACC:71.04
+Train Epoch: 191 [6400/50000 (13%)]	Loss: 1.6957 Mag: 0.6071 Acc: 58.14
+Train Epoch: 191 [12800/50000 (26%)]	Loss: 1.6821 Mag: 0.6121 Acc: 58.60
+Train Epoch: 191 [19200/50000 (38%)]	Loss: 1.6558 Mag: 0.6177 Acc: 58.93
+Train Epoch: 191 [25600/50000 (51%)]	Loss: 1.6973 Mag: 0.6104 Acc: 58.17
+Train Epoch: 191 [32000/50000 (64%)]	Loss: 1.7114 Mag: 0.6081 Acc: 58.01
+Train Epoch: 191 [38400/50000 (77%)]	Loss: 1.7086 Mag: 0.6090 Acc: 58.02
+Train Epoch: 191 [44800/50000 (90%)]	Loss: 1.7318 Mag: 0.6044 Acc: 57.47
+ 64%|██████▍   | 192/300 [2:50:10<1:35:26, 53.02s/it]EPOCH:191, ======================ACC:70.39====================
+BEST EPOCH:187,BEST ACC:71.04
+Train Epoch: 192 [6400/50000 (13%)]	Loss: 1.6810 Mag: 0.6130 Acc: 58.52
+Train Epoch: 192 [12800/50000 (26%)]	Loss: 1.6218 Mag: 0.6269 Acc: 60.06
+Train Epoch: 192 [19200/50000 (38%)]	Loss: 1.6342 Mag: 0.6248 Acc: 59.86
+Train Epoch: 192 [25600/50000 (51%)]	Loss: 1.6751 Mag: 0.6167 Acc: 59.10
+Train Epoch: 192 [32000/50000 (64%)]	Loss: 1.6392 Mag: 0.6239 Acc: 59.62
+Train Epoch: 192 [38400/50000 (77%)]	Loss: 1.7020 Mag: 0.6108 Acc: 58.40
+Train Epoch: 192 [44800/50000 (90%)]	Loss: 1.7130 Mag: 0.6089 Acc: 58.10
+ 64%|██████▍   | 193/300 [2:51:03<1:34:42, 53.11s/it]EPOCH:192, ======================ACC:69.83====================
+BEST EPOCH:187,BEST ACC:71.04
+Train Epoch: 193 [6400/50000 (13%)]	Loss: 1.6407 Mag: 0.6267 Acc: 60.34
+Train Epoch: 193 [12800/50000 (26%)]	Loss: 1.7189 Mag: 0.6080 Acc: 58.59
+Train Epoch: 193 [19200/50000 (38%)]	Loss: 1.7561 Mag: 0.5988 Acc: 57.29
+Train Epoch: 193 [25600/50000 (51%)]	Loss: 1.8002 Mag: 0.5908 Acc: 56.22
+Train Epoch: 193 [32000/50000 (64%)]	Loss: 1.7553 Mag: 0.5994 Acc: 57.11
+Train Epoch: 193 [38400/50000 (77%)]	Loss: 1.7782 Mag: 0.5951 Acc: 56.51
+Train Epoch: 193 [44800/50000 (90%)]	Loss: 1.7852 Mag: 0.5939 Acc: 56.47
+ 65%|██████▍   | 194/300 [2:51:56<1:33:58, 53.19s/it]EPOCH:193, ======================ACC:70.14====================
+BEST EPOCH:187,BEST ACC:71.04
+Train Epoch: 194 [6400/50000 (13%)]	Loss: 2.0585 Mag: 0.5350 Acc: 51.10
+Train Epoch: 194 [12800/50000 (26%)]	Loss: 1.8939 Mag: 0.5716 Acc: 55.00
+Train Epoch: 194 [19200/50000 (38%)]	Loss: 1.8047 Mag: 0.5884 Acc: 56.75
+Train Epoch: 194 [25600/50000 (51%)]	Loss: 1.8045 Mag: 0.5886 Acc: 56.66
+Train Epoch: 194 [32000/50000 (64%)]	Loss: 1.8200 Mag: 0.5863 Acc: 56.37
+Train Epoch: 194 [38400/50000 (77%)]	Loss: 1.7891 Mag: 0.5924 Acc: 56.90
+Train Epoch: 194 [44800/50000 (90%)]	Loss: 1.7867 Mag: 0.5928 Acc: 57.03
+ 65%|██████▌   | 195/300 [2:52:50<1:33:11, 53.25s/it]EPOCH:194, ======================ACC:71.11====================
+BEST EPOCH:194,BEST ACC:71.11
+Train Epoch: 195 [6400/50000 (13%)]	Loss: 1.7532 Mag: 0.5976 Acc: 56.56
+Train Epoch: 195 [12800/50000 (26%)]	Loss: 1.6247 Mag: 0.6251 Acc: 59.64
+Train Epoch: 195 [19200/50000 (38%)]	Loss: 1.7193 Mag: 0.6048 Acc: 57.61
+Train Epoch: 195 [25600/50000 (51%)]	Loss: 1.7290 Mag: 0.6037 Acc: 57.47
+Train Epoch: 195 [32000/50000 (64%)]	Loss: 1.6734 Mag: 0.6150 Acc: 58.51
+Train Epoch: 195 [38400/50000 (77%)]	Loss: 1.7008 Mag: 0.6098 Acc: 58.01
+Train Epoch: 195 [44800/50000 (90%)]	Loss: 1.6883 Mag: 0.6129 Acc: 58.23
+ 65%|██████▌   | 196/300 [2:53:43<1:32:15, 53.22s/it]EPOCH:195, ======================ACC:69.21====================
+BEST EPOCH:194,BEST ACC:71.11
+Train Epoch: 196 [6400/50000 (13%)]	Loss: 1.4528 Mag: 0.6584 Acc: 64.00
+Train Epoch: 196 [12800/50000 (26%)]	Loss: 1.5576 Mag: 0.6392 Acc: 61.03
+Train Epoch: 196 [19200/50000 (38%)]	Loss: 1.6989 Mag: 0.6109 Acc: 58.26
+Train Epoch: 196 [25600/50000 (51%)]	Loss: 1.7367 Mag: 0.6033 Acc: 57.40
+Train Epoch: 196 [32000/50000 (64%)]	Loss: 1.7385 Mag: 0.6032 Acc: 57.34
+Train Epoch: 196 [38400/50000 (77%)]	Loss: 1.7219 Mag: 0.6069 Acc: 57.65
+Train Epoch: 196 [44800/50000 (90%)]	Loss: 1.7363 Mag: 0.6044 Acc: 57.46
+ 66%|██████▌   | 197/300 [2:54:36<1:31:15, 53.16s/it]EPOCH:196, ======================ACC:71.3====================
+BEST EPOCH:196,BEST ACC:71.3
+Train Epoch: 197 [6400/50000 (13%)]	Loss: 1.7809 Mag: 0.5932 Acc: 57.03
+Train Epoch: 197 [12800/50000 (26%)]	Loss: 1.6589 Mag: 0.6180 Acc: 59.07
+Train Epoch: 197 [19200/50000 (38%)]	Loss: 1.7481 Mag: 0.6012 Acc: 57.56
+Train Epoch: 197 [25600/50000 (51%)]	Loss: 1.7644 Mag: 0.5981 Acc: 57.19
+Train Epoch: 197 [32000/50000 (64%)]	Loss: 1.7415 Mag: 0.6029 Acc: 57.76
+Train Epoch: 197 [38400/50000 (77%)]	Loss: 1.7488 Mag: 0.6011 Acc: 57.52
+Train Epoch: 197 [44800/50000 (90%)]	Loss: 1.7412 Mag: 0.6032 Acc: 57.71
+ 66%|██████▌   | 198/300 [2:55:29<1:30:23, 53.17s/it]EPOCH:197, ======================ACC:70.52====================
+BEST EPOCH:196,BEST ACC:71.3
+Train Epoch: 198 [6400/50000 (13%)]	Loss: 1.6883 Mag: 0.6117 Acc: 59.43
+Train Epoch: 198 [12800/50000 (26%)]	Loss: 1.8014 Mag: 0.5900 Acc: 56.53
+Train Epoch: 198 [19200/50000 (38%)]	Loss: 1.7614 Mag: 0.5977 Acc: 57.22
+Train Epoch: 198 [25600/50000 (51%)]	Loss: 1.7821 Mag: 0.5935 Acc: 56.84
+Train Epoch: 198 [32000/50000 (64%)]	Loss: 1.7532 Mag: 0.6006 Acc: 57.59
+Train Epoch: 198 [38400/50000 (77%)]	Loss: 1.7196 Mag: 0.6076 Acc: 58.26
+Train Epoch: 198 [44800/50000 (90%)]	Loss: 1.7369 Mag: 0.6046 Acc: 57.88
+ 66%|██████▋   | 199/300 [2:56:22<1:29:34, 53.22s/it]EPOCH:198, ======================ACC:71.19====================
+BEST EPOCH:196,BEST ACC:71.3
+Train Epoch: 199 [6400/50000 (13%)]	Loss: 1.5766 Mag: 0.6292 Acc: 61.15
+Train Epoch: 199 [12800/50000 (26%)]	Loss: 1.6039 Mag: 0.6297 Acc: 60.55
+Train Epoch: 199 [19200/50000 (38%)]	Loss: 1.6368 Mag: 0.6222 Acc: 59.75
+Train Epoch: 199 [25600/50000 (51%)]	Loss: 1.6240 Mag: 0.6261 Acc: 59.71
+Train Epoch: 199 [32000/50000 (64%)]	Loss: 1.6435 Mag: 0.6221 Acc: 59.34
+Train Epoch: 199 [38400/50000 (77%)]	Loss: 1.6594 Mag: 0.6189 Acc: 58.96
+Train Epoch: 199 [44800/50000 (90%)]	Loss: 1.6506 Mag: 0.6205 Acc: 59.13
+ 67%|██████▋   | 200/300 [2:57:15<1:28:35, 53.16s/it]EPOCH:199, ======================ACC:71.71====================
+BEST EPOCH:199,BEST ACC:71.71
+Train Epoch: 200 [6400/50000 (13%)]	Loss: 1.7273 Mag: 0.6046 Acc: 58.45
+Train Epoch: 200 [12800/50000 (26%)]	Loss: 1.7362 Mag: 0.6034 Acc: 57.45
+Train Epoch: 200 [19200/50000 (38%)]	Loss: 1.7466 Mag: 0.6024 Acc: 57.23
+Train Epoch: 200 [25600/50000 (51%)]	Loss: 1.7754 Mag: 0.5957 Acc: 56.80
+Train Epoch: 200 [32000/50000 (64%)]	Loss: 1.7416 Mag: 0.6023 Acc: 57.43
+Train Epoch: 200 [38400/50000 (77%)]	Loss: 1.7057 Mag: 0.6097 Acc: 58.19
+Train Epoch: 200 [44800/50000 (90%)]	Loss: 1.7148 Mag: 0.6081 Acc: 58.04
+ 67%|██████▋   | 201/300 [2:58:09<1:27:46, 53.19s/it]EPOCH:200, ======================ACC:71.6====================
+BEST EPOCH:199,BEST ACC:71.71
+Train Epoch: 201 [6400/50000 (13%)]	Loss: 1.7012 Mag: 0.6103 Acc: 58.33
+Train Epoch: 201 [12800/50000 (26%)]	Loss: 1.6885 Mag: 0.6128 Acc: 58.59
+Train Epoch: 201 [19200/50000 (38%)]	Loss: 1.6593 Mag: 0.6171 Acc: 59.27
+Train Epoch: 201 [25600/50000 (51%)]	Loss: 1.6388 Mag: 0.6223 Acc: 59.65
+Train Epoch: 201 [32000/50000 (64%)]	Loss: 1.7086 Mag: 0.6082 Acc: 58.17
+Train Epoch: 201 [38400/50000 (77%)]	Loss: 1.7029 Mag: 0.6104 Acc: 58.33
+Train Epoch: 201 [44800/50000 (90%)]	Loss: 1.7134 Mag: 0.6084 Acc: 58.27
+ 67%|██████▋   | 202/300 [2:59:02<1:26:51, 53.18s/it]EPOCH:201, ======================ACC:71.86====================
+BEST EPOCH:201,BEST ACC:71.86
+Train Epoch: 202 [6400/50000 (13%)]	Loss: 1.6456 Mag: 0.6184 Acc: 59.76
+Train Epoch: 202 [12800/50000 (26%)]	Loss: 1.5914 Mag: 0.6295 Acc: 60.50
+Train Epoch: 202 [19200/50000 (38%)]	Loss: 1.5784 Mag: 0.6345 Acc: 60.60
+Train Epoch: 202 [25600/50000 (51%)]	Loss: 1.6104 Mag: 0.6298 Acc: 60.23
+Train Epoch: 202 [32000/50000 (64%)]	Loss: 1.6067 Mag: 0.6307 Acc: 60.49
+Train Epoch: 202 [38400/50000 (77%)]	Loss: 1.6555 Mag: 0.6216 Acc: 59.46
+Train Epoch: 202 [44800/50000 (90%)]	Loss: 1.6410 Mag: 0.6242 Acc: 59.79
+ 68%|██████▊   | 203/300 [2:59:55<1:26:11, 53.31s/it]EPOCH:202, ======================ACC:70.78====================
+BEST EPOCH:201,BEST ACC:71.86
+Train Epoch: 203 [6400/50000 (13%)]	Loss: 1.7014 Mag: 0.6101 Acc: 59.45
+Train Epoch: 203 [12800/50000 (26%)]	Loss: 1.7506 Mag: 0.5987 Acc: 58.01
+Train Epoch: 203 [19200/50000 (38%)]	Loss: 1.7504 Mag: 0.6007 Acc: 57.84
+Train Epoch: 203 [25600/50000 (51%)]	Loss: 1.7610 Mag: 0.5977 Acc: 57.56
+Train Epoch: 203 [32000/50000 (64%)]	Loss: 1.7645 Mag: 0.5968 Acc: 57.32
+Train Epoch: 203 [38400/50000 (77%)]	Loss: 1.7277 Mag: 0.6055 Acc: 58.18
+Train Epoch: 203 [44800/50000 (90%)]	Loss: 1.7200 Mag: 0.6068 Acc: 58.20
+ 68%|██████▊   | 204/300 [3:00:49<1:25:25, 53.39s/it]EPOCH:203, ======================ACC:73.22====================
+BEST EPOCH:203,BEST ACC:73.22
+Train Epoch: 204 [6400/50000 (13%)]	Loss: 1.6288 Mag: 0.6268 Acc: 61.53
+Train Epoch: 204 [12800/50000 (26%)]	Loss: 1.5885 Mag: 0.6314 Acc: 61.81
+Train Epoch: 204 [19200/50000 (38%)]	Loss: 1.6141 Mag: 0.6269 Acc: 61.10
+Train Epoch: 204 [25600/50000 (51%)]	Loss: 1.5761 Mag: 0.6356 Acc: 61.77
+Train Epoch: 204 [32000/50000 (64%)]	Loss: 1.6240 Mag: 0.6273 Acc: 60.71
+Train Epoch: 204 [38400/50000 (77%)]	Loss: 1.6163 Mag: 0.6280 Acc: 60.83
+Train Epoch: 204 [44800/50000 (90%)]	Loss: 1.6442 Mag: 0.6229 Acc: 60.20
+ 68%|██████▊   | 205/300 [3:01:42<1:24:26, 53.33s/it]EPOCH:204, ======================ACC:69.12====================
+BEST EPOCH:203,BEST ACC:73.22
+Train Epoch: 205 [6400/50000 (13%)]	Loss: 1.5045 Mag: 0.6473 Acc: 62.91
+Train Epoch: 205 [12800/50000 (26%)]	Loss: 1.5388 Mag: 0.6428 Acc: 62.21
+Train Epoch: 205 [19200/50000 (38%)]	Loss: 1.5378 Mag: 0.6452 Acc: 62.23
+Train Epoch: 205 [25600/50000 (51%)]	Loss: 1.6300 Mag: 0.6257 Acc: 60.19
+Train Epoch: 205 [32000/50000 (64%)]	Loss: 1.6274 Mag: 0.6262 Acc: 60.10
+Train Epoch: 205 [38400/50000 (77%)]	Loss: 1.6238 Mag: 0.6272 Acc: 60.16
+Train Epoch: 205 [44800/50000 (90%)]	Loss: 1.6290 Mag: 0.6264 Acc: 59.97
+ 69%|██████▊   | 206/300 [3:02:35<1:23:26, 53.26s/it]EPOCH:205, ======================ACC:71.65====================
+BEST EPOCH:203,BEST ACC:73.22
+Train Epoch: 206 [6400/50000 (13%)]	Loss: 1.7421 Mag: 0.5964 Acc: 58.09
+Train Epoch: 206 [12800/50000 (26%)]	Loss: 1.6393 Mag: 0.6218 Acc: 60.29
+Train Epoch: 206 [19200/50000 (38%)]	Loss: 1.5983 Mag: 0.6324 Acc: 61.18
+Train Epoch: 206 [25600/50000 (51%)]	Loss: 1.6271 Mag: 0.6256 Acc: 60.53
+Train Epoch: 206 [32000/50000 (64%)]	Loss: 1.6417 Mag: 0.6233 Acc: 60.16
+Train Epoch: 206 [38400/50000 (77%)]	Loss: 1.6401 Mag: 0.6238 Acc: 60.11
+Train Epoch: 206 [44800/50000 (90%)]	Loss: 1.6519 Mag: 0.6211 Acc: 59.89
+ 69%|██████▉   | 207/300 [3:03:29<1:22:36, 53.29s/it]EPOCH:206, ======================ACC:71.94====================
+BEST EPOCH:203,BEST ACC:73.22
+Train Epoch: 207 [6400/50000 (13%)]	Loss: 1.6896 Mag: 0.6087 Acc: 59.18
+Train Epoch: 207 [12800/50000 (26%)]	Loss: 1.5607 Mag: 0.6364 Acc: 61.79
+Train Epoch: 207 [19200/50000 (38%)]	Loss: 1.6626 Mag: 0.6178 Acc: 59.59
+Train Epoch: 207 [25600/50000 (51%)]	Loss: 1.6701 Mag: 0.6166 Acc: 59.22
+Train Epoch: 207 [32000/50000 (64%)]	Loss: 1.6686 Mag: 0.6163 Acc: 59.13
+Train Epoch: 207 [38400/50000 (77%)]	Loss: 1.6847 Mag: 0.6140 Acc: 58.91
+Train Epoch: 207 [44800/50000 (90%)]	Loss: 1.6968 Mag: 0.6112 Acc: 58.64
+ 69%|██████▉   | 208/300 [3:04:22<1:21:35, 53.21s/it]EPOCH:207, ======================ACC:72.66====================
+BEST EPOCH:203,BEST ACC:73.22
+Train Epoch: 208 [6400/50000 (13%)]	Loss: 1.5932 Mag: 0.6339 Acc: 61.28
+Train Epoch: 208 [12800/50000 (26%)]	Loss: 1.5971 Mag: 0.6314 Acc: 60.98
+Train Epoch: 208 [19200/50000 (38%)]	Loss: 1.5752 Mag: 0.6349 Acc: 61.11
+Train Epoch: 208 [25600/50000 (51%)]	Loss: 1.5809 Mag: 0.6363 Acc: 61.26
+Train Epoch: 208 [32000/50000 (64%)]	Loss: 1.6169 Mag: 0.6291 Acc: 60.55
+Train Epoch: 208 [38400/50000 (77%)]	Loss: 1.6375 Mag: 0.6243 Acc: 60.08
+Train Epoch: 208 [44800/50000 (90%)]	Loss: 1.6223 Mag: 0.6273 Acc: 60.37
+ 70%|██████▉   | 209/300 [3:05:14<1:20:29, 53.07s/it]EPOCH:208, ======================ACC:72.38====================
+BEST EPOCH:203,BEST ACC:73.22
+Train Epoch: 209 [6400/50000 (13%)]	Loss: 1.6002 Mag: 0.6310 Acc: 60.47
+Train Epoch: 209 [12800/50000 (26%)]	Loss: 1.6340 Mag: 0.6240 Acc: 60.06
+Train Epoch: 209 [19200/50000 (38%)]	Loss: 1.6748 Mag: 0.6164 Acc: 59.24
+Train Epoch: 209 [25600/50000 (51%)]	Loss: 1.6771 Mag: 0.6167 Acc: 59.05
+Train Epoch: 209 [32000/50000 (64%)]	Loss: 1.6403 Mag: 0.6243 Acc: 59.81
+Train Epoch: 209 [38400/50000 (77%)]	Loss: 1.6667 Mag: 0.6192 Acc: 59.45
+Train Epoch: 209 [44800/50000 (90%)]	Loss: 1.6218 Mag: 0.6279 Acc: 60.28
+ 70%|███████   | 210/300 [3:06:07<1:19:37, 53.08s/it]EPOCH:209, ======================ACC:72.7====================
+BEST EPOCH:203,BEST ACC:73.22
+Train Epoch: 210 [6400/50000 (13%)]	Loss: 1.5333 Mag: 0.6476 Acc: 61.76
+Train Epoch: 210 [12800/50000 (26%)]	Loss: 1.4682 Mag: 0.6600 Acc: 63.47
+Train Epoch: 210 [19200/50000 (38%)]	Loss: 1.5764 Mag: 0.6387 Acc: 61.30
+Train Epoch: 210 [25600/50000 (51%)]	Loss: 1.6110 Mag: 0.6304 Acc: 60.58
+Train Epoch: 210 [32000/50000 (64%)]	Loss: 1.6463 Mag: 0.6246 Acc: 59.89
+Train Epoch: 210 [38400/50000 (77%)]	Loss: 1.6693 Mag: 0.6187 Acc: 59.44
+Train Epoch: 210 [44800/50000 (90%)]	Loss: 1.6675 Mag: 0.6199 Acc: 59.55
+ 70%|███████   | 211/300 [3:07:01<1:18:47, 53.12s/it]EPOCH:210, ======================ACC:72.17====================
+BEST EPOCH:203,BEST ACC:73.22
+Train Epoch: 211 [6400/50000 (13%)]	Loss: 1.6918 Mag: 0.6123 Acc: 58.75
+Train Epoch: 211 [12800/50000 (26%)]	Loss: 1.7180 Mag: 0.6059 Acc: 58.14
+Train Epoch: 211 [19200/50000 (38%)]	Loss: 1.6775 Mag: 0.6154 Acc: 59.20
+Train Epoch: 211 [25600/50000 (51%)]	Loss: 1.7091 Mag: 0.6089 Acc: 58.45
+Train Epoch: 211 [32000/50000 (64%)]	Loss: 1.6684 Mag: 0.6182 Acc: 59.36
+Train Epoch: 211 [38400/50000 (77%)]	Loss: 1.6830 Mag: 0.6159 Acc: 59.01
+Train Epoch: 211 [44800/50000 (90%)]	Loss: 1.6746 Mag: 0.6173 Acc: 59.24
+ 71%|███████   | 212/300 [3:07:54<1:18:11, 53.31s/it]EPOCH:211, ======================ACC:73.67====================
+BEST EPOCH:211,BEST ACC:73.67
+Train Epoch: 212 [6400/50000 (13%)]	Loss: 1.6059 Mag: 0.6288 Acc: 60.49
+Train Epoch: 212 [12800/50000 (26%)]	Loss: 1.6689 Mag: 0.6181 Acc: 59.18
+Train Epoch: 212 [19200/50000 (38%)]	Loss: 1.6180 Mag: 0.6282 Acc: 60.11
+Train Epoch: 212 [25600/50000 (51%)]	Loss: 1.5875 Mag: 0.6344 Acc: 60.90
+Train Epoch: 212 [32000/50000 (64%)]	Loss: 1.5712 Mag: 0.6378 Acc: 61.49
+Train Epoch: 212 [38400/50000 (77%)]	Loss: 1.6121 Mag: 0.6294 Acc: 60.61
+Train Epoch: 212 [44800/50000 (90%)]	Loss: 1.6087 Mag: 0.6306 Acc: 60.72
+ 71%|███████   | 213/300 [3:08:48<1:17:33, 53.49s/it]EPOCH:212, ======================ACC:73.23====================
+BEST EPOCH:211,BEST ACC:73.67
+Train Epoch: 213 [6400/50000 (13%)]	Loss: 1.5609 Mag: 0.6393 Acc: 61.78
+Train Epoch: 213 [12800/50000 (26%)]	Loss: 1.5222 Mag: 0.6462 Acc: 62.72
+Train Epoch: 213 [19200/50000 (38%)]	Loss: 1.5613 Mag: 0.6391 Acc: 62.01
+Train Epoch: 213 [25600/50000 (51%)]	Loss: 1.6315 Mag: 0.6251 Acc: 60.49
+Train Epoch: 213 [32000/50000 (64%)]	Loss: 1.6306 Mag: 0.6254 Acc: 60.60
+Train Epoch: 213 [38400/50000 (77%)]	Loss: 1.5816 Mag: 0.6357 Acc: 61.57
+Train Epoch: 213 [44800/50000 (90%)]	Loss: 1.5650 Mag: 0.6394 Acc: 61.79
+ 71%|███████▏  | 214/300 [3:09:42<1:16:36, 53.45s/it]EPOCH:213, ======================ACC:73.16====================
+BEST EPOCH:211,BEST ACC:73.67
+Train Epoch: 214 [6400/50000 (13%)]	Loss: 1.5476 Mag: 0.6466 Acc: 62.62
+Train Epoch: 214 [12800/50000 (26%)]	Loss: 1.5927 Mag: 0.6353 Acc: 61.38
+Train Epoch: 214 [19200/50000 (38%)]	Loss: 1.5707 Mag: 0.6394 Acc: 61.68
+Train Epoch: 214 [25600/50000 (51%)]	Loss: 1.5729 Mag: 0.6384 Acc: 61.45
+Train Epoch: 214 [32000/50000 (64%)]	Loss: 1.5498 Mag: 0.6440 Acc: 61.96
+Train Epoch: 214 [38400/50000 (77%)]	Loss: 1.5504 Mag: 0.6437 Acc: 62.03
+Train Epoch: 214 [44800/50000 (90%)]	Loss: 1.5425 Mag: 0.6447 Acc: 62.07
+ 72%|███████▏  | 215/300 [3:10:35<1:15:38, 53.39s/it]EPOCH:214, ======================ACC:74.81====================
+BEST EPOCH:214,BEST ACC:74.81
+Train Epoch: 215 [6400/50000 (13%)]	Loss: 1.7670 Mag: 0.6019 Acc: 58.13
+Train Epoch: 215 [12800/50000 (26%)]	Loss: 1.7163 Mag: 0.6138 Acc: 59.59
+Train Epoch: 215 [19200/50000 (38%)]	Loss: 1.6744 Mag: 0.6200 Acc: 60.29
+Train Epoch: 215 [25600/50000 (51%)]	Loss: 1.6726 Mag: 0.6206 Acc: 60.20
+Train Epoch: 215 [32000/50000 (64%)]	Loss: 1.6508 Mag: 0.6242 Acc: 60.53
+Train Epoch: 215 [38400/50000 (77%)]	Loss: 1.6292 Mag: 0.6284 Acc: 60.89
+Train Epoch: 215 [44800/50000 (90%)]	Loss: 1.6215 Mag: 0.6297 Acc: 60.94
+ 72%|███████▏  | 216/300 [3:11:28<1:14:41, 53.35s/it]EPOCH:215, ======================ACC:72.88====================
+BEST EPOCH:214,BEST ACC:74.81
+Train Epoch: 216 [6400/50000 (13%)]	Loss: 1.4526 Mag: 0.6589 Acc: 64.65
+Train Epoch: 216 [12800/50000 (26%)]	Loss: 1.4956 Mag: 0.6539 Acc: 63.69
+Train Epoch: 216 [19200/50000 (38%)]	Loss: 1.5822 Mag: 0.6371 Acc: 61.81
+Train Epoch: 216 [25600/50000 (51%)]	Loss: 1.5907 Mag: 0.6357 Acc: 61.47
+Train Epoch: 216 [32000/50000 (64%)]	Loss: 1.5811 Mag: 0.6370 Acc: 61.46
+Train Epoch: 216 [38400/50000 (77%)]	Loss: 1.6054 Mag: 0.6317 Acc: 60.96
+Train Epoch: 216 [44800/50000 (90%)]	Loss: 1.5879 Mag: 0.6355 Acc: 61.33
+ 72%|███████▏  | 217/300 [3:12:21<1:13:44, 53.30s/it]EPOCH:216, ======================ACC:74.32====================
+BEST EPOCH:214,BEST ACC:74.81
+Train Epoch: 217 [6400/50000 (13%)]	Loss: 1.6339 Mag: 0.6269 Acc: 60.47
+Train Epoch: 217 [12800/50000 (26%)]	Loss: 1.7225 Mag: 0.6077 Acc: 58.50
+Train Epoch: 217 [19200/50000 (38%)]	Loss: 1.6282 Mag: 0.6266 Acc: 60.36
+Train Epoch: 217 [25600/50000 (51%)]	Loss: 1.6676 Mag: 0.6184 Acc: 59.55
+Train Epoch: 217 [32000/50000 (64%)]	Loss: 1.6715 Mag: 0.6177 Acc: 59.46
+Train Epoch: 217 [38400/50000 (77%)]	Loss: 1.6865 Mag: 0.6151 Acc: 59.18
+Train Epoch: 217 [44800/50000 (90%)]	Loss: 1.7006 Mag: 0.6123 Acc: 58.95
+ 73%|███████▎  | 218/300 [3:13:15<1:12:48, 53.28s/it]EPOCH:217, ======================ACC:73.8====================
+BEST EPOCH:214,BEST ACC:74.81
+Train Epoch: 218 [6400/50000 (13%)]	Loss: 1.4435 Mag: 0.6646 Acc: 64.88
+Train Epoch: 218 [12800/50000 (26%)]	Loss: 1.3677 Mag: 0.6780 Acc: 66.43
+Train Epoch: 218 [19200/50000 (38%)]	Loss: 1.4573 Mag: 0.6615 Acc: 64.35
+Train Epoch: 218 [25600/50000 (51%)]	Loss: 1.4601 Mag: 0.6612 Acc: 64.41
+Train Epoch: 218 [32000/50000 (64%)]	Loss: 1.4626 Mag: 0.6614 Acc: 64.24
+Train Epoch: 218 [38400/50000 (77%)]	Loss: 1.5044 Mag: 0.6530 Acc: 63.23
+Train Epoch: 218 [44800/50000 (90%)]	Loss: 1.5175 Mag: 0.6505 Acc: 63.02
+ 73%|███████▎  | 219/300 [3:14:08<1:11:53, 53.26s/it]EPOCH:218, ======================ACC:72.88====================
+BEST EPOCH:214,BEST ACC:74.81
+Train Epoch: 219 [6400/50000 (13%)]	Loss: 1.2738 Mag: 0.6946 Acc: 67.91
+Train Epoch: 219 [12800/50000 (26%)]	Loss: 1.4837 Mag: 0.6547 Acc: 63.65
+Train Epoch: 219 [19200/50000 (38%)]	Loss: 1.5270 Mag: 0.6455 Acc: 62.58
+Train Epoch: 219 [25600/50000 (51%)]	Loss: 1.5612 Mag: 0.6386 Acc: 61.85
+Train Epoch: 219 [32000/50000 (64%)]	Loss: 1.5665 Mag: 0.6384 Acc: 61.75
+Train Epoch: 219 [38400/50000 (77%)]	Loss: 1.5718 Mag: 0.6379 Acc: 61.58
+Train Epoch: 219 [44800/50000 (90%)]	Loss: 1.5722 Mag: 0.6383 Acc: 61.71
+ 73%|███████▎  | 220/300 [3:15:01<1:10:59, 53.24s/it]EPOCH:219, ======================ACC:74.58====================
+BEST EPOCH:214,BEST ACC:74.81
+Train Epoch: 220 [6400/50000 (13%)]	Loss: 1.5340 Mag: 0.6437 Acc: 63.26
+Train Epoch: 220 [12800/50000 (26%)]	Loss: 1.5336 Mag: 0.6461 Acc: 62.94
+Train Epoch: 220 [19200/50000 (38%)]	Loss: 1.5102 Mag: 0.6507 Acc: 63.31
+Train Epoch: 220 [25600/50000 (51%)]	Loss: 1.5001 Mag: 0.6536 Acc: 63.31
+Train Epoch: 220 [32000/50000 (64%)]	Loss: 1.5347 Mag: 0.6465 Acc: 62.45
+Train Epoch: 220 [38400/50000 (77%)]	Loss: 1.5740 Mag: 0.6388 Acc: 61.65
+Train Epoch: 220 [44800/50000 (90%)]	Loss: 1.5786 Mag: 0.6382 Acc: 61.56
+ 74%|███████▎  | 221/300 [3:15:54<1:10:04, 53.23s/it]EPOCH:220, ======================ACC:73.81====================
+BEST EPOCH:214,BEST ACC:74.81
+Train Epoch: 221 [6400/50000 (13%)]	Loss: 1.5270 Mag: 0.6440 Acc: 62.42
+Train Epoch: 221 [12800/50000 (26%)]	Loss: 1.6013 Mag: 0.6314 Acc: 60.99
+Train Epoch: 221 [19200/50000 (38%)]	Loss: 1.6433 Mag: 0.6238 Acc: 60.06
+Train Epoch: 221 [25600/50000 (51%)]	Loss: 1.6230 Mag: 0.6288 Acc: 60.61
+Train Epoch: 221 [32000/50000 (64%)]	Loss: 1.6175 Mag: 0.6289 Acc: 60.75
+Train Epoch: 221 [38400/50000 (77%)]	Loss: 1.6191 Mag: 0.6288 Acc: 60.75
+Train Epoch: 221 [44800/50000 (90%)]	Loss: 1.6288 Mag: 0.6275 Acc: 60.58
+ 74%|███████▍  | 222/300 [3:16:48<1:09:26, 53.42s/it]EPOCH:221, ======================ACC:74.97====================
+BEST EPOCH:221,BEST ACC:74.97
+Train Epoch: 222 [6400/50000 (13%)]	Loss: 1.5970 Mag: 0.6318 Acc: 61.18
+Train Epoch: 222 [12800/50000 (26%)]	Loss: 1.5612 Mag: 0.6399 Acc: 62.08
+Train Epoch: 222 [19200/50000 (38%)]	Loss: 1.5069 Mag: 0.6508 Acc: 63.39
+Train Epoch: 222 [25600/50000 (51%)]	Loss: 1.5130 Mag: 0.6512 Acc: 63.38
+Train Epoch: 222 [32000/50000 (64%)]	Loss: 1.5486 Mag: 0.6440 Acc: 62.53
+Train Epoch: 222 [38400/50000 (77%)]	Loss: 1.5484 Mag: 0.6441 Acc: 62.53
+Train Epoch: 222 [44800/50000 (90%)]	Loss: 1.5773 Mag: 0.6383 Acc: 61.92
+ 74%|███████▍  | 223/300 [3:17:41<1:08:24, 53.30s/it]EPOCH:222, ======================ACC:75.41====================
+BEST EPOCH:222,BEST ACC:75.41
+Train Epoch: 223 [6400/50000 (13%)]	Loss: 1.6601 Mag: 0.6211 Acc: 60.50
+Train Epoch: 223 [12800/50000 (26%)]	Loss: 1.4502 Mag: 0.6640 Acc: 64.87
+Train Epoch: 223 [19200/50000 (38%)]	Loss: 1.5500 Mag: 0.6440 Acc: 62.79
+Train Epoch: 223 [25600/50000 (51%)]	Loss: 1.5653 Mag: 0.6409 Acc: 62.29
+Train Epoch: 223 [32000/50000 (64%)]	Loss: 1.5760 Mag: 0.6388 Acc: 62.07
+Train Epoch: 223 [38400/50000 (77%)]	Loss: 1.5431 Mag: 0.6449 Acc: 62.64
+Train Epoch: 223 [44800/50000 (90%)]	Loss: 1.5596 Mag: 0.6422 Acc: 62.33
+ 75%|███████▍  | 224/300 [3:18:34<1:07:25, 53.23s/it]EPOCH:223, ======================ACC:74.45====================
+BEST EPOCH:222,BEST ACC:75.41
+Train Epoch: 224 [6400/50000 (13%)]	Loss: 1.7085 Mag: 0.6092 Acc: 59.20
+Train Epoch: 224 [12800/50000 (26%)]	Loss: 1.6372 Mag: 0.6237 Acc: 60.91
+Train Epoch: 224 [19200/50000 (38%)]	Loss: 1.5484 Mag: 0.6428 Acc: 62.73
+Train Epoch: 224 [25600/50000 (51%)]	Loss: 1.5589 Mag: 0.6414 Acc: 62.48
+Train Epoch: 224 [32000/50000 (64%)]	Loss: 1.5282 Mag: 0.6481 Acc: 62.87
+Train Epoch: 224 [38400/50000 (77%)]	Loss: 1.5399 Mag: 0.6460 Acc: 62.74
+Train Epoch: 224 [44800/50000 (90%)]	Loss: 1.5112 Mag: 0.6529 Acc: 63.37
+ 75%|███████▌  | 225/300 [3:19:27<1:06:28, 53.18s/it]EPOCH:224, ======================ACC:73.32====================
+BEST EPOCH:222,BEST ACC:75.41
+Train Epoch: 225 [6400/50000 (13%)]	Loss: 1.4648 Mag: 0.6565 Acc: 64.57
+Train Epoch: 225 [12800/50000 (26%)]	Loss: 1.4125 Mag: 0.6702 Acc: 65.57
+Train Epoch: 225 [19200/50000 (38%)]	Loss: 1.4511 Mag: 0.6624 Acc: 64.77
+Train Epoch: 225 [25600/50000 (51%)]	Loss: 1.5251 Mag: 0.6484 Acc: 63.12
+Train Epoch: 225 [32000/50000 (64%)]	Loss: 1.5022 Mag: 0.6522 Acc: 63.68
+Train Epoch: 225 [38400/50000 (77%)]	Loss: 1.4855 Mag: 0.6561 Acc: 63.84
+Train Epoch: 225 [44800/50000 (90%)]	Loss: 1.4735 Mag: 0.6591 Acc: 64.05
+ 75%|███████▌  | 226/300 [3:20:20<1:05:34, 53.17s/it]EPOCH:225, ======================ACC:74.32====================
+BEST EPOCH:222,BEST ACC:75.41
+Train Epoch: 226 [6400/50000 (13%)]	Loss: 1.3507 Mag: 0.6755 Acc: 65.94
+Train Epoch: 226 [12800/50000 (26%)]	Loss: 1.4815 Mag: 0.6549 Acc: 63.71
+Train Epoch: 226 [19200/50000 (38%)]	Loss: 1.5085 Mag: 0.6499 Acc: 63.21
+Train Epoch: 226 [25600/50000 (51%)]	Loss: 1.5347 Mag: 0.6459 Acc: 62.52
+Train Epoch: 226 [32000/50000 (64%)]	Loss: 1.4963 Mag: 0.6540 Acc: 63.41
+Train Epoch: 226 [38400/50000 (77%)]	Loss: 1.5016 Mag: 0.6539 Acc: 63.35
+Train Epoch: 226 [44800/50000 (90%)]	Loss: 1.4984 Mag: 0.6542 Acc: 63.34
+ 76%|███████▌  | 227/300 [3:21:14<1:04:41, 53.17s/it]EPOCH:226, ======================ACC:74.69====================
+BEST EPOCH:222,BEST ACC:75.41
+Train Epoch: 227 [6400/50000 (13%)]	Loss: 1.4872 Mag: 0.6563 Acc: 65.10
+Train Epoch: 227 [12800/50000 (26%)]	Loss: 1.4580 Mag: 0.6626 Acc: 65.36
+Train Epoch: 227 [19200/50000 (38%)]	Loss: 1.4670 Mag: 0.6608 Acc: 64.87
+Train Epoch: 227 [25600/50000 (51%)]	Loss: 1.4820 Mag: 0.6581 Acc: 64.43
+Train Epoch: 227 [32000/50000 (64%)]	Loss: 1.4956 Mag: 0.6560 Acc: 64.08
+Train Epoch: 227 [38400/50000 (77%)]	Loss: 1.5260 Mag: 0.6492 Acc: 63.21
+Train Epoch: 227 [44800/50000 (90%)]	Loss: 1.5249 Mag: 0.6497 Acc: 63.12
+ 76%|███████▌  | 228/300 [3:22:07<1:03:45, 53.14s/it]EPOCH:227, ======================ACC:75.68====================
+BEST EPOCH:227,BEST ACC:75.68
+Train Epoch: 228 [6400/50000 (13%)]	Loss: 1.7232 Mag: 0.6008 Acc: 59.51
+Train Epoch: 228 [12800/50000 (26%)]	Loss: 1.5492 Mag: 0.6433 Acc: 63.27
+Train Epoch: 228 [19200/50000 (38%)]	Loss: 1.5526 Mag: 0.6428 Acc: 62.90
+Train Epoch: 228 [25600/50000 (51%)]	Loss: 1.5258 Mag: 0.6487 Acc: 63.41
+Train Epoch: 228 [32000/50000 (64%)]	Loss: 1.5204 Mag: 0.6496 Acc: 63.45
+Train Epoch: 228 [38400/50000 (77%)]	Loss: 1.5388 Mag: 0.6458 Acc: 62.94
+Train Epoch: 228 [44800/50000 (90%)]	Loss: 1.4994 Mag: 0.6544 Acc: 63.57
+ 76%|███████▋  | 229/300 [3:23:00<1:02:53, 53.15s/it]EPOCH:228, ======================ACC:75.93====================
+BEST EPOCH:228,BEST ACC:75.93
+Train Epoch: 229 [6400/50000 (13%)]	Loss: 1.5813 Mag: 0.6361 Acc: 62.53
+Train Epoch: 229 [12800/50000 (26%)]	Loss: 1.5882 Mag: 0.6355 Acc: 62.52
+Train Epoch: 229 [19200/50000 (38%)]	Loss: 1.5583 Mag: 0.6422 Acc: 62.83
+Train Epoch: 229 [25600/50000 (51%)]	Loss: 1.6427 Mag: 0.6244 Acc: 60.87
+Train Epoch: 229 [32000/50000 (64%)]	Loss: 1.6393 Mag: 0.6249 Acc: 60.69
+Train Epoch: 229 [38400/50000 (77%)]	Loss: 1.6373 Mag: 0.6251 Acc: 60.68
+Train Epoch: 229 [44800/50000 (90%)]	Loss: 1.6002 Mag: 0.6328 Acc: 61.38
+ 77%|███████▋  | 230/300 [3:23:53<1:02:01, 53.16s/it]EPOCH:229, ======================ACC:75.2====================
+BEST EPOCH:228,BEST ACC:75.93
+Train Epoch: 230 [6400/50000 (13%)]	Loss: 1.5134 Mag: 0.6490 Acc: 63.80
+Train Epoch: 230 [12800/50000 (26%)]	Loss: 1.4218 Mag: 0.6693 Acc: 66.01
+Train Epoch: 230 [19200/50000 (38%)]	Loss: 1.4150 Mag: 0.6716 Acc: 66.06
+Train Epoch: 230 [25600/50000 (51%)]	Loss: 1.4380 Mag: 0.6674 Acc: 65.51
+Train Epoch: 230 [32000/50000 (64%)]	Loss: 1.4911 Mag: 0.6561 Acc: 64.27
+Train Epoch: 230 [38400/50000 (77%)]	Loss: 1.5107 Mag: 0.6521 Acc: 63.77
+Train Epoch: 230 [44800/50000 (90%)]	Loss: 1.5080 Mag: 0.6527 Acc: 63.65
+ 77%|███████▋  | 231/300 [3:24:47<1:01:25, 53.41s/it]EPOCH:230, ======================ACC:75.49====================
+BEST EPOCH:228,BEST ACC:75.93
+Train Epoch: 231 [6400/50000 (13%)]	Loss: 1.4066 Mag: 0.6762 Acc: 66.43
+Train Epoch: 231 [12800/50000 (26%)]	Loss: 1.2825 Mag: 0.6981 Acc: 68.93
+Train Epoch: 231 [19200/50000 (38%)]	Loss: 1.3471 Mag: 0.6852 Acc: 67.18
+Train Epoch: 231 [25600/50000 (51%)]	Loss: 1.4578 Mag: 0.6633 Acc: 64.85
+Train Epoch: 231 [32000/50000 (64%)]	Loss: 1.4248 Mag: 0.6697 Acc: 65.46
+Train Epoch: 231 [38400/50000 (77%)]	Loss: 1.4518 Mag: 0.6640 Acc: 64.78
+Train Epoch: 231 [44800/50000 (90%)]	Loss: 1.4943 Mag: 0.6549 Acc: 63.89
+ 77%|███████▋  | 232/300 [3:25:40<1:00:27, 53.34s/it]EPOCH:231, ======================ACC:76.0====================
+BEST EPOCH:231,BEST ACC:76.0
+Train Epoch: 232 [6400/50000 (13%)]	Loss: 1.5223 Mag: 0.6495 Acc: 63.49
+Train Epoch: 232 [12800/50000 (26%)]	Loss: 1.5993 Mag: 0.6330 Acc: 61.75
+Train Epoch: 232 [19200/50000 (38%)]	Loss: 1.4834 Mag: 0.6568 Acc: 64.08
+Train Epoch: 232 [25600/50000 (51%)]	Loss: 1.5095 Mag: 0.6518 Acc: 63.48
+Train Epoch: 232 [32000/50000 (64%)]	Loss: 1.5039 Mag: 0.6534 Acc: 63.55
+Train Epoch: 232 [38400/50000 (77%)]	Loss: 1.5282 Mag: 0.6495 Acc: 62.82
+Train Epoch: 232 [44800/50000 (90%)]	Loss: 1.5508 Mag: 0.6446 Acc: 62.40
+ 78%|███████▊  | 233/300 [3:26:34<59:34, 53.35s/it]  EPOCH:232, ======================ACC:75.67====================
+BEST EPOCH:231,BEST ACC:76.0
+Train Epoch: 233 [6400/50000 (13%)]	Loss: 1.2448 Mag: 0.7030 Acc: 69.06
+Train Epoch: 233 [12800/50000 (26%)]	Loss: 1.2527 Mag: 0.7038 Acc: 69.12
+Train Epoch: 233 [19200/50000 (38%)]	Loss: 1.3148 Mag: 0.6903 Acc: 67.63
+Train Epoch: 233 [25600/50000 (51%)]	Loss: 1.3481 Mag: 0.6853 Acc: 66.91
+Train Epoch: 233 [32000/50000 (64%)]	Loss: 1.3889 Mag: 0.6773 Acc: 65.96
+Train Epoch: 233 [38400/50000 (77%)]	Loss: 1.3979 Mag: 0.6754 Acc: 65.80
+Train Epoch: 233 [44800/50000 (90%)]	Loss: 1.4115 Mag: 0.6729 Acc: 65.58
+ 78%|███████▊  | 234/300 [3:27:27<58:34, 53.25s/it]EPOCH:233, ======================ACC:76.79====================
+BEST EPOCH:233,BEST ACC:76.79
+Train Epoch: 234 [6400/50000 (13%)]	Loss: 1.1266 Mag: 0.7297 Acc: 71.50
+Train Epoch: 234 [12800/50000 (26%)]	Loss: 1.2505 Mag: 0.7036 Acc: 69.01
+Train Epoch: 234 [19200/50000 (38%)]	Loss: 1.3121 Mag: 0.6918 Acc: 67.43
+Train Epoch: 234 [25600/50000 (51%)]	Loss: 1.4045 Mag: 0.6731 Acc: 65.51
+Train Epoch: 234 [32000/50000 (64%)]	Loss: 1.4034 Mag: 0.6734 Acc: 65.57
+Train Epoch: 234 [38400/50000 (77%)]	Loss: 1.4299 Mag: 0.6685 Acc: 65.20
+Train Epoch: 234 [44800/50000 (90%)]	Loss: 1.4294 Mag: 0.6686 Acc: 65.21
+ 78%|███████▊  | 235/300 [3:28:20<57:40, 53.24s/it]EPOCH:234, ======================ACC:76.74====================
+BEST EPOCH:233,BEST ACC:76.79
+Train Epoch: 235 [6400/50000 (13%)]	Loss: 1.5935 Mag: 0.6311 Acc: 61.88
+Train Epoch: 235 [12800/50000 (26%)]	Loss: 1.4995 Mag: 0.6511 Acc: 63.78
+Train Epoch: 235 [19200/50000 (38%)]	Loss: 1.4942 Mag: 0.6548 Acc: 63.90
+Train Epoch: 235 [25600/50000 (51%)]	Loss: 1.5184 Mag: 0.6502 Acc: 63.60
+Train Epoch: 235 [32000/50000 (64%)]	Loss: 1.5052 Mag: 0.6529 Acc: 63.76
+Train Epoch: 235 [38400/50000 (77%)]	Loss: 1.5149 Mag: 0.6521 Acc: 63.62
+Train Epoch: 235 [44800/50000 (90%)]	Loss: 1.4982 Mag: 0.6553 Acc: 64.08
+ 79%|███████▊  | 236/300 [3:29:13<56:47, 53.24s/it]EPOCH:235, ======================ACC:76.86====================
+BEST EPOCH:235,BEST ACC:76.86
+Train Epoch: 236 [6400/50000 (13%)]	Loss: 1.3282 Mag: 0.6869 Acc: 67.40
+Train Epoch: 236 [12800/50000 (26%)]	Loss: 1.3414 Mag: 0.6860 Acc: 66.74
+Train Epoch: 236 [19200/50000 (38%)]	Loss: 1.3052 Mag: 0.6946 Acc: 67.87
+Train Epoch: 236 [25600/50000 (51%)]	Loss: 1.3002 Mag: 0.6968 Acc: 68.11
+Train Epoch: 236 [32000/50000 (64%)]	Loss: 1.3113 Mag: 0.6950 Acc: 67.90
+Train Epoch: 236 [38400/50000 (77%)]	Loss: 1.3217 Mag: 0.6925 Acc: 67.61
+Train Epoch: 236 [44800/50000 (90%)]	Loss: 1.3293 Mag: 0.6909 Acc: 67.32
+ 79%|███████▉  | 237/300 [3:30:06<55:52, 53.22s/it]EPOCH:236, ======================ACC:76.5====================
+BEST EPOCH:235,BEST ACC:76.86
+Train Epoch: 237 [6400/50000 (13%)]	Loss: 1.4819 Mag: 0.6562 Acc: 64.10
+Train Epoch: 237 [12800/50000 (26%)]	Loss: 1.3814 Mag: 0.6763 Acc: 66.57
+Train Epoch: 237 [19200/50000 (38%)]	Loss: 1.4439 Mag: 0.6655 Acc: 65.43
+Train Epoch: 237 [25600/50000 (51%)]	Loss: 1.4318 Mag: 0.6685 Acc: 65.53
+Train Epoch: 237 [32000/50000 (64%)]	Loss: 1.4392 Mag: 0.6673 Acc: 65.54
+Train Epoch: 237 [38400/50000 (77%)]	Loss: 1.4649 Mag: 0.6623 Acc: 65.05
+Train Epoch: 237 [44800/50000 (90%)]	Loss: 1.4993 Mag: 0.6554 Acc: 64.22
+ 79%|███████▉  | 238/300 [3:30:59<54:58, 53.20s/it]EPOCH:237, ======================ACC:76.42====================
+BEST EPOCH:235,BEST ACC:76.86
+Train Epoch: 238 [6400/50000 (13%)]	Loss: 1.5053 Mag: 0.6523 Acc: 64.62
+Train Epoch: 238 [12800/50000 (26%)]	Loss: 1.4871 Mag: 0.6577 Acc: 64.81
+Train Epoch: 238 [19200/50000 (38%)]	Loss: 1.4986 Mag: 0.6525 Acc: 64.18
+Train Epoch: 238 [25600/50000 (51%)]	Loss: 1.4577 Mag: 0.6618 Acc: 65.16
+Train Epoch: 238 [32000/50000 (64%)]	Loss: 1.4276 Mag: 0.6692 Acc: 65.72
+Train Epoch: 238 [38400/50000 (77%)]	Loss: 1.4106 Mag: 0.6727 Acc: 65.93
+Train Epoch: 238 [44800/50000 (90%)]	Loss: 1.4344 Mag: 0.6679 Acc: 65.32
+ 80%|███████▉  | 239/300 [3:31:52<54:02, 53.16s/it]EPOCH:238, ======================ACC:75.72====================
+BEST EPOCH:235,BEST ACC:76.86
+Train Epoch: 239 [6400/50000 (13%)]	Loss: 1.4959 Mag: 0.6532 Acc: 64.20
+Train Epoch: 239 [12800/50000 (26%)]	Loss: 1.3992 Mag: 0.6744 Acc: 66.68
+Train Epoch: 239 [19200/50000 (38%)]	Loss: 1.4315 Mag: 0.6690 Acc: 65.91
+Train Epoch: 239 [25600/50000 (51%)]	Loss: 1.4055 Mag: 0.6742 Acc: 66.39
+Train Epoch: 239 [32000/50000 (64%)]	Loss: 1.4328 Mag: 0.6693 Acc: 65.66
+Train Epoch: 239 [38400/50000 (77%)]	Loss: 1.4357 Mag: 0.6683 Acc: 65.64
+Train Epoch: 239 [44800/50000 (90%)]	Loss: 1.4333 Mag: 0.6691 Acc: 65.73
+ 80%|████████  | 240/300 [3:32:46<53:23, 53.39s/it]EPOCH:239, ======================ACC:75.21====================
+BEST EPOCH:235,BEST ACC:76.86
+Train Epoch: 240 [6400/50000 (13%)]	Loss: 1.5695 Mag: 0.6368 Acc: 63.34
+Train Epoch: 240 [12800/50000 (26%)]	Loss: 1.4626 Mag: 0.6628 Acc: 65.65
+Train Epoch: 240 [19200/50000 (38%)]	Loss: 1.4541 Mag: 0.6643 Acc: 66.02
+Train Epoch: 240 [25600/50000 (51%)]	Loss: 1.4271 Mag: 0.6701 Acc: 66.22
+Train Epoch: 240 [32000/50000 (64%)]	Loss: 1.4262 Mag: 0.6697 Acc: 66.17
+Train Epoch: 240 [38400/50000 (77%)]	Loss: 1.3966 Mag: 0.6762 Acc: 66.59
+Train Epoch: 240 [44800/50000 (90%)]	Loss: 1.3772 Mag: 0.6801 Acc: 66.88
+ 80%|████████  | 241/300 [3:33:39<52:24, 53.30s/it]EPOCH:240, ======================ACC:76.51====================
+BEST EPOCH:235,BEST ACC:76.86
+Train Epoch: 241 [6400/50000 (13%)]	Loss: 1.3132 Mag: 0.6934 Acc: 68.17
+Train Epoch: 241 [12800/50000 (26%)]	Loss: 1.3145 Mag: 0.6938 Acc: 68.04
+Train Epoch: 241 [19200/50000 (38%)]	Loss: 1.3922 Mag: 0.6772 Acc: 66.58
+Train Epoch: 241 [25600/50000 (51%)]	Loss: 1.3794 Mag: 0.6797 Acc: 66.86
+Train Epoch: 241 [32000/50000 (64%)]	Loss: 1.3925 Mag: 0.6781 Acc: 66.46
+Train Epoch: 241 [38400/50000 (77%)]	Loss: 1.4106 Mag: 0.6743 Acc: 66.01
+Train Epoch: 241 [44800/50000 (90%)]	Loss: 1.3968 Mag: 0.6766 Acc: 66.28
+ 81%|████████  | 242/300 [3:34:32<51:16, 53.05s/it]EPOCH:241, ======================ACC:76.99====================
+BEST EPOCH:241,BEST ACC:76.99
+Train Epoch: 242 [6400/50000 (13%)]	Loss: 1.4683 Mag: 0.6654 Acc: 64.40
+Train Epoch: 242 [12800/50000 (26%)]	Loss: 1.2993 Mag: 0.6969 Acc: 68.39
+Train Epoch: 242 [19200/50000 (38%)]	Loss: 1.3573 Mag: 0.6832 Acc: 66.80
+Train Epoch: 242 [25600/50000 (51%)]	Loss: 1.4041 Mag: 0.6746 Acc: 65.95
+Train Epoch: 242 [32000/50000 (64%)]	Loss: 1.4495 Mag: 0.6663 Acc: 65.00
+Train Epoch: 242 [38400/50000 (77%)]	Loss: 1.4637 Mag: 0.6632 Acc: 64.74
+Train Epoch: 242 [44800/50000 (90%)]	Loss: 1.4532 Mag: 0.6652 Acc: 65.02
+ 81%|████████  | 243/300 [3:35:24<50:13, 52.87s/it]EPOCH:242, ======================ACC:77.57====================
+BEST EPOCH:242,BEST ACC:77.57
+Train Epoch: 243 [6400/50000 (13%)]	Loss: 1.2759 Mag: 0.7004 Acc: 68.90
+Train Epoch: 243 [12800/50000 (26%)]	Loss: 1.3430 Mag: 0.6872 Acc: 67.52
+Train Epoch: 243 [19200/50000 (38%)]	Loss: 1.3297 Mag: 0.6892 Acc: 67.69
+Train Epoch: 243 [25600/50000 (51%)]	Loss: 1.4012 Mag: 0.6749 Acc: 66.33
+Train Epoch: 243 [32000/50000 (64%)]	Loss: 1.3954 Mag: 0.6767 Acc: 66.54
+Train Epoch: 243 [38400/50000 (77%)]	Loss: 1.3778 Mag: 0.6806 Acc: 66.91
+Train Epoch: 243 [44800/50000 (90%)]	Loss: 1.4126 Mag: 0.6731 Acc: 66.01
+ 81%|████████▏ | 244/300 [3:36:17<49:21, 52.88s/it]EPOCH:243, ======================ACC:77.44====================
+BEST EPOCH:242,BEST ACC:77.57
+Train Epoch: 244 [6400/50000 (13%)]	Loss: 1.1882 Mag: 0.7227 Acc: 71.01
+Train Epoch: 244 [12800/50000 (26%)]	Loss: 1.2603 Mag: 0.7070 Acc: 69.42
+Train Epoch: 244 [19200/50000 (38%)]	Loss: 1.3383 Mag: 0.6901 Acc: 67.60
+Train Epoch: 244 [25600/50000 (51%)]	Loss: 1.3420 Mag: 0.6883 Acc: 67.45
+Train Epoch: 244 [32000/50000 (64%)]	Loss: 1.3861 Mag: 0.6794 Acc: 66.59
+Train Epoch: 244 [38400/50000 (77%)]	Loss: 1.3738 Mag: 0.6823 Acc: 66.99
+Train Epoch: 244 [44800/50000 (90%)]	Loss: 1.3529 Mag: 0.6871 Acc: 67.39
+ 82%|████████▏ | 245/300 [3:37:11<48:35, 53.01s/it]EPOCH:244, ======================ACC:77.09====================
+BEST EPOCH:242,BEST ACC:77.57
+Train Epoch: 245 [6400/50000 (13%)]	Loss: 1.3596 Mag: 0.6850 Acc: 68.58
+Train Epoch: 245 [12800/50000 (26%)]	Loss: 1.3883 Mag: 0.6806 Acc: 67.38
+Train Epoch: 245 [19200/50000 (38%)]	Loss: 1.3464 Mag: 0.6895 Acc: 68.51
+Train Epoch: 245 [25600/50000 (51%)]	Loss: 1.3387 Mag: 0.6903 Acc: 68.30
+Train Epoch: 245 [32000/50000 (64%)]	Loss: 1.3485 Mag: 0.6875 Acc: 67.96
+Train Epoch: 245 [38400/50000 (77%)]	Loss: 1.3461 Mag: 0.6882 Acc: 67.97
+Train Epoch: 245 [44800/50000 (90%)]	Loss: 1.3559 Mag: 0.6861 Acc: 67.60
+ 82%|████████▏ | 246/300 [3:38:04<47:47, 53.10s/it]EPOCH:245, ======================ACC:77.39====================
+BEST EPOCH:242,BEST ACC:77.57
+Train Epoch: 246 [6400/50000 (13%)]	Loss: 1.3402 Mag: 0.6866 Acc: 68.18
+Train Epoch: 246 [12800/50000 (26%)]	Loss: 1.3972 Mag: 0.6785 Acc: 67.06
+Train Epoch: 246 [19200/50000 (38%)]	Loss: 1.4192 Mag: 0.6723 Acc: 66.57
+Train Epoch: 246 [25600/50000 (51%)]	Loss: 1.3841 Mag: 0.6798 Acc: 67.25
+Train Epoch: 246 [32000/50000 (64%)]	Loss: 1.3512 Mag: 0.6867 Acc: 67.88
+Train Epoch: 246 [38400/50000 (77%)]	Loss: 1.3723 Mag: 0.6827 Acc: 67.54
+Train Epoch: 246 [44800/50000 (90%)]	Loss: 1.3800 Mag: 0.6808 Acc: 67.34
+ 82%|████████▏ | 247/300 [3:38:57<46:56, 53.15s/it]EPOCH:246, ======================ACC:77.59====================
+BEST EPOCH:246,BEST ACC:77.59
+Train Epoch: 247 [6400/50000 (13%)]	Loss: 1.4690 Mag: 0.6624 Acc: 64.24
+Train Epoch: 247 [12800/50000 (26%)]	Loss: 1.3468 Mag: 0.6876 Acc: 67.39
+Train Epoch: 247 [19200/50000 (38%)]	Loss: 1.3183 Mag: 0.6932 Acc: 68.61
+Train Epoch: 247 [25600/50000 (51%)]	Loss: 1.3401 Mag: 0.6878 Acc: 67.98
+Train Epoch: 247 [32000/50000 (64%)]	Loss: 1.3247 Mag: 0.6916 Acc: 68.07
+Train Epoch: 247 [38400/50000 (77%)]	Loss: 1.3069 Mag: 0.6946 Acc: 68.47
+Train Epoch: 247 [44800/50000 (90%)]	Loss: 1.3575 Mag: 0.6850 Acc: 67.43
+ 83%|████████▎ | 248/300 [3:39:50<46:03, 53.14s/it]EPOCH:247, ======================ACC:78.43====================
+BEST EPOCH:247,BEST ACC:78.43
+Train Epoch: 248 [6400/50000 (13%)]	Loss: 1.4625 Mag: 0.6653 Acc: 66.10
+Train Epoch: 248 [12800/50000 (26%)]	Loss: 1.2687 Mag: 0.7045 Acc: 69.65
+Train Epoch: 248 [19200/50000 (38%)]	Loss: 1.2563 Mag: 0.7057 Acc: 69.92
+Train Epoch: 248 [25600/50000 (51%)]	Loss: 1.2615 Mag: 0.7047 Acc: 69.68
+Train Epoch: 248 [32000/50000 (64%)]	Loss: 1.2897 Mag: 0.6988 Acc: 68.96
+Train Epoch: 248 [38400/50000 (77%)]	Loss: 1.3000 Mag: 0.6970 Acc: 68.72
+Train Epoch: 248 [44800/50000 (90%)]	Loss: 1.2744 Mag: 0.7030 Acc: 69.36
+ 83%|████████▎ | 249/300 [3:40:44<45:20, 53.34s/it]EPOCH:248, ======================ACC:78.44====================
+BEST EPOCH:248,BEST ACC:78.44
+Train Epoch: 249 [6400/50000 (13%)]	Loss: 1.3525 Mag: 0.6847 Acc: 68.31
+Train Epoch: 249 [12800/50000 (26%)]	Loss: 1.3098 Mag: 0.6950 Acc: 68.99
+Train Epoch: 249 [19200/50000 (38%)]	Loss: 1.3022 Mag: 0.6976 Acc: 69.18
+Train Epoch: 249 [25600/50000 (51%)]	Loss: 1.2848 Mag: 0.7009 Acc: 69.37
+Train Epoch: 249 [32000/50000 (64%)]	Loss: 1.2751 Mag: 0.7031 Acc: 69.53
+Train Epoch: 249 [38400/50000 (77%)]	Loss: 1.2887 Mag: 0.7001 Acc: 69.17
+Train Epoch: 249 [44800/50000 (90%)]	Loss: 1.3286 Mag: 0.6919 Acc: 68.34
+ 83%|████████▎ | 250/300 [3:41:37<44:25, 53.30s/it]EPOCH:249, ======================ACC:76.73====================
+BEST EPOCH:248,BEST ACC:78.44
+Train Epoch: 250 [6400/50000 (13%)]	Loss: 1.2402 Mag: 0.7107 Acc: 70.45
+Train Epoch: 250 [12800/50000 (26%)]	Loss: 1.2156 Mag: 0.7167 Acc: 70.77
+Train Epoch: 250 [19200/50000 (38%)]	Loss: 1.2631 Mag: 0.7061 Acc: 69.88
+Train Epoch: 250 [25600/50000 (51%)]	Loss: 1.2450 Mag: 0.7098 Acc: 70.16
+Train Epoch: 250 [32000/50000 (64%)]	Loss: 1.2676 Mag: 0.7050 Acc: 69.59
+Train Epoch: 250 [38400/50000 (77%)]	Loss: 1.2729 Mag: 0.7041 Acc: 69.46
+Train Epoch: 250 [44800/50000 (90%)]	Loss: 1.2716 Mag: 0.7047 Acc: 69.58
+ 84%|████████▎ | 251/300 [3:42:31<43:31, 53.30s/it]EPOCH:250, ======================ACC:77.7====================
+BEST EPOCH:248,BEST ACC:78.44
+Train Epoch: 251 [6400/50000 (13%)]	Loss: 1.3710 Mag: 0.6775 Acc: 66.93
+Train Epoch: 251 [12800/50000 (26%)]	Loss: 1.3154 Mag: 0.6934 Acc: 68.74
+Train Epoch: 251 [19200/50000 (38%)]	Loss: 1.3238 Mag: 0.6919 Acc: 68.54
+Train Epoch: 251 [25600/50000 (51%)]	Loss: 1.3148 Mag: 0.6939 Acc: 68.73
+Train Epoch: 251 [32000/50000 (64%)]	Loss: 1.3275 Mag: 0.6914 Acc: 68.23
+Train Epoch: 251 [38400/50000 (77%)]	Loss: 1.3661 Mag: 0.6832 Acc: 67.60
+Train Epoch: 251 [44800/50000 (90%)]	Loss: 1.3584 Mag: 0.6852 Acc: 67.73
+ 84%|████████▍ | 252/300 [3:43:24<42:37, 53.28s/it]EPOCH:251, ======================ACC:79.3====================
+BEST EPOCH:251,BEST ACC:79.3
+Train Epoch: 252 [6400/50000 (13%)]	Loss: 1.2519 Mag: 0.7054 Acc: 71.09
+Train Epoch: 252 [12800/50000 (26%)]	Loss: 1.2379 Mag: 0.7083 Acc: 70.97
+Train Epoch: 252 [19200/50000 (38%)]	Loss: 1.3089 Mag: 0.6936 Acc: 69.18
+Train Epoch: 252 [25600/50000 (51%)]	Loss: 1.2838 Mag: 0.6994 Acc: 69.52
+Train Epoch: 252 [32000/50000 (64%)]	Loss: 1.2670 Mag: 0.7036 Acc: 69.92
+Train Epoch: 252 [38400/50000 (77%)]	Loss: 1.2635 Mag: 0.7043 Acc: 69.80
+Train Epoch: 252 [44800/50000 (90%)]	Loss: 1.2408 Mag: 0.7095 Acc: 70.23
+ 84%|████████▍ | 253/300 [3:44:17<41:39, 53.18s/it]EPOCH:252, ======================ACC:78.96====================
+BEST EPOCH:251,BEST ACC:79.3
+Train Epoch: 253 [6400/50000 (13%)]	Loss: 1.2811 Mag: 0.7005 Acc: 69.79
+Train Epoch: 253 [12800/50000 (26%)]	Loss: 1.2097 Mag: 0.7148 Acc: 70.97
+Train Epoch: 253 [19200/50000 (38%)]	Loss: 1.2014 Mag: 0.7165 Acc: 71.10
+Train Epoch: 253 [25600/50000 (51%)]	Loss: 1.1850 Mag: 0.7202 Acc: 71.48
+Train Epoch: 253 [32000/50000 (64%)]	Loss: 1.1850 Mag: 0.7206 Acc: 71.53
+Train Epoch: 253 [38400/50000 (77%)]	Loss: 1.2306 Mag: 0.7117 Acc: 70.46
+Train Epoch: 253 [44800/50000 (90%)]	Loss: 1.2577 Mag: 0.7065 Acc: 69.92
+ 85%|████████▍ | 254/300 [3:45:10<40:45, 53.16s/it]EPOCH:253, ======================ACC:79.91====================
+BEST EPOCH:253,BEST ACC:79.91
+Train Epoch: 254 [6400/50000 (13%)]	Loss: 1.2586 Mag: 0.7048 Acc: 70.76
+Train Epoch: 254 [12800/50000 (26%)]	Loss: 1.2660 Mag: 0.7041 Acc: 70.08
+Train Epoch: 254 [19200/50000 (38%)]	Loss: 1.3066 Mag: 0.6962 Acc: 68.86
+Train Epoch: 254 [25600/50000 (51%)]	Loss: 1.2922 Mag: 0.6994 Acc: 69.15
+Train Epoch: 254 [32000/50000 (64%)]	Loss: 1.3221 Mag: 0.6935 Acc: 68.48
+Train Epoch: 254 [38400/50000 (77%)]	Loss: 1.3163 Mag: 0.6950 Acc: 68.64
+Train Epoch: 254 [44800/50000 (90%)]	Loss: 1.2808 Mag: 0.7025 Acc: 69.45
+ 85%|████████▌ | 255/300 [3:46:03<39:52, 53.16s/it]EPOCH:254, ======================ACC:78.3====================
+BEST EPOCH:253,BEST ACC:79.91
+Train Epoch: 255 [6400/50000 (13%)]	Loss: 1.3341 Mag: 0.6826 Acc: 67.74
+Train Epoch: 255 [12800/50000 (26%)]	Loss: 1.3690 Mag: 0.6792 Acc: 67.54
+Train Epoch: 255 [19200/50000 (38%)]	Loss: 1.3655 Mag: 0.6815 Acc: 67.79
+Train Epoch: 255 [25600/50000 (51%)]	Loss: 1.3627 Mag: 0.6838 Acc: 67.73
+Train Epoch: 255 [32000/50000 (64%)]	Loss: 1.3526 Mag: 0.6854 Acc: 67.97
+Train Epoch: 255 [38400/50000 (77%)]	Loss: 1.3727 Mag: 0.6813 Acc: 67.41
+Train Epoch: 255 [44800/50000 (90%)]	Loss: 1.3735 Mag: 0.6811 Acc: 67.31
+ 85%|████████▌ | 256/300 [3:46:56<38:55, 53.07s/it]EPOCH:255, ======================ACC:79.23====================
+BEST EPOCH:253,BEST ACC:79.91
+Train Epoch: 256 [6400/50000 (13%)]	Loss: 1.0048 Mag: 0.7604 Acc: 76.07
+Train Epoch: 256 [12800/50000 (26%)]	Loss: 1.1303 Mag: 0.7331 Acc: 73.07
+Train Epoch: 256 [19200/50000 (38%)]	Loss: 1.0962 Mag: 0.7403 Acc: 73.70
+Train Epoch: 256 [25600/50000 (51%)]	Loss: 1.1129 Mag: 0.7369 Acc: 73.34
+Train Epoch: 256 [32000/50000 (64%)]	Loss: 1.1576 Mag: 0.7276 Acc: 72.22
+Train Epoch: 256 [38400/50000 (77%)]	Loss: 1.1698 Mag: 0.7249 Acc: 71.96
+Train Epoch: 256 [44800/50000 (90%)]	Loss: 1.1732 Mag: 0.7245 Acc: 71.82
+ 86%|████████▌ | 257/300 [3:47:49<38:01, 53.06s/it]EPOCH:256, ======================ACC:78.76====================
+BEST EPOCH:253,BEST ACC:79.91
+Train Epoch: 257 [6400/50000 (13%)]	Loss: 1.1413 Mag: 0.7271 Acc: 73.04
+Train Epoch: 257 [12800/50000 (26%)]	Loss: 1.2422 Mag: 0.7085 Acc: 70.69
+Train Epoch: 257 [19200/50000 (38%)]	Loss: 1.2214 Mag: 0.7121 Acc: 71.05
+Train Epoch: 257 [25600/50000 (51%)]	Loss: 1.2360 Mag: 0.7102 Acc: 70.92
+Train Epoch: 257 [32000/50000 (64%)]	Loss: 1.2638 Mag: 0.7058 Acc: 70.19
+Train Epoch: 257 [38400/50000 (77%)]	Loss: 1.2490 Mag: 0.7089 Acc: 70.50
+Train Epoch: 257 [44800/50000 (90%)]	Loss: 1.2490 Mag: 0.7087 Acc: 70.54
+ 86%|████████▌ | 258/300 [3:48:43<37:20, 53.35s/it]EPOCH:257, ======================ACC:78.95====================
+BEST EPOCH:253,BEST ACC:79.91
+Train Epoch: 258 [6400/50000 (13%)]	Loss: 1.1590 Mag: 0.7280 Acc: 72.65
+Train Epoch: 258 [12800/50000 (26%)]	Loss: 1.1537 Mag: 0.7293 Acc: 72.39
+Train Epoch: 258 [19200/50000 (38%)]	Loss: 1.1951 Mag: 0.7219 Acc: 71.80
+Train Epoch: 258 [25600/50000 (51%)]	Loss: 1.1886 Mag: 0.7228 Acc: 72.00
+Train Epoch: 258 [32000/50000 (64%)]	Loss: 1.1402 Mag: 0.7333 Acc: 73.11
+Train Epoch: 258 [38400/50000 (77%)]	Loss: 1.1585 Mag: 0.7296 Acc: 72.75
+Train Epoch: 258 [44800/50000 (90%)]	Loss: 1.2047 Mag: 0.7194 Acc: 71.64
+ 86%|████████▋ | 259/300 [3:49:36<36:25, 53.31s/it]EPOCH:258, ======================ACC:79.02====================
+BEST EPOCH:253,BEST ACC:79.91
+Train Epoch: 259 [6400/50000 (13%)]	Loss: 1.2429 Mag: 0.7090 Acc: 70.10
+Train Epoch: 259 [12800/50000 (26%)]	Loss: 1.3091 Mag: 0.6954 Acc: 68.59
+Train Epoch: 259 [19200/50000 (38%)]	Loss: 1.2750 Mag: 0.7048 Acc: 69.41
+Train Epoch: 259 [25600/50000 (51%)]	Loss: 1.2367 Mag: 0.7130 Acc: 70.29
+Train Epoch: 259 [32000/50000 (64%)]	Loss: 1.2352 Mag: 0.7127 Acc: 70.28
+Train Epoch: 259 [38400/50000 (77%)]	Loss: 1.2865 Mag: 0.7018 Acc: 69.11
+Train Epoch: 259 [44800/50000 (90%)]	Loss: 1.3113 Mag: 0.6961 Acc: 68.62
+ 87%|████████▋ | 260/300 [3:50:29<35:32, 53.31s/it]EPOCH:259, ======================ACC:79.8====================
+BEST EPOCH:253,BEST ACC:79.91
+Train Epoch: 260 [6400/50000 (13%)]	Loss: 1.1778 Mag: 0.7271 Acc: 72.75
+Train Epoch: 260 [12800/50000 (26%)]	Loss: 1.1644 Mag: 0.7294 Acc: 72.26
+Train Epoch: 260 [19200/50000 (38%)]	Loss: 1.2141 Mag: 0.7156 Acc: 70.92
+Train Epoch: 260 [25600/50000 (51%)]	Loss: 1.2419 Mag: 0.7094 Acc: 70.33
+Train Epoch: 260 [32000/50000 (64%)]	Loss: 1.2246 Mag: 0.7136 Acc: 70.90
+Train Epoch: 260 [38400/50000 (77%)]	Loss: 1.1744 Mag: 0.7247 Acc: 72.00
+Train Epoch: 260 [44800/50000 (90%)]	Loss: 1.1678 Mag: 0.7265 Acc: 72.12
+ 87%|████████▋ | 261/300 [3:51:22<34:36, 53.23s/it]EPOCH:260, ======================ACC:80.15====================
+BEST EPOCH:260,BEST ACC:80.15
+Train Epoch: 261 [6400/50000 (13%)]	Loss: 1.1965 Mag: 0.7252 Acc: 73.05
+Train Epoch: 261 [12800/50000 (26%)]	Loss: 1.2554 Mag: 0.7087 Acc: 70.90
+Train Epoch: 261 [19200/50000 (38%)]	Loss: 1.1883 Mag: 0.7224 Acc: 71.99
+Train Epoch: 261 [25600/50000 (51%)]	Loss: 1.1858 Mag: 0.7225 Acc: 72.01
+Train Epoch: 261 [32000/50000 (64%)]	Loss: 1.2043 Mag: 0.7174 Acc: 71.38
+Train Epoch: 261 [38400/50000 (77%)]	Loss: 1.2046 Mag: 0.7181 Acc: 71.28
+Train Epoch: 261 [44800/50000 (90%)]	Loss: 1.2144 Mag: 0.7163 Acc: 71.02
+ 87%|████████▋ | 262/300 [3:52:16<33:40, 53.18s/it]EPOCH:261, ======================ACC:80.43====================
+BEST EPOCH:261,BEST ACC:80.43
+Train Epoch: 262 [6400/50000 (13%)]	Loss: 1.1405 Mag: 0.7331 Acc: 74.18
+Train Epoch: 262 [12800/50000 (26%)]	Loss: 1.2288 Mag: 0.7128 Acc: 71.99
+Train Epoch: 262 [19200/50000 (38%)]	Loss: 1.2180 Mag: 0.7141 Acc: 72.00
+Train Epoch: 262 [25600/50000 (51%)]	Loss: 1.1924 Mag: 0.7201 Acc: 72.55
+Train Epoch: 262 [32000/50000 (64%)]	Loss: 1.1690 Mag: 0.7248 Acc: 72.85
+Train Epoch: 262 [38400/50000 (77%)]	Loss: 1.1960 Mag: 0.7199 Acc: 72.04
+Train Epoch: 262 [44800/50000 (90%)]	Loss: 1.1855 Mag: 0.7221 Acc: 72.17
+ 88%|████████▊ | 263/300 [3:53:09<32:46, 53.16s/it]EPOCH:262, ======================ACC:80.32====================
+BEST EPOCH:261,BEST ACC:80.43
+Train Epoch: 263 [6400/50000 (13%)]	Loss: 1.1944 Mag: 0.7190 Acc: 71.24
+Train Epoch: 263 [12800/50000 (26%)]	Loss: 1.1519 Mag: 0.7296 Acc: 72.82
+Train Epoch: 263 [19200/50000 (38%)]	Loss: 1.2048 Mag: 0.7182 Acc: 71.80
+Train Epoch: 263 [25600/50000 (51%)]	Loss: 1.1671 Mag: 0.7254 Acc: 72.47
+Train Epoch: 263 [32000/50000 (64%)]	Loss: 1.1748 Mag: 0.7242 Acc: 72.08
+Train Epoch: 263 [38400/50000 (77%)]	Loss: 1.2058 Mag: 0.7181 Acc: 71.45
+Train Epoch: 263 [44800/50000 (90%)]	Loss: 1.1840 Mag: 0.7227 Acc: 71.92
+ 88%|████████▊ | 264/300 [3:54:02<31:52, 53.12s/it]EPOCH:263, ======================ACC:80.85====================
+BEST EPOCH:263,BEST ACC:80.85
+Train Epoch: 264 [6400/50000 (13%)]	Loss: 0.8581 Mag: 0.7909 Acc: 79.53
+Train Epoch: 264 [12800/50000 (26%)]	Loss: 1.0024 Mag: 0.7604 Acc: 76.69
+Train Epoch: 264 [19200/50000 (38%)]	Loss: 1.0245 Mag: 0.7568 Acc: 76.16
+Train Epoch: 264 [25600/50000 (51%)]	Loss: 1.0191 Mag: 0.7579 Acc: 76.21
+Train Epoch: 264 [32000/50000 (64%)]	Loss: 1.0350 Mag: 0.7540 Acc: 75.75
+Train Epoch: 264 [38400/50000 (77%)]	Loss: 1.0870 Mag: 0.7431 Acc: 74.43
+Train Epoch: 264 [44800/50000 (90%)]	Loss: 1.0813 Mag: 0.7447 Acc: 74.49
+ 88%|████████▊ | 265/300 [3:54:55<30:58, 53.11s/it]EPOCH:264, ======================ACC:80.54====================
+BEST EPOCH:263,BEST ACC:80.85
+Train Epoch: 265 [6400/50000 (13%)]	Loss: 1.2909 Mag: 0.7031 Acc: 70.30
+Train Epoch: 265 [12800/50000 (26%)]	Loss: 1.2761 Mag: 0.7037 Acc: 70.31
+Train Epoch: 265 [19200/50000 (38%)]	Loss: 1.2122 Mag: 0.7165 Acc: 71.57
+Train Epoch: 265 [25600/50000 (51%)]	Loss: 1.1863 Mag: 0.7220 Acc: 72.24
+Train Epoch: 265 [32000/50000 (64%)]	Loss: 1.2037 Mag: 0.7189 Acc: 71.72
+Train Epoch: 265 [38400/50000 (77%)]	Loss: 1.1726 Mag: 0.7261 Acc: 72.45
+Train Epoch: 265 [44800/50000 (90%)]	Loss: 1.1950 Mag: 0.7211 Acc: 71.95
+ 89%|████████▊ | 266/300 [3:55:48<30:07, 53.16s/it]EPOCH:265, ======================ACC:80.74====================
+BEST EPOCH:263,BEST ACC:80.85
+Train Epoch: 266 [6400/50000 (13%)]	Loss: 1.0364 Mag: 0.7560 Acc: 74.81
+Train Epoch: 266 [12800/50000 (26%)]	Loss: 1.0593 Mag: 0.7489 Acc: 74.59
+Train Epoch: 266 [19200/50000 (38%)]	Loss: 1.1120 Mag: 0.7363 Acc: 73.25
+Train Epoch: 266 [25600/50000 (51%)]	Loss: 1.0672 Mag: 0.7462 Acc: 74.20
+Train Epoch: 266 [32000/50000 (64%)]	Loss: 1.0982 Mag: 0.7395 Acc: 73.58
+Train Epoch: 266 [38400/50000 (77%)]	Loss: 1.1142 Mag: 0.7367 Acc: 73.23
+Train Epoch: 266 [44800/50000 (90%)]	Loss: 1.0924 Mag: 0.7417 Acc: 73.84
+ 89%|████████▉ | 267/300 [3:56:42<29:18, 53.27s/it]EPOCH:266, ======================ACC:80.84====================
+BEST EPOCH:263,BEST ACC:80.85
+Train Epoch: 267 [6400/50000 (13%)]	Loss: 1.2452 Mag: 0.7100 Acc: 70.87
+Train Epoch: 267 [12800/50000 (26%)]	Loss: 1.1878 Mag: 0.7226 Acc: 72.06
+Train Epoch: 267 [19200/50000 (38%)]	Loss: 1.2374 Mag: 0.7116 Acc: 71.01
+Train Epoch: 267 [25600/50000 (51%)]	Loss: 1.2210 Mag: 0.7147 Acc: 71.18
+Train Epoch: 267 [32000/50000 (64%)]	Loss: 1.1991 Mag: 0.7198 Acc: 71.64
+Train Epoch: 267 [38400/50000 (77%)]	Loss: 1.2136 Mag: 0.7171 Acc: 71.33
+Train Epoch: 267 [44800/50000 (90%)]	Loss: 1.1788 Mag: 0.7242 Acc: 72.08
+ 89%|████████▉ | 268/300 [3:57:35<28:27, 53.36s/it]EPOCH:267, ======================ACC:81.02====================
+BEST EPOCH:267,BEST ACC:81.02
+Train Epoch: 268 [6400/50000 (13%)]	Loss: 1.3380 Mag: 0.6856 Acc: 68.67
+Train Epoch: 268 [12800/50000 (26%)]	Loss: 1.2739 Mag: 0.7023 Acc: 70.13
+Train Epoch: 268 [19200/50000 (38%)]	Loss: 1.1675 Mag: 0.7270 Acc: 72.53
+Train Epoch: 268 [25600/50000 (51%)]	Loss: 1.1596 Mag: 0.7281 Acc: 72.70
+Train Epoch: 268 [32000/50000 (64%)]	Loss: 1.1710 Mag: 0.7257 Acc: 72.51
+Train Epoch: 268 [38400/50000 (77%)]	Loss: 1.1512 Mag: 0.7305 Acc: 73.05
+Train Epoch: 268 [44800/50000 (90%)]	Loss: 1.1570 Mag: 0.7296 Acc: 73.03
+ 90%|████████▉ | 269/300 [3:58:29<27:34, 53.37s/it]EPOCH:268, ======================ACC:81.22====================
+BEST EPOCH:268,BEST ACC:81.22
+Train Epoch: 269 [6400/50000 (13%)]	Loss: 1.1215 Mag: 0.7357 Acc: 73.84
+Train Epoch: 269 [12800/50000 (26%)]	Loss: 1.1739 Mag: 0.7252 Acc: 73.01
+Train Epoch: 269 [19200/50000 (38%)]	Loss: 1.1954 Mag: 0.7208 Acc: 72.49
+Train Epoch: 269 [25600/50000 (51%)]	Loss: 1.1582 Mag: 0.7275 Acc: 73.07
+Train Epoch: 269 [32000/50000 (64%)]	Loss: 1.1266 Mag: 0.7355 Acc: 73.74
+Train Epoch: 269 [38400/50000 (77%)]	Loss: 1.0980 Mag: 0.7420 Acc: 74.41
+Train Epoch: 269 [44800/50000 (90%)]	Loss: 1.0880 Mag: 0.7441 Acc: 74.52
+ 90%|█████████ | 270/300 [3:59:22<26:39, 53.32s/it]EPOCH:269, ======================ACC:80.7====================
+BEST EPOCH:268,BEST ACC:81.22
+Train Epoch: 270 [6400/50000 (13%)]	Loss: 1.1520 Mag: 0.7305 Acc: 72.23
+Train Epoch: 270 [12800/50000 (26%)]	Loss: 1.1633 Mag: 0.7263 Acc: 71.99
+Train Epoch: 270 [19200/50000 (38%)]	Loss: 1.1342 Mag: 0.7328 Acc: 73.10
+Train Epoch: 270 [25600/50000 (51%)]	Loss: 1.1056 Mag: 0.7388 Acc: 73.53
+Train Epoch: 270 [32000/50000 (64%)]	Loss: 1.1265 Mag: 0.7349 Acc: 73.14
+Train Epoch: 270 [38400/50000 (77%)]	Loss: 1.1165 Mag: 0.7371 Acc: 73.39
+Train Epoch: 270 [44800/50000 (90%)]	Loss: 1.1488 Mag: 0.7306 Acc: 72.64
+ 90%|█████████ | 271/300 [4:00:15<25:44, 53.27s/it]EPOCH:270, ======================ACC:81.46====================
+BEST EPOCH:270,BEST ACC:81.46
+Train Epoch: 271 [6400/50000 (13%)]	Loss: 1.0736 Mag: 0.7492 Acc: 74.93
+Train Epoch: 271 [12800/50000 (26%)]	Loss: 1.0976 Mag: 0.7407 Acc: 73.93
+Train Epoch: 271 [19200/50000 (38%)]	Loss: 1.1410 Mag: 0.7340 Acc: 73.03
+Train Epoch: 271 [25600/50000 (51%)]	Loss: 1.1067 Mag: 0.7414 Acc: 73.96
+Train Epoch: 271 [32000/50000 (64%)]	Loss: 1.1261 Mag: 0.7365 Acc: 73.55
+Train Epoch: 271 [38400/50000 (77%)]	Loss: 1.1026 Mag: 0.7405 Acc: 73.93
+Train Epoch: 271 [44800/50000 (90%)]	Loss: 1.1062 Mag: 0.7402 Acc: 73.97
+ 91%|█████████ | 272/300 [4:01:08<24:50, 53.25s/it]EPOCH:271, ======================ACC:81.42====================
+BEST EPOCH:270,BEST ACC:81.46
+Train Epoch: 272 [6400/50000 (13%)]	Loss: 1.2081 Mag: 0.7157 Acc: 71.20
+Train Epoch: 272 [12800/50000 (26%)]	Loss: 1.1569 Mag: 0.7264 Acc: 72.74
+Train Epoch: 272 [19200/50000 (38%)]	Loss: 1.1044 Mag: 0.7387 Acc: 73.75
+Train Epoch: 272 [25600/50000 (51%)]	Loss: 1.1237 Mag: 0.7351 Acc: 73.41
+Train Epoch: 272 [32000/50000 (64%)]	Loss: 1.1102 Mag: 0.7378 Acc: 73.72
+Train Epoch: 272 [38400/50000 (77%)]	Loss: 1.1172 Mag: 0.7368 Acc: 73.54
+Train Epoch: 272 [44800/50000 (90%)]	Loss: 1.1453 Mag: 0.7304 Acc: 72.75
+ 91%|█████████ | 273/300 [4:02:01<23:57, 53.25s/it]EPOCH:272, ======================ACC:81.77====================
+BEST EPOCH:272,BEST ACC:81.77
+Train Epoch: 273 [6400/50000 (13%)]	Loss: 1.1398 Mag: 0.7366 Acc: 73.07
+Train Epoch: 273 [12800/50000 (26%)]	Loss: 1.0845 Mag: 0.7455 Acc: 74.41
+Train Epoch: 273 [19200/50000 (38%)]	Loss: 1.1193 Mag: 0.7366 Acc: 73.46
+Train Epoch: 273 [25600/50000 (51%)]	Loss: 1.0681 Mag: 0.7490 Acc: 74.71
+Train Epoch: 273 [32000/50000 (64%)]	Loss: 1.0545 Mag: 0.7515 Acc: 74.96
+Train Epoch: 273 [38400/50000 (77%)]	Loss: 1.0932 Mag: 0.7428 Acc: 74.16
+Train Epoch: 273 [44800/50000 (90%)]	Loss: 1.1008 Mag: 0.7414 Acc: 73.99
+ 91%|█████████▏| 274/300 [4:02:54<23:03, 53.20s/it]EPOCH:273, ======================ACC:81.6====================
+BEST EPOCH:272,BEST ACC:81.77
+Train Epoch: 274 [6400/50000 (13%)]	Loss: 1.3440 Mag: 0.6911 Acc: 68.62
+Train Epoch: 274 [12800/50000 (26%)]	Loss: 1.2411 Mag: 0.7124 Acc: 71.28
+Train Epoch: 274 [19200/50000 (38%)]	Loss: 1.2253 Mag: 0.7163 Acc: 71.75
+Train Epoch: 274 [25600/50000 (51%)]	Loss: 1.1854 Mag: 0.7240 Acc: 72.49
+Train Epoch: 274 [32000/50000 (64%)]	Loss: 1.2243 Mag: 0.7147 Acc: 71.52
+Train Epoch: 274 [38400/50000 (77%)]	Loss: 1.2409 Mag: 0.7113 Acc: 71.10
+Train Epoch: 274 [44800/50000 (90%)]	Loss: 1.2109 Mag: 0.7179 Acc: 71.72
+ 92%|█████████▏| 275/300 [4:03:48<22:10, 53.21s/it]EPOCH:274, ======================ACC:81.75====================
+BEST EPOCH:272,BEST ACC:81.77
+Train Epoch: 275 [6400/50000 (13%)]	Loss: 1.2332 Mag: 0.7096 Acc: 70.84
+Train Epoch: 275 [12800/50000 (26%)]	Loss: 1.2588 Mag: 0.7044 Acc: 70.22
+Train Epoch: 275 [19200/50000 (38%)]	Loss: 1.2565 Mag: 0.7058 Acc: 70.51
+Train Epoch: 275 [25600/50000 (51%)]	Loss: 1.2155 Mag: 0.7151 Acc: 71.19
+Train Epoch: 275 [32000/50000 (64%)]	Loss: 1.2064 Mag: 0.7168 Acc: 71.48
+Train Epoch: 275 [38400/50000 (77%)]	Loss: 1.2001 Mag: 0.7181 Acc: 71.52
+Train Epoch: 275 [44800/50000 (90%)]	Loss: 1.1752 Mag: 0.7232 Acc: 71.98
+ 92%|█████████▏| 276/300 [4:04:41<21:17, 53.21s/it]EPOCH:275, ======================ACC:82.09====================
+BEST EPOCH:275,BEST ACC:82.09
+Train Epoch: 276 [6400/50000 (13%)]	Loss: 1.0491 Mag: 0.7513 Acc: 75.49
+Train Epoch: 276 [12800/50000 (26%)]	Loss: 1.0899 Mag: 0.7439 Acc: 74.46
+Train Epoch: 276 [19200/50000 (38%)]	Loss: 1.1202 Mag: 0.7352 Acc: 73.58
+Train Epoch: 276 [25600/50000 (51%)]	Loss: 1.0969 Mag: 0.7411 Acc: 74.22
+Train Epoch: 276 [32000/50000 (64%)]	Loss: 1.0715 Mag: 0.7480 Acc: 74.93
+Train Epoch: 276 [38400/50000 (77%)]	Loss: 1.0776 Mag: 0.7465 Acc: 74.62
+Train Epoch: 276 [44800/50000 (90%)]	Loss: 1.0898 Mag: 0.7432 Acc: 74.21
+ 92%|█████████▏| 277/300 [4:05:35<20:28, 53.39s/it]EPOCH:276, ======================ACC:81.8====================
+BEST EPOCH:275,BEST ACC:82.09
+Train Epoch: 277 [6400/50000 (13%)]	Loss: 0.9565 Mag: 0.7743 Acc: 78.81
+Train Epoch: 277 [12800/50000 (26%)]	Loss: 0.9643 Mag: 0.7727 Acc: 78.25
+Train Epoch: 277 [19200/50000 (38%)]	Loss: 0.9944 Mag: 0.7649 Acc: 77.15
+Train Epoch: 277 [25600/50000 (51%)]	Loss: 1.0645 Mag: 0.7493 Acc: 75.46
+Train Epoch: 277 [32000/50000 (64%)]	Loss: 1.0717 Mag: 0.7475 Acc: 74.98
+Train Epoch: 277 [38400/50000 (77%)]	Loss: 1.0596 Mag: 0.7504 Acc: 75.26
+Train Epoch: 277 [44800/50000 (90%)]	Loss: 1.0549 Mag: 0.7513 Acc: 75.37
+ 93%|█████████▎| 278/300 [4:06:28<19:33, 53.34s/it]EPOCH:277, ======================ACC:81.95====================
+BEST EPOCH:275,BEST ACC:82.09
+Train Epoch: 278 [6400/50000 (13%)]	Loss: 0.9931 Mag: 0.7651 Acc: 77.05
+Train Epoch: 278 [12800/50000 (26%)]	Loss: 0.9299 Mag: 0.7811 Acc: 78.50
+Train Epoch: 278 [19200/50000 (38%)]	Loss: 0.9947 Mag: 0.7659 Acc: 76.91
+Train Epoch: 278 [25600/50000 (51%)]	Loss: 1.0427 Mag: 0.7545 Acc: 75.68
+Train Epoch: 278 [32000/50000 (64%)]	Loss: 1.0288 Mag: 0.7578 Acc: 76.05
+Train Epoch: 278 [38400/50000 (77%)]	Loss: 1.0274 Mag: 0.7579 Acc: 75.96
+Train Epoch: 278 [44800/50000 (90%)]	Loss: 1.0572 Mag: 0.7510 Acc: 75.29
+ 93%|█████████▎| 279/300 [4:07:21<18:39, 53.29s/it]EPOCH:278, ======================ACC:82.29====================
+BEST EPOCH:278,BEST ACC:82.29
+Train Epoch: 279 [6400/50000 (13%)]	Loss: 1.0525 Mag: 0.7526 Acc: 75.11
+Train Epoch: 279 [12800/50000 (26%)]	Loss: 1.0232 Mag: 0.7590 Acc: 76.05
+Train Epoch: 279 [19200/50000 (38%)]	Loss: 1.0803 Mag: 0.7448 Acc: 74.77
+Train Epoch: 279 [25600/50000 (51%)]	Loss: 1.1164 Mag: 0.7384 Acc: 73.91
+Train Epoch: 279 [32000/50000 (64%)]	Loss: 1.0983 Mag: 0.7427 Acc: 74.43
+Train Epoch: 279 [38400/50000 (77%)]	Loss: 1.1119 Mag: 0.7398 Acc: 74.21
+Train Epoch: 279 [44800/50000 (90%)]	Loss: 1.0674 Mag: 0.7496 Acc: 75.25
+ 93%|█████████▎| 280/300 [4:08:14<17:45, 53.29s/it]EPOCH:279, ======================ACC:82.33====================
+BEST EPOCH:279,BEST ACC:82.33
+Train Epoch: 280 [6400/50000 (13%)]	Loss: 1.1762 Mag: 0.7233 Acc: 72.47
+Train Epoch: 280 [12800/50000 (26%)]	Loss: 1.0799 Mag: 0.7443 Acc: 74.80
+Train Epoch: 280 [19200/50000 (38%)]	Loss: 1.0722 Mag: 0.7453 Acc: 74.75
+Train Epoch: 280 [25600/50000 (51%)]	Loss: 1.0667 Mag: 0.7488 Acc: 75.10
+Train Epoch: 280 [32000/50000 (64%)]	Loss: 1.0906 Mag: 0.7437 Acc: 74.51
+Train Epoch: 280 [38400/50000 (77%)]	Loss: 1.0842 Mag: 0.7451 Acc: 74.59
+Train Epoch: 280 [44800/50000 (90%)]	Loss: 1.0833 Mag: 0.7443 Acc: 74.57
+ 94%|█████████▎| 281/300 [4:09:07<16:50, 53.20s/it]EPOCH:280, ======================ACC:82.53====================
+BEST EPOCH:280,BEST ACC:82.53
+Train Epoch: 281 [6400/50000 (13%)]	Loss: 0.8514 Mag: 0.7934 Acc: 79.65
+Train Epoch: 281 [12800/50000 (26%)]	Loss: 0.9885 Mag: 0.7636 Acc: 76.24
+Train Epoch: 281 [19200/50000 (38%)]	Loss: 1.0683 Mag: 0.7479 Acc: 74.48
+Train Epoch: 281 [25600/50000 (51%)]	Loss: 1.0101 Mag: 0.7606 Acc: 75.97
+Train Epoch: 281 [32000/50000 (64%)]	Loss: 1.0444 Mag: 0.7534 Acc: 75.23
+Train Epoch: 281 [38400/50000 (77%)]	Loss: 1.0479 Mag: 0.7526 Acc: 75.26
+Train Epoch: 281 [44800/50000 (90%)]	Loss: 1.0679 Mag: 0.7483 Acc: 74.92
+ 94%|█████████▍| 282/300 [4:10:01<15:58, 53.23s/it]EPOCH:281, ======================ACC:82.53====================
+BEST EPOCH:281,BEST ACC:82.53
+Train Epoch: 282 [6400/50000 (13%)]	Loss: 0.8970 Mag: 0.7876 Acc: 79.20
+Train Epoch: 282 [12800/50000 (26%)]	Loss: 0.9383 Mag: 0.7783 Acc: 78.58
+Train Epoch: 282 [19200/50000 (38%)]	Loss: 1.0143 Mag: 0.7613 Acc: 76.70
+Train Epoch: 282 [25600/50000 (51%)]	Loss: 1.0351 Mag: 0.7566 Acc: 76.07
+Train Epoch: 282 [32000/50000 (64%)]	Loss: 1.0019 Mag: 0.7631 Acc: 76.78
+Train Epoch: 282 [38400/50000 (77%)]	Loss: 1.0162 Mag: 0.7606 Acc: 76.35
+Train Epoch: 282 [44800/50000 (90%)]	Loss: 1.0140 Mag: 0.7609 Acc: 76.32
+ 94%|█████████▍| 283/300 [4:10:54<15:04, 53.19s/it]EPOCH:282, ======================ACC:82.13====================
+BEST EPOCH:281,BEST ACC:82.53
+Train Epoch: 283 [6400/50000 (13%)]	Loss: 0.9784 Mag: 0.7687 Acc: 77.44
+Train Epoch: 283 [12800/50000 (26%)]	Loss: 1.0021 Mag: 0.7609 Acc: 76.35
+Train Epoch: 283 [19200/50000 (38%)]	Loss: 1.0985 Mag: 0.7391 Acc: 73.85
+Train Epoch: 283 [25600/50000 (51%)]	Loss: 1.1098 Mag: 0.7381 Acc: 73.64
+Train Epoch: 283 [32000/50000 (64%)]	Loss: 1.1052 Mag: 0.7391 Acc: 73.82
+Train Epoch: 283 [38400/50000 (77%)]	Loss: 1.0831 Mag: 0.7440 Acc: 74.30
+Train Epoch: 283 [44800/50000 (90%)]	Loss: 1.0829 Mag: 0.7440 Acc: 74.38
+ 95%|█████████▍| 284/300 [4:11:47<14:11, 53.24s/it]EPOCH:283, ======================ACC:82.76====================
+BEST EPOCH:283,BEST ACC:82.76
+Train Epoch: 284 [6400/50000 (13%)]	Loss: 0.9046 Mag: 0.7855 Acc: 78.97
+Train Epoch: 284 [12800/50000 (26%)]	Loss: 1.0034 Mag: 0.7615 Acc: 76.25
+Train Epoch: 284 [19200/50000 (38%)]	Loss: 1.0410 Mag: 0.7539 Acc: 75.30
+Train Epoch: 284 [25600/50000 (51%)]	Loss: 1.0327 Mag: 0.7552 Acc: 75.66
+Train Epoch: 284 [32000/50000 (64%)]	Loss: 1.0067 Mag: 0.7611 Acc: 76.34
+Train Epoch: 284 [38400/50000 (77%)]	Loss: 0.9929 Mag: 0.7640 Acc: 76.77
+Train Epoch: 284 [44800/50000 (90%)]	Loss: 0.9772 Mag: 0.7683 Acc: 77.25
+ 95%|█████████▌| 285/300 [4:12:40<13:17, 53.18s/it]EPOCH:284, ======================ACC:82.73====================
+BEST EPOCH:283,BEST ACC:82.76
+Train Epoch: 285 [6400/50000 (13%)]	Loss: 0.9139 Mag: 0.7853 Acc: 78.52
+Train Epoch: 285 [12800/50000 (26%)]	Loss: 0.9601 Mag: 0.7746 Acc: 77.57
+Train Epoch: 285 [19200/50000 (38%)]	Loss: 0.9966 Mag: 0.7660 Acc: 76.95
+Train Epoch: 285 [25600/50000 (51%)]	Loss: 0.9572 Mag: 0.7746 Acc: 77.82
+Train Epoch: 285 [32000/50000 (64%)]	Loss: 0.9781 Mag: 0.7701 Acc: 77.40
+Train Epoch: 285 [38400/50000 (77%)]	Loss: 0.9692 Mag: 0.7711 Acc: 77.54
+Train Epoch: 285 [44800/50000 (90%)]	Loss: 0.9721 Mag: 0.7698 Acc: 77.30
+ 95%|█████████▌| 286/300 [4:13:34<12:25, 53.27s/it]EPOCH:285, ======================ACC:82.91====================
+BEST EPOCH:285,BEST ACC:82.91
+Train Epoch: 286 [6400/50000 (13%)]	Loss: 0.9998 Mag: 0.7645 Acc: 77.28
+Train Epoch: 286 [12800/50000 (26%)]	Loss: 1.0181 Mag: 0.7581 Acc: 76.27
+Train Epoch: 286 [19200/50000 (38%)]	Loss: 1.0207 Mag: 0.7572 Acc: 75.90
+Train Epoch: 286 [25600/50000 (51%)]	Loss: 1.0231 Mag: 0.7565 Acc: 75.75
+Train Epoch: 286 [32000/50000 (64%)]	Loss: 0.9977 Mag: 0.7619 Acc: 76.45
+Train Epoch: 286 [38400/50000 (77%)]	Loss: 1.0089 Mag: 0.7601 Acc: 76.20
+Train Epoch: 286 [44800/50000 (90%)]	Loss: 0.9709 Mag: 0.7687 Acc: 77.05
+ 96%|█████████▌| 287/300 [4:14:27<11:33, 53.38s/it]EPOCH:286, ======================ACC:82.9====================
+BEST EPOCH:285,BEST ACC:82.91
+Train Epoch: 287 [6400/50000 (13%)]	Loss: 0.8874 Mag: 0.7837 Acc: 79.07
+Train Epoch: 287 [12800/50000 (26%)]	Loss: 0.9757 Mag: 0.7670 Acc: 77.24
+Train Epoch: 287 [19200/50000 (38%)]	Loss: 1.0323 Mag: 0.7542 Acc: 75.78
+Train Epoch: 287 [25600/50000 (51%)]	Loss: 0.9842 Mag: 0.7665 Acc: 77.00
+Train Epoch: 287 [32000/50000 (64%)]	Loss: 1.0005 Mag: 0.7623 Acc: 76.53
+Train Epoch: 287 [38400/50000 (77%)]	Loss: 1.0173 Mag: 0.7586 Acc: 76.15
+Train Epoch: 287 [44800/50000 (90%)]	Loss: 1.0016 Mag: 0.7630 Acc: 76.45
+ 96%|█████████▌| 288/300 [4:15:20<10:39, 53.27s/it]EPOCH:287, ======================ACC:82.84====================
+BEST EPOCH:285,BEST ACC:82.91
+Train Epoch: 288 [6400/50000 (13%)]	Loss: 1.0259 Mag: 0.7636 Acc: 76.42
+Train Epoch: 288 [12800/50000 (26%)]	Loss: 1.0049 Mag: 0.7634 Acc: 76.75
+Train Epoch: 288 [19200/50000 (38%)]	Loss: 1.0196 Mag: 0.7597 Acc: 76.32
+Train Epoch: 288 [25600/50000 (51%)]	Loss: 1.0235 Mag: 0.7589 Acc: 76.10
+Train Epoch: 288 [32000/50000 (64%)]	Loss: 1.0077 Mag: 0.7618 Acc: 76.27
+Train Epoch: 288 [38400/50000 (77%)]	Loss: 1.0044 Mag: 0.7623 Acc: 76.35
+Train Epoch: 288 [44800/50000 (90%)]	Loss: 0.9785 Mag: 0.7688 Acc: 77.13
+ 96%|█████████▋| 289/300 [4:16:13<09:45, 53.25s/it]EPOCH:288, ======================ACC:82.97====================
+BEST EPOCH:288,BEST ACC:82.97
+Train Epoch: 289 [6400/50000 (13%)]	Loss: 1.0239 Mag: 0.7534 Acc: 76.05
+Train Epoch: 289 [12800/50000 (26%)]	Loss: 1.1315 Mag: 0.7320 Acc: 73.44
+Train Epoch: 289 [19200/50000 (38%)]	Loss: 1.0707 Mag: 0.7469 Acc: 74.99
+Train Epoch: 289 [25600/50000 (51%)]	Loss: 0.9711 Mag: 0.7693 Acc: 77.29
+Train Epoch: 289 [32000/50000 (64%)]	Loss: 0.9463 Mag: 0.7743 Acc: 77.82
+Train Epoch: 289 [38400/50000 (77%)]	Loss: 0.9920 Mag: 0.7640 Acc: 76.68
+Train Epoch: 289 [44800/50000 (90%)]	Loss: 0.9779 Mag: 0.7676 Acc: 77.03
+ 97%|█████████▋| 290/300 [4:17:07<08:52, 53.22s/it]EPOCH:289, ======================ACC:83.17====================
+BEST EPOCH:289,BEST ACC:83.17
+Train Epoch: 290 [6400/50000 (13%)]	Loss: 0.8006 Mag: 0.8047 Acc: 80.73
+Train Epoch: 290 [12800/50000 (26%)]	Loss: 0.9226 Mag: 0.7789 Acc: 77.89
+Train Epoch: 290 [19200/50000 (38%)]	Loss: 0.9598 Mag: 0.7721 Acc: 77.18
+Train Epoch: 290 [25600/50000 (51%)]	Loss: 0.9805 Mag: 0.7672 Acc: 76.69
+Train Epoch: 290 [32000/50000 (64%)]	Loss: 0.9739 Mag: 0.7683 Acc: 76.85
+Train Epoch: 290 [38400/50000 (77%)]	Loss: 1.0034 Mag: 0.7617 Acc: 76.21
+Train Epoch: 290 [44800/50000 (90%)]	Loss: 0.9931 Mag: 0.7648 Acc: 76.56
+ 97%|█████████▋| 291/300 [4:18:00<07:58, 53.19s/it]EPOCH:290, ======================ACC:83.24====================
+BEST EPOCH:290,BEST ACC:83.24
+Train Epoch: 291 [6400/50000 (13%)]	Loss: 1.0005 Mag: 0.7593 Acc: 76.28
+Train Epoch: 291 [12800/50000 (26%)]	Loss: 1.0296 Mag: 0.7553 Acc: 76.02
+Train Epoch: 291 [19200/50000 (38%)]	Loss: 1.0845 Mag: 0.7429 Acc: 74.78
+Train Epoch: 291 [25600/50000 (51%)]	Loss: 1.0884 Mag: 0.7417 Acc: 74.60
+Train Epoch: 291 [32000/50000 (64%)]	Loss: 1.1108 Mag: 0.7381 Acc: 74.20
+Train Epoch: 291 [38400/50000 (77%)]	Loss: 1.0610 Mag: 0.7489 Acc: 75.38
+Train Epoch: 291 [44800/50000 (90%)]	Loss: 1.0426 Mag: 0.7537 Acc: 75.83
+ 97%|█████████▋| 292/300 [4:18:53<07:05, 53.21s/it]EPOCH:291, ======================ACC:83.28====================
+BEST EPOCH:291,BEST ACC:83.28
+Train Epoch: 292 [6400/50000 (13%)]	Loss: 1.0411 Mag: 0.7541 Acc: 76.86
+Train Epoch: 292 [12800/50000 (26%)]	Loss: 1.0314 Mag: 0.7555 Acc: 76.28
+Train Epoch: 292 [19200/50000 (38%)]	Loss: 0.9892 Mag: 0.7666 Acc: 77.28
+Train Epoch: 292 [25600/50000 (51%)]	Loss: 0.9423 Mag: 0.7760 Acc: 78.28
+Train Epoch: 292 [32000/50000 (64%)]	Loss: 0.9670 Mag: 0.7705 Acc: 77.61
+Train Epoch: 292 [38400/50000 (77%)]	Loss: 1.0046 Mag: 0.7614 Acc: 76.70
+Train Epoch: 292 [44800/50000 (90%)]	Loss: 0.9879 Mag: 0.7663 Acc: 77.28
+ 98%|█████████▊| 293/300 [4:19:46<06:12, 53.23s/it]EPOCH:292, ======================ACC:82.95====================
+BEST EPOCH:291,BEST ACC:83.28
+Train Epoch: 293 [6400/50000 (13%)]	Loss: 1.0018 Mag: 0.7594 Acc: 77.04
+Train Epoch: 293 [12800/50000 (26%)]	Loss: 1.0660 Mag: 0.7497 Acc: 75.51
+Train Epoch: 293 [19200/50000 (38%)]	Loss: 1.0180 Mag: 0.7611 Acc: 76.73
+Train Epoch: 293 [25600/50000 (51%)]	Loss: 0.9647 Mag: 0.7718 Acc: 77.87
+Train Epoch: 293 [32000/50000 (64%)]	Loss: 0.9742 Mag: 0.7698 Acc: 77.60
+Train Epoch: 293 [38400/50000 (77%)]	Loss: 1.0323 Mag: 0.7566 Acc: 76.15
+Train Epoch: 293 [44800/50000 (90%)]	Loss: 1.0184 Mag: 0.7592 Acc: 76.42
+ 98%|█████████▊| 294/300 [4:20:40<05:19, 53.25s/it]EPOCH:293, ======================ACC:83.21====================
+BEST EPOCH:291,BEST ACC:83.28
+Train Epoch: 294 [6400/50000 (13%)]	Loss: 1.1928 Mag: 0.7188 Acc: 70.72
+Train Epoch: 294 [12800/50000 (26%)]	Loss: 1.0908 Mag: 0.7419 Acc: 74.04
+Train Epoch: 294 [19200/50000 (38%)]	Loss: 1.0712 Mag: 0.7483 Acc: 74.78
+Train Epoch: 294 [25600/50000 (51%)]	Loss: 1.0147 Mag: 0.7609 Acc: 76.36
+Train Epoch: 294 [32000/50000 (64%)]	Loss: 1.0145 Mag: 0.7609 Acc: 76.36
+Train Epoch: 294 [38400/50000 (77%)]	Loss: 0.9842 Mag: 0.7669 Acc: 76.92
+Train Epoch: 294 [44800/50000 (90%)]	Loss: 0.9924 Mag: 0.7646 Acc: 76.68
+ 98%|█████████▊| 295/300 [4:21:33<04:26, 53.25s/it]EPOCH:294, ======================ACC:83.5====================
+BEST EPOCH:294,BEST ACC:83.5
+Train Epoch: 295 [6400/50000 (13%)]	Loss: 1.0274 Mag: 0.7624 Acc: 76.55
+Train Epoch: 295 [12800/50000 (26%)]	Loss: 1.0496 Mag: 0.7551 Acc: 75.34
+Train Epoch: 295 [19200/50000 (38%)]	Loss: 1.0242 Mag: 0.7600 Acc: 75.82
+Train Epoch: 295 [25600/50000 (51%)]	Loss: 1.0254 Mag: 0.7589 Acc: 75.61
+Train Epoch: 295 [32000/50000 (64%)]	Loss: 0.9693 Mag: 0.7715 Acc: 77.05
+Train Epoch: 295 [38400/50000 (77%)]	Loss: 0.9650 Mag: 0.7722 Acc: 77.13
+Train Epoch: 295 [44800/50000 (90%)]	Loss: 0.9692 Mag: 0.7716 Acc: 77.15
+ 99%|█████████▊| 296/300 [4:22:26<03:32, 53.13s/it]EPOCH:295, ======================ACC:83.39====================
+BEST EPOCH:294,BEST ACC:83.5
+Train Epoch: 296 [6400/50000 (13%)]	Loss: 0.9494 Mag: 0.7734 Acc: 77.64
+Train Epoch: 296 [12800/50000 (26%)]	Loss: 0.9297 Mag: 0.7806 Acc: 78.78
+Train Epoch: 296 [19200/50000 (38%)]	Loss: 0.9365 Mag: 0.7791 Acc: 78.66
+Train Epoch: 296 [25600/50000 (51%)]	Loss: 0.9379 Mag: 0.7783 Acc: 78.46
+Train Epoch: 296 [32000/50000 (64%)]	Loss: 0.9554 Mag: 0.7740 Acc: 77.87
+Train Epoch: 296 [38400/50000 (77%)]	Loss: 0.9775 Mag: 0.7687 Acc: 77.21
+Train Epoch: 296 [44800/50000 (90%)]	Loss: 0.9904 Mag: 0.7655 Acc: 76.81
+ 99%|█████████▉| 297/300 [4:23:19<02:39, 53.11s/it]EPOCH:296, ======================ACC:83.58====================
+BEST EPOCH:296,BEST ACC:83.58
+Train Epoch: 297 [6400/50000 (13%)]	Loss: 0.8733 Mag: 0.7925 Acc: 79.71
+Train Epoch: 297 [12800/50000 (26%)]	Loss: 0.8535 Mag: 0.7960 Acc: 80.45
+Train Epoch: 297 [19200/50000 (38%)]	Loss: 0.7601 Mag: 0.8177 Acc: 82.82
+Train Epoch: 297 [25600/50000 (51%)]	Loss: 0.7674 Mag: 0.8162 Acc: 82.63
+Train Epoch: 297 [32000/50000 (64%)]	Loss: 0.7971 Mag: 0.8102 Acc: 81.88
+Train Epoch: 297 [38400/50000 (77%)]	Loss: 0.8169 Mag: 0.8063 Acc: 81.47
+Train Epoch: 297 [44800/50000 (90%)]	Loss: 0.8183 Mag: 0.8056 Acc: 81.26
+ 99%|█████████▉| 298/300 [4:24:12<01:46, 53.12s/it]EPOCH:297, ======================ACC:83.56====================
+BEST EPOCH:296,BEST ACC:83.58
+Train Epoch: 298 [6400/50000 (13%)]	Loss: 1.0353 Mag: 0.7590 Acc: 75.73
+Train Epoch: 298 [12800/50000 (26%)]	Loss: 1.0292 Mag: 0.7575 Acc: 75.45
+Train Epoch: 298 [19200/50000 (38%)]	Loss: 1.0762 Mag: 0.7480 Acc: 74.67
+Train Epoch: 298 [25600/50000 (51%)]	Loss: 1.0392 Mag: 0.7556 Acc: 75.65
+Train Epoch: 298 [32000/50000 (64%)]	Loss: 1.0391 Mag: 0.7548 Acc: 75.48
+Train Epoch: 298 [38400/50000 (77%)]	Loss: 1.0161 Mag: 0.7595 Acc: 76.14
+Train Epoch: 298 [44800/50000 (90%)]	Loss: 1.0262 Mag: 0.7573 Acc: 75.90
+100%|█████████▉| 299/300 [4:25:05<00:53, 53.09s/it]EPOCH:298, ======================ACC:83.6====================
+BEST EPOCH:298,BEST ACC:83.6
+Train Epoch: 299 [6400/50000 (13%)]	Loss: 1.0130 Mag: 0.7618 Acc: 76.22
+Train Epoch: 299 [12800/50000 (26%)]	Loss: 1.0191 Mag: 0.7613 Acc: 76.22
+Train Epoch: 299 [19200/50000 (38%)]	Loss: 1.0357 Mag: 0.7570 Acc: 75.89
+Train Epoch: 299 [25600/50000 (51%)]	Loss: 1.0986 Mag: 0.7414 Acc: 74.28
+Train Epoch: 299 [32000/50000 (64%)]	Loss: 1.1174 Mag: 0.7365 Acc: 73.80
+Train Epoch: 299 [38400/50000 (77%)]	Loss: 1.0803 Mag: 0.7441 Acc: 74.68
+Train Epoch: 299 [44800/50000 (90%)]	Loss: 1.0502 Mag: 0.7518 Acc: 75.47
+100%|██████████| 300/300 [4:25:58<00:00, 53.09s/it]100%|██████████| 300/300 [4:25:58<00:00, 53.19s/it]
+EPOCH:299, ======================ACC:83.52====================
+BEST EPOCH:298,BEST ACC:83.6
+Result saved to benchmark_composition_results.csv
