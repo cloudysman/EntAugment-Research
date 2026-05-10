@@ -64,3 +64,7 @@ RandAugment_only,CIFAR100,resnet50,456,299,80.21
 RandAugment_only,CIFAR100,wresnet28_10,42,293,81.83
 RandAugment_only,CIFAR100,wresnet28_10,123,296,81.85
 RandAugment_only,CIFAR100,wresnet28_10,456,296,81.79
+EntAugment_CutMix,CIFAR100,resnet18,42,298,81.9
+RandAugment_CutMix,CIFAR100,resnet18,42,289,81.21
+EntAugment_only,CIFAR100,resnet18,42,299,79.39
+RandAugment_only,CIFAR100,resnet18,42,289,78.17
