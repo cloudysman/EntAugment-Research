@@ -1,0 +1,2704 @@
+=== RandAugment (N=2, M=9) + CutMix (p=0.5) ===
+Seed: 42, Dataset: CIFAR10, Model: resnet50, Epochs: 300
+  0%|          | 0/300 [00:00<?, ?it/s]Train Epoch: 0 [RA+CutMix] [6400/50000 (13%)]	Loss: 2.5622 Acc: 10.27
+Train Epoch: 0 [RA+CutMix] [12800/50000 (26%)]	Loss: 2.5718 Acc: 10.06
+Train Epoch: 0 [RA+CutMix] [19200/50000 (38%)]	Loss: 2.5695 Acc: 10.24
+Train Epoch: 0 [RA+CutMix] [25600/50000 (51%)]	Loss: 2.5723 Acc: 10.27
+Train Epoch: 0 [RA+CutMix] [32000/50000 (64%)]	Loss: 2.5695 Acc: 10.30
+Train Epoch: 0 [RA+CutMix] [38400/50000 (77%)]	Loss: 2.5693 Acc: 10.31
+Train Epoch: 0 [RA+CutMix] [44800/50000 (90%)]	Loss: 2.5690 Acc: 10.26
+  0%|          | 1/300 [00:53<4:28:05, 53.80s/it]EPOCH:0, ======================ACC:9.93====================
+BEST EPOCH:0,BEST ACC:9.93
+Train Epoch: 1 [RA+CutMix] [6400/50000 (13%)]	Loss: 7.6964 Acc: 10.16
+Train Epoch: 1 [RA+CutMix] [12800/50000 (26%)]	Loss: 5.1290 Acc: 10.35
+Train Epoch: 1 [RA+CutMix] [19200/50000 (38%)]	Loss: 4.2694 Acc: 10.28
+Train Epoch: 1 [RA+CutMix] [25600/50000 (51%)]	Loss: 3.7912 Acc: 10.33
+Train Epoch: 1 [RA+CutMix] [32000/50000 (64%)]	Loss: 3.5043 Acc: 10.38
+Train Epoch: 1 [RA+CutMix] [38400/50000 (77%)]	Loss: 3.3065 Acc: 10.38
+Train Epoch: 1 [RA+CutMix] [44800/50000 (90%)]	Loss: 3.1640 Acc: 10.51
+  1%|          | 2/300 [01:46<4:24:52, 53.33s/it]EPOCH:1, ======================ACC:15.33====================
+BEST EPOCH:1,BEST ACC:15.33
+Train Epoch: 2 [RA+CutMix] [6400/50000 (13%)]	Loss: 2.2980 Acc: 12.26
+Train Epoch: 2 [RA+CutMix] [12800/50000 (26%)]	Loss: 2.2968 Acc: 12.35
+Train Epoch: 2 [RA+CutMix] [19200/50000 (38%)]	Loss: 2.2951 Acc: 12.55
+Train Epoch: 2 [RA+CutMix] [25600/50000 (51%)]	Loss: 2.2902 Acc: 13.01
+Train Epoch: 2 [RA+CutMix] [32000/50000 (64%)]	Loss: 2.2819 Acc: 13.63
+Train Epoch: 2 [RA+CutMix] [38400/50000 (77%)]	Loss: 2.2702 Acc: 14.11
+Train Epoch: 2 [RA+CutMix] [44800/50000 (90%)]	Loss: 2.2555 Acc: 14.61
+  1%|          | 3/300 [02:39<4:22:31, 53.04s/it]EPOCH:2, ======================ACC:15.1====================
+BEST EPOCH:1,BEST ACC:15.33
+Train Epoch: 3 [RA+CutMix] [6400/50000 (13%)]	Loss: 2.2150 Acc: 16.48
+Train Epoch: 3 [RA+CutMix] [12800/50000 (26%)]	Loss: 2.1995 Acc: 16.73
+Train Epoch: 3 [RA+CutMix] [19200/50000 (38%)]	Loss: 2.1843 Acc: 17.18
+Train Epoch: 3 [RA+CutMix] [25600/50000 (51%)]	Loss: 2.1561 Acc: 18.14
+Train Epoch: 3 [RA+CutMix] [32000/50000 (64%)]	Loss: 2.1384 Acc: 18.67
+Train Epoch: 3 [RA+CutMix] [38400/50000 (77%)]	Loss: 2.1249 Acc: 19.34
+Train Epoch: 3 [RA+CutMix] [44800/50000 (90%)]	Loss: 2.1134 Acc: 19.71
+  1%|▏         | 4/300 [03:31<4:19:57, 52.69s/it]EPOCH:3, ======================ACC:26.03====================
+BEST EPOCH:3,BEST ACC:26.03
+Train Epoch: 4 [RA+CutMix] [6400/50000 (13%)]	Loss: 2.0621 Acc: 22.71
+Train Epoch: 4 [RA+CutMix] [12800/50000 (26%)]	Loss: 2.0289 Acc: 23.86
+Train Epoch: 4 [RA+CutMix] [19200/50000 (38%)]	Loss: 2.0184 Acc: 24.08
+Train Epoch: 4 [RA+CutMix] [25600/50000 (51%)]	Loss: 2.0072 Acc: 24.48
+Train Epoch: 4 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.9954 Acc: 25.02
+Train Epoch: 4 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.9867 Acc: 25.56
+Train Epoch: 4 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.9737 Acc: 26.15
+  2%|▏         | 5/300 [04:23<4:17:55, 52.46s/it]EPOCH:4, ======================ACC:38.36====================
+BEST EPOCH:4,BEST ACC:38.36
+Train Epoch: 5 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.9082 Acc: 30.38
+Train Epoch: 5 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.9122 Acc: 29.96
+Train Epoch: 5 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.8979 Acc: 30.44
+Train Epoch: 5 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.8878 Acc: 30.89
+Train Epoch: 5 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.8847 Acc: 31.06
+Train Epoch: 5 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.9144 Acc: 29.88
+Train Epoch: 5 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.9253 Acc: 29.48
+  2%|▏         | 6/300 [05:16<4:17:10, 52.48s/it]EPOCH:5, ======================ACC:29.85====================
+BEST EPOCH:4,BEST ACC:38.36
+Train Epoch: 6 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.9418 Acc: 29.33
+Train Epoch: 6 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.9007 Acc: 31.33
+Train Epoch: 6 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.8909 Acc: 31.73
+Train Epoch: 6 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.8813 Acc: 32.20
+Train Epoch: 6 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.8471 Acc: 33.43
+Train Epoch: 6 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.8267 Acc: 34.25
+Train Epoch: 6 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.8030 Acc: 35.18
+  2%|▏         | 7/300 [06:08<4:16:35, 52.54s/it]EPOCH:6, ======================ACC:50.37====================
+BEST EPOCH:6,BEST ACC:50.37
+Train Epoch: 7 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.6791 Acc: 40.09
+Train Epoch: 7 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.6730 Acc: 40.64
+Train Epoch: 7 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.6639 Acc: 40.93
+Train Epoch: 7 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.6430 Acc: 41.78
+Train Epoch: 7 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.6374 Acc: 42.04
+Train Epoch: 7 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.6192 Acc: 42.94
+Train Epoch: 7 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.5987 Acc: 43.85
+  3%|▎         | 8/300 [07:01<4:16:05, 52.62s/it]EPOCH:7, ======================ACC:55.95====================
+BEST EPOCH:7,BEST ACC:55.95
+Train Epoch: 8 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.5400 Acc: 47.20
+Train Epoch: 8 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.4917 Acc: 48.99
+Train Epoch: 8 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.4886 Acc: 49.01
+Train Epoch: 8 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.5038 Acc: 48.56
+Train Epoch: 8 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.5132 Acc: 48.27
+Train Epoch: 8 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.4932 Acc: 48.92
+Train Epoch: 8 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.4825 Acc: 49.34
+  3%|▎         | 9/300 [07:54<4:15:35, 52.70s/it]EPOCH:8, ======================ACC:62.63====================
+BEST EPOCH:8,BEST ACC:62.63
+Train Epoch: 9 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.4437 Acc: 50.89
+Train Epoch: 9 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.4356 Acc: 51.21
+Train Epoch: 9 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.3943 Acc: 52.59
+Train Epoch: 9 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.3861 Acc: 52.86
+Train Epoch: 9 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.3807 Acc: 53.20
+Train Epoch: 9 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.3824 Acc: 53.15
+Train Epoch: 9 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.3707 Acc: 53.57
+  3%|▎         | 10/300 [08:47<4:15:19, 52.83s/it]EPOCH:9, ======================ACC:65.63====================
+BEST EPOCH:9,BEST ACC:65.63
+Train Epoch: 10 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.3780 Acc: 53.21
+Train Epoch: 10 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.3518 Acc: 54.47
+Train Epoch: 10 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.3411 Acc: 55.04
+Train Epoch: 10 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.3538 Acc: 54.72
+Train Epoch: 10 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.3481 Acc: 54.88
+Train Epoch: 10 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.3285 Acc: 55.59
+Train Epoch: 10 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.3178 Acc: 55.93
+  4%|▎         | 11/300 [09:40<4:14:30, 52.84s/it]EPOCH:10, ======================ACC:63.71====================
+BEST EPOCH:9,BEST ACC:65.63
+Train Epoch: 11 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.3042 Acc: 55.64
+Train Epoch: 11 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.2770 Acc: 57.02
+Train Epoch: 11 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.3013 Acc: 56.16
+Train Epoch: 11 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.2956 Acc: 56.45
+Train Epoch: 11 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.2791 Acc: 57.17
+Train Epoch: 11 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.2795 Acc: 57.21
+Train Epoch: 11 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.2688 Acc: 57.62
+  4%|▍         | 12/300 [10:33<4:13:26, 52.80s/it]EPOCH:11, ======================ACC:68.7====================
+BEST EPOCH:11,BEST ACC:68.7
+Train Epoch: 12 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.2204 Acc: 60.09
+Train Epoch: 12 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.2089 Acc: 60.06
+Train Epoch: 12 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.2065 Acc: 60.08
+Train Epoch: 12 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.2122 Acc: 59.94
+Train Epoch: 12 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.2057 Acc: 60.29
+Train Epoch: 12 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.1955 Acc: 60.63
+Train Epoch: 12 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.1845 Acc: 60.95
+  4%|▍         | 13/300 [11:25<4:12:04, 52.70s/it]EPOCH:12, ======================ACC:68.15====================
+BEST EPOCH:11,BEST ACC:68.7
+Train Epoch: 13 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.2124 Acc: 60.65
+Train Epoch: 13 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.2693 Acc: 58.07
+Train Epoch: 13 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.2574 Acc: 58.45
+Train Epoch: 13 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.2285 Acc: 59.43
+Train Epoch: 13 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.2197 Acc: 59.75
+Train Epoch: 13 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.2404 Acc: 59.02
+Train Epoch: 13 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.2285 Acc: 59.35
+  5%|▍         | 14/300 [12:18<4:11:19, 52.73s/it]EPOCH:13, ======================ACC:73.64====================
+BEST EPOCH:13,BEST ACC:73.64
+Train Epoch: 14 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.2451 Acc: 58.97
+Train Epoch: 14 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.2020 Acc: 60.65
+Train Epoch: 14 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.1998 Acc: 60.56
+Train Epoch: 14 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.1945 Acc: 60.66
+Train Epoch: 14 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.2117 Acc: 60.01
+Train Epoch: 14 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.2245 Acc: 59.54
+Train Epoch: 14 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.2350 Acc: 59.20
+  5%|▌         | 15/300 [13:11<4:10:23, 52.71s/it]EPOCH:14, ======================ACC:69.97====================
+BEST EPOCH:13,BEST ACC:73.64
+Train Epoch: 15 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.1706 Acc: 61.45
+Train Epoch: 15 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.1608 Acc: 61.81
+Train Epoch: 15 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.1684 Acc: 61.67
+Train Epoch: 15 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.1669 Acc: 61.80
+Train Epoch: 15 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.1631 Acc: 62.17
+Train Epoch: 15 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.1567 Acc: 62.40
+Train Epoch: 15 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.1439 Acc: 62.63
+  5%|▌         | 16/300 [14:03<4:09:19, 52.67s/it]EPOCH:15, ======================ACC:66.6====================
+BEST EPOCH:13,BEST ACC:73.64
+Train Epoch: 16 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0668 Acc: 64.26
+Train Epoch: 16 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0612 Acc: 64.73
+Train Epoch: 16 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.1029 Acc: 63.41
+Train Epoch: 16 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.1076 Acc: 63.20
+Train Epoch: 16 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.1119 Acc: 63.22
+Train Epoch: 16 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.1277 Acc: 62.76
+Train Epoch: 16 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.1223 Acc: 63.00
+  6%|▌         | 17/300 [14:56<4:08:19, 52.65s/it]EPOCH:16, ======================ACC:69.86====================
+BEST EPOCH:13,BEST ACC:73.64
+Train Epoch: 17 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.2373 Acc: 58.66
+Train Epoch: 17 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.1955 Acc: 60.40
+Train Epoch: 17 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.1841 Acc: 60.53
+Train Epoch: 17 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.1912 Acc: 60.50
+Train Epoch: 17 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.1855 Acc: 60.85
+Train Epoch: 17 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.1862 Acc: 60.93
+Train Epoch: 17 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.1812 Acc: 61.08
+  6%|▌         | 18/300 [15:49<4:07:48, 52.73s/it]EPOCH:17, ======================ACC:70.73====================
+BEST EPOCH:13,BEST ACC:73.64
+Train Epoch: 18 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.1780 Acc: 61.96
+Train Epoch: 18 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.1014 Acc: 64.13
+Train Epoch: 18 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.0942 Acc: 64.39
+Train Epoch: 18 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.0958 Acc: 64.42
+Train Epoch: 18 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.1053 Acc: 63.97
+Train Epoch: 18 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.1083 Acc: 63.79
+Train Epoch: 18 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.1095 Acc: 63.70
+  6%|▋         | 19/300 [16:41<4:06:34, 52.65s/it]EPOCH:18, ======================ACC:67.65====================
+BEST EPOCH:13,BEST ACC:73.64
+Train Epoch: 19 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.1686 Acc: 61.57
+Train Epoch: 19 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.1391 Acc: 62.41
+Train Epoch: 19 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.1306 Acc: 62.60
+Train Epoch: 19 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.1138 Acc: 63.19
+Train Epoch: 19 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.1308 Acc: 62.61
+Train Epoch: 19 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.1263 Acc: 62.87
+Train Epoch: 19 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.1207 Acc: 63.06
+  7%|▋         | 20/300 [17:34<4:05:35, 52.63s/it]EPOCH:19, ======================ACC:70.61====================
+BEST EPOCH:13,BEST ACC:73.64
+Train Epoch: 20 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.1314 Acc: 63.72
+Train Epoch: 20 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0762 Acc: 65.31
+Train Epoch: 20 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.0733 Acc: 65.26
+Train Epoch: 20 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.1134 Acc: 63.70
+Train Epoch: 20 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.1043 Acc: 64.04
+Train Epoch: 20 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.1117 Acc: 63.72
+Train Epoch: 20 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.1284 Acc: 63.10
+  7%|▋         | 21/300 [18:26<4:03:46, 52.43s/it]EPOCH:20, ======================ACC:74.45====================
+BEST EPOCH:20,BEST ACC:74.45
+Train Epoch: 21 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0703 Acc: 65.52
+Train Epoch: 21 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0465 Acc: 65.99
+Train Epoch: 21 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.0904 Acc: 64.42
+Train Epoch: 21 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.0869 Acc: 64.57
+Train Epoch: 21 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.0896 Acc: 64.43
+Train Epoch: 21 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.0848 Acc: 64.56
+Train Epoch: 21 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.0918 Acc: 64.32
+  7%|▋         | 22/300 [19:18<4:02:22, 52.31s/it]EPOCH:21, ======================ACC:78.24====================
+BEST EPOCH:21,BEST ACC:78.24
+Train Epoch: 22 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.1256 Acc: 63.30
+Train Epoch: 22 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.1218 Acc: 63.17
+Train Epoch: 22 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.1388 Acc: 62.64
+Train Epoch: 22 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.1356 Acc: 62.56
+Train Epoch: 22 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.1388 Acc: 62.52
+Train Epoch: 22 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.1307 Acc: 62.91
+Train Epoch: 22 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.1355 Acc: 62.77
+  8%|▊         | 23/300 [20:10<4:01:00, 52.20s/it]EPOCH:22, ======================ACC:74.87====================
+BEST EPOCH:21,BEST ACC:78.24
+Train Epoch: 23 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0596 Acc: 65.62
+Train Epoch: 23 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.1062 Acc: 63.88
+Train Epoch: 23 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.1086 Acc: 63.95
+Train Epoch: 23 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.1185 Acc: 63.60
+Train Epoch: 23 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.1173 Acc: 63.70
+Train Epoch: 23 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.1284 Acc: 63.30
+Train Epoch: 23 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.1120 Acc: 63.82
+  8%|▊         | 24/300 [21:02<3:59:33, 52.08s/it]EPOCH:23, ======================ACC:74.68====================
+BEST EPOCH:21,BEST ACC:78.24
+Train Epoch: 24 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0346 Acc: 66.21
+Train Epoch: 24 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0336 Acc: 66.52
+Train Epoch: 24 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.0592 Acc: 65.94
+Train Epoch: 24 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.0558 Acc: 65.89
+Train Epoch: 24 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.0684 Acc: 65.30
+Train Epoch: 24 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.0546 Acc: 65.85
+Train Epoch: 24 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.0528 Acc: 65.87
+  8%|▊         | 25/300 [21:54<3:58:32, 52.05s/it]EPOCH:24, ======================ACC:78.83====================
+BEST EPOCH:24,BEST ACC:78.83
+Train Epoch: 25 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0757 Acc: 64.43
+Train Epoch: 25 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0994 Acc: 64.13
+Train Epoch: 25 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.0907 Acc: 64.39
+Train Epoch: 25 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.0755 Acc: 64.93
+Train Epoch: 25 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.0614 Acc: 65.45
+Train Epoch: 25 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.0548 Acc: 65.76
+Train Epoch: 25 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.0649 Acc: 65.34
+  9%|▊         | 26/300 [22:46<3:57:51, 52.09s/it]EPOCH:25, ======================ACC:72.64====================
+BEST EPOCH:24,BEST ACC:78.83
+Train Epoch: 26 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9899 Acc: 67.88
+Train Epoch: 26 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0263 Acc: 66.49
+Train Epoch: 26 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.0599 Acc: 65.39
+Train Epoch: 26 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.0285 Acc: 66.36
+Train Epoch: 26 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.0178 Acc: 66.82
+Train Epoch: 26 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.0350 Acc: 66.27
+Train Epoch: 26 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.0305 Acc: 66.42
+  9%|▉         | 27/300 [23:38<3:56:45, 52.04s/it]EPOCH:26, ======================ACC:77.66====================
+BEST EPOCH:24,BEST ACC:78.83
+Train Epoch: 27 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.1168 Acc: 63.78
+Train Epoch: 27 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0631 Acc: 65.22
+Train Epoch: 27 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.0463 Acc: 65.92
+Train Epoch: 27 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.0545 Acc: 65.59
+Train Epoch: 27 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.0409 Acc: 66.29
+Train Epoch: 27 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.0327 Acc: 66.61
+Train Epoch: 27 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.0277 Acc: 66.82
+  9%|▉         | 28/300 [24:30<3:55:55, 52.04s/it]EPOCH:27, ======================ACC:77.83====================
+BEST EPOCH:24,BEST ACC:78.83
+Train Epoch: 28 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.1773 Acc: 61.52
+Train Epoch: 28 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.1073 Acc: 63.88
+Train Epoch: 28 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.0778 Acc: 64.65
+Train Epoch: 28 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.1047 Acc: 63.81
+Train Epoch: 28 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.1093 Acc: 63.71
+Train Epoch: 28 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.1009 Acc: 64.03
+Train Epoch: 28 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.1056 Acc: 63.92
+ 10%|▉         | 29/300 [25:22<3:55:12, 52.07s/it]EPOCH:28, ======================ACC:76.21====================
+BEST EPOCH:24,BEST ACC:78.83
+Train Epoch: 29 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9865 Acc: 68.71
+Train Epoch: 29 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0174 Acc: 66.86
+Train Epoch: 29 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.0365 Acc: 66.27
+Train Epoch: 29 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.0367 Acc: 66.18
+Train Epoch: 29 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.0523 Acc: 65.63
+Train Epoch: 29 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.0462 Acc: 65.85
+Train Epoch: 29 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.0383 Acc: 66.07
+ 10%|█         | 30/300 [26:14<3:54:17, 52.06s/it]EPOCH:29, ======================ACC:78.83====================
+BEST EPOCH:29,BEST ACC:78.83
+Train Epoch: 30 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.2595 Acc: 57.90
+Train Epoch: 30 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.1877 Acc: 60.57
+Train Epoch: 30 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.1522 Acc: 61.93
+Train Epoch: 30 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.1091 Acc: 63.49
+Train Epoch: 30 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.1100 Acc: 63.50
+Train Epoch: 30 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.1126 Acc: 63.46
+Train Epoch: 30 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.1023 Acc: 63.84
+ 10%|█         | 31/300 [27:06<3:53:22, 52.06s/it]EPOCH:30, ======================ACC:78.31====================
+BEST EPOCH:29,BEST ACC:78.83
+Train Epoch: 31 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0522 Acc: 65.89
+Train Epoch: 31 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9892 Acc: 68.09
+Train Epoch: 31 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9936 Acc: 67.66
+Train Epoch: 31 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.0290 Acc: 66.45
+Train Epoch: 31 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.0302 Acc: 66.46
+Train Epoch: 31 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.0302 Acc: 66.50
+Train Epoch: 31 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.0341 Acc: 66.40
+ 11%|█         | 32/300 [27:58<3:52:30, 52.06s/it]EPOCH:31, ======================ACC:78.79====================
+BEST EPOCH:29,BEST ACC:78.83
+Train Epoch: 32 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.1587 Acc: 62.06
+Train Epoch: 32 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0936 Acc: 64.33
+Train Epoch: 32 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.0945 Acc: 64.22
+Train Epoch: 32 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.0955 Acc: 64.07
+Train Epoch: 32 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.0993 Acc: 64.17
+Train Epoch: 32 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.0853 Acc: 64.62
+Train Epoch: 32 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.0729 Acc: 65.02
+ 11%|█         | 33/300 [28:50<3:51:49, 52.10s/it]EPOCH:32, ======================ACC:77.84====================
+BEST EPOCH:29,BEST ACC:78.83
+Train Epoch: 33 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0186 Acc: 66.86
+Train Epoch: 33 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0003 Acc: 67.65
+Train Epoch: 33 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9881 Acc: 67.86
+Train Epoch: 33 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9975 Acc: 67.61
+Train Epoch: 33 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.0015 Acc: 67.65
+Train Epoch: 33 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.0162 Acc: 67.04
+Train Epoch: 33 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.0275 Acc: 66.60
+ 11%|█▏        | 34/300 [29:42<3:50:39, 52.03s/it]EPOCH:33, ======================ACC:77.56====================
+BEST EPOCH:29,BEST ACC:78.83
+Train Epoch: 34 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9459 Acc: 69.51
+Train Epoch: 34 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9695 Acc: 68.86
+Train Epoch: 34 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9857 Acc: 68.35
+Train Epoch: 34 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.0121 Acc: 67.53
+Train Epoch: 34 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.0428 Acc: 66.36
+Train Epoch: 34 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.0338 Acc: 66.65
+Train Epoch: 34 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.0436 Acc: 66.32
+ 12%|█▏        | 35/300 [30:34<3:49:28, 51.96s/it]EPOCH:34, ======================ACC:76.91====================
+BEST EPOCH:29,BEST ACC:78.83
+Train Epoch: 35 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9542 Acc: 69.16
+Train Epoch: 35 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9618 Acc: 68.90
+Train Epoch: 35 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9929 Acc: 67.77
+Train Epoch: 35 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.0141 Acc: 67.03
+Train Epoch: 35 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.0458 Acc: 66.11
+Train Epoch: 35 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.0527 Acc: 65.90
+Train Epoch: 35 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.0474 Acc: 65.97
+ 12%|█▏        | 36/300 [31:26<3:48:19, 51.89s/it]EPOCH:35, ======================ACC:79.87====================
+BEST EPOCH:35,BEST ACC:79.87
+Train Epoch: 36 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0256 Acc: 66.57
+Train Epoch: 36 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9805 Acc: 68.48
+Train Epoch: 36 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.0064 Acc: 67.73
+Train Epoch: 36 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.0278 Acc: 67.00
+Train Epoch: 36 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.0409 Acc: 66.48
+Train Epoch: 36 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.0374 Acc: 66.49
+Train Epoch: 36 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.0559 Acc: 65.83
+ 12%|█▏        | 37/300 [32:17<3:47:10, 51.83s/it]EPOCH:36, ======================ACC:81.42====================
+BEST EPOCH:36,BEST ACC:81.42
+Train Epoch: 37 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.1216 Acc: 63.60
+Train Epoch: 37 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9954 Acc: 67.85
+Train Epoch: 37 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9985 Acc: 67.73
+Train Epoch: 37 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.0107 Acc: 67.32
+Train Epoch: 37 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.0229 Acc: 67.03
+Train Epoch: 37 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.0153 Acc: 67.13
+Train Epoch: 37 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.0177 Acc: 66.93
+ 13%|█▎        | 38/300 [33:09<3:46:26, 51.86s/it]EPOCH:37, ======================ACC:77.91====================
+BEST EPOCH:36,BEST ACC:81.42
+Train Epoch: 38 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.1228 Acc: 63.48
+Train Epoch: 38 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0663 Acc: 65.46
+Train Epoch: 38 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.0652 Acc: 65.46
+Train Epoch: 38 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.0577 Acc: 65.67
+Train Epoch: 38 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.0660 Acc: 65.34
+Train Epoch: 38 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.0437 Acc: 66.12
+Train Epoch: 38 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.0440 Acc: 66.12
+ 13%|█▎        | 39/300 [34:01<3:45:25, 51.82s/it]EPOCH:38, ======================ACC:80.12====================
+BEST EPOCH:36,BEST ACC:81.42
+Train Epoch: 39 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0062 Acc: 67.46
+Train Epoch: 39 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0341 Acc: 66.25
+Train Epoch: 39 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.0560 Acc: 65.60
+Train Epoch: 39 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.0382 Acc: 66.13
+Train Epoch: 39 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.0498 Acc: 65.82
+Train Epoch: 39 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.0357 Acc: 66.33
+Train Epoch: 39 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.0303 Acc: 66.63
+ 13%|█▎        | 40/300 [34:53<3:44:46, 51.87s/it]EPOCH:39, ======================ACC:74.98====================
+BEST EPOCH:36,BEST ACC:81.42
+Train Epoch: 40 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9259 Acc: 69.34
+Train Epoch: 40 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9599 Acc: 68.59
+Train Epoch: 40 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9522 Acc: 68.88
+Train Epoch: 40 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9675 Acc: 68.39
+Train Epoch: 40 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9555 Acc: 68.83
+Train Epoch: 40 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9630 Acc: 68.55
+Train Epoch: 40 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9616 Acc: 68.55
+ 14%|█▎        | 41/300 [35:44<3:43:30, 51.78s/it]EPOCH:40, ======================ACC:74.04====================
+BEST EPOCH:36,BEST ACC:81.42
+Train Epoch: 41 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9920 Acc: 67.37
+Train Epoch: 41 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9835 Acc: 67.66
+Train Epoch: 41 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9741 Acc: 68.09
+Train Epoch: 41 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9792 Acc: 68.16
+Train Epoch: 41 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9833 Acc: 67.90
+Train Epoch: 41 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9804 Acc: 68.13
+Train Epoch: 41 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9771 Acc: 68.20
+ 14%|█▍        | 42/300 [36:36<3:42:30, 51.75s/it]EPOCH:41, ======================ACC:77.82====================
+BEST EPOCH:36,BEST ACC:81.42
+Train Epoch: 42 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0168 Acc: 66.58
+Train Epoch: 42 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0566 Acc: 65.31
+Train Epoch: 42 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.0176 Acc: 66.80
+Train Epoch: 42 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.0203 Acc: 66.74
+Train Epoch: 42 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.0224 Acc: 66.62
+Train Epoch: 42 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.0252 Acc: 66.50
+Train Epoch: 42 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.0150 Acc: 66.94
+ 14%|█▍        | 43/300 [37:28<3:41:31, 51.72s/it]EPOCH:42, ======================ACC:75.13====================
+BEST EPOCH:36,BEST ACC:81.42
+Train Epoch: 43 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0266 Acc: 66.24
+Train Epoch: 43 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9948 Acc: 67.23
+Train Epoch: 43 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9736 Acc: 68.00
+Train Epoch: 43 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9905 Acc: 67.51
+Train Epoch: 43 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9923 Acc: 67.58
+Train Epoch: 43 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.0025 Acc: 67.23
+Train Epoch: 43 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.0189 Acc: 66.76
+ 15%|█▍        | 44/300 [38:20<3:41:01, 51.80s/it]EPOCH:43, ======================ACC:81.65====================
+BEST EPOCH:43,BEST ACC:81.65
+Train Epoch: 44 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0191 Acc: 67.37
+Train Epoch: 44 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9512 Acc: 69.29
+Train Epoch: 44 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9747 Acc: 68.29
+Train Epoch: 44 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9946 Acc: 67.65
+Train Epoch: 44 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9871 Acc: 68.00
+Train Epoch: 44 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9995 Acc: 67.60
+Train Epoch: 44 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.0185 Acc: 66.91
+ 15%|█▌        | 45/300 [39:12<3:40:07, 51.79s/it]EPOCH:44, ======================ACC:78.22====================
+BEST EPOCH:43,BEST ACC:81.65
+Train Epoch: 45 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0043 Acc: 67.40
+Train Epoch: 45 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0345 Acc: 66.31
+Train Epoch: 45 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.0298 Acc: 66.59
+Train Epoch: 45 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.0041 Acc: 67.51
+Train Epoch: 45 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9997 Acc: 67.65
+Train Epoch: 45 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.0133 Acc: 67.11
+Train Epoch: 45 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.0075 Acc: 67.28
+ 15%|█▌        | 46/300 [40:03<3:39:22, 51.82s/it]EPOCH:45, ======================ACC:80.69====================
+BEST EPOCH:43,BEST ACC:81.65
+Train Epoch: 46 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9557 Acc: 69.72
+Train Epoch: 46 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9914 Acc: 67.96
+Train Epoch: 46 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9738 Acc: 68.72
+Train Epoch: 46 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9813 Acc: 68.40
+Train Epoch: 46 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9975 Acc: 67.83
+Train Epoch: 46 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9758 Acc: 68.51
+Train Epoch: 46 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9839 Acc: 68.20
+ 16%|█▌        | 47/300 [40:55<3:38:40, 51.86s/it]EPOCH:46, ======================ACC:77.86====================
+BEST EPOCH:43,BEST ACC:81.65
+Train Epoch: 47 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9838 Acc: 69.34
+Train Epoch: 47 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0071 Acc: 68.19
+Train Epoch: 47 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.0033 Acc: 68.06
+Train Epoch: 47 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9981 Acc: 68.17
+Train Epoch: 47 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9970 Acc: 68.04
+Train Epoch: 47 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9854 Acc: 68.46
+Train Epoch: 47 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9940 Acc: 68.18
+ 16%|█▌        | 48/300 [41:47<3:37:36, 51.81s/it]EPOCH:47, ======================ACC:78.97====================
+BEST EPOCH:43,BEST ACC:81.65
+Train Epoch: 48 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9280 Acc: 70.11
+Train Epoch: 48 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9653 Acc: 68.64
+Train Epoch: 48 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9841 Acc: 68.20
+Train Epoch: 48 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9751 Acc: 68.40
+Train Epoch: 48 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9887 Acc: 67.96
+Train Epoch: 48 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9941 Acc: 67.63
+Train Epoch: 48 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9897 Acc: 67.76
+ 16%|█▋        | 49/300 [42:39<3:36:51, 51.84s/it]EPOCH:48, ======================ACC:80.35====================
+BEST EPOCH:43,BEST ACC:81.65
+Train Epoch: 49 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9282 Acc: 69.96
+Train Epoch: 49 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0023 Acc: 67.45
+Train Epoch: 49 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.0037 Acc: 67.33
+Train Epoch: 49 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.0073 Acc: 67.22
+Train Epoch: 49 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9954 Acc: 67.47
+Train Epoch: 49 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9892 Acc: 67.73
+Train Epoch: 49 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9944 Acc: 67.66
+ 17%|█▋        | 50/300 [43:31<3:35:56, 51.83s/it]EPOCH:49, ======================ACC:82.95====================
+BEST EPOCH:49,BEST ACC:82.95
+Train Epoch: 50 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9421 Acc: 69.72
+Train Epoch: 50 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9958 Acc: 67.62
+Train Epoch: 50 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9849 Acc: 68.01
+Train Epoch: 50 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9755 Acc: 68.38
+Train Epoch: 50 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9645 Acc: 68.72
+Train Epoch: 50 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9581 Acc: 68.93
+Train Epoch: 50 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9544 Acc: 69.11
+ 17%|█▋        | 51/300 [44:23<3:35:17, 51.88s/it]EPOCH:50, ======================ACC:79.26====================
+BEST EPOCH:49,BEST ACC:82.95
+Train Epoch: 51 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9978 Acc: 67.77
+Train Epoch: 51 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9959 Acc: 67.53
+Train Epoch: 51 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9603 Acc: 68.86
+Train Epoch: 51 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9684 Acc: 68.83
+Train Epoch: 51 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9889 Acc: 68.04
+Train Epoch: 51 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.0126 Acc: 67.24
+Train Epoch: 51 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.0171 Acc: 67.11
+ 17%|█▋        | 52/300 [45:15<3:34:40, 51.94s/it]EPOCH:51, ======================ACC:79.28====================
+BEST EPOCH:49,BEST ACC:82.95
+Train Epoch: 52 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8929 Acc: 70.42
+Train Epoch: 52 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9230 Acc: 69.98
+Train Epoch: 52 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9689 Acc: 68.41
+Train Epoch: 52 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9957 Acc: 67.70
+Train Epoch: 52 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9904 Acc: 68.08
+Train Epoch: 52 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9715 Acc: 68.69
+Train Epoch: 52 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9735 Acc: 68.57
+ 18%|█▊        | 53/300 [46:07<3:33:41, 51.91s/it]EPOCH:52, ======================ACC:76.8====================
+BEST EPOCH:49,BEST ACC:82.95
+Train Epoch: 53 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9388 Acc: 69.86
+Train Epoch: 53 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9299 Acc: 70.02
+Train Epoch: 53 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9862 Acc: 68.05
+Train Epoch: 53 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9773 Acc: 68.29
+Train Epoch: 53 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9728 Acc: 68.41
+Train Epoch: 53 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9945 Acc: 67.67
+Train Epoch: 53 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9929 Acc: 67.71
+ 18%|█▊        | 54/300 [46:59<3:33:10, 51.99s/it]EPOCH:53, ======================ACC:78.44====================
+BEST EPOCH:49,BEST ACC:82.95
+Train Epoch: 54 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9349 Acc: 69.20
+Train Epoch: 54 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9285 Acc: 69.65
+Train Epoch: 54 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9446 Acc: 69.37
+Train Epoch: 54 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9462 Acc: 69.32
+Train Epoch: 54 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9813 Acc: 68.06
+Train Epoch: 54 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9929 Acc: 67.68
+Train Epoch: 54 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9997 Acc: 67.50
+ 18%|█▊        | 55/300 [47:51<3:32:27, 52.03s/it]EPOCH:54, ======================ACC:82.59====================
+BEST EPOCH:49,BEST ACC:82.95
+Train Epoch: 55 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9781 Acc: 67.94
+Train Epoch: 55 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9449 Acc: 68.99
+Train Epoch: 55 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9857 Acc: 67.67
+Train Epoch: 55 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9836 Acc: 67.76
+Train Epoch: 55 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9902 Acc: 67.76
+Train Epoch: 55 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9866 Acc: 67.86
+Train Epoch: 55 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9729 Acc: 68.29
+ 19%|█▊        | 56/300 [48:43<3:31:40, 52.05s/it]EPOCH:55, ======================ACC:76.9====================
+BEST EPOCH:49,BEST ACC:82.95
+Train Epoch: 56 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9205 Acc: 70.40
+Train Epoch: 56 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9744 Acc: 68.85
+Train Epoch: 56 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9872 Acc: 68.21
+Train Epoch: 56 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9808 Acc: 68.27
+Train Epoch: 56 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9816 Acc: 68.28
+Train Epoch: 56 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9671 Acc: 68.70
+Train Epoch: 56 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9832 Acc: 68.09
+ 19%|█▉        | 57/300 [49:36<3:31:33, 52.24s/it]EPOCH:56, ======================ACC:82.87====================
+BEST EPOCH:49,BEST ACC:82.95
+Train Epoch: 57 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9869 Acc: 67.62
+Train Epoch: 57 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0065 Acc: 67.16
+Train Epoch: 57 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.0332 Acc: 66.29
+Train Epoch: 57 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.0218 Acc: 66.61
+Train Epoch: 57 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.0213 Acc: 66.56
+Train Epoch: 57 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.0111 Acc: 66.99
+Train Epoch: 57 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.0082 Acc: 67.15
+ 19%|█▉        | 58/300 [50:29<3:31:26, 52.42s/it]EPOCH:57, ======================ACC:77.2====================
+BEST EPOCH:49,BEST ACC:82.95
+Train Epoch: 58 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8866 Acc: 71.54
+Train Epoch: 58 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9230 Acc: 70.12
+Train Epoch: 58 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9697 Acc: 68.49
+Train Epoch: 58 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9738 Acc: 68.42
+Train Epoch: 58 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9797 Acc: 68.25
+Train Epoch: 58 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9874 Acc: 67.94
+Train Epoch: 58 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9881 Acc: 67.89
+ 20%|█▉        | 59/300 [51:21<3:30:51, 52.50s/it]EPOCH:58, ======================ACC:81.2====================
+BEST EPOCH:49,BEST ACC:82.95
+Train Epoch: 59 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0753 Acc: 64.98
+Train Epoch: 59 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0067 Acc: 67.50
+Train Epoch: 59 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9912 Acc: 68.20
+Train Epoch: 59 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.0004 Acc: 67.89
+Train Epoch: 59 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9907 Acc: 68.12
+Train Epoch: 59 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9979 Acc: 67.82
+Train Epoch: 59 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.0017 Acc: 67.62
+ 20%|██        | 60/300 [52:14<3:30:17, 52.57s/it]EPOCH:59, ======================ACC:78.01====================
+BEST EPOCH:49,BEST ACC:82.95
+Train Epoch: 60 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8631 Acc: 71.73
+Train Epoch: 60 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9128 Acc: 70.16
+Train Epoch: 60 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9304 Acc: 69.58
+Train Epoch: 60 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9630 Acc: 68.50
+Train Epoch: 60 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9632 Acc: 68.65
+Train Epoch: 60 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9687 Acc: 68.51
+Train Epoch: 60 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9719 Acc: 68.48
+ 20%|██        | 61/300 [53:07<3:29:37, 52.63s/it]EPOCH:60, ======================ACC:83.21====================
+BEST EPOCH:60,BEST ACC:83.21
+Train Epoch: 61 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9722 Acc: 67.74
+Train Epoch: 61 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9591 Acc: 68.73
+Train Epoch: 61 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9714 Acc: 68.44
+Train Epoch: 61 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9795 Acc: 68.16
+Train Epoch: 61 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9632 Acc: 68.87
+Train Epoch: 61 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9471 Acc: 69.45
+Train Epoch: 61 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9480 Acc: 69.40
+ 21%|██        | 62/300 [53:59<3:28:47, 52.64s/it]EPOCH:61, ======================ACC:81.43====================
+BEST EPOCH:60,BEST ACC:83.21
+Train Epoch: 62 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9447 Acc: 69.64
+Train Epoch: 62 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9878 Acc: 67.73
+Train Epoch: 62 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9668 Acc: 68.41
+Train Epoch: 62 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9848 Acc: 67.93
+Train Epoch: 62 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9971 Acc: 67.52
+Train Epoch: 62 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9982 Acc: 67.40
+Train Epoch: 62 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9934 Acc: 67.53
+ 21%|██        | 63/300 [54:52<3:27:38, 52.57s/it]EPOCH:62, ======================ACC:77.87====================
+BEST EPOCH:60,BEST ACC:83.21
+Train Epoch: 63 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0021 Acc: 66.99
+Train Epoch: 63 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9907 Acc: 67.61
+Train Epoch: 63 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9750 Acc: 68.24
+Train Epoch: 63 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9834 Acc: 67.85
+Train Epoch: 63 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9993 Acc: 67.41
+Train Epoch: 63 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9951 Acc: 67.53
+Train Epoch: 63 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9838 Acc: 67.99
+ 21%|██▏       | 64/300 [55:44<3:26:00, 52.38s/it]EPOCH:63, ======================ACC:81.33====================
+BEST EPOCH:60,BEST ACC:83.21
+Train Epoch: 64 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0413 Acc: 66.23
+Train Epoch: 64 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0157 Acc: 67.10
+Train Epoch: 64 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.0117 Acc: 67.11
+Train Epoch: 64 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.0327 Acc: 66.64
+Train Epoch: 64 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.0073 Acc: 67.37
+Train Epoch: 64 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.0008 Acc: 67.57
+Train Epoch: 64 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9888 Acc: 67.90
+ 22%|██▏       | 65/300 [56:36<3:24:34, 52.23s/it]EPOCH:64, ======================ACC:77.18====================
+BEST EPOCH:60,BEST ACC:83.21
+Train Epoch: 65 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9030 Acc: 71.22
+Train Epoch: 65 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9551 Acc: 69.21
+Train Epoch: 65 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9749 Acc: 68.69
+Train Epoch: 65 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9690 Acc: 68.81
+Train Epoch: 65 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9693 Acc: 68.76
+Train Epoch: 65 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9703 Acc: 68.61
+Train Epoch: 65 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9799 Acc: 68.30
+ 22%|██▏       | 66/300 [57:28<3:23:42, 52.23s/it]EPOCH:65, ======================ACC:79.35====================
+BEST EPOCH:60,BEST ACC:83.21
+Train Epoch: 66 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9151 Acc: 70.33
+Train Epoch: 66 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9880 Acc: 67.89
+Train Epoch: 66 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9869 Acc: 67.80
+Train Epoch: 66 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9785 Acc: 68.11
+Train Epoch: 66 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9625 Acc: 68.79
+Train Epoch: 66 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9658 Acc: 68.70
+Train Epoch: 66 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9777 Acc: 68.29
+ 22%|██▏       | 67/300 [58:20<3:22:21, 52.11s/it]EPOCH:66, ======================ACC:72.83====================
+BEST EPOCH:60,BEST ACC:83.21
+Train Epoch: 67 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9818 Acc: 68.28
+Train Epoch: 67 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0133 Acc: 67.18
+Train Epoch: 67 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9773 Acc: 68.24
+Train Epoch: 67 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9521 Acc: 69.10
+Train Epoch: 67 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9648 Acc: 68.83
+Train Epoch: 67 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9642 Acc: 68.75
+Train Epoch: 67 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9727 Acc: 68.41
+ 23%|██▎       | 68/300 [59:12<3:21:17, 52.06s/it]EPOCH:67, ======================ACC:81.51====================
+BEST EPOCH:60,BEST ACC:83.21
+Train Epoch: 68 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8972 Acc: 70.60
+Train Epoch: 68 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9596 Acc: 68.61
+Train Epoch: 68 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9452 Acc: 69.09
+Train Epoch: 68 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9365 Acc: 69.54
+Train Epoch: 68 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9347 Acc: 69.59
+Train Epoch: 68 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9406 Acc: 69.45
+Train Epoch: 68 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9471 Acc: 69.32
+ 23%|██▎       | 69/300 [1:00:04<3:20:14, 52.01s/it]EPOCH:68, ======================ACC:81.61====================
+BEST EPOCH:60,BEST ACC:83.21
+Train Epoch: 69 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8806 Acc: 71.93
+Train Epoch: 69 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9531 Acc: 69.63
+Train Epoch: 69 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9600 Acc: 69.02
+Train Epoch: 69 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9545 Acc: 69.21
+Train Epoch: 69 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9733 Acc: 68.46
+Train Epoch: 69 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9830 Acc: 68.04
+Train Epoch: 69 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9900 Acc: 67.84
+ 23%|██▎       | 70/300 [1:00:55<3:19:11, 51.96s/it]EPOCH:69, ======================ACC:76.13====================
+BEST EPOCH:60,BEST ACC:83.21
+Train Epoch: 70 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0525 Acc: 65.13
+Train Epoch: 70 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0369 Acc: 66.17
+Train Epoch: 70 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.0305 Acc: 66.39
+Train Epoch: 70 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.0083 Acc: 67.05
+Train Epoch: 70 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.0046 Acc: 67.24
+Train Epoch: 70 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9847 Acc: 67.88
+Train Epoch: 70 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9694 Acc: 68.33
+ 24%|██▎       | 71/300 [1:01:47<3:18:18, 51.96s/it]EPOCH:70, ======================ACC:79.49====================
+BEST EPOCH:60,BEST ACC:83.21
+Train Epoch: 71 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9634 Acc: 68.35
+Train Epoch: 71 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9838 Acc: 68.10
+Train Epoch: 71 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9695 Acc: 68.49
+Train Epoch: 71 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9584 Acc: 68.90
+Train Epoch: 71 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9888 Acc: 67.91
+Train Epoch: 71 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9797 Acc: 68.19
+Train Epoch: 71 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9934 Acc: 67.64
+ 24%|██▍       | 72/300 [1:02:39<3:17:13, 51.90s/it]EPOCH:71, ======================ACC:79.35====================
+BEST EPOCH:60,BEST ACC:83.21
+Train Epoch: 72 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0229 Acc: 66.89
+Train Epoch: 72 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0153 Acc: 66.59
+Train Epoch: 72 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.0361 Acc: 66.26
+Train Epoch: 72 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.0130 Acc: 67.03
+Train Epoch: 72 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9936 Acc: 67.64
+Train Epoch: 72 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9873 Acc: 67.82
+Train Epoch: 72 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9795 Acc: 68.14
+ 24%|██▍       | 73/300 [1:03:31<3:16:24, 51.91s/it]EPOCH:72, ======================ACC:79.85====================
+BEST EPOCH:60,BEST ACC:83.21
+Train Epoch: 73 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0378 Acc: 66.24
+Train Epoch: 73 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9462 Acc: 69.50
+Train Epoch: 73 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9849 Acc: 68.03
+Train Epoch: 73 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9660 Acc: 68.62
+Train Epoch: 73 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9630 Acc: 68.83
+Train Epoch: 73 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9551 Acc: 69.21
+Train Epoch: 73 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9462 Acc: 69.45
+ 25%|██▍       | 74/300 [1:04:23<3:15:24, 51.88s/it]EPOCH:73, ======================ACC:80.29====================
+BEST EPOCH:60,BEST ACC:83.21
+Train Epoch: 74 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9988 Acc: 68.03
+Train Epoch: 74 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9881 Acc: 68.11
+Train Epoch: 74 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9671 Acc: 68.67
+Train Epoch: 74 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9642 Acc: 68.84
+Train Epoch: 74 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9648 Acc: 68.59
+Train Epoch: 74 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9514 Acc: 69.07
+Train Epoch: 74 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9497 Acc: 69.00
+ 25%|██▌       | 75/300 [1:05:15<3:14:27, 51.85s/it]EPOCH:74, ======================ACC:82.35====================
+BEST EPOCH:60,BEST ACC:83.21
+Train Epoch: 75 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9657 Acc: 67.38
+Train Epoch: 75 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9921 Acc: 67.26
+Train Epoch: 75 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9699 Acc: 67.96
+Train Epoch: 75 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9503 Acc: 68.63
+Train Epoch: 75 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9618 Acc: 68.32
+Train Epoch: 75 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9482 Acc: 68.86
+Train Epoch: 75 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9558 Acc: 68.62
+ 25%|██▌       | 76/300 [1:06:07<3:13:43, 51.89s/it]EPOCH:75, ======================ACC:83.67====================
+BEST EPOCH:75,BEST ACC:83.67
+Train Epoch: 76 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8358 Acc: 73.15
+Train Epoch: 76 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8859 Acc: 71.04
+Train Epoch: 76 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9057 Acc: 70.33
+Train Epoch: 76 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9256 Acc: 69.63
+Train Epoch: 76 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9175 Acc: 69.95
+Train Epoch: 76 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9357 Acc: 69.32
+Train Epoch: 76 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9375 Acc: 69.29
+ 26%|██▌       | 77/300 [1:06:59<3:12:55, 51.91s/it]EPOCH:76, ======================ACC:79.01====================
+BEST EPOCH:75,BEST ACC:83.67
+Train Epoch: 77 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0391 Acc: 67.13
+Train Epoch: 77 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9039 Acc: 70.95
+Train Epoch: 77 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9408 Acc: 69.57
+Train Epoch: 77 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9317 Acc: 69.85
+Train Epoch: 77 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9613 Acc: 68.89
+Train Epoch: 77 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9670 Acc: 68.77
+Train Epoch: 77 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9545 Acc: 69.14
+ 26%|██▌       | 78/300 [1:07:51<3:12:09, 51.94s/it]EPOCH:77, ======================ACC:80.91====================
+BEST EPOCH:75,BEST ACC:83.67
+Train Epoch: 78 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9219 Acc: 69.59
+Train Epoch: 78 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9218 Acc: 69.74
+Train Epoch: 78 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9587 Acc: 68.88
+Train Epoch: 78 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9689 Acc: 68.65
+Train Epoch: 78 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9691 Acc: 68.64
+Train Epoch: 78 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9497 Acc: 69.31
+Train Epoch: 78 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9840 Acc: 68.05
+ 26%|██▋       | 79/300 [1:08:43<3:11:18, 51.94s/it]EPOCH:78, ======================ACC:80.21====================
+BEST EPOCH:75,BEST ACC:83.67
+Train Epoch: 79 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0377 Acc: 66.01
+Train Epoch: 79 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9890 Acc: 67.79
+Train Epoch: 79 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9712 Acc: 68.27
+Train Epoch: 79 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9338 Acc: 69.62
+Train Epoch: 79 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9333 Acc: 69.78
+Train Epoch: 79 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9216 Acc: 70.21
+Train Epoch: 79 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9135 Acc: 70.41
+ 27%|██▋       | 80/300 [1:09:34<3:10:25, 51.93s/it]EPOCH:79, ======================ACC:81.0====================
+BEST EPOCH:75,BEST ACC:83.67
+Train Epoch: 80 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0330 Acc: 66.05
+Train Epoch: 80 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0382 Acc: 66.25
+Train Epoch: 80 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.0105 Acc: 67.19
+Train Epoch: 80 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.0166 Acc: 67.06
+Train Epoch: 80 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.0157 Acc: 66.99
+Train Epoch: 80 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.0101 Acc: 67.03
+Train Epoch: 80 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9969 Acc: 67.54
+ 27%|██▋       | 81/300 [1:10:27<3:09:41, 51.97s/it]EPOCH:80, ======================ACC:83.54====================
+BEST EPOCH:75,BEST ACC:83.67
+Train Epoch: 81 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8589 Acc: 72.07
+Train Epoch: 81 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9070 Acc: 70.42
+Train Epoch: 81 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9124 Acc: 70.33
+Train Epoch: 81 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8984 Acc: 70.85
+Train Epoch: 81 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9125 Acc: 70.36
+Train Epoch: 81 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9113 Acc: 70.32
+Train Epoch: 81 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9033 Acc: 70.61
+ 27%|██▋       | 82/300 [1:11:18<3:08:35, 51.90s/it]EPOCH:81, ======================ACC:82.56====================
+BEST EPOCH:75,BEST ACC:83.67
+Train Epoch: 82 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0205 Acc: 66.66
+Train Epoch: 82 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9716 Acc: 68.45
+Train Epoch: 82 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9969 Acc: 67.59
+Train Epoch: 82 [RA+CutMix] [25600/50000 (51%)]	Loss: 1.0219 Acc: 66.60
+Train Epoch: 82 [RA+CutMix] [32000/50000 (64%)]	Loss: 1.0111 Acc: 67.13
+Train Epoch: 82 [RA+CutMix] [38400/50000 (77%)]	Loss: 1.0161 Acc: 66.99
+Train Epoch: 82 [RA+CutMix] [44800/50000 (90%)]	Loss: 1.0011 Acc: 67.57
+ 28%|██▊       | 83/300 [1:12:10<3:07:41, 51.90s/it]EPOCH:82, ======================ACC:81.48====================
+BEST EPOCH:75,BEST ACC:83.67
+Train Epoch: 83 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9085 Acc: 71.03
+Train Epoch: 83 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8967 Acc: 71.28
+Train Epoch: 83 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8969 Acc: 71.23
+Train Epoch: 83 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8843 Acc: 71.67
+Train Epoch: 83 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9057 Acc: 71.00
+Train Epoch: 83 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9302 Acc: 70.22
+Train Epoch: 83 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9361 Acc: 69.96
+ 28%|██▊       | 84/300 [1:13:02<3:06:38, 51.85s/it]EPOCH:83, ======================ACC:82.57====================
+BEST EPOCH:75,BEST ACC:83.67
+Train Epoch: 84 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9709 Acc: 68.13
+Train Epoch: 84 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9429 Acc: 69.14
+Train Epoch: 84 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9325 Acc: 69.83
+Train Epoch: 84 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9570 Acc: 68.94
+Train Epoch: 84 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9508 Acc: 69.17
+Train Epoch: 84 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9519 Acc: 69.12
+Train Epoch: 84 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9484 Acc: 69.19
+ 28%|██▊       | 85/300 [1:13:54<3:05:54, 51.88s/it]EPOCH:84, ======================ACC:79.27====================
+BEST EPOCH:75,BEST ACC:83.67
+Train Epoch: 85 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8722 Acc: 72.12
+Train Epoch: 85 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9617 Acc: 68.73
+Train Epoch: 85 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9799 Acc: 68.14
+Train Epoch: 85 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9690 Acc: 68.57
+Train Epoch: 85 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9951 Acc: 67.70
+Train Epoch: 85 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9994 Acc: 67.47
+Train Epoch: 85 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9965 Acc: 67.59
+ 29%|██▊       | 86/300 [1:14:46<3:04:57, 51.86s/it]EPOCH:85, ======================ACC:79.51====================
+BEST EPOCH:75,BEST ACC:83.67
+Train Epoch: 86 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9894 Acc: 67.83
+Train Epoch: 86 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0008 Acc: 67.27
+Train Epoch: 86 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9786 Acc: 68.32
+Train Epoch: 86 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9326 Acc: 69.75
+Train Epoch: 86 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9234 Acc: 69.92
+Train Epoch: 86 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9313 Acc: 69.85
+Train Epoch: 86 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9419 Acc: 69.59
+ 29%|██▉       | 87/300 [1:15:38<3:04:07, 51.87s/it]EPOCH:86, ======================ACC:73.9====================
+BEST EPOCH:75,BEST ACC:83.67
+Train Epoch: 87 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0503 Acc: 64.94
+Train Epoch: 87 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9994 Acc: 66.75
+Train Epoch: 87 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9474 Acc: 68.86
+Train Epoch: 87 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9564 Acc: 68.73
+Train Epoch: 87 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9416 Acc: 69.39
+Train Epoch: 87 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9403 Acc: 69.42
+Train Epoch: 87 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9403 Acc: 69.46
+ 29%|██▉       | 88/300 [1:16:29<3:03:20, 51.89s/it]EPOCH:87, ======================ACC:81.99====================
+BEST EPOCH:75,BEST ACC:83.67
+Train Epoch: 88 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0065 Acc: 67.33
+Train Epoch: 88 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9397 Acc: 69.26
+Train Epoch: 88 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9583 Acc: 68.96
+Train Epoch: 88 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9519 Acc: 68.98
+Train Epoch: 88 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9328 Acc: 69.75
+Train Epoch: 88 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9431 Acc: 69.43
+Train Epoch: 88 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9371 Acc: 69.59
+ 30%|██▉       | 89/300 [1:17:21<3:02:20, 51.85s/it]EPOCH:88, ======================ACC:83.02====================
+BEST EPOCH:75,BEST ACC:83.67
+Train Epoch: 89 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0545 Acc: 66.20
+Train Epoch: 89 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0180 Acc: 67.04
+Train Epoch: 89 [RA+CutMix] [19200/50000 (38%)]	Loss: 1.0002 Acc: 67.84
+Train Epoch: 89 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9577 Acc: 69.07
+Train Epoch: 89 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9569 Acc: 69.11
+Train Epoch: 89 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9569 Acc: 69.13
+Train Epoch: 89 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9604 Acc: 69.07
+ 30%|███       | 90/300 [1:18:13<3:01:20, 51.81s/it]EPOCH:89, ======================ACC:79.2====================
+BEST EPOCH:75,BEST ACC:83.67
+Train Epoch: 90 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0761 Acc: 65.43
+Train Epoch: 90 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0172 Acc: 67.09
+Train Epoch: 90 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9559 Acc: 69.17
+Train Epoch: 90 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9675 Acc: 68.78
+Train Epoch: 90 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9598 Acc: 69.01
+Train Epoch: 90 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9510 Acc: 69.27
+Train Epoch: 90 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9711 Acc: 68.56
+ 30%|███       | 91/300 [1:19:05<3:00:32, 51.83s/it]EPOCH:90, ======================ACC:83.36====================
+BEST EPOCH:75,BEST ACC:83.67
+Train Epoch: 91 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8896 Acc: 71.89
+Train Epoch: 91 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8698 Acc: 72.00
+Train Epoch: 91 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8826 Acc: 71.67
+Train Epoch: 91 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8830 Acc: 71.75
+Train Epoch: 91 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9105 Acc: 70.69
+Train Epoch: 91 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9224 Acc: 70.13
+Train Epoch: 91 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9308 Acc: 69.79
+ 31%|███       | 92/300 [1:19:57<2:59:55, 51.90s/it]EPOCH:91, ======================ACC:81.32====================
+BEST EPOCH:75,BEST ACC:83.67
+Train Epoch: 92 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7840 Acc: 75.08
+Train Epoch: 92 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8746 Acc: 72.12
+Train Epoch: 92 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8929 Acc: 71.52
+Train Epoch: 92 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9149 Acc: 70.61
+Train Epoch: 92 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9244 Acc: 70.10
+Train Epoch: 92 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9444 Acc: 69.51
+Train Epoch: 92 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9559 Acc: 69.12
+ 31%|███       | 93/300 [1:20:49<2:59:09, 51.93s/it]EPOCH:92, ======================ACC:83.75====================
+BEST EPOCH:92,BEST ACC:83.75
+Train Epoch: 93 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9306 Acc: 69.30
+Train Epoch: 93 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8643 Acc: 71.82
+Train Epoch: 93 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8781 Acc: 71.37
+Train Epoch: 93 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9077 Acc: 70.31
+Train Epoch: 93 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8983 Acc: 70.52
+Train Epoch: 93 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8942 Acc: 70.71
+Train Epoch: 93 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9028 Acc: 70.45
+ 31%|███▏      | 94/300 [1:21:41<2:58:07, 51.88s/it]EPOCH:93, ======================ACC:80.04====================
+BEST EPOCH:92,BEST ACC:83.75
+Train Epoch: 94 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0556 Acc: 65.48
+Train Epoch: 94 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0095 Acc: 67.07
+Train Epoch: 94 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9719 Acc: 68.21
+Train Epoch: 94 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9943 Acc: 67.26
+Train Epoch: 94 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9831 Acc: 67.73
+Train Epoch: 94 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9798 Acc: 67.95
+Train Epoch: 94 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9762 Acc: 68.18
+ 32%|███▏      | 95/300 [1:22:32<2:57:09, 51.85s/it]EPOCH:94, ======================ACC:84.25====================
+BEST EPOCH:94,BEST ACC:84.25
+Train Epoch: 95 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9011 Acc: 70.75
+Train Epoch: 95 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9265 Acc: 70.00
+Train Epoch: 95 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9424 Acc: 69.41
+Train Epoch: 95 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9410 Acc: 69.52
+Train Epoch: 95 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9359 Acc: 69.66
+Train Epoch: 95 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9342 Acc: 69.77
+Train Epoch: 95 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9397 Acc: 69.57
+ 32%|███▏      | 96/300 [1:23:24<2:56:27, 51.90s/it]EPOCH:95, ======================ACC:79.91====================
+BEST EPOCH:94,BEST ACC:84.25
+Train Epoch: 96 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9025 Acc: 70.92
+Train Epoch: 96 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9061 Acc: 70.96
+Train Epoch: 96 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9156 Acc: 70.41
+Train Epoch: 96 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9103 Acc: 70.61
+Train Epoch: 96 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9134 Acc: 70.49
+Train Epoch: 96 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8980 Acc: 70.94
+Train Epoch: 96 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9044 Acc: 70.73
+ 32%|███▏      | 97/300 [1:24:17<2:56:09, 52.06s/it]EPOCH:96, ======================ACC:80.53====================
+BEST EPOCH:94,BEST ACC:84.25
+Train Epoch: 97 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0230 Acc: 66.42
+Train Epoch: 97 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9096 Acc: 70.33
+Train Epoch: 97 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9096 Acc: 70.35
+Train Epoch: 97 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9262 Acc: 69.67
+Train Epoch: 97 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9522 Acc: 68.85
+Train Epoch: 97 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9358 Acc: 69.34
+Train Epoch: 97 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9260 Acc: 69.70
+ 33%|███▎      | 98/300 [1:25:10<2:55:54, 52.25s/it]EPOCH:97, ======================ACC:82.6====================
+BEST EPOCH:94,BEST ACC:84.25
+Train Epoch: 98 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9026 Acc: 71.26
+Train Epoch: 98 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9081 Acc: 70.70
+Train Epoch: 98 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9260 Acc: 70.24
+Train Epoch: 98 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9166 Acc: 70.42
+Train Epoch: 98 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9050 Acc: 70.86
+Train Epoch: 98 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9035 Acc: 70.93
+Train Epoch: 98 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9037 Acc: 70.82
+ 33%|███▎      | 99/300 [1:26:02<2:55:07, 52.28s/it]EPOCH:98, ======================ACC:84.55====================
+BEST EPOCH:98,BEST ACC:84.55
+Train Epoch: 99 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9221 Acc: 70.38
+Train Epoch: 99 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8944 Acc: 71.60
+Train Epoch: 99 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8862 Acc: 71.76
+Train Epoch: 99 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9074 Acc: 70.94
+Train Epoch: 99 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8952 Acc: 71.28
+Train Epoch: 99 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8969 Acc: 71.16
+Train Epoch: 99 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8916 Acc: 71.24
+ 33%|███▎      | 100/300 [1:26:54<2:54:31, 52.36s/it]EPOCH:99, ======================ACC:84.42====================
+BEST EPOCH:98,BEST ACC:84.55
+Train Epoch: 100 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9250 Acc: 70.12
+Train Epoch: 100 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9272 Acc: 70.09
+Train Epoch: 100 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9309 Acc: 70.13
+Train Epoch: 100 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9079 Acc: 70.74
+Train Epoch: 100 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9237 Acc: 70.11
+Train Epoch: 100 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9306 Acc: 69.91
+Train Epoch: 100 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9298 Acc: 69.98
+ 34%|███▎      | 101/300 [1:27:47<2:53:20, 52.26s/it]EPOCH:100, ======================ACC:80.37====================
+BEST EPOCH:98,BEST ACC:84.55
+Train Epoch: 101 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8768 Acc: 72.65
+Train Epoch: 101 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8748 Acc: 72.29
+Train Epoch: 101 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8884 Acc: 71.80
+Train Epoch: 101 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8964 Acc: 71.61
+Train Epoch: 101 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9161 Acc: 70.78
+Train Epoch: 101 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9007 Acc: 71.08
+Train Epoch: 101 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9178 Acc: 70.62
+ 34%|███▍      | 102/300 [1:28:39<2:52:54, 52.40s/it]EPOCH:101, ======================ACC:80.33====================
+BEST EPOCH:98,BEST ACC:84.55
+Train Epoch: 102 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9421 Acc: 69.25
+Train Epoch: 102 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9986 Acc: 67.49
+Train Epoch: 102 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9642 Acc: 68.78
+Train Epoch: 102 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9358 Acc: 69.84
+Train Epoch: 102 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9413 Acc: 69.75
+Train Epoch: 102 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9507 Acc: 69.35
+Train Epoch: 102 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9293 Acc: 70.05
+ 34%|███▍      | 103/300 [1:29:32<2:52:09, 52.43s/it]EPOCH:102, ======================ACC:81.36====================
+BEST EPOCH:98,BEST ACC:84.55
+Train Epoch: 103 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8636 Acc: 72.81
+Train Epoch: 103 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8730 Acc: 72.24
+Train Epoch: 103 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8711 Acc: 72.34
+Train Epoch: 103 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8974 Acc: 71.50
+Train Epoch: 103 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8933 Acc: 71.49
+Train Epoch: 103 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8973 Acc: 71.19
+Train Epoch: 103 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9067 Acc: 70.87
+ 35%|███▍      | 104/300 [1:30:24<2:50:54, 52.32s/it]EPOCH:103, ======================ACC:83.81====================
+BEST EPOCH:98,BEST ACC:84.55
+Train Epoch: 104 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9549 Acc: 68.69
+Train Epoch: 104 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9008 Acc: 70.81
+Train Epoch: 104 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8872 Acc: 71.37
+Train Epoch: 104 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8842 Acc: 71.37
+Train Epoch: 104 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8757 Acc: 71.70
+Train Epoch: 104 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8710 Acc: 71.89
+Train Epoch: 104 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8633 Acc: 72.11
+ 35%|███▌      | 105/300 [1:31:16<2:49:38, 52.20s/it]EPOCH:104, ======================ACC:82.75====================
+BEST EPOCH:98,BEST ACC:84.55
+Train Epoch: 105 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7991 Acc: 74.11
+Train Epoch: 105 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8240 Acc: 73.40
+Train Epoch: 105 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8259 Acc: 73.38
+Train Epoch: 105 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8370 Acc: 73.00
+Train Epoch: 105 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8577 Acc: 72.11
+Train Epoch: 105 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8503 Acc: 72.26
+Train Epoch: 105 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8628 Acc: 71.84
+ 35%|███▌      | 106/300 [1:32:08<2:48:35, 52.14s/it]EPOCH:105, ======================ACC:82.31====================
+BEST EPOCH:98,BEST ACC:84.55
+Train Epoch: 106 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8555 Acc: 72.03
+Train Epoch: 106 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9196 Acc: 69.66
+Train Epoch: 106 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9251 Acc: 69.38
+Train Epoch: 106 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9308 Acc: 69.44
+Train Epoch: 106 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9322 Acc: 69.47
+Train Epoch: 106 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9431 Acc: 69.05
+Train Epoch: 106 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9144 Acc: 69.95
+ 36%|███▌      | 107/300 [1:33:00<2:47:34, 52.10s/it]EPOCH:106, ======================ACC:82.19====================
+BEST EPOCH:98,BEST ACC:84.55
+Train Epoch: 107 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9053 Acc: 70.84
+Train Epoch: 107 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8891 Acc: 71.54
+Train Epoch: 107 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8825 Acc: 71.51
+Train Epoch: 107 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8733 Acc: 71.72
+Train Epoch: 107 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8713 Acc: 71.79
+Train Epoch: 107 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8820 Acc: 71.55
+Train Epoch: 107 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8945 Acc: 71.08
+ 36%|███▌      | 108/300 [1:33:52<2:46:30, 52.03s/it]EPOCH:107, ======================ACC:82.02====================
+BEST EPOCH:98,BEST ACC:84.55
+Train Epoch: 108 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8417 Acc: 73.63
+Train Epoch: 108 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8681 Acc: 72.43
+Train Epoch: 108 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9164 Acc: 70.45
+Train Epoch: 108 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9234 Acc: 70.17
+Train Epoch: 108 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9198 Acc: 70.25
+Train Epoch: 108 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9242 Acc: 70.18
+Train Epoch: 108 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9204 Acc: 70.41
+ 36%|███▋      | 109/300 [1:34:44<2:45:44, 52.06s/it]EPOCH:108, ======================ACC:82.94====================
+BEST EPOCH:98,BEST ACC:84.55
+Train Epoch: 109 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9306 Acc: 69.88
+Train Epoch: 109 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9176 Acc: 70.55
+Train Epoch: 109 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8595 Acc: 72.38
+Train Epoch: 109 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8221 Acc: 73.64
+Train Epoch: 109 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8217 Acc: 73.50
+Train Epoch: 109 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8202 Acc: 73.56
+Train Epoch: 109 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8277 Acc: 73.24
+ 37%|███▋      | 110/300 [1:35:35<2:44:33, 51.97s/it]EPOCH:109, ======================ACC:84.64====================
+BEST EPOCH:109,BEST ACC:84.64
+Train Epoch: 110 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0820 Acc: 64.65
+Train Epoch: 110 [RA+CutMix] [12800/50000 (26%)]	Loss: 1.0079 Acc: 67.28
+Train Epoch: 110 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9445 Acc: 69.44
+Train Epoch: 110 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9382 Acc: 69.56
+Train Epoch: 110 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9554 Acc: 69.11
+Train Epoch: 110 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9406 Acc: 69.61
+Train Epoch: 110 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9335 Acc: 69.84
+ 37%|███▋      | 111/300 [1:36:28<2:43:45, 51.99s/it]EPOCH:110, ======================ACC:84.15====================
+BEST EPOCH:109,BEST ACC:84.64
+Train Epoch: 111 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8360 Acc: 73.86
+Train Epoch: 111 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9121 Acc: 71.03
+Train Epoch: 111 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9033 Acc: 71.08
+Train Epoch: 111 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9231 Acc: 70.31
+Train Epoch: 111 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9000 Acc: 71.04
+Train Epoch: 111 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8937 Acc: 71.20
+Train Epoch: 111 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9026 Acc: 70.77
+ 37%|███▋      | 112/300 [1:37:20<2:42:54, 51.99s/it]EPOCH:111, ======================ACC:80.95====================
+BEST EPOCH:109,BEST ACC:84.64
+Train Epoch: 112 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8500 Acc: 72.78
+Train Epoch: 112 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8691 Acc: 72.03
+Train Epoch: 112 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8481 Acc: 72.78
+Train Epoch: 112 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8674 Acc: 72.14
+Train Epoch: 112 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8797 Acc: 71.70
+Train Epoch: 112 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8906 Acc: 71.19
+Train Epoch: 112 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9005 Acc: 70.96
+ 38%|███▊      | 113/300 [1:38:11<2:41:56, 51.96s/it]EPOCH:112, ======================ACC:85.21====================
+BEST EPOCH:112,BEST ACC:85.21
+Train Epoch: 113 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8660 Acc: 72.26
+Train Epoch: 113 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9212 Acc: 70.29
+Train Epoch: 113 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8934 Acc: 70.97
+Train Epoch: 113 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8885 Acc: 71.22
+Train Epoch: 113 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8983 Acc: 71.11
+Train Epoch: 113 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9011 Acc: 70.97
+Train Epoch: 113 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8895 Acc: 71.40
+ 38%|███▊      | 114/300 [1:39:04<2:41:15, 52.02s/it]EPOCH:113, ======================ACC:78.78====================
+BEST EPOCH:112,BEST ACC:85.21
+Train Epoch: 114 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0521 Acc: 64.54
+Train Epoch: 114 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9451 Acc: 68.69
+Train Epoch: 114 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9558 Acc: 68.65
+Train Epoch: 114 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9660 Acc: 68.47
+Train Epoch: 114 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9630 Acc: 68.69
+Train Epoch: 114 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9589 Acc: 68.90
+Train Epoch: 114 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9646 Acc: 68.78
+ 38%|███▊      | 115/300 [1:39:56<2:40:24, 52.02s/it]EPOCH:114, ======================ACC:82.0====================
+BEST EPOCH:112,BEST ACC:85.21
+Train Epoch: 115 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0025 Acc: 67.44
+Train Epoch: 115 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9931 Acc: 67.46
+Train Epoch: 115 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9334 Acc: 69.46
+Train Epoch: 115 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9126 Acc: 70.15
+Train Epoch: 115 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9399 Acc: 69.04
+Train Epoch: 115 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9320 Acc: 69.39
+Train Epoch: 115 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9288 Acc: 69.52
+ 39%|███▊      | 116/300 [1:40:47<2:39:20, 51.96s/it]EPOCH:115, ======================ACC:84.29====================
+BEST EPOCH:112,BEST ACC:85.21
+Train Epoch: 116 [RA+CutMix] [6400/50000 (13%)]	Loss: 1.0471 Acc: 66.15
+Train Epoch: 116 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9029 Acc: 71.05
+Train Epoch: 116 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9066 Acc: 70.58
+Train Epoch: 116 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9012 Acc: 70.80
+Train Epoch: 116 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8875 Acc: 71.42
+Train Epoch: 116 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8978 Acc: 71.18
+Train Epoch: 116 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9068 Acc: 70.81
+ 39%|███▉      | 117/300 [1:41:39<2:38:33, 51.99s/it]EPOCH:116, ======================ACC:82.95====================
+BEST EPOCH:112,BEST ACC:85.21
+Train Epoch: 117 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7886 Acc: 74.80
+Train Epoch: 117 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7713 Acc: 75.27
+Train Epoch: 117 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8023 Acc: 74.31
+Train Epoch: 117 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8264 Acc: 73.52
+Train Epoch: 117 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8495 Acc: 72.65
+Train Epoch: 117 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8527 Acc: 72.49
+Train Epoch: 117 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8659 Acc: 71.99
+ 39%|███▉      | 118/300 [1:42:31<2:37:29, 51.92s/it]EPOCH:117, ======================ACC:83.74====================
+BEST EPOCH:112,BEST ACC:85.21
+Train Epoch: 118 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9322 Acc: 69.20
+Train Epoch: 118 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9023 Acc: 70.36
+Train Epoch: 118 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9163 Acc: 69.91
+Train Epoch: 118 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9147 Acc: 70.21
+Train Epoch: 118 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9198 Acc: 70.06
+Train Epoch: 118 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9272 Acc: 69.84
+Train Epoch: 118 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9273 Acc: 69.83
+ 40%|███▉      | 119/300 [1:43:23<2:36:31, 51.89s/it]EPOCH:118, ======================ACC:82.39====================
+BEST EPOCH:112,BEST ACC:85.21
+Train Epoch: 119 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8757 Acc: 71.55
+Train Epoch: 119 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9082 Acc: 70.60
+Train Epoch: 119 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9303 Acc: 69.71
+Train Epoch: 119 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9326 Acc: 69.59
+Train Epoch: 119 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9167 Acc: 70.08
+Train Epoch: 119 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9130 Acc: 70.13
+Train Epoch: 119 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9269 Acc: 69.78
+ 40%|████      | 120/300 [1:44:15<2:35:31, 51.84s/it]EPOCH:119, ======================ACC:83.09====================
+BEST EPOCH:112,BEST ACC:85.21
+Train Epoch: 120 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9784 Acc: 68.24
+Train Epoch: 120 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9860 Acc: 68.06
+Train Epoch: 120 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9364 Acc: 69.59
+Train Epoch: 120 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9366 Acc: 69.61
+Train Epoch: 120 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9342 Acc: 69.65
+Train Epoch: 120 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9223 Acc: 69.83
+Train Epoch: 120 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9129 Acc: 70.19
+ 40%|████      | 121/300 [1:45:07<2:34:37, 51.83s/it]EPOCH:120, ======================ACC:82.45====================
+BEST EPOCH:112,BEST ACC:85.21
+Train Epoch: 121 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7231 Acc: 77.32
+Train Epoch: 121 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8001 Acc: 74.35
+Train Epoch: 121 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8226 Acc: 73.54
+Train Epoch: 121 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8399 Acc: 73.02
+Train Epoch: 121 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8344 Acc: 73.19
+Train Epoch: 121 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8259 Acc: 73.54
+Train Epoch: 121 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8286 Acc: 73.37
+ 41%|████      | 122/300 [1:45:58<2:33:51, 51.86s/it]EPOCH:121, ======================ACC:87.53====================
+BEST EPOCH:121,BEST ACC:87.53
+Train Epoch: 122 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7957 Acc: 75.08
+Train Epoch: 122 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8098 Acc: 74.83
+Train Epoch: 122 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8321 Acc: 73.97
+Train Epoch: 122 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8526 Acc: 73.10
+Train Epoch: 122 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8573 Acc: 72.78
+Train Epoch: 122 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8756 Acc: 72.21
+Train Epoch: 122 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8802 Acc: 71.91
+ 41%|████      | 123/300 [1:46:51<2:33:07, 51.91s/it]EPOCH:122, ======================ACC:84.97====================
+BEST EPOCH:121,BEST ACC:87.53
+Train Epoch: 123 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7949 Acc: 74.63
+Train Epoch: 123 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8042 Acc: 73.87
+Train Epoch: 123 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8348 Acc: 72.86
+Train Epoch: 123 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8450 Acc: 72.53
+Train Epoch: 123 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8523 Acc: 72.37
+Train Epoch: 123 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8565 Acc: 72.17
+Train Epoch: 123 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8530 Acc: 72.29
+ 41%|████▏     | 124/300 [1:47:42<2:32:09, 51.87s/it]EPOCH:123, ======================ACC:83.72====================
+BEST EPOCH:121,BEST ACC:87.53
+Train Epoch: 124 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8085 Acc: 73.44
+Train Epoch: 124 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8112 Acc: 73.44
+Train Epoch: 124 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7904 Acc: 74.23
+Train Epoch: 124 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8343 Acc: 72.68
+Train Epoch: 124 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8589 Acc: 71.83
+Train Epoch: 124 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8617 Acc: 71.77
+Train Epoch: 124 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8593 Acc: 71.92
+ 42%|████▏     | 125/300 [1:48:34<2:31:19, 51.88s/it]EPOCH:124, ======================ACC:82.65====================
+BEST EPOCH:121,BEST ACC:87.53
+Train Epoch: 125 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8552 Acc: 72.29
+Train Epoch: 125 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8810 Acc: 71.44
+Train Epoch: 125 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8533 Acc: 72.25
+Train Epoch: 125 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8629 Acc: 71.81
+Train Epoch: 125 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8676 Acc: 71.69
+Train Epoch: 125 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8787 Acc: 71.46
+Train Epoch: 125 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8825 Acc: 71.31
+ 42%|████▏     | 126/300 [1:49:26<2:30:21, 51.85s/it]EPOCH:125, ======================ACC:84.11====================
+BEST EPOCH:121,BEST ACC:87.53
+Train Epoch: 126 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9395 Acc: 69.52
+Train Epoch: 126 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9037 Acc: 70.74
+Train Epoch: 126 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8847 Acc: 71.46
+Train Epoch: 126 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9050 Acc: 70.88
+Train Epoch: 126 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8986 Acc: 71.13
+Train Epoch: 126 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8937 Acc: 71.37
+Train Epoch: 126 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8809 Acc: 71.75
+ 42%|████▏     | 127/300 [1:50:18<2:29:32, 51.86s/it]EPOCH:126, ======================ACC:83.65====================
+BEST EPOCH:121,BEST ACC:87.53
+Train Epoch: 127 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9907 Acc: 67.08
+Train Epoch: 127 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9252 Acc: 70.10
+Train Epoch: 127 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9285 Acc: 69.95
+Train Epoch: 127 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9496 Acc: 68.94
+Train Epoch: 127 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9110 Acc: 70.21
+Train Epoch: 127 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9099 Acc: 70.19
+Train Epoch: 127 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.9096 Acc: 70.35
+ 43%|████▎     | 128/300 [1:51:10<2:28:48, 51.91s/it]EPOCH:127, ======================ACC:86.55====================
+BEST EPOCH:121,BEST ACC:87.53
+Train Epoch: 128 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8182 Acc: 72.86
+Train Epoch: 128 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8601 Acc: 71.55
+Train Epoch: 128 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8473 Acc: 72.12
+Train Epoch: 128 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8805 Acc: 71.10
+Train Epoch: 128 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8714 Acc: 71.52
+Train Epoch: 128 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8795 Acc: 71.25
+Train Epoch: 128 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8895 Acc: 70.92
+ 43%|████▎     | 129/300 [1:52:02<2:28:03, 51.95s/it]EPOCH:128, ======================ACC:85.33====================
+BEST EPOCH:121,BEST ACC:87.53
+Train Epoch: 129 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8132 Acc: 73.89
+Train Epoch: 129 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8768 Acc: 71.85
+Train Epoch: 129 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8577 Acc: 72.42
+Train Epoch: 129 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8795 Acc: 71.75
+Train Epoch: 129 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8735 Acc: 71.80
+Train Epoch: 129 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8805 Acc: 71.53
+Train Epoch: 129 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8647 Acc: 72.10
+ 43%|████▎     | 130/300 [1:52:54<2:27:10, 51.95s/it]EPOCH:129, ======================ACC:86.53====================
+BEST EPOCH:121,BEST ACC:87.53
+Train Epoch: 130 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9138 Acc: 69.81
+Train Epoch: 130 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8226 Acc: 73.08
+Train Epoch: 130 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8131 Acc: 73.52
+Train Epoch: 130 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8356 Acc: 72.76
+Train Epoch: 130 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8445 Acc: 72.60
+Train Epoch: 130 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8492 Acc: 72.48
+Train Epoch: 130 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8663 Acc: 71.92
+ 44%|████▎     | 131/300 [1:53:46<2:26:20, 51.95s/it]EPOCH:130, ======================ACC:85.93====================
+BEST EPOCH:121,BEST ACC:87.53
+Train Epoch: 131 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9621 Acc: 68.19
+Train Epoch: 131 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9495 Acc: 69.19
+Train Epoch: 131 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9268 Acc: 69.84
+Train Epoch: 131 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.9365 Acc: 69.32
+Train Epoch: 131 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9218 Acc: 69.84
+Train Epoch: 131 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.9109 Acc: 70.17
+Train Epoch: 131 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8942 Acc: 70.74
+ 44%|████▍     | 132/300 [1:54:38<2:25:25, 51.93s/it]EPOCH:131, ======================ACC:83.38====================
+BEST EPOCH:121,BEST ACC:87.53
+Train Epoch: 132 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8016 Acc: 74.09
+Train Epoch: 132 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8408 Acc: 72.53
+Train Epoch: 132 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8618 Acc: 72.20
+Train Epoch: 132 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8705 Acc: 71.93
+Train Epoch: 132 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8470 Acc: 72.64
+Train Epoch: 132 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8636 Acc: 71.96
+Train Epoch: 132 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8761 Acc: 71.65
+ 44%|████▍     | 133/300 [1:55:30<2:24:31, 51.93s/it]EPOCH:132, ======================ACC:87.34====================
+BEST EPOCH:121,BEST ACC:87.53
+Train Epoch: 133 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8980 Acc: 71.24
+Train Epoch: 133 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8150 Acc: 73.38
+Train Epoch: 133 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8538 Acc: 72.04
+Train Epoch: 133 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8515 Acc: 72.15
+Train Epoch: 133 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8519 Acc: 72.01
+Train Epoch: 133 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8644 Acc: 71.52
+Train Epoch: 133 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8613 Acc: 71.75
+ 45%|████▍     | 134/300 [1:56:22<2:23:40, 51.93s/it]EPOCH:133, ======================ACC:84.35====================
+BEST EPOCH:121,BEST ACC:87.53
+Train Epoch: 134 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8633 Acc: 72.25
+Train Epoch: 134 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8648 Acc: 72.42
+Train Epoch: 134 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8618 Acc: 72.24
+Train Epoch: 134 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8826 Acc: 71.46
+Train Epoch: 134 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.9078 Acc: 70.83
+Train Epoch: 134 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8978 Acc: 71.17
+Train Epoch: 134 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8836 Acc: 71.61
+ 45%|████▌     | 135/300 [1:57:13<2:22:37, 51.86s/it]EPOCH:134, ======================ACC:83.35====================
+BEST EPOCH:121,BEST ACC:87.53
+Train Epoch: 135 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8561 Acc: 72.42
+Train Epoch: 135 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8660 Acc: 72.01
+Train Epoch: 135 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8770 Acc: 71.62
+Train Epoch: 135 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8802 Acc: 71.50
+Train Epoch: 135 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8802 Acc: 71.25
+Train Epoch: 135 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8498 Acc: 72.25
+Train Epoch: 135 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8499 Acc: 72.24
+ 45%|████▌     | 136/300 [1:58:05<2:21:41, 51.84s/it]EPOCH:135, ======================ACC:85.02====================
+BEST EPOCH:121,BEST ACC:87.53
+Train Epoch: 136 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9183 Acc: 70.37
+Train Epoch: 136 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8744 Acc: 71.68
+Train Epoch: 136 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8765 Acc: 71.50
+Train Epoch: 136 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8513 Acc: 72.46
+Train Epoch: 136 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8334 Acc: 73.11
+Train Epoch: 136 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8248 Acc: 73.30
+Train Epoch: 136 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8374 Acc: 72.85
+ 46%|████▌     | 137/300 [1:58:57<2:20:41, 51.79s/it]EPOCH:136, ======================ACC:78.61====================
+BEST EPOCH:121,BEST ACC:87.53
+Train Epoch: 137 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8789 Acc: 70.91
+Train Epoch: 137 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8475 Acc: 71.74
+Train Epoch: 137 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8358 Acc: 72.40
+Train Epoch: 137 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8684 Acc: 71.46
+Train Epoch: 137 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8527 Acc: 72.10
+Train Epoch: 137 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8266 Acc: 72.96
+Train Epoch: 137 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8356 Acc: 72.65
+ 46%|████▌     | 138/300 [1:59:49<2:19:55, 51.83s/it]EPOCH:137, ======================ACC:83.41====================
+BEST EPOCH:121,BEST ACC:87.53
+Train Epoch: 138 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8397 Acc: 72.95
+Train Epoch: 138 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8550 Acc: 72.57
+Train Epoch: 138 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8514 Acc: 72.65
+Train Epoch: 138 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8592 Acc: 72.25
+Train Epoch: 138 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8371 Acc: 72.99
+Train Epoch: 138 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8299 Acc: 73.29
+Train Epoch: 138 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8458 Acc: 72.56
+ 46%|████▋     | 139/300 [2:00:41<2:19:21, 51.94s/it]EPOCH:138, ======================ACC:82.9====================
+BEST EPOCH:121,BEST ACC:87.53
+Train Epoch: 139 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7888 Acc: 74.60
+Train Epoch: 139 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7756 Acc: 74.92
+Train Epoch: 139 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8190 Acc: 73.37
+Train Epoch: 139 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8167 Acc: 73.56
+Train Epoch: 139 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8332 Acc: 72.95
+Train Epoch: 139 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8329 Acc: 72.85
+Train Epoch: 139 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8169 Acc: 73.35
+ 47%|████▋     | 140/300 [2:01:33<2:19:01, 52.13s/it]EPOCH:139, ======================ACC:87.86====================
+BEST EPOCH:139,BEST ACC:87.86
+Train Epoch: 140 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9093 Acc: 69.96
+Train Epoch: 140 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8757 Acc: 71.32
+Train Epoch: 140 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8678 Acc: 71.67
+Train Epoch: 140 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8669 Acc: 71.77
+Train Epoch: 140 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8610 Acc: 71.90
+Train Epoch: 140 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8542 Acc: 72.10
+Train Epoch: 140 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8597 Acc: 71.96
+ 47%|████▋     | 141/300 [2:02:25<2:18:03, 52.10s/it]EPOCH:140, ======================ACC:84.42====================
+BEST EPOCH:139,BEST ACC:87.86
+Train Epoch: 141 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8743 Acc: 72.54
+Train Epoch: 141 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8393 Acc: 73.21
+Train Epoch: 141 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8537 Acc: 72.73
+Train Epoch: 141 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8596 Acc: 72.42
+Train Epoch: 141 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8681 Acc: 71.94
+Train Epoch: 141 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8680 Acc: 71.95
+Train Epoch: 141 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8657 Acc: 72.06
+ 47%|████▋     | 142/300 [2:03:17<2:16:57, 52.01s/it]EPOCH:141, ======================ACC:80.97====================
+BEST EPOCH:139,BEST ACC:87.86
+Train Epoch: 142 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6397 Acc: 79.04
+Train Epoch: 142 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7017 Acc: 77.14
+Train Epoch: 142 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7450 Acc: 75.76
+Train Epoch: 142 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7715 Acc: 74.89
+Train Epoch: 142 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7744 Acc: 74.89
+Train Epoch: 142 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7798 Acc: 74.74
+Train Epoch: 142 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7880 Acc: 74.48
+ 48%|████▊     | 143/300 [2:04:09<2:15:59, 51.97s/it]EPOCH:142, ======================ACC:85.92====================
+BEST EPOCH:139,BEST ACC:87.86
+Train Epoch: 143 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8423 Acc: 71.87
+Train Epoch: 143 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8102 Acc: 73.07
+Train Epoch: 143 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8104 Acc: 73.50
+Train Epoch: 143 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8371 Acc: 72.68
+Train Epoch: 143 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8317 Acc: 72.94
+Train Epoch: 143 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8449 Acc: 72.51
+Train Epoch: 143 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8353 Acc: 72.72
+ 48%|████▊     | 144/300 [2:05:01<2:14:56, 51.90s/it]EPOCH:143, ======================ACC:86.36====================
+BEST EPOCH:139,BEST ACC:87.86
+Train Epoch: 144 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8822 Acc: 71.06
+Train Epoch: 144 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8506 Acc: 72.41
+Train Epoch: 144 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8237 Acc: 73.41
+Train Epoch: 144 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8013 Acc: 74.13
+Train Epoch: 144 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8341 Acc: 73.06
+Train Epoch: 144 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8524 Acc: 72.42
+Train Epoch: 144 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8441 Acc: 72.60
+ 48%|████▊     | 145/300 [2:05:53<2:13:55, 51.84s/it]EPOCH:144, ======================ACC:86.32====================
+BEST EPOCH:139,BEST ACC:87.86
+Train Epoch: 145 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8284 Acc: 73.74
+Train Epoch: 145 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7952 Acc: 74.59
+Train Epoch: 145 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8132 Acc: 73.93
+Train Epoch: 145 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8230 Acc: 73.35
+Train Epoch: 145 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8504 Acc: 72.54
+Train Epoch: 145 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8335 Acc: 73.06
+Train Epoch: 145 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8335 Acc: 73.13
+ 49%|████▊     | 146/300 [2:06:44<2:13:00, 51.82s/it]EPOCH:145, ======================ACC:87.33====================
+BEST EPOCH:139,BEST ACC:87.86
+Train Epoch: 146 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7576 Acc: 75.57
+Train Epoch: 146 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7014 Acc: 77.59
+Train Epoch: 146 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7245 Acc: 76.98
+Train Epoch: 146 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7802 Acc: 75.08
+Train Epoch: 146 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7981 Acc: 74.39
+Train Epoch: 146 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8174 Acc: 73.51
+Train Epoch: 146 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8258 Acc: 73.23
+ 49%|████▉     | 147/300 [2:07:36<2:12:18, 51.89s/it]EPOCH:146, ======================ACC:86.3====================
+BEST EPOCH:139,BEST ACC:87.86
+Train Epoch: 147 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8195 Acc: 74.23
+Train Epoch: 147 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8211 Acc: 74.14
+Train Epoch: 147 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8376 Acc: 73.22
+Train Epoch: 147 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8663 Acc: 71.96
+Train Epoch: 147 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8786 Acc: 71.40
+Train Epoch: 147 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8716 Acc: 71.79
+Train Epoch: 147 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8585 Acc: 72.27
+ 49%|████▉     | 148/300 [2:08:28<2:11:16, 51.82s/it]EPOCH:147, ======================ACC:84.35====================
+BEST EPOCH:139,BEST ACC:87.86
+Train Epoch: 148 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8401 Acc: 72.66
+Train Epoch: 148 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7950 Acc: 74.45
+Train Epoch: 148 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7921 Acc: 74.40
+Train Epoch: 148 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7739 Acc: 74.89
+Train Epoch: 148 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7830 Acc: 74.48
+Train Epoch: 148 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7845 Acc: 74.50
+Train Epoch: 148 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7937 Acc: 74.20
+ 50%|████▉     | 149/300 [2:09:20<2:10:42, 51.93s/it]EPOCH:148, ======================ACC:84.32====================
+BEST EPOCH:139,BEST ACC:87.86
+Train Epoch: 149 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9147 Acc: 70.24
+Train Epoch: 149 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8566 Acc: 72.02
+Train Epoch: 149 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8489 Acc: 72.52
+Train Epoch: 149 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8265 Acc: 73.09
+Train Epoch: 149 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8233 Acc: 73.43
+Train Epoch: 149 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8154 Acc: 73.66
+Train Epoch: 149 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8080 Acc: 73.82
+ 50%|█████     | 150/300 [2:10:13<2:10:12, 52.08s/it]EPOCH:149, ======================ACC:83.52====================
+BEST EPOCH:139,BEST ACC:87.86
+Train Epoch: 150 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8494 Acc: 72.91
+Train Epoch: 150 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8530 Acc: 72.39
+Train Epoch: 150 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8537 Acc: 72.32
+Train Epoch: 150 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8695 Acc: 71.83
+Train Epoch: 150 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8802 Acc: 71.43
+Train Epoch: 150 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8808 Acc: 71.37
+Train Epoch: 150 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8461 Acc: 72.46
+ 50%|█████     | 151/300 [2:11:05<2:09:35, 52.18s/it]EPOCH:150, ======================ACC:84.89====================
+BEST EPOCH:139,BEST ACC:87.86
+Train Epoch: 151 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8485 Acc: 73.17
+Train Epoch: 151 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8371 Acc: 72.82
+Train Epoch: 151 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8164 Acc: 73.43
+Train Epoch: 151 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8215 Acc: 73.15
+Train Epoch: 151 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8358 Acc: 72.60
+Train Epoch: 151 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8217 Acc: 73.25
+Train Epoch: 151 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8285 Acc: 72.96
+ 51%|█████     | 152/300 [2:11:57<2:08:47, 52.21s/it]EPOCH:151, ======================ACC:86.15====================
+BEST EPOCH:139,BEST ACC:87.86
+Train Epoch: 152 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8907 Acc: 70.23
+Train Epoch: 152 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8781 Acc: 70.99
+Train Epoch: 152 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8780 Acc: 71.00
+Train Epoch: 152 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8549 Acc: 71.89
+Train Epoch: 152 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8478 Acc: 72.19
+Train Epoch: 152 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8599 Acc: 71.90
+Train Epoch: 152 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8469 Acc: 72.32
+ 51%|█████     | 153/300 [2:12:50<2:08:00, 52.25s/it]EPOCH:152, ======================ACC:86.92====================
+BEST EPOCH:139,BEST ACC:87.86
+Train Epoch: 153 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7169 Acc: 76.83
+Train Epoch: 153 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7715 Acc: 74.78
+Train Epoch: 153 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8278 Acc: 72.85
+Train Epoch: 153 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8166 Acc: 73.33
+Train Epoch: 153 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7999 Acc: 73.97
+Train Epoch: 153 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8307 Acc: 72.85
+Train Epoch: 153 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8247 Acc: 73.05
+ 51%|█████▏    | 154/300 [2:13:42<2:07:02, 52.21s/it]EPOCH:153, ======================ACC:86.82====================
+BEST EPOCH:139,BEST ACC:87.86
+Train Epoch: 154 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8546 Acc: 72.23
+Train Epoch: 154 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8592 Acc: 72.01
+Train Epoch: 154 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8603 Acc: 72.15
+Train Epoch: 154 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8620 Acc: 71.89
+Train Epoch: 154 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8742 Acc: 71.60
+Train Epoch: 154 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8661 Acc: 72.09
+Train Epoch: 154 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8577 Acc: 72.33
+ 52%|█████▏    | 155/300 [2:14:34<2:06:20, 52.28s/it]EPOCH:154, ======================ACC:87.12====================
+BEST EPOCH:139,BEST ACC:87.86
+Train Epoch: 155 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8308 Acc: 73.29
+Train Epoch: 155 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7961 Acc: 74.22
+Train Epoch: 155 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7985 Acc: 73.90
+Train Epoch: 155 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8421 Acc: 72.22
+Train Epoch: 155 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8305 Acc: 72.62
+Train Epoch: 155 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8449 Acc: 72.02
+Train Epoch: 155 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8274 Acc: 72.63
+ 52%|█████▏    | 156/300 [2:15:27<2:05:34, 52.32s/it]EPOCH:155, ======================ACC:84.49====================
+BEST EPOCH:139,BEST ACC:87.86
+Train Epoch: 156 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9277 Acc: 70.05
+Train Epoch: 156 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8866 Acc: 71.14
+Train Epoch: 156 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.9161 Acc: 69.84
+Train Epoch: 156 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8750 Acc: 71.32
+Train Epoch: 156 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8875 Acc: 70.87
+Train Epoch: 156 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8860 Acc: 70.97
+Train Epoch: 156 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8593 Acc: 71.96
+ 52%|█████▏    | 157/300 [2:16:19<2:04:36, 52.28s/it]EPOCH:156, ======================ACC:87.95====================
+BEST EPOCH:156,BEST ACC:87.95
+Train Epoch: 157 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6990 Acc: 77.42
+Train Epoch: 157 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8243 Acc: 73.37
+Train Epoch: 157 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8077 Acc: 74.21
+Train Epoch: 157 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8135 Acc: 74.09
+Train Epoch: 157 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8009 Acc: 74.46
+Train Epoch: 157 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7889 Acc: 74.73
+Train Epoch: 157 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7949 Acc: 74.48
+ 53%|█████▎    | 158/300 [2:17:11<2:03:52, 52.34s/it]EPOCH:157, ======================ACC:85.16====================
+BEST EPOCH:156,BEST ACC:87.95
+Train Epoch: 158 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8833 Acc: 70.79
+Train Epoch: 158 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8373 Acc: 72.70
+Train Epoch: 158 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8455 Acc: 72.25
+Train Epoch: 158 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8368 Acc: 72.52
+Train Epoch: 158 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8160 Acc: 73.23
+Train Epoch: 158 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8156 Acc: 73.16
+Train Epoch: 158 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8171 Acc: 73.19
+ 53%|█████▎    | 159/300 [2:18:03<2:02:42, 52.22s/it]EPOCH:158, ======================ACC:85.04====================
+BEST EPOCH:156,BEST ACC:87.95
+Train Epoch: 159 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6240 Acc: 80.12
+Train Epoch: 159 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6658 Acc: 78.63
+Train Epoch: 159 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6827 Acc: 78.00
+Train Epoch: 159 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7239 Acc: 76.61
+Train Epoch: 159 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7323 Acc: 76.33
+Train Epoch: 159 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7385 Acc: 76.09
+Train Epoch: 159 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7457 Acc: 75.85
+ 53%|█████▎    | 160/300 [2:18:56<2:02:19, 52.43s/it]EPOCH:159, ======================ACC:87.78====================
+BEST EPOCH:156,BEST ACC:87.95
+Train Epoch: 160 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8021 Acc: 73.86
+Train Epoch: 160 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7666 Acc: 74.86
+Train Epoch: 160 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8037 Acc: 73.69
+Train Epoch: 160 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8425 Acc: 72.51
+Train Epoch: 160 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8236 Acc: 73.21
+Train Epoch: 160 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7995 Acc: 74.00
+Train Epoch: 160 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8051 Acc: 73.85
+ 54%|█████▎    | 161/300 [2:19:49<2:01:38, 52.51s/it]EPOCH:160, ======================ACC:87.79====================
+BEST EPOCH:156,BEST ACC:87.95
+Train Epoch: 161 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8586 Acc: 72.27
+Train Epoch: 161 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8165 Acc: 73.52
+Train Epoch: 161 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8416 Acc: 72.68
+Train Epoch: 161 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8556 Acc: 71.85
+Train Epoch: 161 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8576 Acc: 71.98
+Train Epoch: 161 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8440 Acc: 72.46
+Train Epoch: 161 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8343 Acc: 72.69
+ 54%|█████▍    | 162/300 [2:20:41<2:00:44, 52.50s/it]EPOCH:161, ======================ACC:86.4====================
+BEST EPOCH:156,BEST ACC:87.95
+Train Epoch: 162 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7535 Acc: 75.52
+Train Epoch: 162 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7885 Acc: 74.26
+Train Epoch: 162 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8132 Acc: 73.39
+Train Epoch: 162 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8142 Acc: 73.46
+Train Epoch: 162 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8070 Acc: 73.91
+Train Epoch: 162 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8209 Acc: 73.44
+Train Epoch: 162 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8350 Acc: 72.98
+ 54%|█████▍    | 163/300 [2:21:34<1:59:57, 52.53s/it]EPOCH:162, ======================ACC:87.87====================
+BEST EPOCH:156,BEST ACC:87.95
+Train Epoch: 163 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8340 Acc: 72.96
+Train Epoch: 163 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8154 Acc: 73.65
+Train Epoch: 163 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8062 Acc: 73.84
+Train Epoch: 163 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7843 Acc: 74.29
+Train Epoch: 163 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8013 Acc: 73.82
+Train Epoch: 163 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8154 Acc: 73.33
+Train Epoch: 163 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8095 Acc: 73.42
+ 55%|█████▍    | 164/300 [2:22:27<1:59:04, 52.54s/it]EPOCH:163, ======================ACC:84.58====================
+BEST EPOCH:156,BEST ACC:87.95
+Train Epoch: 164 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8208 Acc: 73.33
+Train Epoch: 164 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8427 Acc: 72.57
+Train Epoch: 164 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8572 Acc: 72.16
+Train Epoch: 164 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8554 Acc: 71.95
+Train Epoch: 164 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8381 Acc: 72.55
+Train Epoch: 164 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8430 Acc: 72.31
+Train Epoch: 164 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8341 Acc: 72.70
+ 55%|█████▌    | 165/300 [2:23:19<1:58:15, 52.56s/it]EPOCH:164, ======================ACC:88.61====================
+BEST EPOCH:164,BEST ACC:88.61
+Train Epoch: 165 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7623 Acc: 75.65
+Train Epoch: 165 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7516 Acc: 76.01
+Train Epoch: 165 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7492 Acc: 75.86
+Train Epoch: 165 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7266 Acc: 76.43
+Train Epoch: 165 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7262 Acc: 76.52
+Train Epoch: 165 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7319 Acc: 76.27
+Train Epoch: 165 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7276 Acc: 76.48
+ 55%|█████▌    | 166/300 [2:24:12<1:57:15, 52.50s/it]EPOCH:165, ======================ACC:88.26====================
+BEST EPOCH:164,BEST ACC:88.61
+Train Epoch: 166 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8254 Acc: 72.40
+Train Epoch: 166 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8427 Acc: 72.17
+Train Epoch: 166 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8434 Acc: 72.21
+Train Epoch: 166 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8309 Acc: 72.71
+Train Epoch: 166 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8076 Acc: 73.49
+Train Epoch: 166 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8028 Acc: 73.56
+Train Epoch: 166 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8049 Acc: 73.51
+ 56%|█████▌    | 167/300 [2:25:04<1:56:19, 52.48s/it]EPOCH:166, ======================ACC:88.8====================
+BEST EPOCH:166,BEST ACC:88.8
+Train Epoch: 167 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6673 Acc: 78.11
+Train Epoch: 167 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6535 Acc: 78.41
+Train Epoch: 167 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7110 Acc: 76.67
+Train Epoch: 167 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7187 Acc: 76.47
+Train Epoch: 167 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7170 Acc: 76.51
+Train Epoch: 167 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7208 Acc: 76.47
+Train Epoch: 167 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7305 Acc: 76.18
+ 56%|█████▌    | 168/300 [2:25:56<1:55:18, 52.41s/it]EPOCH:167, ======================ACC:87.31====================
+BEST EPOCH:166,BEST ACC:88.8
+Train Epoch: 168 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8088 Acc: 73.58
+Train Epoch: 168 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7609 Acc: 75.11
+Train Epoch: 168 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7672 Acc: 75.08
+Train Epoch: 168 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7679 Acc: 75.25
+Train Epoch: 168 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7784 Acc: 75.06
+Train Epoch: 168 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7844 Acc: 74.86
+Train Epoch: 168 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7978 Acc: 74.43
+ 56%|█████▋    | 169/300 [2:26:49<1:54:32, 52.46s/it]EPOCH:168, ======================ACC:86.22====================
+BEST EPOCH:166,BEST ACC:88.8
+Train Epoch: 169 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9329 Acc: 69.31
+Train Epoch: 169 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.9014 Acc: 70.61
+Train Epoch: 169 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8763 Acc: 71.33
+Train Epoch: 169 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8668 Acc: 71.59
+Train Epoch: 169 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8838 Acc: 70.92
+Train Epoch: 169 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8606 Acc: 71.62
+Train Epoch: 169 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8605 Acc: 71.62
+ 57%|█████▋    | 170/300 [2:27:41<1:53:41, 52.48s/it]EPOCH:169, ======================ACC:89.88====================
+BEST EPOCH:169,BEST ACC:89.88
+Train Epoch: 170 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8278 Acc: 73.08
+Train Epoch: 170 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8060 Acc: 74.11
+Train Epoch: 170 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7909 Acc: 74.58
+Train Epoch: 170 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8270 Acc: 73.29
+Train Epoch: 170 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8065 Acc: 74.00
+Train Epoch: 170 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8126 Acc: 73.77
+Train Epoch: 170 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8043 Acc: 74.04
+ 57%|█████▋    | 171/300 [2:28:34<1:52:42, 52.42s/it]EPOCH:170, ======================ACC:87.78====================
+BEST EPOCH:169,BEST ACC:89.88
+Train Epoch: 171 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6610 Acc: 78.43
+Train Epoch: 171 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7405 Acc: 76.12
+Train Epoch: 171 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7395 Acc: 76.05
+Train Epoch: 171 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7573 Acc: 75.28
+Train Epoch: 171 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7648 Acc: 75.21
+Train Epoch: 171 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7650 Acc: 75.18
+Train Epoch: 171 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7890 Acc: 74.24
+ 57%|█████▋    | 172/300 [2:29:25<1:51:30, 52.27s/it]EPOCH:171, ======================ACC:88.13====================
+BEST EPOCH:169,BEST ACC:89.88
+Train Epoch: 172 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8262 Acc: 74.10
+Train Epoch: 172 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8483 Acc: 72.45
+Train Epoch: 172 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8296 Acc: 72.67
+Train Epoch: 172 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8480 Acc: 72.09
+Train Epoch: 172 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8269 Acc: 72.76
+Train Epoch: 172 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8137 Acc: 73.33
+Train Epoch: 172 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7996 Acc: 73.79
+ 58%|█████▊    | 173/300 [2:30:18<1:50:37, 52.27s/it]EPOCH:172, ======================ACC:88.77====================
+BEST EPOCH:169,BEST ACC:89.88
+Train Epoch: 173 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8033 Acc: 73.76
+Train Epoch: 173 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8237 Acc: 73.37
+Train Epoch: 173 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8549 Acc: 72.00
+Train Epoch: 173 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8212 Acc: 73.17
+Train Epoch: 173 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8026 Acc: 73.76
+Train Epoch: 173 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7958 Acc: 73.96
+Train Epoch: 173 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7974 Acc: 73.88
+ 58%|█████▊    | 174/300 [2:31:10<1:49:53, 52.33s/it]EPOCH:173, ======================ACC:87.4====================
+BEST EPOCH:169,BEST ACC:89.88
+Train Epoch: 174 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8869 Acc: 71.69
+Train Epoch: 174 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8592 Acc: 72.37
+Train Epoch: 174 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8265 Acc: 72.97
+Train Epoch: 174 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8349 Acc: 72.40
+Train Epoch: 174 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8309 Acc: 72.71
+Train Epoch: 174 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8125 Acc: 73.27
+Train Epoch: 174 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8260 Acc: 72.85
+ 58%|█████▊    | 175/300 [2:32:03<1:49:11, 52.42s/it]EPOCH:174, ======================ACC:83.86====================
+BEST EPOCH:169,BEST ACC:89.88
+Train Epoch: 175 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7853 Acc: 74.79
+Train Epoch: 175 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7620 Acc: 75.36
+Train Epoch: 175 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7438 Acc: 76.14
+Train Epoch: 175 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7909 Acc: 74.57
+Train Epoch: 175 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7824 Acc: 74.76
+Train Epoch: 175 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8074 Acc: 73.94
+Train Epoch: 175 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7973 Acc: 74.21
+ 59%|█████▊    | 176/300 [2:32:55<1:48:18, 52.40s/it]EPOCH:175, ======================ACC:87.73====================
+BEST EPOCH:169,BEST ACC:89.88
+Train Epoch: 176 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8164 Acc: 73.98
+Train Epoch: 176 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8505 Acc: 72.21
+Train Epoch: 176 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8393 Acc: 72.58
+Train Epoch: 176 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8387 Acc: 72.70
+Train Epoch: 176 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8379 Acc: 72.67
+Train Epoch: 176 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8108 Acc: 73.66
+Train Epoch: 176 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8253 Acc: 73.19
+ 59%|█████▉    | 177/300 [2:33:48<1:47:23, 52.39s/it]EPOCH:176, ======================ACC:87.41====================
+BEST EPOCH:169,BEST ACC:89.88
+Train Epoch: 177 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7526 Acc: 76.33
+Train Epoch: 177 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7395 Acc: 76.19
+Train Epoch: 177 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7172 Acc: 76.86
+Train Epoch: 177 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7381 Acc: 76.07
+Train Epoch: 177 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7557 Acc: 75.43
+Train Epoch: 177 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7874 Acc: 74.51
+Train Epoch: 177 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.8066 Acc: 73.71
+ 59%|█████▉    | 178/300 [2:34:40<1:46:36, 52.43s/it]EPOCH:177, ======================ACC:87.58====================
+BEST EPOCH:169,BEST ACC:89.88
+Train Epoch: 178 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8309 Acc: 73.67
+Train Epoch: 178 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8398 Acc: 73.38
+Train Epoch: 178 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8527 Acc: 72.68
+Train Epoch: 178 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8221 Acc: 73.60
+Train Epoch: 178 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8320 Acc: 73.25
+Train Epoch: 178 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7882 Acc: 74.65
+Train Epoch: 178 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7863 Acc: 74.58
+ 60%|█████▉    | 179/300 [2:35:33<1:45:45, 52.45s/it]EPOCH:178, ======================ACC:89.07====================
+BEST EPOCH:169,BEST ACC:89.88
+Train Epoch: 179 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8242 Acc: 72.79
+Train Epoch: 179 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8402 Acc: 72.34
+Train Epoch: 179 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7650 Acc: 74.92
+Train Epoch: 179 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7412 Acc: 75.94
+Train Epoch: 179 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7549 Acc: 75.43
+Train Epoch: 179 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7399 Acc: 75.87
+Train Epoch: 179 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7522 Acc: 75.42
+ 60%|██████    | 180/300 [2:36:25<1:44:45, 52.38s/it]EPOCH:179, ======================ACC:89.36====================
+BEST EPOCH:169,BEST ACC:89.88
+Train Epoch: 180 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7667 Acc: 75.24
+Train Epoch: 180 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7151 Acc: 76.92
+Train Epoch: 180 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7353 Acc: 75.99
+Train Epoch: 180 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7309 Acc: 76.09
+Train Epoch: 180 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7245 Acc: 76.29
+Train Epoch: 180 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7272 Acc: 76.17
+Train Epoch: 180 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7429 Acc: 75.57
+ 60%|██████    | 181/300 [2:37:17<1:43:50, 52.36s/it]EPOCH:180, ======================ACC:87.79====================
+BEST EPOCH:169,BEST ACC:89.88
+Train Epoch: 181 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7971 Acc: 73.68
+Train Epoch: 181 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7716 Acc: 74.49
+Train Epoch: 181 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7796 Acc: 74.43
+Train Epoch: 181 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7746 Acc: 74.73
+Train Epoch: 181 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7866 Acc: 74.21
+Train Epoch: 181 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.8003 Acc: 73.68
+Train Epoch: 181 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7840 Acc: 74.11
+ 61%|██████    | 182/300 [2:38:10<1:43:04, 52.41s/it]EPOCH:181, ======================ACC:90.16====================
+BEST EPOCH:181,BEST ACC:90.16
+Train Epoch: 182 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7011 Acc: 77.71
+Train Epoch: 182 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6787 Acc: 78.70
+Train Epoch: 182 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7519 Acc: 75.95
+Train Epoch: 182 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7089 Acc: 77.13
+Train Epoch: 182 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7036 Acc: 77.21
+Train Epoch: 182 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6971 Acc: 77.39
+Train Epoch: 182 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7131 Acc: 76.88
+ 61%|██████    | 183/300 [2:39:02<1:42:03, 52.34s/it]EPOCH:182, ======================ACC:89.52====================
+BEST EPOCH:181,BEST ACC:90.16
+Train Epoch: 183 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6828 Acc: 77.74
+Train Epoch: 183 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7878 Acc: 74.18
+Train Epoch: 183 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7991 Acc: 73.90
+Train Epoch: 183 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8034 Acc: 73.78
+Train Epoch: 183 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7770 Acc: 74.75
+Train Epoch: 183 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7792 Acc: 74.67
+Train Epoch: 183 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7928 Acc: 74.14
+ 61%|██████▏   | 184/300 [2:39:55<1:41:23, 52.44s/it]EPOCH:183, ======================ACC:90.15====================
+BEST EPOCH:181,BEST ACC:90.16
+Train Epoch: 184 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6578 Acc: 78.43
+Train Epoch: 184 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6675 Acc: 78.17
+Train Epoch: 184 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6727 Acc: 78.22
+Train Epoch: 184 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6705 Acc: 78.30
+Train Epoch: 184 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6911 Acc: 77.51
+Train Epoch: 184 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7063 Acc: 76.96
+Train Epoch: 184 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7093 Acc: 76.87
+ 62%|██████▏   | 185/300 [2:40:47<1:40:29, 52.43s/it]EPOCH:184, ======================ACC:89.15====================
+BEST EPOCH:181,BEST ACC:90.16
+Train Epoch: 185 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7069 Acc: 77.84
+Train Epoch: 185 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7242 Acc: 76.79
+Train Epoch: 185 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6979 Acc: 77.54
+Train Epoch: 185 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7123 Acc: 76.96
+Train Epoch: 185 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7164 Acc: 76.77
+Train Epoch: 185 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7126 Acc: 76.88
+Train Epoch: 185 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7395 Acc: 75.87
+ 62%|██████▏   | 186/300 [2:41:40<1:39:43, 52.49s/it]EPOCH:185, ======================ACC:86.49====================
+BEST EPOCH:181,BEST ACC:90.16
+Train Epoch: 186 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7821 Acc: 74.41
+Train Epoch: 186 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7617 Acc: 75.21
+Train Epoch: 186 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.8353 Acc: 72.47
+Train Epoch: 186 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.8118 Acc: 73.05
+Train Epoch: 186 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8069 Acc: 73.38
+Train Epoch: 186 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7821 Acc: 74.32
+Train Epoch: 186 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7717 Acc: 74.65
+ 62%|██████▏   | 187/300 [2:42:32<1:38:52, 52.50s/it]EPOCH:186, ======================ACC:87.44====================
+BEST EPOCH:181,BEST ACC:90.16
+Train Epoch: 187 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.8057 Acc: 73.81
+Train Epoch: 187 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7945 Acc: 73.65
+Train Epoch: 187 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7722 Acc: 74.40
+Train Epoch: 187 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7851 Acc: 74.09
+Train Epoch: 187 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.8048 Acc: 73.52
+Train Epoch: 187 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7963 Acc: 73.98
+Train Epoch: 187 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7787 Acc: 74.55
+ 63%|██████▎   | 188/300 [2:43:25<1:38:00, 52.51s/it]EPOCH:187, ======================ACC:89.73====================
+BEST EPOCH:181,BEST ACC:90.16
+Train Epoch: 188 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7104 Acc: 76.51
+Train Epoch: 188 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7343 Acc: 75.71
+Train Epoch: 188 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7295 Acc: 76.01
+Train Epoch: 188 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6994 Acc: 77.16
+Train Epoch: 188 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7025 Acc: 76.98
+Train Epoch: 188 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7082 Acc: 76.85
+Train Epoch: 188 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7284 Acc: 76.21
+ 63%|██████▎   | 189/300 [2:44:17<1:36:49, 52.34s/it]EPOCH:188, ======================ACC:90.01====================
+BEST EPOCH:181,BEST ACC:90.16
+Train Epoch: 189 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6332 Acc: 78.92
+Train Epoch: 189 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6398 Acc: 78.91
+Train Epoch: 189 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7266 Acc: 76.18
+Train Epoch: 189 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7411 Acc: 75.71
+Train Epoch: 189 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7709 Acc: 74.92
+Train Epoch: 189 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7518 Acc: 75.58
+Train Epoch: 189 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7368 Acc: 76.14
+ 63%|██████▎   | 190/300 [2:45:09<1:36:06, 52.42s/it]EPOCH:189, ======================ACC:90.71====================
+BEST EPOCH:189,BEST ACC:90.71
+Train Epoch: 190 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7423 Acc: 75.04
+Train Epoch: 190 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7788 Acc: 74.14
+Train Epoch: 190 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7579 Acc: 74.95
+Train Epoch: 190 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7293 Acc: 76.09
+Train Epoch: 190 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7506 Acc: 75.29
+Train Epoch: 190 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7450 Acc: 75.53
+Train Epoch: 190 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7405 Acc: 75.58
+ 64%|██████▎   | 191/300 [2:46:01<1:35:01, 52.31s/it]EPOCH:190, ======================ACC:89.0====================
+BEST EPOCH:189,BEST ACC:90.71
+Train Epoch: 191 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7052 Acc: 76.94
+Train Epoch: 191 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6957 Acc: 77.23
+Train Epoch: 191 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6766 Acc: 77.88
+Train Epoch: 191 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6985 Acc: 77.28
+Train Epoch: 191 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7052 Acc: 77.01
+Train Epoch: 191 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7007 Acc: 77.27
+Train Epoch: 191 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7137 Acc: 76.77
+ 64%|██████▍   | 192/300 [2:46:53<1:33:57, 52.20s/it]EPOCH:191, ======================ACC:88.85====================
+BEST EPOCH:189,BEST ACC:90.71
+Train Epoch: 192 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7254 Acc: 76.81
+Train Epoch: 192 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6705 Acc: 78.98
+Train Epoch: 192 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6767 Acc: 78.57
+Train Epoch: 192 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6937 Acc: 77.96
+Train Epoch: 192 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6638 Acc: 78.83
+Train Epoch: 192 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6968 Acc: 77.75
+Train Epoch: 192 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7024 Acc: 77.42
+ 64%|██████▍   | 193/300 [2:47:45<1:33:04, 52.19s/it]EPOCH:192, ======================ACC:88.26====================
+BEST EPOCH:189,BEST ACC:90.71
+Train Epoch: 193 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6682 Acc: 78.69
+Train Epoch: 193 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7042 Acc: 77.53
+Train Epoch: 193 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7298 Acc: 76.36
+Train Epoch: 193 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7543 Acc: 75.42
+Train Epoch: 193 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7292 Acc: 76.27
+Train Epoch: 193 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7429 Acc: 75.58
+Train Epoch: 193 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7460 Acc: 75.54
+ 65%|██████▍   | 194/300 [2:48:38<1:32:14, 52.22s/it]EPOCH:193, ======================ACC:90.99====================
+BEST EPOCH:193,BEST ACC:90.99
+Train Epoch: 194 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.9109 Acc: 69.38
+Train Epoch: 194 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.8069 Acc: 73.62
+Train Epoch: 194 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7707 Acc: 74.88
+Train Epoch: 194 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7622 Acc: 75.05
+Train Epoch: 194 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7700 Acc: 74.81
+Train Epoch: 194 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7516 Acc: 75.31
+Train Epoch: 194 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7508 Acc: 75.44
+ 65%|██████▌   | 195/300 [2:49:30<1:31:28, 52.27s/it]EPOCH:194, ======================ACC:88.24====================
+BEST EPOCH:193,BEST ACC:90.99
+Train Epoch: 195 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7633 Acc: 74.42
+Train Epoch: 195 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6742 Acc: 77.72
+Train Epoch: 195 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7205 Acc: 76.15
+Train Epoch: 195 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7262 Acc: 75.98
+Train Epoch: 195 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6935 Acc: 77.06
+Train Epoch: 195 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7064 Acc: 76.69
+Train Epoch: 195 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6955 Acc: 77.02
+ 65%|██████▌   | 196/300 [2:50:22<1:30:39, 52.30s/it]EPOCH:195, ======================ACC:89.0====================
+BEST EPOCH:193,BEST ACC:90.99
+Train Epoch: 196 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.5734 Acc: 81.67
+Train Epoch: 196 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6255 Acc: 79.27
+Train Epoch: 196 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7047 Acc: 76.74
+Train Epoch: 196 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7234 Acc: 76.05
+Train Epoch: 196 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7252 Acc: 75.94
+Train Epoch: 196 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7128 Acc: 76.33
+Train Epoch: 196 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7230 Acc: 76.13
+ 66%|██████▌   | 197/300 [2:51:15<1:29:46, 52.29s/it]EPOCH:196, ======================ACC:89.28====================
+BEST EPOCH:193,BEST ACC:90.99
+Train Epoch: 197 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7418 Acc: 75.96
+Train Epoch: 197 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6808 Acc: 77.63
+Train Epoch: 197 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7335 Acc: 76.05
+Train Epoch: 197 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7433 Acc: 75.60
+Train Epoch: 197 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7278 Acc: 76.19
+Train Epoch: 197 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7318 Acc: 76.06
+Train Epoch: 197 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7264 Acc: 76.24
+ 66%|██████▌   | 198/300 [2:52:07<1:29:05, 52.41s/it]EPOCH:197, ======================ACC:90.02====================
+BEST EPOCH:193,BEST ACC:90.99
+Train Epoch: 198 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7430 Acc: 76.36
+Train Epoch: 198 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7758 Acc: 74.61
+Train Epoch: 198 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7497 Acc: 75.48
+Train Epoch: 198 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7532 Acc: 75.34
+Train Epoch: 198 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7386 Acc: 76.08
+Train Epoch: 198 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7155 Acc: 76.91
+Train Epoch: 198 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7249 Acc: 76.55
+ 66%|██████▋   | 199/300 [2:53:00<1:28:17, 52.45s/it]EPOCH:198, ======================ACC:89.14====================
+BEST EPOCH:193,BEST ACC:90.99
+Train Epoch: 199 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6366 Acc: 78.93
+Train Epoch: 199 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6384 Acc: 79.43
+Train Epoch: 199 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6659 Acc: 78.48
+Train Epoch: 199 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6512 Acc: 78.67
+Train Epoch: 199 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6632 Acc: 78.28
+Train Epoch: 199 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6735 Acc: 77.83
+Train Epoch: 199 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6700 Acc: 78.02
+ 67%|██████▋   | 200/300 [2:53:52<1:27:27, 52.48s/it]EPOCH:199, ======================ACC:90.37====================
+BEST EPOCH:193,BEST ACC:90.99
+Train Epoch: 200 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7178 Acc: 77.10
+Train Epoch: 200 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7200 Acc: 76.31
+Train Epoch: 200 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7335 Acc: 76.07
+Train Epoch: 200 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7430 Acc: 75.71
+Train Epoch: 200 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7258 Acc: 76.18
+Train Epoch: 200 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7093 Acc: 76.83
+Train Epoch: 200 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7155 Acc: 76.68
+ 67%|██████▋   | 201/300 [2:54:45<1:26:30, 52.43s/it]EPOCH:200, ======================ACC:91.61====================
+BEST EPOCH:200,BEST ACC:91.61
+Train Epoch: 201 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6951 Acc: 76.97
+Train Epoch: 201 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6934 Acc: 76.85
+Train Epoch: 201 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6721 Acc: 77.49
+Train Epoch: 201 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6661 Acc: 77.67
+Train Epoch: 201 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7023 Acc: 76.48
+Train Epoch: 201 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7030 Acc: 76.69
+Train Epoch: 201 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7134 Acc: 76.46
+ 67%|██████▋   | 202/300 [2:55:37<1:25:30, 52.36s/it]EPOCH:201, ======================ACC:90.63====================
+BEST EPOCH:200,BEST ACC:91.61
+Train Epoch: 202 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6783 Acc: 77.31
+Train Epoch: 202 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6363 Acc: 78.50
+Train Epoch: 202 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6298 Acc: 78.98
+Train Epoch: 202 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6544 Acc: 78.35
+Train Epoch: 202 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6567 Acc: 78.45
+Train Epoch: 202 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6809 Acc: 77.59
+Train Epoch: 202 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6699 Acc: 78.07
+ 68%|██████▊   | 203/300 [2:56:29<1:24:31, 52.29s/it]EPOCH:202, ======================ACC:90.22====================
+BEST EPOCH:200,BEST ACC:91.61
+Train Epoch: 203 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7161 Acc: 77.16
+Train Epoch: 203 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7716 Acc: 75.56
+Train Epoch: 203 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7705 Acc: 75.64
+Train Epoch: 203 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7724 Acc: 75.60
+Train Epoch: 203 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7653 Acc: 75.71
+Train Epoch: 203 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7412 Acc: 76.58
+Train Epoch: 203 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7327 Acc: 76.75
+ 68%|██████▊   | 204/300 [2:57:21<1:23:35, 52.25s/it]EPOCH:203, ======================ACC:89.25====================
+BEST EPOCH:200,BEST ACC:91.61
+Train Epoch: 204 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6833 Acc: 78.98
+Train Epoch: 204 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6663 Acc: 78.83
+Train Epoch: 204 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6803 Acc: 78.32
+Train Epoch: 204 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6569 Acc: 78.97
+Train Epoch: 204 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6791 Acc: 78.32
+Train Epoch: 204 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6739 Acc: 78.54
+Train Epoch: 204 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6865 Acc: 78.09
+ 68%|██████▊   | 205/300 [2:58:13<1:22:37, 52.19s/it]EPOCH:204, ======================ACC:89.98====================
+BEST EPOCH:200,BEST ACC:91.61
+Train Epoch: 205 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6300 Acc: 80.10
+Train Epoch: 205 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6513 Acc: 79.29
+Train Epoch: 205 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6479 Acc: 79.43
+Train Epoch: 205 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6975 Acc: 77.62
+Train Epoch: 205 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6942 Acc: 77.61
+Train Epoch: 205 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6874 Acc: 77.80
+Train Epoch: 205 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6863 Acc: 77.75
+ 69%|██████▊   | 206/300 [2:59:06<1:21:51, 52.25s/it]EPOCH:205, ======================ACC:88.13====================
+BEST EPOCH:200,BEST ACC:91.61
+Train Epoch: 206 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7268 Acc: 76.13
+Train Epoch: 206 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6734 Acc: 77.99
+Train Epoch: 206 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6499 Acc: 78.89
+Train Epoch: 206 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6650 Acc: 78.38
+Train Epoch: 206 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6748 Acc: 77.97
+Train Epoch: 206 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6743 Acc: 77.94
+Train Epoch: 206 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6806 Acc: 77.80
+ 69%|██████▉   | 207/300 [2:59:58<1:21:12, 52.39s/it]EPOCH:206, ======================ACC:90.71====================
+BEST EPOCH:200,BEST ACC:91.61
+Train Epoch: 207 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7405 Acc: 76.20
+Train Epoch: 207 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6567 Acc: 78.78
+Train Epoch: 207 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7087 Acc: 77.04
+Train Epoch: 207 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7041 Acc: 77.11
+Train Epoch: 207 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7037 Acc: 76.79
+Train Epoch: 207 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7118 Acc: 76.74
+Train Epoch: 207 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7181 Acc: 76.55
+ 69%|██████▉   | 208/300 [3:00:51<1:20:29, 52.49s/it]EPOCH:207, ======================ACC:90.61====================
+BEST EPOCH:200,BEST ACC:91.61
+Train Epoch: 208 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6679 Acc: 78.13
+Train Epoch: 208 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6614 Acc: 78.21
+Train Epoch: 208 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6470 Acc: 78.49
+Train Epoch: 208 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6546 Acc: 78.55
+Train Epoch: 208 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6762 Acc: 78.02
+Train Epoch: 208 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6874 Acc: 77.59
+Train Epoch: 208 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6764 Acc: 77.99
+ 70%|██████▉   | 209/300 [3:01:44<1:19:45, 52.59s/it]EPOCH:208, ======================ACC:91.88====================
+BEST EPOCH:208,BEST ACC:91.88
+Train Epoch: 209 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6462 Acc: 78.71
+Train Epoch: 209 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6719 Acc: 77.88
+Train Epoch: 209 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6976 Acc: 77.06
+Train Epoch: 209 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6975 Acc: 77.00
+Train Epoch: 209 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6767 Acc: 77.74
+Train Epoch: 209 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6938 Acc: 77.21
+Train Epoch: 209 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6685 Acc: 78.00
+ 70%|███████   | 210/300 [3:02:36<1:18:51, 52.57s/it]EPOCH:209, ======================ACC:90.41====================
+BEST EPOCH:208,BEST ACC:91.88
+Train Epoch: 210 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6156 Acc: 79.22
+Train Epoch: 210 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5922 Acc: 80.52
+Train Epoch: 210 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6479 Acc: 78.92
+Train Epoch: 210 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6666 Acc: 78.20
+Train Epoch: 210 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6849 Acc: 77.62
+Train Epoch: 210 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6974 Acc: 77.21
+Train Epoch: 210 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6964 Acc: 77.23
+ 70%|███████   | 211/300 [3:03:29<1:17:57, 52.56s/it]EPOCH:210, ======================ACC:91.72====================
+BEST EPOCH:208,BEST ACC:91.88
+Train Epoch: 211 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7135 Acc: 75.97
+Train Epoch: 211 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7283 Acc: 75.46
+Train Epoch: 211 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7074 Acc: 76.41
+Train Epoch: 211 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7232 Acc: 75.79
+Train Epoch: 211 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.7031 Acc: 76.72
+Train Epoch: 211 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7082 Acc: 76.52
+Train Epoch: 211 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7026 Acc: 76.80
+ 71%|███████   | 212/300 [3:04:21<1:17:03, 52.54s/it]EPOCH:211, ======================ACC:91.36====================
+BEST EPOCH:208,BEST ACC:91.88
+Train Epoch: 212 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6716 Acc: 77.60
+Train Epoch: 212 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7012 Acc: 76.83
+Train Epoch: 212 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6667 Acc: 78.30
+Train Epoch: 212 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6517 Acc: 78.63
+Train Epoch: 212 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6450 Acc: 79.07
+Train Epoch: 212 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6667 Acc: 78.16
+Train Epoch: 212 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6615 Acc: 78.39
+ 71%|███████   | 213/300 [3:05:14<1:16:07, 52.51s/it]EPOCH:212, ======================ACC:90.94====================
+BEST EPOCH:208,BEST ACC:91.88
+Train Epoch: 213 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6157 Acc: 79.15
+Train Epoch: 213 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6110 Acc: 79.86
+Train Epoch: 213 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6350 Acc: 79.03
+Train Epoch: 213 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6765 Acc: 77.59
+Train Epoch: 213 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6744 Acc: 77.81
+Train Epoch: 213 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6474 Acc: 78.72
+Train Epoch: 213 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6366 Acc: 79.02
+ 71%|███████▏  | 214/300 [3:06:06<1:15:16, 52.52s/it]EPOCH:213, ======================ACC:91.68====================
+BEST EPOCH:208,BEST ACC:91.88
+Train Epoch: 214 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6427 Acc: 79.56
+Train Epoch: 214 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6569 Acc: 78.86
+Train Epoch: 214 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6410 Acc: 79.11
+Train Epoch: 214 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6401 Acc: 79.11
+Train Epoch: 214 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6294 Acc: 79.34
+Train Epoch: 214 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6306 Acc: 79.38
+Train Epoch: 214 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6260 Acc: 79.34
+ 72%|███████▏  | 215/300 [3:06:59<1:14:15, 52.42s/it]EPOCH:214, ======================ACC:90.46====================
+BEST EPOCH:208,BEST ACC:91.88
+Train Epoch: 215 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7707 Acc: 74.53
+Train Epoch: 215 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7445 Acc: 76.23
+Train Epoch: 215 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.7237 Acc: 76.84
+Train Epoch: 215 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.7091 Acc: 77.24
+Train Epoch: 215 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6919 Acc: 77.70
+Train Epoch: 215 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6762 Acc: 78.05
+Train Epoch: 215 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6709 Acc: 78.13
+ 72%|███████▏  | 216/300 [3:07:51<1:13:13, 52.31s/it]EPOCH:215, ======================ACC:91.52====================
+BEST EPOCH:208,BEST ACC:91.88
+Train Epoch: 216 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.5950 Acc: 80.52
+Train Epoch: 216 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6215 Acc: 79.65
+Train Epoch: 216 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6674 Acc: 78.30
+Train Epoch: 216 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6649 Acc: 78.19
+Train Epoch: 216 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6539 Acc: 78.54
+Train Epoch: 216 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6638 Acc: 78.20
+Train Epoch: 216 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6557 Acc: 78.56
+ 72%|███████▏  | 217/300 [3:08:43<1:12:31, 52.43s/it]EPOCH:216, ======================ACC:91.32====================
+BEST EPOCH:208,BEST ACC:91.88
+Train Epoch: 217 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6563 Acc: 78.48
+Train Epoch: 217 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7250 Acc: 76.03
+Train Epoch: 217 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6741 Acc: 77.62
+Train Epoch: 217 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6942 Acc: 76.89
+Train Epoch: 217 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6939 Acc: 76.84
+Train Epoch: 217 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.7055 Acc: 76.49
+Train Epoch: 217 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.7101 Acc: 76.45
+ 73%|███████▎  | 218/300 [3:09:36<1:11:43, 52.48s/it]EPOCH:217, ======================ACC:90.16====================
+BEST EPOCH:208,BEST ACC:91.88
+Train Epoch: 218 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6015 Acc: 80.03
+Train Epoch: 218 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5588 Acc: 81.81
+Train Epoch: 218 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5982 Acc: 80.44
+Train Epoch: 218 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5935 Acc: 80.70
+Train Epoch: 218 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5972 Acc: 80.60
+Train Epoch: 218 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6198 Acc: 79.74
+Train Epoch: 218 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6250 Acc: 79.59
+ 73%|███████▎  | 219/300 [3:10:29<1:10:53, 52.52s/it]EPOCH:218, ======================ACC:91.14====================
+BEST EPOCH:208,BEST ACC:91.88
+Train Epoch: 219 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4858 Acc: 84.17
+Train Epoch: 219 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5935 Acc: 80.24
+Train Epoch: 219 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6136 Acc: 79.36
+Train Epoch: 219 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6355 Acc: 78.67
+Train Epoch: 219 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6447 Acc: 78.44
+Train Epoch: 219 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6472 Acc: 78.41
+Train Epoch: 219 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6473 Acc: 78.52
+ 73%|███████▎  | 220/300 [3:11:21<1:09:50, 52.38s/it]EPOCH:219, ======================ACC:92.35====================
+BEST EPOCH:219,BEST ACC:92.35
+Train Epoch: 220 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6623 Acc: 78.53
+Train Epoch: 220 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6510 Acc: 78.53
+Train Epoch: 220 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6294 Acc: 79.44
+Train Epoch: 220 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6221 Acc: 79.55
+Train Epoch: 220 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6390 Acc: 78.80
+Train Epoch: 220 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6558 Acc: 78.26
+Train Epoch: 220 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6598 Acc: 78.17
+ 74%|███████▎  | 221/300 [3:12:13<1:09:02, 52.44s/it]EPOCH:220, ======================ACC:92.31====================
+BEST EPOCH:219,BEST ACC:92.35
+Train Epoch: 221 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6499 Acc: 78.08
+Train Epoch: 221 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6685 Acc: 77.45
+Train Epoch: 221 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6854 Acc: 76.81
+Train Epoch: 221 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6771 Acc: 77.24
+Train Epoch: 221 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6775 Acc: 77.44
+Train Epoch: 221 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6758 Acc: 77.63
+Train Epoch: 221 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6785 Acc: 77.58
+ 74%|███████▍  | 222/300 [3:13:05<1:08:05, 52.37s/it]EPOCH:221, ======================ACC:92.26====================
+BEST EPOCH:219,BEST ACC:92.35
+Train Epoch: 222 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6955 Acc: 76.73
+Train Epoch: 222 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6690 Acc: 77.70
+Train Epoch: 222 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6389 Acc: 79.01
+Train Epoch: 222 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6331 Acc: 79.35
+Train Epoch: 222 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6548 Acc: 78.53
+Train Epoch: 222 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6509 Acc: 78.70
+Train Epoch: 222 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6653 Acc: 78.24
+ 74%|███████▍  | 223/300 [3:13:58<1:07:17, 52.44s/it]EPOCH:222, ======================ACC:91.31====================
+BEST EPOCH:219,BEST ACC:92.35
+Train Epoch: 223 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7149 Acc: 77.37
+Train Epoch: 223 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5968 Acc: 81.14
+Train Epoch: 223 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6463 Acc: 79.36
+Train Epoch: 223 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6540 Acc: 78.90
+Train Epoch: 223 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6581 Acc: 78.74
+Train Epoch: 223 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6338 Acc: 79.43
+Train Epoch: 223 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6418 Acc: 79.24
+ 75%|███████▍  | 224/300 [3:14:51<1:06:30, 52.51s/it]EPOCH:223, ======================ACC:92.61====================
+BEST EPOCH:223,BEST ACC:92.61
+Train Epoch: 224 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7448 Acc: 75.12
+Train Epoch: 224 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.7058 Acc: 76.75
+Train Epoch: 224 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6572 Acc: 78.42
+Train Epoch: 224 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6620 Acc: 78.40
+Train Epoch: 224 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6384 Acc: 79.00
+Train Epoch: 224 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6469 Acc: 78.84
+Train Epoch: 224 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6276 Acc: 79.47
+ 75%|███████▌  | 225/300 [3:15:43<1:05:38, 52.51s/it]EPOCH:224, ======================ACC:90.91====================
+BEST EPOCH:223,BEST ACC:92.61
+Train Epoch: 225 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6029 Acc: 80.43
+Train Epoch: 225 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5700 Acc: 81.46
+Train Epoch: 225 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5965 Acc: 80.79
+Train Epoch: 225 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6315 Acc: 79.43
+Train Epoch: 225 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6154 Acc: 79.99
+Train Epoch: 225 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5999 Acc: 80.36
+Train Epoch: 225 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5915 Acc: 80.62
+ 75%|███████▌  | 226/300 [3:16:36<1:04:48, 52.55s/it]EPOCH:225, ======================ACC:92.78====================
+BEST EPOCH:225,BEST ACC:92.78
+Train Epoch: 226 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.5334 Acc: 81.65
+Train Epoch: 226 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6113 Acc: 79.43
+Train Epoch: 226 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6278 Acc: 78.84
+Train Epoch: 226 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6386 Acc: 78.46
+Train Epoch: 226 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6143 Acc: 79.44
+Train Epoch: 226 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6184 Acc: 79.42
+Train Epoch: 226 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6142 Acc: 79.53
+ 76%|███████▌  | 227/300 [3:17:28<1:03:41, 52.35s/it]EPOCH:226, ======================ACC:92.84====================
+BEST EPOCH:226,BEST ACC:92.84
+Train Epoch: 227 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6031 Acc: 80.83
+Train Epoch: 227 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5965 Acc: 80.50
+Train Epoch: 227 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6037 Acc: 80.26
+Train Epoch: 227 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6071 Acc: 80.05
+Train Epoch: 227 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6133 Acc: 79.85
+Train Epoch: 227 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6316 Acc: 79.16
+Train Epoch: 227 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6294 Acc: 79.18
+ 76%|███████▌  | 228/300 [3:18:20<1:02:52, 52.40s/it]EPOCH:227, ======================ACC:92.48====================
+BEST EPOCH:226,BEST ACC:92.84
+Train Epoch: 228 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.7637 Acc: 74.95
+Train Epoch: 228 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6619 Acc: 78.64
+Train Epoch: 228 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6630 Acc: 78.53
+Train Epoch: 228 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6390 Acc: 79.14
+Train Epoch: 228 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6333 Acc: 79.25
+Train Epoch: 228 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6420 Acc: 78.82
+Train Epoch: 228 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6190 Acc: 79.52
+ 76%|███████▋  | 229/300 [3:19:12<1:01:57, 52.36s/it]EPOCH:228, ======================ACC:92.04====================
+BEST EPOCH:226,BEST ACC:92.84
+Train Epoch: 229 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6795 Acc: 78.56
+Train Epoch: 229 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6731 Acc: 78.28
+Train Epoch: 229 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6536 Acc: 78.57
+Train Epoch: 229 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6962 Acc: 76.88
+Train Epoch: 229 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6911 Acc: 77.00
+Train Epoch: 229 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6898 Acc: 77.09
+Train Epoch: 229 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6715 Acc: 77.62
+ 77%|███████▋  | 230/300 [3:20:05<1:01:08, 52.41s/it]EPOCH:229, ======================ACC:92.85====================
+BEST EPOCH:229,BEST ACC:92.85
+Train Epoch: 230 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6310 Acc: 78.67
+Train Epoch: 230 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5936 Acc: 80.60
+Train Epoch: 230 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5933 Acc: 80.75
+Train Epoch: 230 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6070 Acc: 80.26
+Train Epoch: 230 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6322 Acc: 79.37
+Train Epoch: 230 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6415 Acc: 78.98
+Train Epoch: 230 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6390 Acc: 78.89
+ 77%|███████▋  | 231/300 [3:20:57<1:00:09, 52.31s/it]EPOCH:230, ======================ACC:93.77====================
+BEST EPOCH:230,BEST ACC:93.77
+Train Epoch: 231 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.5750 Acc: 80.74
+Train Epoch: 231 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5077 Acc: 83.36
+Train Epoch: 231 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5435 Acc: 82.08
+Train Epoch: 231 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6024 Acc: 80.01
+Train Epoch: 231 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5824 Acc: 80.65
+Train Epoch: 231 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5969 Acc: 80.09
+Train Epoch: 231 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6214 Acc: 79.16
+ 77%|███████▋  | 232/300 [3:21:49<59:10, 52.21s/it]  EPOCH:231, ======================ACC:93.28====================
+BEST EPOCH:230,BEST ACC:93.77
+Train Epoch: 232 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6468 Acc: 78.63
+Train Epoch: 232 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6819 Acc: 77.11
+Train Epoch: 232 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6179 Acc: 79.24
+Train Epoch: 232 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6376 Acc: 78.65
+Train Epoch: 232 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6333 Acc: 78.83
+Train Epoch: 232 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6455 Acc: 78.39
+Train Epoch: 232 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6562 Acc: 78.04
+ 78%|███████▊  | 233/300 [3:22:41<58:10, 52.09s/it]EPOCH:232, ======================ACC:93.93====================
+BEST EPOCH:232,BEST ACC:93.93
+Train Epoch: 233 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.5088 Acc: 83.29
+Train Epoch: 233 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4954 Acc: 83.92
+Train Epoch: 233 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5311 Acc: 82.39
+Train Epoch: 233 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5502 Acc: 81.78
+Train Epoch: 233 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5679 Acc: 81.07
+Train Epoch: 233 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5715 Acc: 80.99
+Train Epoch: 233 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5793 Acc: 80.79
+ 78%|███████▊  | 234/300 [3:23:32<57:08, 51.95s/it]EPOCH:233, ======================ACC:92.53====================
+BEST EPOCH:232,BEST ACC:93.93
+Train Epoch: 234 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4181 Acc: 86.16
+Train Epoch: 234 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4931 Acc: 83.70
+Train Epoch: 234 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5247 Acc: 82.39
+Train Epoch: 234 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5772 Acc: 80.44
+Train Epoch: 234 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5743 Acc: 80.69
+Train Epoch: 234 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5880 Acc: 80.42
+Train Epoch: 234 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5856 Acc: 80.50
+ 78%|███████▊  | 235/300 [3:24:24<56:10, 51.86s/it]EPOCH:234, ======================ACC:93.0====================
+BEST EPOCH:232,BEST ACC:93.93
+Train Epoch: 235 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6818 Acc: 77.23
+Train Epoch: 235 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6387 Acc: 78.43
+Train Epoch: 235 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6328 Acc: 78.65
+Train Epoch: 235 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6482 Acc: 78.29
+Train Epoch: 235 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6424 Acc: 78.43
+Train Epoch: 235 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6442 Acc: 78.38
+Train Epoch: 235 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6312 Acc: 78.95
+ 79%|███████▊  | 236/300 [3:25:16<55:24, 51.94s/it]EPOCH:235, ======================ACC:93.9====================
+BEST EPOCH:232,BEST ACC:93.93
+Train Epoch: 236 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.5414 Acc: 81.78
+Train Epoch: 236 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5480 Acc: 81.37
+Train Epoch: 236 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5246 Acc: 82.70
+Train Epoch: 236 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5185 Acc: 82.97
+Train Epoch: 236 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5257 Acc: 82.69
+Train Epoch: 236 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5336 Acc: 82.31
+Train Epoch: 236 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5368 Acc: 82.10
+ 79%|███████▉  | 237/300 [3:26:08<54:27, 51.86s/it]EPOCH:236, ======================ACC:93.34====================
+BEST EPOCH:232,BEST ACC:93.93
+Train Epoch: 237 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6130 Acc: 79.80
+Train Epoch: 237 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5597 Acc: 81.72
+Train Epoch: 237 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5953 Acc: 80.48
+Train Epoch: 237 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5881 Acc: 80.61
+Train Epoch: 237 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5913 Acc: 80.71
+Train Epoch: 237 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6050 Acc: 80.29
+Train Epoch: 237 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6210 Acc: 79.56
+ 79%|███████▉  | 238/300 [3:27:00<53:35, 51.87s/it]EPOCH:237, ======================ACC:93.75====================
+BEST EPOCH:232,BEST ACC:93.93
+Train Epoch: 238 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6437 Acc: 79.03
+Train Epoch: 238 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6369 Acc: 79.00
+Train Epoch: 238 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6441 Acc: 78.54
+Train Epoch: 238 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.6142 Acc: 79.58
+Train Epoch: 238 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5958 Acc: 80.16
+Train Epoch: 238 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5857 Acc: 80.37
+Train Epoch: 238 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5954 Acc: 79.97
+ 80%|███████▉  | 239/300 [3:27:51<52:39, 51.79s/it]EPOCH:238, ======================ACC:93.96====================
+BEST EPOCH:238,BEST ACC:93.96
+Train Epoch: 239 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6222 Acc: 79.07
+Train Epoch: 239 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5725 Acc: 81.08
+Train Epoch: 239 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5941 Acc: 80.41
+Train Epoch: 239 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5822 Acc: 80.67
+Train Epoch: 239 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5966 Acc: 80.04
+Train Epoch: 239 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5985 Acc: 80.09
+Train Epoch: 239 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5967 Acc: 80.17
+ 80%|████████  | 240/300 [3:28:43<51:49, 51.83s/it]EPOCH:239, ======================ACC:93.81====================
+BEST EPOCH:238,BEST ACC:93.96
+Train Epoch: 240 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6749 Acc: 77.90
+Train Epoch: 240 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.6076 Acc: 80.18
+Train Epoch: 240 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.6066 Acc: 80.39
+Train Epoch: 240 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5900 Acc: 80.72
+Train Epoch: 240 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5927 Acc: 80.61
+Train Epoch: 240 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5750 Acc: 81.04
+Train Epoch: 240 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5653 Acc: 81.37
+ 80%|████████  | 241/300 [3:29:35<50:57, 51.83s/it]EPOCH:240, ======================ACC:93.86====================
+BEST EPOCH:238,BEST ACC:93.96
+Train Epoch: 241 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.5303 Acc: 82.36
+Train Epoch: 241 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5191 Acc: 82.45
+Train Epoch: 241 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5676 Acc: 80.96
+Train Epoch: 241 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5632 Acc: 81.18
+Train Epoch: 241 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5700 Acc: 80.90
+Train Epoch: 241 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5763 Acc: 80.67
+Train Epoch: 241 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5726 Acc: 80.84
+ 81%|████████  | 242/300 [3:30:27<50:01, 51.75s/it]EPOCH:241, ======================ACC:93.63====================
+BEST EPOCH:238,BEST ACC:93.96
+Train Epoch: 242 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6059 Acc: 78.74
+Train Epoch: 242 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5157 Acc: 82.55
+Train Epoch: 242 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5553 Acc: 80.77
+Train Epoch: 242 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5813 Acc: 80.18
+Train Epoch: 242 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.6065 Acc: 79.46
+Train Epoch: 242 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.6145 Acc: 79.23
+Train Epoch: 242 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.6099 Acc: 79.48
+ 81%|████████  | 243/300 [3:31:19<49:09, 51.75s/it]EPOCH:242, ======================ACC:94.07====================
+BEST EPOCH:242,BEST ACC:94.07
+Train Epoch: 243 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.5433 Acc: 81.31
+Train Epoch: 243 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5683 Acc: 80.96
+Train Epoch: 243 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5580 Acc: 81.16
+Train Epoch: 243 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5912 Acc: 80.29
+Train Epoch: 243 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5889 Acc: 80.38
+Train Epoch: 243 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5779 Acc: 80.80
+Train Epoch: 243 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5928 Acc: 80.15
+ 81%|████████▏ | 244/300 [3:32:10<48:20, 51.79s/it]EPOCH:243, ======================ACC:94.45====================
+BEST EPOCH:243,BEST ACC:94.45
+Train Epoch: 244 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4831 Acc: 83.85
+Train Epoch: 244 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5106 Acc: 82.98
+Train Epoch: 244 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5507 Acc: 81.49
+Train Epoch: 244 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5534 Acc: 81.27
+Train Epoch: 244 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5745 Acc: 80.55
+Train Epoch: 244 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5678 Acc: 80.93
+Train Epoch: 244 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5554 Acc: 81.47
+ 82%|████████▏ | 245/300 [3:33:02<47:29, 51.81s/it]EPOCH:244, ======================ACC:93.52====================
+BEST EPOCH:243,BEST ACC:94.45
+Train Epoch: 245 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.5604 Acc: 82.24
+Train Epoch: 245 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5709 Acc: 81.39
+Train Epoch: 245 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5488 Acc: 82.66
+Train Epoch: 245 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5464 Acc: 82.30
+Train Epoch: 245 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5534 Acc: 81.99
+Train Epoch: 245 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5508 Acc: 82.11
+Train Epoch: 245 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5540 Acc: 81.88
+ 82%|████████▏ | 246/300 [3:33:54<46:42, 51.89s/it]EPOCH:245, ======================ACC:93.83====================
+BEST EPOCH:243,BEST ACC:94.45
+Train Epoch: 246 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.5485 Acc: 82.05
+Train Epoch: 246 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5771 Acc: 81.30
+Train Epoch: 246 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5899 Acc: 80.64
+Train Epoch: 246 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5729 Acc: 81.27
+Train Epoch: 246 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5559 Acc: 81.80
+Train Epoch: 246 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5667 Acc: 81.50
+Train Epoch: 246 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5713 Acc: 81.31
+ 82%|████████▏ | 247/300 [3:34:46<45:44, 51.79s/it]EPOCH:246, ======================ACC:94.22====================
+BEST EPOCH:243,BEST ACC:94.45
+Train Epoch: 247 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6156 Acc: 78.41
+Train Epoch: 247 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5477 Acc: 81.34
+Train Epoch: 247 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5410 Acc: 82.26
+Train Epoch: 247 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5613 Acc: 81.46
+Train Epoch: 247 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5486 Acc: 81.65
+Train Epoch: 247 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5392 Acc: 81.96
+Train Epoch: 247 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5656 Acc: 81.07
+ 83%|████████▎ | 248/300 [3:35:38<44:52, 51.79s/it]EPOCH:247, ======================ACC:94.09====================
+BEST EPOCH:243,BEST ACC:94.45
+Train Epoch: 248 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.6430 Acc: 79.02
+Train Epoch: 248 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5298 Acc: 82.38
+Train Epoch: 248 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5219 Acc: 82.53
+Train Epoch: 248 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5180 Acc: 82.56
+Train Epoch: 248 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5299 Acc: 82.08
+Train Epoch: 248 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5342 Acc: 81.94
+Train Epoch: 248 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5189 Acc: 82.58
+ 83%|████████▎ | 249/300 [3:36:30<44:02, 51.81s/it]EPOCH:248, ======================ACC:94.42====================
+BEST EPOCH:243,BEST ACC:94.45
+Train Epoch: 249 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.5405 Acc: 82.15
+Train Epoch: 249 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5261 Acc: 82.51
+Train Epoch: 249 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5246 Acc: 82.66
+Train Epoch: 249 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5139 Acc: 82.82
+Train Epoch: 249 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5115 Acc: 82.87
+Train Epoch: 249 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5182 Acc: 82.58
+Train Epoch: 249 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5417 Acc: 81.84
+ 83%|████████▎ | 250/300 [3:37:21<43:11, 51.82s/it]EPOCH:249, ======================ACC:94.71====================
+BEST EPOCH:249,BEST ACC:94.71
+Train Epoch: 250 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.5301 Acc: 83.00
+Train Epoch: 250 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4996 Acc: 83.69
+Train Epoch: 250 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5241 Acc: 82.82
+Train Epoch: 250 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5158 Acc: 83.05
+Train Epoch: 250 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5242 Acc: 82.46
+Train Epoch: 250 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5247 Acc: 82.41
+Train Epoch: 250 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5238 Acc: 82.55
+ 84%|████████▎ | 251/300 [3:38:13<42:18, 51.80s/it]EPOCH:250, ======================ACC:94.58====================
+BEST EPOCH:249,BEST ACC:94.71
+Train Epoch: 251 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.5665 Acc: 80.44
+Train Epoch: 251 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5372 Acc: 82.07
+Train Epoch: 251 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5474 Acc: 81.80
+Train Epoch: 251 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5407 Acc: 82.16
+Train Epoch: 251 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5487 Acc: 81.63
+Train Epoch: 251 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5701 Acc: 81.15
+Train Epoch: 251 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5645 Acc: 81.31
+ 84%|████████▍ | 252/300 [3:39:05<41:24, 51.76s/it]EPOCH:251, ======================ACC:94.31====================
+BEST EPOCH:249,BEST ACC:94.71
+Train Epoch: 252 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.5483 Acc: 82.35
+Train Epoch: 252 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5279 Acc: 82.63
+Train Epoch: 252 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5621 Acc: 81.29
+Train Epoch: 252 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5497 Acc: 81.67
+Train Epoch: 252 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5385 Acc: 82.19
+Train Epoch: 252 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5339 Acc: 82.08
+Train Epoch: 252 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5182 Acc: 82.58
+ 84%|████████▍ | 253/300 [3:39:56<40:31, 51.72s/it]EPOCH:252, ======================ACC:94.74====================
+BEST EPOCH:252,BEST ACC:94.74
+Train Epoch: 253 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.5253 Acc: 82.69
+Train Epoch: 253 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4842 Acc: 83.77
+Train Epoch: 253 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4810 Acc: 83.99
+Train Epoch: 253 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4677 Acc: 84.37
+Train Epoch: 253 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4698 Acc: 84.43
+Train Epoch: 253 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4936 Acc: 83.54
+Train Epoch: 253 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5055 Acc: 83.21
+ 85%|████████▍ | 254/300 [3:40:48<39:42, 51.80s/it]EPOCH:253, ======================ACC:94.43====================
+BEST EPOCH:252,BEST ACC:94.74
+Train Epoch: 254 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.5138 Acc: 83.03
+Train Epoch: 254 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5131 Acc: 83.09
+Train Epoch: 254 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5396 Acc: 82.03
+Train Epoch: 254 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5306 Acc: 82.45
+Train Epoch: 254 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5439 Acc: 81.82
+Train Epoch: 254 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5406 Acc: 81.98
+Train Epoch: 254 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5220 Acc: 82.59
+ 85%|████████▌ | 255/300 [3:41:40<38:53, 51.86s/it]EPOCH:254, ======================ACC:94.71====================
+BEST EPOCH:252,BEST ACC:94.74
+Train Epoch: 255 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.5516 Acc: 80.90
+Train Epoch: 255 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5747 Acc: 80.31
+Train Epoch: 255 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5765 Acc: 80.53
+Train Epoch: 255 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5734 Acc: 80.58
+Train Epoch: 255 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5689 Acc: 80.68
+Train Epoch: 255 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5801 Acc: 80.17
+Train Epoch: 255 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5780 Acc: 80.29
+ 85%|████████▌ | 256/300 [3:42:33<38:12, 52.10s/it]EPOCH:255, ======================ACC:95.38====================
+BEST EPOCH:255,BEST ACC:95.38
+Train Epoch: 256 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4065 Acc: 87.15
+Train Epoch: 256 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4637 Acc: 84.66
+Train Epoch: 256 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4400 Acc: 85.31
+Train Epoch: 256 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4496 Acc: 85.02
+Train Epoch: 256 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4723 Acc: 84.10
+Train Epoch: 256 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4770 Acc: 84.01
+Train Epoch: 256 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4786 Acc: 83.88
+ 86%|████████▌ | 257/300 [3:43:26<37:25, 52.22s/it]EPOCH:256, ======================ACC:94.88====================
+BEST EPOCH:255,BEST ACC:95.38
+Train Epoch: 257 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4531 Acc: 84.93
+Train Epoch: 257 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5117 Acc: 82.60
+Train Epoch: 257 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5002 Acc: 83.04
+Train Epoch: 257 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5108 Acc: 82.89
+Train Epoch: 257 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5242 Acc: 82.44
+Train Epoch: 257 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5137 Acc: 82.74
+Train Epoch: 257 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5129 Acc: 82.76
+ 86%|████████▌ | 258/300 [3:44:18<36:32, 52.20s/it]EPOCH:257, ======================ACC:94.74====================
+BEST EPOCH:255,BEST ACC:95.38
+Train Epoch: 258 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4779 Acc: 84.21
+Train Epoch: 258 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4603 Acc: 84.58
+Train Epoch: 258 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4855 Acc: 83.97
+Train Epoch: 258 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4784 Acc: 84.24
+Train Epoch: 258 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4529 Acc: 85.21
+Train Epoch: 258 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4617 Acc: 84.97
+Train Epoch: 258 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4863 Acc: 84.06
+ 86%|████████▋ | 259/300 [3:45:10<35:39, 52.18s/it]EPOCH:258, ======================ACC:95.04====================
+BEST EPOCH:255,BEST ACC:95.38
+Train Epoch: 259 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.5307 Acc: 82.07
+Train Epoch: 259 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5509 Acc: 80.85
+Train Epoch: 259 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5267 Acc: 81.89
+Train Epoch: 259 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5033 Acc: 82.80
+Train Epoch: 259 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5040 Acc: 82.65
+Train Epoch: 259 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5329 Acc: 81.54
+Train Epoch: 259 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5456 Acc: 81.16
+ 87%|████████▋ | 260/300 [3:46:02<34:44, 52.11s/it]EPOCH:259, ======================ACC:94.85====================
+BEST EPOCH:255,BEST ACC:95.38
+Train Epoch: 260 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4966 Acc: 84.24
+Train Epoch: 260 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4742 Acc: 83.98
+Train Epoch: 260 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5017 Acc: 82.89
+Train Epoch: 260 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5165 Acc: 82.37
+Train Epoch: 260 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5106 Acc: 82.71
+Train Epoch: 260 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4827 Acc: 83.61
+Train Epoch: 260 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4779 Acc: 83.79
+ 87%|████████▋ | 261/300 [3:46:54<33:50, 52.07s/it]EPOCH:260, ======================ACC:95.52====================
+BEST EPOCH:260,BEST ACC:95.52
+Train Epoch: 261 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4952 Acc: 83.99
+Train Epoch: 261 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5263 Acc: 82.10
+Train Epoch: 261 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4884 Acc: 83.17
+Train Epoch: 261 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4868 Acc: 83.23
+Train Epoch: 261 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5007 Acc: 82.61
+Train Epoch: 261 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4983 Acc: 82.66
+Train Epoch: 261 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5027 Acc: 82.55
+ 87%|████████▋ | 262/300 [3:47:46<32:58, 52.06s/it]EPOCH:261, ======================ACC:95.17====================
+BEST EPOCH:260,BEST ACC:95.52
+Train Epoch: 262 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4822 Acc: 85.30
+Train Epoch: 262 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5114 Acc: 83.77
+Train Epoch: 262 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5092 Acc: 83.51
+Train Epoch: 262 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4954 Acc: 83.89
+Train Epoch: 262 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4815 Acc: 84.17
+Train Epoch: 262 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4940 Acc: 83.50
+Train Epoch: 262 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4864 Acc: 83.75
+ 88%|████████▊ | 263/300 [3:48:38<32:07, 52.09s/it]EPOCH:262, ======================ACC:95.75====================
+BEST EPOCH:262,BEST ACC:95.75
+Train Epoch: 263 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4937 Acc: 82.51
+Train Epoch: 263 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4742 Acc: 83.85
+Train Epoch: 263 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5016 Acc: 83.19
+Train Epoch: 263 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4788 Acc: 83.82
+Train Epoch: 263 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4829 Acc: 83.52
+Train Epoch: 263 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4994 Acc: 83.06
+Train Epoch: 263 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4876 Acc: 83.50
+ 88%|████████▊ | 264/300 [3:49:30<31:19, 52.22s/it]EPOCH:263, ======================ACC:95.29====================
+BEST EPOCH:262,BEST ACC:95.75
+Train Epoch: 264 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.3006 Acc: 90.04
+Train Epoch: 264 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.3938 Acc: 87.17
+Train Epoch: 264 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4042 Acc: 86.95
+Train Epoch: 264 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4046 Acc: 86.90
+Train Epoch: 264 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4099 Acc: 86.69
+Train Epoch: 264 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4351 Acc: 85.58
+Train Epoch: 264 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4308 Acc: 85.74
+ 88%|████████▊ | 265/300 [3:50:23<30:27, 52.23s/it]EPOCH:264, ======================ACC:95.59====================
+BEST EPOCH:262,BEST ACC:95.75
+Train Epoch: 265 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.5299 Acc: 81.89
+Train Epoch: 265 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5372 Acc: 81.91
+Train Epoch: 265 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4997 Acc: 83.14
+Train Epoch: 265 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4863 Acc: 83.67
+Train Epoch: 265 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4936 Acc: 83.30
+Train Epoch: 265 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4768 Acc: 83.99
+Train Epoch: 265 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4870 Acc: 83.60
+ 89%|████████▊ | 266/300 [3:51:15<29:39, 52.35s/it]EPOCH:265, ======================ACC:95.73====================
+BEST EPOCH:262,BEST ACC:95.75
+Train Epoch: 266 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4138 Acc: 85.57
+Train Epoch: 266 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4279 Acc: 84.96
+Train Epoch: 266 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4519 Acc: 84.04
+Train Epoch: 266 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4252 Acc: 85.08
+Train Epoch: 266 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4395 Acc: 84.57
+Train Epoch: 266 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4483 Acc: 84.29
+Train Epoch: 266 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4377 Acc: 84.85
+ 89%|████████▉ | 267/300 [3:52:08<28:49, 52.40s/it]EPOCH:266, ======================ACC:95.3====================
+BEST EPOCH:262,BEST ACC:95.75
+Train Epoch: 267 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.5254 Acc: 82.61
+Train Epoch: 267 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4922 Acc: 83.31
+Train Epoch: 267 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5168 Acc: 82.48
+Train Epoch: 267 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5091 Acc: 82.45
+Train Epoch: 267 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4957 Acc: 82.90
+Train Epoch: 267 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5026 Acc: 82.79
+Train Epoch: 267 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4836 Acc: 83.43
+ 89%|████████▉ | 268/300 [3:53:01<27:59, 52.48s/it]EPOCH:267, ======================ACC:95.34====================
+BEST EPOCH:262,BEST ACC:95.75
+Train Epoch: 268 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.5811 Acc: 80.16
+Train Epoch: 268 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5417 Acc: 81.49
+Train Epoch: 268 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4829 Acc: 83.48
+Train Epoch: 268 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4815 Acc: 83.49
+Train Epoch: 268 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4870 Acc: 83.41
+Train Epoch: 268 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4777 Acc: 83.86
+Train Epoch: 268 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4811 Acc: 83.84
+ 90%|████████▉ | 269/300 [3:53:53<27:07, 52.50s/it]EPOCH:268, ======================ACC:95.6====================
+BEST EPOCH:262,BEST ACC:95.75
+Train Epoch: 269 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4651 Acc: 84.22
+Train Epoch: 269 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4933 Acc: 83.50
+Train Epoch: 269 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5099 Acc: 82.99
+Train Epoch: 269 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4884 Acc: 83.54
+Train Epoch: 269 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4697 Acc: 84.28
+Train Epoch: 269 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4541 Acc: 84.82
+Train Epoch: 269 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4481 Acc: 84.88
+ 90%|█████████ | 270/300 [3:54:45<26:10, 52.36s/it]EPOCH:269, ======================ACC:95.78====================
+BEST EPOCH:269,BEST ACC:95.78
+Train Epoch: 270 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4821 Acc: 82.92
+Train Epoch: 270 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4884 Acc: 82.81
+Train Epoch: 270 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4698 Acc: 83.71
+Train Epoch: 270 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4536 Acc: 84.29
+Train Epoch: 270 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4618 Acc: 83.87
+Train Epoch: 270 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4550 Acc: 84.07
+Train Epoch: 270 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4701 Acc: 83.44
+ 90%|█████████ | 271/300 [3:55:37<25:13, 52.17s/it]EPOCH:270, ======================ACC:95.85====================
+BEST EPOCH:270,BEST ACC:95.85
+Train Epoch: 271 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4425 Acc: 84.83
+Train Epoch: 271 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4507 Acc: 84.10
+Train Epoch: 271 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4718 Acc: 83.60
+Train Epoch: 271 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4555 Acc: 84.39
+Train Epoch: 271 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4683 Acc: 83.95
+Train Epoch: 271 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4566 Acc: 84.17
+Train Epoch: 271 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4577 Acc: 84.27
+ 91%|█████████ | 272/300 [3:56:29<24:22, 52.23s/it]EPOCH:271, ======================ACC:95.63====================
+BEST EPOCH:270,BEST ACC:95.85
+Train Epoch: 272 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.5153 Acc: 81.24
+Train Epoch: 272 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4787 Acc: 82.83
+Train Epoch: 272 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4501 Acc: 83.89
+Train Epoch: 272 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4598 Acc: 83.76
+Train Epoch: 272 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4520 Acc: 84.15
+Train Epoch: 272 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4566 Acc: 84.05
+Train Epoch: 272 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4691 Acc: 83.53
+ 91%|█████████ | 273/300 [3:57:22<23:33, 52.34s/it]EPOCH:272, ======================ACC:95.88====================
+BEST EPOCH:272,BEST ACC:95.88
+Train Epoch: 273 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4655 Acc: 83.35
+Train Epoch: 273 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4381 Acc: 84.46
+Train Epoch: 273 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4610 Acc: 83.52
+Train Epoch: 273 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4324 Acc: 84.83
+Train Epoch: 273 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4261 Acc: 85.02
+Train Epoch: 273 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4478 Acc: 84.38
+Train Epoch: 273 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4535 Acc: 84.16
+ 91%|█████████▏| 274/300 [3:58:14<22:40, 52.32s/it]EPOCH:273, ======================ACC:96.11====================
+BEST EPOCH:273,BEST ACC:96.11
+Train Epoch: 274 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.5807 Acc: 79.27
+Train Epoch: 274 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5303 Acc: 81.55
+Train Epoch: 274 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5209 Acc: 82.12
+Train Epoch: 274 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4964 Acc: 82.88
+Train Epoch: 274 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5184 Acc: 82.03
+Train Epoch: 274 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5272 Acc: 81.66
+Train Epoch: 274 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5115 Acc: 82.20
+ 92%|█████████▏| 275/300 [3:59:06<21:46, 52.28s/it]EPOCH:274, ======================ACC:95.91====================
+BEST EPOCH:273,BEST ACC:96.11
+Train Epoch: 275 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.5361 Acc: 81.63
+Train Epoch: 275 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.5396 Acc: 80.88
+Train Epoch: 275 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.5445 Acc: 80.95
+Train Epoch: 275 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.5248 Acc: 81.54
+Train Epoch: 275 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.5205 Acc: 81.79
+Train Epoch: 275 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.5173 Acc: 81.83
+Train Epoch: 275 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.5040 Acc: 82.26
+ 92%|█████████▏| 276/300 [3:59:58<20:52, 52.20s/it]EPOCH:275, ======================ACC:95.9====================
+BEST EPOCH:273,BEST ACC:96.11
+Train Epoch: 276 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4281 Acc: 85.32
+Train Epoch: 276 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4421 Acc: 84.67
+Train Epoch: 276 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4642 Acc: 83.71
+Train Epoch: 276 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4562 Acc: 84.17
+Train Epoch: 276 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4420 Acc: 84.88
+Train Epoch: 276 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4456 Acc: 84.56
+Train Epoch: 276 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4516 Acc: 84.18
+ 92%|█████████▏| 277/300 [4:00:50<19:58, 52.12s/it]EPOCH:276, ======================ACC:96.09====================
+BEST EPOCH:273,BEST ACC:96.11
+Train Epoch: 277 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.3919 Acc: 87.55
+Train Epoch: 277 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.3887 Acc: 87.25
+Train Epoch: 277 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4018 Acc: 86.45
+Train Epoch: 277 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4400 Acc: 84.97
+Train Epoch: 277 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4417 Acc: 84.63
+Train Epoch: 277 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4334 Acc: 84.94
+Train Epoch: 277 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4315 Acc: 85.05
+ 93%|█████████▎| 278/300 [4:01:42<19:05, 52.07s/it]EPOCH:277, ======================ACC:96.24====================
+BEST EPOCH:277,BEST ACC:96.24
+Train Epoch: 278 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4018 Acc: 86.31
+Train Epoch: 278 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.3642 Acc: 87.79
+Train Epoch: 278 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.3978 Acc: 86.45
+Train Epoch: 278 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4210 Acc: 85.37
+Train Epoch: 278 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4114 Acc: 85.85
+Train Epoch: 278 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4086 Acc: 85.88
+Train Epoch: 278 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4241 Acc: 85.28
+ 93%|█████████▎| 279/300 [4:02:34<18:12, 52.00s/it]EPOCH:278, ======================ACC:96.09====================
+BEST EPOCH:277,BEST ACC:96.24
+Train Epoch: 279 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4275 Acc: 84.05
+Train Epoch: 279 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4155 Acc: 85.12
+Train Epoch: 279 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4469 Acc: 84.08
+Train Epoch: 279 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4631 Acc: 83.65
+Train Epoch: 279 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4549 Acc: 84.20
+Train Epoch: 279 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4645 Acc: 83.96
+Train Epoch: 279 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4418 Acc: 84.85
+ 93%|█████████▎| 280/300 [4:03:26<17:18, 51.90s/it]EPOCH:279, ======================ACC:96.52====================
+BEST EPOCH:279,BEST ACC:96.52
+Train Epoch: 280 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4963 Acc: 82.43
+Train Epoch: 280 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4493 Acc: 84.34
+Train Epoch: 280 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4463 Acc: 84.32
+Train Epoch: 280 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4434 Acc: 84.74
+Train Epoch: 280 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4528 Acc: 84.29
+Train Epoch: 280 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4495 Acc: 84.37
+Train Epoch: 280 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4470 Acc: 84.39
+ 94%|█████████▎| 281/300 [4:04:17<16:25, 51.86s/it]EPOCH:280, ======================ACC:96.58====================
+BEST EPOCH:280,BEST ACC:96.58
+Train Epoch: 281 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.3386 Acc: 88.20
+Train Epoch: 281 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4070 Acc: 85.49
+Train Epoch: 281 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4480 Acc: 84.07
+Train Epoch: 281 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4161 Acc: 85.33
+Train Epoch: 281 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4337 Acc: 84.70
+Train Epoch: 281 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4353 Acc: 84.78
+Train Epoch: 281 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4437 Acc: 84.53
+ 94%|█████████▍| 282/300 [4:05:09<15:34, 51.90s/it]EPOCH:281, ======================ACC:96.37====================
+BEST EPOCH:280,BEST ACC:96.58
+Train Epoch: 282 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.3438 Acc: 88.59
+Train Epoch: 282 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.3735 Acc: 87.53
+Train Epoch: 282 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4124 Acc: 85.99
+Train Epoch: 282 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4244 Acc: 85.35
+Train Epoch: 282 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4095 Acc: 85.89
+Train Epoch: 282 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4178 Acc: 85.50
+Train Epoch: 282 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4152 Acc: 85.57
+ 94%|█████████▍| 283/300 [4:06:01<14:40, 51.79s/it]EPOCH:282, ======================ACC:96.39====================
+BEST EPOCH:280,BEST ACC:96.58
+Train Epoch: 283 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.3936 Acc: 86.82
+Train Epoch: 283 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4025 Acc: 85.85
+Train Epoch: 283 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4527 Acc: 83.72
+Train Epoch: 283 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4608 Acc: 83.34
+Train Epoch: 283 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4599 Acc: 83.44
+Train Epoch: 283 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4472 Acc: 83.94
+Train Epoch: 283 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4483 Acc: 84.00
+ 95%|█████████▍| 284/300 [4:06:53<13:48, 51.77s/it]EPOCH:283, ======================ACC:96.29====================
+BEST EPOCH:280,BEST ACC:96.58
+Train Epoch: 284 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.3732 Acc: 87.64
+Train Epoch: 284 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4179 Acc: 85.40
+Train Epoch: 284 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4355 Acc: 84.64
+Train Epoch: 284 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4318 Acc: 84.92
+Train Epoch: 284 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4169 Acc: 85.49
+Train Epoch: 284 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4085 Acc: 85.87
+Train Epoch: 284 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.3992 Acc: 86.26
+ 95%|█████████▌| 285/300 [4:07:44<12:56, 51.75s/it]EPOCH:284, ======================ACC:96.46====================
+BEST EPOCH:280,BEST ACC:96.58
+Train Epoch: 285 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.3616 Acc: 87.25
+Train Epoch: 285 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.3833 Acc: 86.58
+Train Epoch: 285 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.3977 Acc: 86.19
+Train Epoch: 285 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.3812 Acc: 86.77
+Train Epoch: 285 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.3929 Acc: 86.42
+Train Epoch: 285 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.3903 Acc: 86.46
+Train Epoch: 285 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.3916 Acc: 86.29
+ 95%|█████████▌| 286/300 [4:08:36<12:05, 51.84s/it]EPOCH:285, ======================ACC:96.61====================
+BEST EPOCH:285,BEST ACC:96.61
+Train Epoch: 286 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4030 Acc: 86.72
+Train Epoch: 286 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4088 Acc: 85.82
+Train Epoch: 286 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4125 Acc: 85.42
+Train Epoch: 286 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4151 Acc: 85.16
+Train Epoch: 286 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4066 Acc: 85.62
+Train Epoch: 286 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4105 Acc: 85.44
+Train Epoch: 286 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.3896 Acc: 86.21
+ 96%|█████████▌| 287/300 [4:09:28<11:12, 51.75s/it]EPOCH:286, ======================ACC:96.51====================
+BEST EPOCH:285,BEST ACC:96.61
+Train Epoch: 287 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.3476 Acc: 88.08
+Train Epoch: 287 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.3936 Acc: 86.37
+Train Epoch: 287 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4240 Acc: 84.91
+Train Epoch: 287 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.3964 Acc: 85.92
+Train Epoch: 287 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4047 Acc: 85.54
+Train Epoch: 287 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4118 Acc: 85.28
+Train Epoch: 287 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4040 Acc: 85.58
+ 96%|█████████▌| 288/300 [4:10:20<10:20, 51.71s/it]EPOCH:287, ======================ACC:96.62====================
+BEST EPOCH:287,BEST ACC:96.62
+Train Epoch: 288 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4119 Acc: 86.13
+Train Epoch: 288 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4103 Acc: 85.96
+Train Epoch: 288 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4195 Acc: 85.45
+Train Epoch: 288 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4162 Acc: 85.39
+Train Epoch: 288 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4105 Acc: 85.45
+Train Epoch: 288 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4090 Acc: 85.46
+Train Epoch: 288 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.3987 Acc: 86.03
+ 96%|█████████▋| 289/300 [4:11:11<09:28, 51.70s/it]EPOCH:288, ======================ACC:96.64====================
+BEST EPOCH:288,BEST ACC:96.64
+Train Epoch: 289 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4141 Acc: 85.38
+Train Epoch: 289 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4841 Acc: 82.83
+Train Epoch: 289 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4550 Acc: 84.07
+Train Epoch: 289 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4022 Acc: 86.04
+Train Epoch: 289 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.3863 Acc: 86.60
+Train Epoch: 289 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4101 Acc: 85.62
+Train Epoch: 289 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4012 Acc: 85.92
+ 97%|█████████▋| 290/300 [4:12:03<08:37, 51.73s/it]EPOCH:289, ======================ACC:96.61====================
+BEST EPOCH:288,BEST ACC:96.64
+Train Epoch: 290 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.3214 Acc: 88.25
+Train Epoch: 290 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.3768 Acc: 86.23
+Train Epoch: 290 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.3968 Acc: 85.67
+Train Epoch: 290 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4073 Acc: 85.22
+Train Epoch: 290 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4029 Acc: 85.41
+Train Epoch: 290 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4191 Acc: 84.89
+Train Epoch: 290 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4136 Acc: 85.23
+ 97%|█████████▋| 291/300 [4:12:55<07:46, 51.85s/it]EPOCH:290, ======================ACC:96.72====================
+BEST EPOCH:290,BEST ACC:96.72
+Train Epoch: 291 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4044 Acc: 85.05
+Train Epoch: 291 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4303 Acc: 84.94
+Train Epoch: 291 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4632 Acc: 83.79
+Train Epoch: 291 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4645 Acc: 83.63
+Train Epoch: 291 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4776 Acc: 83.25
+Train Epoch: 291 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4492 Acc: 84.34
+Train Epoch: 291 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4384 Acc: 84.78
+ 97%|█████████▋| 292/300 [4:13:47<06:55, 51.90s/it]EPOCH:291, ======================ACC:96.78====================
+BEST EPOCH:291,BEST ACC:96.78
+Train Epoch: 292 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4433 Acc: 85.82
+Train Epoch: 292 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4423 Acc: 84.81
+Train Epoch: 292 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4191 Acc: 85.54
+Train Epoch: 292 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.3929 Acc: 86.48
+Train Epoch: 292 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4019 Acc: 86.09
+Train Epoch: 292 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4238 Acc: 85.34
+Train Epoch: 292 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4164 Acc: 85.75
+ 98%|█████████▊| 293/300 [4:14:39<06:03, 51.87s/it]EPOCH:292, ======================ACC:96.77====================
+BEST EPOCH:291,BEST ACC:96.78
+Train Epoch: 293 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4110 Acc: 86.25
+Train Epoch: 293 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4392 Acc: 85.04
+Train Epoch: 293 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4181 Acc: 85.77
+Train Epoch: 293 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.3909 Acc: 86.65
+Train Epoch: 293 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.3986 Acc: 86.41
+Train Epoch: 293 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4304 Acc: 85.09
+Train Epoch: 293 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4227 Acc: 85.29
+ 98%|█████████▊| 294/300 [4:15:31<05:11, 51.87s/it]EPOCH:293, ======================ACC:96.84====================
+BEST EPOCH:293,BEST ACC:96.84
+Train Epoch: 294 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.5107 Acc: 80.31
+Train Epoch: 294 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4656 Acc: 82.69
+Train Epoch: 294 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4530 Acc: 83.48
+Train Epoch: 294 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4254 Acc: 84.91
+Train Epoch: 294 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4265 Acc: 85.01
+Train Epoch: 294 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4121 Acc: 85.39
+Train Epoch: 294 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4151 Acc: 85.29
+ 98%|█████████▊| 295/300 [4:16:23<04:19, 51.83s/it]EPOCH:294, ======================ACC:96.76====================
+BEST EPOCH:293,BEST ACC:96.84
+Train Epoch: 295 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4204 Acc: 85.51
+Train Epoch: 295 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4281 Acc: 84.69
+Train Epoch: 295 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4178 Acc: 84.97
+Train Epoch: 295 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4213 Acc: 84.63
+Train Epoch: 295 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.3934 Acc: 85.84
+Train Epoch: 295 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.3906 Acc: 85.88
+Train Epoch: 295 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.3947 Acc: 85.89
+ 99%|█████████▊| 296/300 [4:17:14<03:27, 51.77s/it]EPOCH:295, ======================ACC:96.86====================
+BEST EPOCH:295,BEST ACC:96.86
+Train Epoch: 296 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.3776 Acc: 86.49
+Train Epoch: 296 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.3637 Acc: 87.41
+Train Epoch: 296 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.3715 Acc: 87.23
+Train Epoch: 296 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.3729 Acc: 87.03
+Train Epoch: 296 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.3806 Acc: 86.61
+Train Epoch: 296 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.3935 Acc: 86.02
+Train Epoch: 296 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.3999 Acc: 85.70
+ 99%|█████████▉| 297/300 [4:18:06<02:35, 51.77s/it]EPOCH:296, ======================ACC:96.85====================
+BEST EPOCH:295,BEST ACC:96.86
+Train Epoch: 297 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.3433 Acc: 88.23
+Train Epoch: 297 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.3357 Acc: 88.72
+Train Epoch: 297 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.2885 Acc: 90.46
+Train Epoch: 297 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.2896 Acc: 90.40
+Train Epoch: 297 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.3079 Acc: 89.65
+Train Epoch: 297 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.3170 Acc: 89.38
+Train Epoch: 297 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.3175 Acc: 89.22
+ 99%|█████████▉| 298/300 [4:18:58<01:43, 51.75s/it]EPOCH:297, ======================ACC:96.75====================
+BEST EPOCH:295,BEST ACC:96.86
+Train Epoch: 298 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4228 Acc: 85.27
+Train Epoch: 298 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4112 Acc: 84.99
+Train Epoch: 298 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4366 Acc: 84.23
+Train Epoch: 298 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4178 Acc: 84.96
+Train Epoch: 298 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4151 Acc: 84.79
+Train Epoch: 298 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4051 Acc: 85.28
+Train Epoch: 298 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4116 Acc: 85.02
+100%|█████████▉| 299/300 [4:19:50<00:51, 51.81s/it]EPOCH:298, ======================ACC:96.96====================
+BEST EPOCH:298,BEST ACC:96.96
+Train Epoch: 299 [RA+CutMix] [6400/50000 (13%)]	Loss: 0.4216 Acc: 85.03
+Train Epoch: 299 [RA+CutMix] [12800/50000 (26%)]	Loss: 0.4235 Acc: 85.00
+Train Epoch: 299 [RA+CutMix] [19200/50000 (38%)]	Loss: 0.4306 Acc: 84.74
+Train Epoch: 299 [RA+CutMix] [25600/50000 (51%)]	Loss: 0.4603 Acc: 83.61
+Train Epoch: 299 [RA+CutMix] [32000/50000 (64%)]	Loss: 0.4721 Acc: 83.24
+Train Epoch: 299 [RA+CutMix] [38400/50000 (77%)]	Loss: 0.4535 Acc: 83.87
+Train Epoch: 299 [RA+CutMix] [44800/50000 (90%)]	Loss: 0.4383 Acc: 84.44
+100%|██████████| 300/300 [4:20:29<00:00, 48.07s/it]100%|██████████| 300/300 [4:20:29<00:00, 52.10s/it]
+EPOCH:299, ======================ACC:96.85====================
+BEST EPOCH:298,BEST ACC:96.96
+Result saved to benchmark_results.csv

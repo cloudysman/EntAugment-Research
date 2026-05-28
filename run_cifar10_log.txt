@@ -1,0 +1,164 @@
+nohup: ignoring input
+=== CIFAR-10 Full Benchmark: 54 runs ===
+=== 6 methods × 3 archs × 3 seeds ===
+=== Result file: benchmark_results.csv ===
+
+── [1/6] EntAugment_CutMix ──
+[05:11:38] START: cutmix_c10_r18_s42 | cutmix_c10_r18_s123
+[06:10:54] DONE: BEST EPOCH:292,BEST ACC:96.55
+[06:10:54] DONE: BEST EPOCH:298,BEST ACC:96.57
+[06:10:54] START: cutmix_c10_r18_s456
+[06:44:31] DONE: BEST EPOCH:298,BEST ACC:96.87
+[06:44:31] START: cutmix_c10_r50_s42 | cutmix_c10_r50_s123
+[11:06:20] DONE: BEST EPOCH:299,BEST ACC:96.92
+[11:06:20] DONE: BEST EPOCH:297,BEST ACC:97.21
+[11:06:20] START: cutmix_c10_r50_s456
+[13:13:17] DONE: BEST EPOCH:293,BEST ACC:97.1
+[13:13:17] START: cutmix_c10_wrn_s42 | cutmix_c10_wrn_s123
+[21:54:18] DONE: BEST EPOCH:284,BEST ACC:97.62
+[21:54:18] DONE: BEST EPOCH:295,BEST ACC:97.81
+[21:54:18] START: cutmix_c10_wrn_s456
+[02:30:26] DONE: BEST EPOCH:293,BEST ACC:97.82
+
+── [2/6] PureCutMix ──
+[02:30:26] START: purecutmix_c10_r18_s42 | purecutmix_c10_r18_s123
+[03:34:55] DONE: BEST EPOCH:293,BEST ACC:96.66
+[03:34:55] DONE: BEST EPOCH:297,BEST ACC:96.64
+[03:34:55] START: purecutmix_c10_r18_s456
+[04:14:40] DONE: BEST EPOCH:295,BEST ACC:96.75
+[04:14:40] START: purecutmix_c10_r50_s42 | purecutmix_c10_r50_s123
+[08:49:30] DONE: BEST EPOCH:299,BEST ACC:96.66
+[08:49:30] DONE: BEST EPOCH:297,BEST ACC:97.05
+[08:49:30] START: purecutmix_c10_r50_s456
+[11:21:44] DONE: BEST EPOCH:296,BEST ACC:96.94
+[11:21:44] START: purecutmix_c10_wrn_s42 | purecutmix_c10_wrn_s123
+[19:36:10] DONE: BEST EPOCH:298,BEST ACC:97.61
+[19:36:10] DONE: BEST EPOCH:296,BEST ACC:97.75
+[19:36:10] START: purecutmix_c10_wrn_s456
+[23:26:10] DONE: BEST EPOCH:299,BEST ACC:97.35
+
+── [3/6] RandAugment_CutMix ──
+[23:26:10] START: racutmix_c10_r18_s42 | racutmix_c10_r18_s123
+[00:25:39] DONE: BEST EPOCH:293,BEST ACC:96.42
+[00:25:39] DONE: BEST EPOCH:293,BEST ACC:96.64
+[00:25:39] START: racutmix_c10_r18_s456
+[01:00:20] DONE: BEST EPOCH:298,BEST ACC:96.59
+[01:00:20] START: racutmix_c10_r50_s42 | racutmix_c10_r50_s123
+[05:20:53] DONE: BEST EPOCH:298,BEST ACC:96.96
+[05:20:54] DONE: BEST EPOCH:298,BEST ACC:97.03
+[05:20:54] START: racutmix_c10_r50_s456
+[07:26:39] DONE: BEST EPOCH:299,BEST ACC:97.11
+[07:26:39] START: racutmix_c10_wrn_s42 | racutmix_c10_wrn_s123
+[15:37:27] DONE: BEST EPOCH:299,BEST ACC:97.72
+[15:37:27] DONE: BEST EPOCH:293,BEST ACC:97.68
+[15:37:27] START: racutmix_c10_wrn_s456
+[19:26:41] DONE: BEST EPOCH:292,BEST ACC:97.53
+
+── [4/6] EntAugment_only ──
+[19:26:41] START: entaug_c10_r18_s42 | entaug_c10_r18_s123
+[20:25:29] DONE: BEST EPOCH:290,BEST ACC:96.68
+[20:25:29] DONE: BEST EPOCH:291,BEST ACC:96.8
+[20:25:29] START: entaug_c10_r18_s456
+[20:58:06] DONE: BEST EPOCH:296,BEST ACC:96.75
+[20:58:06] START: entaug_c10_r50_s42 | entaug_c10_r50_s123
+[01:19:13] DONE: BEST EPOCH:296,BEST ACC:96.89
+[01:19:13] DONE: BEST EPOCH:294,BEST ACC:96.75
+[01:19:13] START: entaug_c10_r50_s456
+[03:24:57] DONE: BEST EPOCH:299,BEST ACC:97.01
+[03:24:57] START: entaug_c10_wrn_s42 | entaug_c10_wrn_s123
+[11:38:17] DONE: BEST EPOCH:299,BEST ACC:97.68
+[11:38:17] DONE: BEST EPOCH:292,BEST ACC:97.47
+[11:38:17] START: entaug_c10_wrn_s456
+[15:27:48] DONE: BEST EPOCH:297,BEST ACC:97.61
+
+── [5/6] RandAugment_only ──
+[15:27:48] START: randaug_c10_r18_s42 | randaug_c10_r18_s123
+[16:26:57] DONE: BEST EPOCH:292,BEST ACC:95.74
+[16:26:57] DONE: BEST EPOCH:296,BEST ACC:96.0
+[16:26:57] START: randaug_c10_r18_s456
+[16:59:31] DONE: BEST EPOCH:299,BEST ACC:95.93
+[16:59:31] START: randaug_c10_r50_s42 | randaug_c10_r50_s123
+[21:20:41] DONE: BEST EPOCH:299,BEST ACC:96.21
+[21:20:41] DONE: BEST EPOCH:299,BEST ACC:96.2
+[21:20:41] START: randaug_c10_r50_s456
+[23:29:08] DONE: BEST EPOCH:295,BEST ACC:96.17
+[23:29:08] START: randaug_c10_wrn_s42 | randaug_c10_wrn_s123
+[07:42:00] DONE: BEST EPOCH:295,BEST ACC:96.92
+[07:42:00] DONE: BEST EPOCH:297,BEST ACC:97.05
+[07:42:00] START: randaug_c10_wrn_s456
+[11:30:23] DONE: BEST EPOCH:293,BEST ACC:97.11
+
+── [6/6] EntAugment_EntCutMix ──
+[11:30:23] START: entcutmix_c10_r18_s42 | entcutmix_c10_r18_s123
+[12:35:34] DONE: BEST EPOCH:298,BEST ACC:96.91
+[12:35:34] DONE: BEST EPOCH:299,BEST ACC:96.84
+[12:35:34] START: entcutmix_c10_r18_s456
+[13:11:48] DONE: BEST EPOCH:297,BEST ACC:97.02
+[13:11:48] START: entcutmix_c10_r50_s42 | entcutmix_c10_r50_s123
+[18:09:14] DONE: BEST EPOCH:299,BEST ACC:96.96
+[18:09:14] DONE: BEST EPOCH:298,BEST ACC:97.08
+[18:09:14] START: entcutmix_c10_r50_s456
+[20:37:52] DONE: BEST EPOCH:297,BEST ACC:97.12
+[20:37:52] START: entcutmix_c10_wrn_s42 | entcutmix_c10_wrn_s123
+[05:59:15] DONE: BEST EPOCH:299,BEST ACC:97.95
+[05:59:15] DONE: BEST EPOCH:299,BEST ACC:97.84
+[05:59:15] START: entcutmix_c10_wrn_s456
+[10:20:05] DONE: BEST EPOCH:293,BEST ACC:97.75
+
+=== ALL 54 RUNS DONE ===
+
+Header: ['dataset', 'model', 'seed', 'best_epoch', 'best_acc', 'method']
+
+Loaded 0 records
+After dedup: 0 unique runs
+
+── Raw grouped data ──
+Methods: []
+Models:  []
+
+================================================================================
+PAPER TABLE — CIFAR100
+================================================================================
+Method                                       ResNet-18     ResNet-50     WRN-28-10
+--------------------------------------------------------------------------------
+================================================================================
+
+LaTeX Table:
+------------------------------------------------------------
+% Auto-generated — CIFAR100
+\begin{table}[t]
+  \centering
+  \caption{Top-1 accuracy (\%) on CIFAR100. Mean\,$\pm$\,std over 3 seeds. \textbf{Bold}: best per column.}
+  \label{tab:cifar100}
+  \begin{tabular}{lccc}
+    \toprule
+    \textbf{Method} & \textbf{ResNet-18} & \textbf{ResNet-50} & \textbf{WRN-28-10} \\
+    \midrule
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+✅ Saved: paper_table.tex
+
+── Missing / Incomplete runs ──
+  ❌ MISSING: Baseline / resnet18
+  ❌ MISSING: Baseline / resnet50
+  ❌ MISSING: Baseline / wresnet28_10
+  ❌ MISSING: PureCutMix / resnet18
+  ❌ MISSING: PureCutMix / resnet50
+  ❌ MISSING: PureCutMix / wresnet28_10
+  ❌ MISSING: RandAugment_only / resnet18
+  ❌ MISSING: RandAugment_only / resnet50
+  ❌ MISSING: RandAugment_only / wresnet28_10
+  ❌ MISSING: RandAugment_CutMix / resnet18
+  ❌ MISSING: RandAugment_CutMix / resnet50
+  ❌ MISSING: RandAugment_CutMix / wresnet28_10
+  ❌ MISSING: EntAugment_only / resnet18
+  ❌ MISSING: EntAugment_only / resnet50
+  ❌ MISSING: EntAugment_only / wresnet28_10
+  ❌ MISSING: EntAugment_EntCutMix / resnet18
+  ❌ MISSING: EntAugment_EntCutMix / resnet50
+  ❌ MISSING: EntAugment_EntCutMix / wresnet28_10
+  ❌ MISSING: EntAugment_CutMix / resnet18
+  ❌ MISSING: EntAugment_CutMix / resnet50
+  ❌ MISSING: EntAugment_CutMix / wresnet28_10
